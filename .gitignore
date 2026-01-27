@@ -1,3 +1,4 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
@@ -6,4 +7,21 @@ __pycache__/
 env/
 venv/
 .env
+.venv
+build/
+dist/
+*.egg-info/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Local Reports (Optional: keep or ignore based on preference, here we ignore temp htmls if needed, but currently keeping report/)
+# report/
+
+# Logs
+*.log

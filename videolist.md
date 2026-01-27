@@ -1,21 +1,21 @@
 # 最近一週 YouTube 影片清單
-更新時間：2026/01/20 21:20
-統計期間：2026/01/13 至 2026/01/20
+更新時間：2026/01/27 21:03
+統計期間：2026/01/20 至 2026/01/27
 
 ## 股癌
-- [EP628 | 🍑](https://www.youtube.com/watch?v=zZDHqler2ig)
-- [EP627 | 🪸](https://www.youtube.com/watch?v=xydyrLDDOSI)
+- [EP630 | ⭐](https://www.youtube.com/watch?v=V8OyAVn1GWk)
+- [EP629 | ⏳](https://www.youtube.com/watch?v=DANJ_oolSsw)
 
 ## 財報狗
-- [500.【財經時事放大鏡】TSMC 到 MLCC x 擴產到升壓](https://www.youtube.com/watch?v=WbBZHrRshZI)
+- [501.【財經時事放大鏡】AI 重啟電子原物料大時代 x APPLE Silicon](https://www.youtube.com/watch?v=p6ZRr29gX44)
 
 ## 財女珍妮
-- [2026/01/19 (一）關稅戰又來，川普再次重擊市場？](https://www.youtube.com/watch?v=0GCsbRWZuXU)
-- [2026/01/16(五）台美關稅談定15%，台積電救美股！](https://www.youtube.com/watch?v=5d-SB4SaIOg)
-- [2026/01/15 (四）金銀創高，稀土暴漲，半導體關稅定了嗎？](https://www.youtube.com/watch?v=B91fgc23m9Q)
-- [2026/01/14 (三）利多出盡，美股不漲了？](https://www.youtube.com/watch?v=AviAvd8zUCA)
-- [2026/01/13(二）鮑爾重砲反擊，台美關稅15%，台積電繼續創高](https://www.youtube.com/watch?v=WizHbXgd8_M)
+- [2026/01/27 (二）有富爸爸的孩子像個寶](https://www.youtube.com/watch?v=4V5IWbCuplE)
+- [2026/01/26 (一）買下未來！ARK BIG IDEAS 2026](https://www.youtube.com/watch?v=SZjWT1ZJL2Y)
+- [2026/01/23 (五）特斯拉，Meta回神了，英特爾慘跌](https://www.youtube.com/watch?v=qt7i-5-dmOc)
+- [2026/01/22(四）下一波漲價是誰？AMD、英特爾(INTC)大漲](https://www.youtube.com/watch?v=pOhlhxIa7-c)
+- [2026/01/21(三）美股下跌主因：日債風暴。又能撿便宜了嗎？](https://www.youtube.com/watch?v=RTf77cz_1IY)
 
 ## M觀點
-- [EP270. 台美關稅談判結果、ChatGPT 廣告來了、一個看好的投資主題 | M觀點](https://www.youtube.com/watch?v=Eoxp4Em2PTA)
-- [EP269. 蘋果谷歌正式結盟、特斯拉自駕訂閱制、主動被動投資吵翻 | M觀點](https://www.youtube.com/watch?v=czJiNTpXXog)
+- [EP272. 馬斯克達沃斯專訪、納德拉談微軟與 AI、感謝祭心得分享 | M觀點](https://www.youtube.com/watch?v=VSVmIg4XOz4)
+- [EP271. 蘋果的 AI 計畫、貝佐斯挑戰星鏈、特斯拉 FSD 保費大降 | M觀點](https://www.youtube.com/watch?v=bh0lmiH1PD4)
