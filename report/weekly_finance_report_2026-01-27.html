@@ -118,6 +118,99 @@
             color: #7f8c8d;
             font-weight: bold;
         }
+
+        /* Mobile Responsive Styles */
+        @media screen and (max-width: 768px) {
+            .header {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .header h1 {
+                font-size: 20px;
+            }
+            .creator-card {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            .episode-block {
+                padding: 15px;
+            }
+            
+            /* Table to Card Transformation */
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            
+            tr {
+                margin-bottom: 15px;
+                border: 1px solid #e0e0e0;
+                border-radius: 8px;
+                background: #fff;
+                padding: 12px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+            }
+            
+            td {
+                border: none;
+                position: relative;
+                padding: 5px 0;
+                text-align: left;
+            }
+            
+            /* Column 1: Code/Name (Acts as Card Header) */
+            td:nth-of-type(1) {
+                font-weight: bold;
+                font-size: 1.1em;
+                border-bottom: 1px solid #f0f0f0;
+                margin-bottom: 8px;
+                padding-bottom: 8px;
+                color: #2c3e50;
+                display: block;
+            }
+            
+            /* Column 2: View */
+            td:nth-of-type(2) {
+                display: inline-block;
+                font-size: 0.95em;
+                margin-bottom: 5px;
+                background-color: #f8f9fa;
+                padding: 4px 8px;
+                border-radius: 4px;
+            }
+            td:nth-of-type(2)::before {
+                content: "觀點：";
+                color: #7f8c8d;
+                font-weight: normal;
+            }
+            
+            /* Column 3: Context */
+            td:nth-of-type(3) {
+                font-size: 0.95em;
+                line-height: 1.5;
+                color: #555;
+                display: block;
+                margin-top: 5px;
+            }
+            td:nth-of-type(3)::before {
+                content: "說明：";
+                display: block;
+                font-weight: bold;
+                color: #7f8c8d;
+                margin-bottom: 3px;
+                font-size: 0.9em;
+            }
+            
+            /* Fix alternate row coloring from desktop */
+            tr:nth-child(even) {
+                background-color: #fff;
+            }
+        }
     </style>
 </head>
 <body>
