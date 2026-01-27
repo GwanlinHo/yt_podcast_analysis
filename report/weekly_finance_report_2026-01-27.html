@@ -6,390 +6,346 @@
     <title>財經 YouTube 影片重點彙整</title>
     <style>
         body {
-            font-family: "Pf-PingFang-TC", "Microsoft JhengHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
-            background-color: #f4f7f6;
-            color: #333;
+            font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
             line-height: 1.6;
+            color: #333;
             margin: 0;
             padding: 20px;
+            background-color: #f4f7f6;
         }
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 40px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            border-radius: 8px;
-        }
-        header {
+        .header {
             text-align: center;
             margin-bottom: 40px;
-            border-bottom: 2px solid #eaeaea;
-            padding-bottom: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        h1 {
+        .header h1 {
             color: #2c3e50;
             margin-bottom: 10px;
+            font-size: 24px;
         }
-        .date {
+        .header p {
             color: #7f8c8d;
-            font-size: 0.9em;
+            font-size: 14px;
         }
-        .creator-section {
-            margin-bottom: 50px;
+        .container {
+            max-width: 900px;
+            margin: auto;
         }
-        .creator-title {
-            background-color: #2c3e50;
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 5px;
+        .creator-card {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+        .creator-card h2 {
+            color: #2980b9;
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 10px;
+            margin-top: 0;
             margin-bottom: 20px;
-            font-size: 1.5em;
+            font-size: 20px;
         }
         .episode-block {
-            border: 1px solid #e1e8ed;
-            border-radius: 5px;
+            margin-bottom: 30px;
             padding: 20px;
-            margin-bottom: 25px;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            background-color: #f9f9f9;
+            border-left: 5px solid #2980b9;
+            border-radius: 4px;
         }
-        .episode-title {
-            color: #2980b9;
-            font-size: 1.3em;
+        .episode-block h3 {
+            color: #34495e;
             margin-top: 0;
             margin-bottom: 15px;
-            border-bottom: 1px dashed #ccc;
-            padding-bottom: 10px;
+            font-size: 18px;
         }
-        .episode-title a {
+        .episode-block h3 a {
             text-decoration: none;
-            color: inherit;
+            color: #34495e;
         }
-        .episode-title a:hover {
+        .episode-block h3 a:hover {
             text-decoration: underline;
+            color: #2980b9;
         }
-        .section-header {
-            font-weight: bold;
-            color: #d35400;
-            margin-top: 20px;
+        .section-title {
+            color: #2c3e50;
             margin-bottom: 10px;
-            display: flex;
-            align-items: center;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 15px;
         }
-        ul {
+        .summary-content ul {
+            list-style-type: disc;
             padding-left: 20px;
-            margin-bottom: 20px;
+            margin: 0;
         }
-        li {
+        .summary-content ul li {
             margin-bottom: 8px;
+            font-size: 15px;
         }
         table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 10px;
-            font-size: 0.95em;
+            font-size: 14px;
         }
         th, td {
             border: 1px solid #ddd;
-            padding: 12px;
+            padding: 10px;
             text-align: left;
         }
         th {
-            background-color: #f8f9fa;
+            background-color: #e9ecef;
+            color: #495057;
             font-weight: bold;
-            color: #555;
-            width: 20%;
         }
-        .col-sentiment {
-            width: 15%;
-            text-align: center;
+        tr:nth-child(even) {
+            background-color: #f6f6f6;
         }
-        .sentiment-positive {
-            color: #c0392b; /* 台股紅漲 */
+        .long {
+            color: #e74c3c;
             font-weight: bold;
-            background-color: #f9ebea;
-            padding: 4px 8px;
-            border-radius: 4px;
         }
-        .sentiment-negative {
-            color: #27ae60; /* 台股綠跌 */
+        .short {
+            color: #27ae60;
             font-weight: bold;
-            background-color: #e9f7ef;
-            padding: 4px 8px;
-            border-radius: 4px;
         }
-        .sentiment-neutral {
+        .neutral {
             color: #7f8c8d;
-            background-color: #f0f3f4;
-            padding: 4px 8px;
-            border-radius: 4px;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 50px;
-            color: #aaa;
-            font-size: 0.8em;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-
-<div class="container">
-    <header>
-        <h1>財經 YouTube 影片重點彙整週報</h1>
-        <div class="date">統計期間：2026/01/20 至 2026/01/27</div>
-    </header>
-
-    <!-- 股癌 Section -->
-    <div class="creator-section">
-        <h2 class="creator-title">股癌 (Gooaye)</h2>
-        
-        <!-- EP630 -->
-        <div class="episode-block">
-            <h3 class="episode-title"><a href="https://www.youtube.com/watch?v=V8OyAVn1GWk" target="_blank">EP630</a></h3>
-            
-            <div class="section-header">重點議題摘要</div>
-            <ul>
-                <li><strong>美元與利率展望</strong>：討論美元是否破底疑慮，以及新任 Fed 主席人選對市場的潛在影響。</li>
-                <li><strong>記憶體週期</strong>：指出記憶體產業正處於超級週期，與過往歷史走勢的異同。</li>
-                <li><strong>AI 晶片競合</strong>：探討 NVIDIA 將 NVLink 技術授權給聯發科的戰略意義，顯示聯發科在 AI 系統整合的角色提升。</li>
-                <li><strong>日債風暴</strong>：日本公債殖利率暴跌對美債及全球資金流向的連帶影響。</li>
-            </ul>
-
-            <div class="section-header">提及標的</div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>代碼/名稱</th>
-                        <th class="col-sentiment">觀點</th>
-                        <th>提及情境說明</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>0050 (元大台灣50)</td>
-                        <td><span class="sentiment-neutral">保守/核心</span></td>
-                        <td>作為市場震盪或不確定時的標準防禦與核心配置選項。</td>
-                    </tr>
-                    <tr>
-                        <td>TSMC (台積電)</td>
-                        <td><span class="sentiment-positive">看好</span></td>
-                        <td>持續作為 AI 半導體核心，股價相對價值仍合理。</td>
-                    </tr>
-                    <tr>
-                        <td>MTK (聯發科)</td>
-                        <td><span class="sentiment-positive">關注</span></td>
-                        <td>獲 NVIDIA 技術授權，矽智財與 ASIC 角色吃重。</td>
-                    </tr>
-                    <tr>
-                        <td>NVDA (NVIDIA)</td>
-                        <td><span class="sentiment-positive">看好</span></td>
-                        <td>AI 霸主地位穩固，透過合作擴大生態系。</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <!-- EP629 -->
-        <div class="episode-block">
-            <h3 class="episode-title"><a href="https://www.youtube.com/watch?v=DANJ_oolSsw" target="_blank">EP629 (含重點整理補充)</a></h3>
-            
-            <div class="section-header">重點議題摘要</div>
-            <ul>
-                <li><strong>SpaceX IPO 效應</strong>：市場傳聞 SpaceX 可能上市，這將是巨大的資本市場題材，相關供應鏈值得關注。</li>
-                <li><strong>台股市場廣度</strong>：資金從半導體擴散至傳產與工具機，顯示市場健康度提升。</li>
-                <li><strong>關稅影響</strong>：分析川普關稅政策下，台灣廠商因轉單效應或成本優勢，受害程度可能較輕。</li>
-                <li><strong>廉航商業模式</strong>：以 Ryanair 拒絕 Starlink 為例，探討極致低成本的商業競爭力。</li>
-            </ul>
-
-            <div class="section-header">提及標的</div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>代碼/名稱</th>
-                        <th class="col-sentiment">觀點</th>
-                        <th>提及情境說明</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>SpaceX</td>
-                        <td><span class="sentiment-positive">熱點</span></td>
-                        <td>IPO 傳聞帶動太空經濟板塊，建議關注供應鏈或透過 Tesla 間接投資。</td>
-                    </tr>
-                    <tr>
-                        <td>上銀/直得</td>
-                        <td><span class="sentiment-positive">輪動</span></td>
-                        <td>工具機族群。當電子股休息時的資金避風港與落後補漲標的。</td>
-                    </tr>
-                    <tr>
-                        <td>Tesla (TSLA)</td>
-                        <td><span class="sentiment-positive">看好</span></td>
-                        <td>作為參與 SpaceX 成長的間接管道。</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+    <div class="header">
+        <h1>財經 YouTube 影片重點彙整</h1>
+        <p>生成日期: 2026-01-27</p>
     </div>
 
-    <!-- 財報狗 Section -->
-    <div class="creator-section">
-        <h2 class="creator-title">財報狗 (StatementDog)</h2>
-        
-        <!-- EP501 -->
-        <div class="episode-block">
-            <h3 class="episode-title"><a href="https://www.youtube.com/watch?v=p6ZRr29gX44" target="_blank">501.【財經時事放大鏡】AI 重啟電子原物料大時代 x APPLE Silicon</a></h3>
+    <div class="container">
+        <!-- 股癌 -->
+        <div class="creator-card">
+            <h2>股癌 Gooaye</h2>
             
-            <div class="section-header">重點議題摘要</div>
-            <ul>
-                <li><strong>iPhone 18 技術大躍進</strong>：預期採用 2 奈米製程，封裝技術從 InFO 轉向 WMCM，將帶動載板與封測規格升級。</li>
-                <li><strong>力積電 x 美光合作</strong>：雙方簽署獨家合作意向書，力積電有望藉由技轉進入記憶體代工，擺脫成熟製程紅海。</li>
-                <li><strong>PMIC 漲價潮</strong>：AI 伺服器帶動電源管理 IC 需求與規格提升，價格與毛利看漲。</li>
-            </ul>
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=V8OyAVn1GWk" target="_blank">EP630 | 換角度凱瑞</a></h3>
+                <div class="summary-section">
+                    <div class="section-title">📌 重點議題摘要</div>
+                    <div class="summary-content">
+                        <ul>
+                            <li><strong>台股強勢與資金擴散</strong>：台股表現優於美股，市場廣度打開。資金從 AI 核心向外擴散至消費性電子、網通等滯漲族群。權值股如聯發科、台達電出現補漲。</li>
+                            <li><strong>低軌衛星爆發期</strong>：SpaceX 傳出分拆或 IPO 計畫，帶動供應鏈熱度。受「非中非台 (NCNT)」策略影響，產能正移往東南亞（如越南）。</li>
+                            <li><strong>聯發科 (MTK) 動能</strong>：近期股價強勢，受惠於晶片良率提升及與 Google TPU (V7E) 合作傳聞，外銷代工潛力大。</li>
+                            <li><strong>力積電與美光合作</strong>：力積電處分銅鑼廠予美光，雖短期有產能移轉陣痛，但長期看好與美光的 DRAM 授權及先進封裝合作。</li>
+                        </ul>
+                    </div>
+                    <div class="section-title">🎯 提及標的</div>
+                    <div class="targets-section">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 25%;">代碼/名稱</th>
+                                    <th style="width: 15%;">觀點</th>
+                                    <th>提及情境說明</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>聯發科 (2454)</td>
+                                    <td class="long">看多</td>
+                                    <td>權值股補漲，良率提升，潛在 Google TPU 合作機會。</td>
+                                </tr>
+                                <tr>
+                                    <td>SpaceX / Starlink</td>
+                                    <td class="long">看好產業</td>
+                                    <td>低軌衛星龍頭，IPO 預期帶動供應鏈評價提升。</td>
+                                </tr>
+                                <tr>
+                                    <td>昇達科 (3491)</td>
+                                    <td class="long">看多</td>
+                                    <td>營收佔比高，低軌衛星關鍵零組件供應商。</td>
+                                </tr>
+                                <tr>
+                                    <td>力積電 (6770)</td>
+                                    <td class="neutral">中性觀察</td>
+                                    <td>短期營收遞延風險，長期觀察與美光合作效益。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
 
-            <div class="section-header">提及標的</div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>代碼/名稱</th>
-                        <th class="col-sentiment">觀點</th>
-                        <th>提及情境說明</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>力積電 (6770)</td>
-                        <td><span class="sentiment-positive">轉機</span></td>
-                        <td>與美光合作開發記憶體製程，長期競爭力有望改善。</td>
-                    </tr>
-                    <tr>
-                        <td>美光 (MU)</td>
-                        <td><span class="sentiment-positive">戰略</span></td>
-                        <td>透過外包成熟記憶體製程給力積電，專注於高階 HBM 產能。</td>
-                    </tr>
-                    <tr>
-                        <td>Apple (AAPL)</td>
-                        <td><span class="sentiment-neutral">關注</span></td>
-                        <td>iPhone 18 晶片規格升級將重塑供應鏈動能。</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=DANJ_oolSsw" target="_blank">EP629 | 等待與耐心</a></h3>
+                <div class="summary-section">
+                    <div class="section-title">📌 重點議題摘要</div>
+                    <div class="summary-content">
+                        <ul>
+                            <li><strong>投資的時間價值</strong>：討論市場震盪期間的心理素質，強調在趨勢未明時保持耐心的重要性。</li>
+                            <li><strong>景氣循環股警示</strong>：針對記憶體、航運等循環類股，提醒股價往往領先報價見頂（高檔陷阱），需留意市場過度樂觀時的風險。</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 財報狗 -->
+        <div class="creator-card">
+            <h2>財報狗 Earnings Dog</h2>
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=p6ZRr29gX44" target="_blank">EP501 | AI 重啟電子原物料大時代 x APPLE Silicon</a></h3>
+                <div class="summary-section">
+                    <div class="section-title">📌 重點議題摘要</div>
+                    <div class="summary-content">
+                        <ul>
+                            <li><strong>力積電 x 美光合作</strong>：探討美光取得力積電廠房後的產能規劃，以及力積電轉型 Fab IP 授權的策略意義。</li>
+                            <li><strong>iPhone 18 製程演進</strong>：預期 iPhone 18 將採用 2nm 製程，封裝技術從 InFO 轉向更高階的 WMCM，以因應 AI 運算需求。</li>
+                            <li><strong>AI 外溢效應</strong>：AI 伺服器需求強勁，帶動 PMIC（電源管理 IC）漲價潮。台積電退出部分 Bumping 製程也釋出商機給封測廠。</li>
+                        </ul>
+                    </div>
+                    <div class="section-title">🎯 提及標的</div>
+                    <div class="targets-section">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 25%;">代碼/名稱</th>
+                                    <th style="width: 15%;">觀點</th>
+                                    <th>提及情境說明</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>美光 (Micron)</td>
+                                    <td class="long">看多</td>
+                                    <td>擴充產能，HBM 與先進封裝需求強勁。</td>
+                                </tr>
+                                <tr>
+                                    <td>台積電 (2330)</td>
+                                    <td class="long">看多</td>
+                                    <td>2nm 製程領先，先進封裝產能供不應求。</td>
+                                </tr>
+                                <tr>
+                                    <td>PMIC 族群</td>
+                                    <td class="long">看多</td>
+                                    <td>受惠 AI 伺服器規格升級，平均銷售單價 (ASP) 提升。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 財女珍妮 -->
+        <div class="creator-card">
+            <h2>財女珍妮</h2>
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/@jcinsightgroup/videos" target="_blank">近期美股市場日報 (01/21 - 01/27)</a></h3>
+                <div class="summary-section">
+                    <div class="section-title">📌 重點議題摘要</div>
+                    <div class="summary-content">
+                        <ul>
+                            <li><strong>半導體兩樣情</strong>：AMD 與 Intel 股價大漲，反應 CPU 漲價題材與 AI 基礎建設需求，但 Intel 仍面臨良率挑戰。美光 (MU) 則因記憶體被重新定義而受關注。</li>
+                            <li><strong>SpaceX 太空經濟</strong>：SpaceX 估值持續翻倍，市場傳聞上市，帶動太空經濟與相關供應鏈（如 Rocket Lab）的投資機會。</li>
+                            <li><strong>日本央行升息疑慮</strong>：市場擔憂日本結束負利率政策，日圓利差交易平倉可能成為衝擊高估值資產的「黑天鵝」。</li>
+                            <li><strong>ARK Invest 觀點</strong>：引用 ARK Big Ideas 2026，強調「大加速時代」來臨，AI 與破壞式創新將主導未來成長。</li>
+                        </ul>
+                    </div>
+                    <div class="section-title">🎯 提及標的</div>
+                    <div class="targets-section">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 25%;">代碼/名稱</th>
+                                    <th style="width: 15%;">觀點</th>
+                                    <th>提及情境說明</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>英特爾 (INTC)</td>
+                                    <td class="neutral">中性偏空</td>
+                                    <td>股價雖漲但良率仍有隱憂，需觀察轉型進度。</td>
+                                </tr>
+                                <tr>
+                                    <td>AMD</td>
+                                    <td class="long">看多</td>
+                                    <td>受惠 CPU 漲價題材與 AI 需求。</td>
+                                </tr>
+                                <tr>
+                                    <td>SpaceX</td>
+                                    <td class="long">看多</td>
+                                    <td>估值翻倍，太空經濟龍頭。</td>
+                                </tr>
+                                <tr>
+                                    <td>Rocket Lab (RKLB)</td>
+                                    <td class="long">看多</td>
+                                    <td>國防太空供應鏈重組受益者。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- M觀點 -->
+        <div class="creator-card">
+            <h2>M觀點 Miula</h2>
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=VSVmIg4XOz4" target="_blank">EP272 | 馬斯克達沃斯專訪 & 微軟 AI</a></h3>
+                <div class="summary-section">
+                    <div class="section-title">📌 重點議題摘要</div>
+                    <div class="summary-content">
+                        <ul>
+                            <li><strong>馬斯克達沃斯觀點</strong>：解析馬斯克在 WEF 的談話，強調 AI 安全、人類與 AI 共存的未來，以及對全球經濟的宏觀看法。</li>
+                            <li><strong>納德拉談微軟與 AI</strong>：微軟執行長 Satya Nadella 再次重申 AI 是微軟的核心戰略，將全面整合進 Office 與 Azure 產品線，推動生產力革命。</li>
+                        </ul>
+                    </div>
+                    <div class="section-title">🎯 提及標的</div>
+                    <div class="targets-section">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 25%;">代碼/名稱</th>
+                                    <th style="width: 15%;">觀點</th>
+                                    <th>提及情境說明</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>微軟 (MSFT)</td>
+                                    <td class="long">看多</td>
+                                    <td>AI 變現能力強，Copilot 應用持續擴大。</td>
+                                </tr>
+                                <tr>
+                                    <td>特斯拉 (TSLA)</td>
+                                    <td class="long">看多</td>
+                                    <td>FSD 進展與 AI 機器人佈局。</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+             <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=bh0lmiH1PD4" target="_blank">EP271 | 蘋果 AI 計畫 & 貝佐斯挑戰星鏈</a></h3>
+                <div class="summary-section">
+                    <div class="section-title">📌 重點議題摘要</div>
+                    <div class="summary-content">
+                        <ul>
+                            <li><strong>蘋果的 AI 反擊</strong>：討論 Apple 在 AI 領域的追趕計畫（Ajax 模型、Siri 升級），預期將在 WWDC 展現成果。</li>
+                            <li><strong>貝佐斯 vs. 馬斯克</strong>：Amazon 的 Project Kuiper 試圖挑戰 SpaceX Starlink 的衛星網路霸主地位，低軌衛星競爭白熱化。</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <!-- 財女珍妮 Section -->
-    <div class="creator-section">
-        <h2 class="creator-title">財女珍妮 (Jenny)</h2>
-        
-        <!-- Consolidated Jenny's Episodes -->
-        <div class="episode-block">
-            <h3 class="episode-title">近期重點彙整 (2026/01/21 - 2026/01/27)</h3>
-            <p style="color:#666; font-size:0.9em; margin-bottom:15px;">涵蓋主題：ARK Big Ideas 2026、美股財報季、日債風暴、AI 軟體應用</p>
-            
-            <div class="section-header">重點議題摘要</div>
-            <ul>
-                <li><strong>ARK Big Ideas 2026</strong>：強調 AI、區塊鏈、機器人、儲能與多組學五大平台匯聚，預測比特幣 2030 年地位與 AI 生產力爆發。</li>
-                <li><strong>軟體變現 (AI Monetization)</strong>：市場焦點轉向軟體股，關注 Salesforce (Agentforce) 與 CrowdStrike 等公司如何將 AI 轉化為營收。</li>
-                <li><strong>半導體兩樣情</strong>：Intel 因良率問題承壓但有漲價題材，Broadcom 在 AI ASIC 領域緊追 NVIDIA。</li>
-                <li><strong>日債與美債</strong>：日本央行升息與日債拋售導致全球債市動盪，需留意風險資產波動。</li>
-                <li><strong>太空經濟</strong>：SpaceX 上市預期與 Rocket Lab 的供應鏈重組機會。</li>
-            </ul>
-
-            <div class="section-header">提及標的</div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>代碼/名稱</th>
-                        <th class="col-sentiment">觀點</th>
-                        <th>提及情境說明</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Salesforce (CRM)</td>
-                        <td><span class="sentiment-positive">看好</span></td>
-                        <td>AI Agent 變現模式確立，軟體股補漲指標。</td>
-                    </tr>
-                    <tr>
-                        <td>CrowdStrike (CRWD)</td>
-                        <td><span class="sentiment-positive">看好</span></td>
-                        <td>AI 時代資安需求大增，平台化優勢明顯。</td>
-                    </tr>
-                    <tr>
-                        <td>Broadcom (AVGO)</td>
-                        <td><span class="sentiment-positive">看好</span></td>
-                        <td>AI 網路晶片與客製化晶片 (ASIC) 龍頭。</td>
-                    </tr>
-                    <tr>
-                        <td>Lumentum (LITE)</td>
-                        <td><span class="sentiment-positive">看好</span></td>
-                        <td>AI 光通訊升級 (CPO/矽光子) 受惠，具定價權。</td>
-                    </tr>
-                    <tr>
-                        <td>Rocket Lab (RKLB)</td>
-                        <td><span class="sentiment-positive">看好</span></td>
-                        <td>國防太空供應鏈重組受益者，僅次於 SpaceX 的發射商。</td>
-                    </tr>
-                    <tr>
-                        <td>Bitcoin (BTC)</td>
-                        <td><span class="sentiment-positive">長期看好</span></td>
-                        <td>ARK 報告重點資產，視為機構避險資產。</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-    <!-- M觀點 Section -->
-    <div class="creator-section">
-        <h2 class="creator-title">M觀點 (Miula)</h2>
-        
-        <!-- EP271 & EP272 -->
-        <div class="episode-block">
-            <h3 class="episode-title">EP271 & EP272 綜合摘要</h3>
-            
-            <div class="section-header">重點議題摘要</div>
-            <ul>
-                <li><strong>達沃斯論壇 AI 觀點</strong>：彙整 Microsoft Satya Nadella 與其他科技領袖觀點，確認 AI 泡沫尚未破裂，需求仍強勁。</li>
-                <li><strong>Apple AI 策略</strong>：探討 Apple Intelligence 的佈局與未來硬體整合。</li>
-                <li><strong>Tesla FSD 進展</strong>：FSD 保費大幅下降顯示數據支持其安全性提升，Robotaxi 商業化可期。</li>
-            </ul>
-
-            <div class="section-header">提及標的</div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>代碼/名稱</th>
-                        <th class="col-sentiment">觀點</th>
-                        <th>提及情境說明</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Microsoft (MSFT)</td>
-                        <td><span class="sentiment-positive">看好</span></td>
-                        <td>AI 應用層面的領先者，Copilot 變現能力強。</td>
-                    </tr>
-                    <tr>
-                        <td>Tesla (TSLA)</td>
-                        <td><span class="sentiment-positive">看好</span></td>
-                        <td>FSD 技術突破與自駕商業模式驗證中。</td>
-                    </tr>
-                    <tr>
-                        <td>NVIDIA (NVDA)</td>
-                        <td><span class="sentiment-positive">看好</span></td>
-                        <td>達沃斯論壇訊息確認基礎建設需求不減。</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-    <div class="footer">
-        <p>Report generated by Gemini CLI Agent on 2026/01/27</p>
-    </div>
-</div>
-
 </body>
 </html>
