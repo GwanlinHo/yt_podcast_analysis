@@ -21,7 +21,7 @@
    pip install -r requirements.txt
    ```
 
-2. 執行抓取腳本：
+2. 執行腳本，抓取影片基本資訊：
    ```bash
    python fetch_yt_list.py
    ```
