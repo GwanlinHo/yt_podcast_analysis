@@ -1,8 +1,9 @@
 # 最近一週 YouTube 影片清單
-更新時間：2026/01/27 22:33
-統計期間：2026/01/20 至 2026/01/27
+更新時間：2026/01/28 21:17
+統計期間：2026/01/21 至 2026/01/28
 
 ## 股癌
+- [EP631 | 🎁](https://www.youtube.com/watch?v=9ys0ZQzA2wQ)
 - [EP630 | ⭐](https://www.youtube.com/watch?v=V8OyAVn1GWk)
 - [EP629 | ⏳](https://www.youtube.com/watch?v=DANJ_oolSsw)
 
@@ -10,6 +11,7 @@
 - [501.【財經時事放大鏡】AI 重啟電子原物料大時代 x APPLE Silicon](https://www.youtube.com/watch?v=p6ZRr29gX44)
 
 ## 財女珍妮
+- [2026/01/28 (三）Clawdbot引爆AI Agent?2026年的「ChatGPT時刻」](https://www.youtube.com/watch?v=BmO2UuWzYWU)
 - [2026/01/27 (二）有富爸爸的孩子像個寶](https://www.youtube.com/watch?v=4V5IWbCuplE)
 - [2026/01/26 (一）買下未來！ARK BIG IDEAS 2026](https://www.youtube.com/watch?v=SZjWT1ZJL2Y)
 - [2026/01/23 (五）特斯拉，Meta回神了，英特爾慘跌](https://www.youtube.com/watch?v=qt7i-5-dmOc)
