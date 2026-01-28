@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>財經 YouTube 影片重點彙整</title>
+    <style>
+        body {
+            font-family: 'Noto Sans TC', '微軟正黑體', 'Microsoft JhengHei', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .report-date {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 0.9em;
+        }
+        .creator-card {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.03);
+        }
+        h2 {
+            color: #2980b9;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        .episode-block {
+            margin-bottom: 25px;
+            padding-left: 15px;
+            border-left: 4px solid #3498db;
+        }
+        h3 {
+            color: #34495e;
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        h3 a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        h3 a:hover {
+            text-decoration: underline;
+        }
+        .summary-section, .targets-section {
+            margin-bottom: 20px;
+        }
+        .summary-section h4, .targets-section h4 {
+            color: #555;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            color: #444;
+        }
+        .bullish { color: #e74c3c; font-weight: bold; } /* 看多/紅 */
+        .bearish { color: #27ae60; font-weight: bold; } /* 看空/綠 */
+        .neutral { color: #7f8c8d; font-weight: bold; } /* 中性/灰 */
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                margin: 10px auto;
+                padding: 20px;
+            }
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            tr {
+                border: 1px solid #ddd;
+                margin-bottom: 15px;
+                border-radius: 5px;
+                overflow: hidden;
+            }
+            td {
+                border: none;
+                border-bottom: 1px solid #eee;
+                position: relative;
+                padding-left: 40%;
+                text-align: right;
+            }
+            td:last-child {
+                border-bottom: none;
+            }
+            td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                width: calc(40% - 20px);
+                padding-right: 10px;
+                white-space: nowrap;
+                text-align: left;
+                font-weight: bold;
+                color: #666;
+            }
+            td:nth-of-type(1) { /* First column as card title */
+                background-color: #f9f9f9;
+                font-size: 1.1em;
+                font-weight: bold;
+                text-align: left;
+                padding: 10px;
+                padding-left: 10px;
+            }
+            td:nth-of-type(1)::before {
+                display: none;
+            }
+            td:nth-of-type(1) {
+                padding-left: 10px !important;
+                text-align: left !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>財經 YouTube 影片重點彙整</h1>
+        <p class="report-date">生成日期: 2026-01-28</p>
+
+        <!-- 股癌 -->
+        <div class="creator-card">
+            <h2>股癌</h2>
+
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=9ys0ZQzA2wQ" target="_blank">EP631 | 🎁 (低軌衛星產業爆發與投資者的冒險心態)</a></h3>
+                <div class="summary-section">
+                    <h4>📌 重點議題摘要</h4>
+                    <ul>
+                        <li><strong>風險承擔者的力量:</strong> 探討 Risk-takers 與 NPC 的本質差異，強調承擔風險的重要性，並批判網路上的失敗主義者。</li>
+                        <li><strong>地緣政治與關稅紅利:</strong> 分析川普關稅政策預期對台股工具機產業的復甦影響，以及台灣需留意地緣政治風險。</li>
+                        <li><strong>低軌衛星產業爆發:</strong> Amazon 的 Terra Wave 計畫目標提供 6Tbps 極速頻寬，鎖定企業與資料中心。SpaceX 與 Amazon 競爭帶動衛星板與攝頻元件拉貨潮。</li>
+                        <li><strong>供應鏈驗證:</strong> 從銅箔基板廠 M6 等級材料出貨量驗證衛星與 AI 需求。日本 Meiko 與台灣博智在越南合資廠可能轉做衛星板。</li>
+                        <li><strong>原物料上漲與成本轉嫁:</strong> 銀價帶動被動元件漲價，網通廠成功轉嫁成本給 B 端客戶，通膨壓力持續傳導。</li>
+                    </ul>
+                </div>
+                <div class="targets-section">
+                    <h4>🎯 提及標的</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>代碼/名稱</th>
+                                <th>多空/觀點</th>
+                                <th>提及情境說明</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="代碼/名稱">博智 (8155)</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">與日本 Meiko 合資在越南設廠，可能轉向產值更高的衛星板。</td>
+                            </tr>
+                            <tr>
+                                <td data-label="代碼/名稱">台光電 (2383)</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">M6 等級材料出貨量大增，驗證衛星與 AI 需求強勁。</td>
+                            </tr>
+                            <tr>
+                                <td data-label="代碼/名稱">低軌衛星供應鏈</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">SpaceX 與 Amazon 競爭帶動拉貨，PCB/CCL、攝頻元件受惠。</td>
+                            </tr>
+                            <tr>
+                                <td data-label="代碼/名稱">工具機產業</td>
+                                <td data-label="多空/觀點" class="neutral">中性偏多</td>
+                                <td data-label="提及情境說明">受川普關稅預期影響，訂單有回溫跡象。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=V8OyAVn1GWk" target="_blank">EP630 | ⭐ (SpaceX 供應鏈大遷徙與聯發科補漲)</a></h3>
+                <div class="summary-section">
+                    <h4>📌 重點議題摘要</h4>
+                    <ul>
+                        <li><strong>SpaceX 供應鏈重組:</strong> SpaceX 對供應鏈提出「China Free」和「Taiwan Free」要求，導致供應鏈面臨大洗牌與產地遷移壓力。</li>
+                        <li><strong>台股資金輪動:</strong> 分析 2026 年初台股強勁行情，資金輪動至聯發科等落後補漲權值股。</li>
+                        <li><strong>記憶體循環:</strong> 提醒記憶體循環股可能存在「高檔陷阱」，需留意景氣反轉風險。</li>
+                    </ul>
+                </div>
+                <div class="targets-section">
+                    <h4>🎯 提及標的</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>代碼/名稱</th>
+                                <th>多空/觀點</th>
+                                <th>提及情境說明</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="代碼/名稱">聯發科 (2454)</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">台股資金輪動下的落後補漲權值股代表。</td>
+                            </tr>
+                            <tr>
+                                <td data-label="代碼/名稱">華通 (2313)</td>
+                                <td data-label="多空/觀點" class="neutral">中性</td>
+                                <td data-label="提及情境說明">低軌衛星長線贏家探討，需關注產地轉移能力。</td>
+                            </tr>
+                            <tr>
+                                <td data-label="代碼/名稱">啟碁 (6285)</td>
+                                <td data-label="多空/觀點" class="neutral">中性</td>
+                                <td data-label="提及情境說明">低軌衛星網通設備，同樣面臨產地規範挑戰。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=DANJ_oolSsw" target="_blank">EP629 | ⏳ (SpaceX 上市預期與市場廣度)</a></h3>
+                <div class="summary-section">
+                    <h4>📌 重點議題摘要</h4>
+                    <ul>
+                        <li><strong>SpaceX 上市預期:</strong> 市場預期 SpaceX 可能在 2026 年進行 IPO，帶動衛星族群估值重估。</li>
+                        <li><strong>市場廣度:</strong> 台股市場廣度打開，不再僅由少數權值股領漲，中小型股與傳產開始補漲。</li>
+                        <li><strong>馬斯克與 Ryanair:</strong> 討論 Starlink 在航空網路的應用，以及與廉航 Ryanair 的合作潛力與爭議。</li>
+                    </ul>
+                </div>
+                <div class="targets-section">
+                    <h4>🎯 提及標的</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>代碼/名稱</th>
+                                <th>多空/觀點</th>
+                                <th>提及情境說明</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="代碼/名稱">昇達科 (3491)</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">低軌衛星通訊元件，受惠於 SpaceX 與 Amazon 積極發射衛星。</td>
+                            </tr>
+                            <tr>
+                                <td data-label="代碼/名稱">工具機族群 (上銀/直得)</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">景氣循環低檔回升，加上自動化需求。</td>
+                            </tr>
+                             <tr>
+                                <td data-label="代碼/名稱">Starlink</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">航空網路滲透率提升，IPO 預期。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- 財報狗 -->
+        <div class="creator-card">
+            <h2>財報狗</h2>
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=p6ZRr29gX44" target="_blank">501.【財經時事放大鏡】AI 重啟電子原物料大時代 x APPLE Silicon</a></h3>
+                <div class="summary-section">
+                    <h4>📌 重點議題摘要</h4>
+                    <ul>
+                        <li><strong>力積電與美光合作:</strong> 分析力積電與美光簽署獨家合作意向書的戰略意圖，美光可能藉此擴大產能佈局。</li>
+                        <li><strong>iPhone 18 製程升級:</strong> 預期 iPhone 18 將採用 2 奈米製程，且封裝技術從 InFO 轉向 WMCM，以加速 AI 運算效能。</li>
+                        <li><strong>PMIC 漲價潮:</strong> AI 需求強勁加上中國市場產能利用率提升，推動電源管理 IC (PMIC) 迎來漲價循環。</li>
+                        <li><strong>台積電退出 Bumping:</strong> 台積電退出 Bumping 製程將導致封裝訂單外溢，二線封測廠有望受惠。</li>
+                    </ul>
+                </div>
+                <div class="targets-section">
+                    <h4>🎯 提及標的</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>代碼/名稱</th>
+                                <th>多空/觀點</th>
+                                <th>提及情境說明</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="代碼/名稱">力積電 (6770)</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">與美光簽署合作意向書，有望獲得技術與訂單挹注。</td>
+                            </tr>
+                            <tr>
+                                <td data-label="代碼/名稱">美光 (Micron)</td>
+                                <td data-label="多空/觀點" class="neutral">中性偏多</td>
+                                <td data-label="提及情境說明">透過合作擴大產能，強化記憶體市場地位。</td>
+                            </tr>
+                            <tr>
+                                <td data-label="代碼/名稱">PMIC 族群</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">受惠於 AI 需求與漲價循環。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- 財女珍妮 -->
+        <div class="creator-card">
+            <h2>財女珍妮</h2>
+            
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=BmO2UuWzYWU" target="_blank">2026/01/28 (三）Clawdbot引爆AI Agent?2026年的「ChatGPT時刻」</a></h3>
+                <div class="summary-section">
+                    <h4>📌 重點議題摘要</h4>
+                    <ul>
+                        <li><strong>AI Agent 的 ChatGPT 時刻:</strong> 開源項目 Clawdbot 爆紅，被視為 AI Agent 領域的突破點，從「對話」轉向「執行」。</li>
+                        <li><strong>從被動到主動:</strong> Clawdbot 可自動執行任務（如郵件管理、數據處理），標誌著 AI 商業化落地進入新階段。</li>
+                        <li><strong>資本市場反應:</strong> 相關 AI 模型與分發層公司股價受激勵，市場開始對 Agent 經濟進行定價。</li>
+                    </ul>
+                </div>
+                <div class="targets-section">
+                    <h4>🎯 提及標的</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>代碼/名稱</th>
+                                <th>多空/觀點</th>
+                                <th>提及情境說明</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                             <tr>
+                                <td data-label="代碼/名稱">AI Agent 概念股</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">Clawdbot 帶動市場對 Agent 執行能力的想像空間。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=4V5IWbCuplE" target="_blank">2026/01/27 (二）有富爸爸的孩子像個寶</a></h3>
+                <div class="summary-section">
+                    <h4>📌 重點議題摘要</h4>
+                    <ul>
+                        <li><strong>富爸爸效應:</strong> 探討擁有強大母公司或合作夥伴（如微軟之於 OpenAI，Google 之於 Anthropic）的科技公司優勢。</li>
+                        <li><strong>ARK Big Ideas 延伸:</strong> 延續 ARK 報告觀點，分析太空經濟、Fintech 生存戰與 AI 基礎設施的長線機會。</li>
+                    </ul>
+                </div>
+                <div class="targets-section">
+                    <h4>🎯 提及標的</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>代碼/名稱</th>
+                                <th>多空/觀點</th>
+                                <th>提及情境說明</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                             <tr>
+                                <td data-label="代碼/名稱">Rocket Lab (RKLB)</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">太空經濟與國防供應鏈重組受益者。</td>
+                            </tr>
+                            <tr>
+                                <td data-label="代碼/名稱">Salesforce (CRM)</td>
+                                <td data-label="多空/觀點" class="neutral">中性偏多</td>
+                                <td data-label="提及情境說明">觀察 Agentforce 能否突破營收瓶頸。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=SZjWT1ZJL2Y" target="_blank">2026/01/26 (一）買下未來！ARK BIG IDEAS 2026</a></h3>
+                <div class="summary-section">
+                    <h4>📌 重點議題摘要</h4>
+                    <ul>
+                        <li><strong>ARK Big Ideas 2026:</strong> ARK Invest 報告預測 2026 年將是「大加速」時代，AI 為核心驅動五大創新平台融合。</li>
+                        <li><strong>AI 總發動機:</strong> AI 算力需求將推動下一代雲端、能源儲存與數據中心革命，並與區塊鏈、機器人技術高度耦合。</li>
+                        <li><strong>經濟增長預測:</strong> 預計到 2030 年全球實際 GDP 增長率將達 7.3%，遠高於 IMF 預測，創新資產市值將大幅擴張。</li>
+                    </ul>
+                </div>
+                <div class="targets-section">
+                    <h4>🎯 提及標的</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>代碼/名稱</th>
+                                <th>多空/觀點</th>
+                                <th>提及情境說明</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="代碼/名稱">ARK 創新 ETF</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">報告對破壞式創新資產持極度樂觀看法。</td>
+                            </tr>
+                            <tr>
+                                <td data-label="代碼/名稱">Tesla (TSLA)</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">ARK 長期重倉標的，看好其在自駕與機器人領域發展。</td>
+                            </tr>
+                            <tr>
+                                <td data-label="代碼/名稱">Bitcoin / 區塊鏈</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">視為 AI Agent 的可信結算層。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=pOhlhxIa7-c" target="_blank">2026/01/22(四）下一波漲價是誰？AMD、英特爾(INTC)大漲</a></h3>
+                <div class="summary-section">
+                    <h4>📌 重點議題摘要</h4>
+                    <ul>
+                        <li><strong>CPU 產能告急:</strong> 2026 年伺服器 CPU 產能基本售罄，Intel 與 AMD 計劃調漲價格 10-15%。</li>
+                        <li><strong>代工合作傳聞:</strong> 市場傳聞 AMD 可能委託 Intel 代工部分晶片，若屬實將是 Intel Foundry 重大突破。</li>
+                        <li><strong>AI 驅動換機:</strong> 企業端 AI 伺服器需求強勁，帶動傳統 CPU 銷量回升。</li>
+                    </ul>
+                </div>
+                <div class="targets-section">
+                    <h4>🎯 提及標的</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>代碼/名稱</th>
+                                <th>多空/觀點</th>
+                                <th>提及情境說明</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="代碼/名稱">Intel (INTC)</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">股價強勁反彈，受益於 CPU 漲價與潛在代工訂單。</td>
+                            </tr>
+                            <tr>
+                                <td data-label="代碼/名稱">AMD</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">伺服器市佔率持續提升，雖有轉單傳聞但本業強勁。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+             <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=RTf77cz_1IY" target="_blank">2026/01/21(三）美股下跌主因：日債風暴</a></h3>
+                <div class="summary-section">
+                    <h4>📌 重點議題摘要</h4>
+                    <ul>
+                        <li><strong>日債風暴:</strong> 日本債券市場波動引發全球資金挪移，導致美股短暫回檔。</li>
+                        <li><strong>市場情緒:</strong> 恐慌情緒過後，市場焦點將回歸基本面與企業獲利。</li>
+                    </ul>
+                </div>
+                <div class="targets-section">
+                    <h4>🎯 提及標的</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>代碼/名稱</th>
+                                <th>多空/觀點</th>
+                                <th>提及情境說明</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="代碼/名稱">美股大盤</td>
+                                <td data-label="多空/觀點" class="neutral">中性偏多</td>
+                                <td data-label="提及情境說明">非基本面因素下跌，往往是長線佈局機會。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- M觀點 -->
+        <div class="creator-card">
+            <h2>M觀點</h2>
+            <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=bh0lmiH1PD4" target="_blank">EP271. 蘋果的 AI 計畫、貝佐斯挑戰星鏈</a></h3>
+                <div class="summary-section">
+                    <h4>📌 重點議題摘要</h4>
+                    <ul>
+                        <li><strong>蘋果 AI 佈局:</strong> 討論 Apple Intelligence 的發展路徑，以及其在終端裝置上的優勢。</li>
+                        <li><strong>太空競賽:</strong> 貝佐斯的 Blue Origin 與 Amazon Kuiper 計畫試圖挑戰 SpaceX Starlink 的霸主地位，低軌衛星競爭白熱化。</li>
+                        <li><strong>特斯拉 FSD:</strong> 分析 FSD 保費下降對特斯拉生態系與車主持有成本的正面影響。</li>
+                    </ul>
+                </div>
+                <div class="targets-section">
+                    <h4>🎯 提及標的</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>代碼/名稱</th>
+                                <th>多空/觀點</th>
+                                <th>提及情境說明</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="代碼/名稱">Apple (AAPL)</td>
+                                <td data-label="多空/觀點" class="neutral">中性偏多</td>
+                                <td data-label="提及情境說明">AI 計畫逐步明朗，整合軟硬體生態。</td>
+                            </tr>
+                            <tr>
+                                <td data-label="代碼/名稱">Amazon (AMZN)</td>
+                                <td data-label="多空/觀點" class="neutral">中性</td>
+                                <td data-label="提及情境說明">積極投入衛星網路計畫，挑戰 SpaceX。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+             <div class="episode-block">
+                <h3><a href="https://www.youtube.com/watch?v=VSVmIg4XOz4" target="_blank">EP272. 馬斯克達沃斯專訪</a></h3>
+                <div class="summary-section">
+                    <h4>📌 重點議題摘要</h4>
+                    <ul>
+                        <li><strong>馬斯克世界觀:</strong> 整理馬斯克在達沃斯論壇的訪談，涵蓋對 AI 安全、火星移民及人類未來的宏觀看法。</li>
+                        <li><strong>微軟與 AI:</strong> 微軟 CEO Satya Nadella 談論 AI 賦能與未來應用場景，強調 AI Agent 的生產力革命。</li>
+                    </ul>
+                </div>
+                <div class="targets-section">
+                    <h4>🎯 提及標的</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>代碼/名稱</th>
+                                <th>多空/觀點</th>
+                                <th>提及情境說明</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="代碼/名稱">Microsoft (MSFT)</td>
+                                <td data-label="多空/觀點" class="bullish">看多</td>
+                                <td data-label="提及情境說明">AI 領域的領導者，持續推動應用落地。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
