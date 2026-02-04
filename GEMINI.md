@@ -1,53 +1,79 @@
-# 通用規則 (General Rules)
-- **Windows 終端機規範**: 在 Windows 環境操作時，必須優先使用 `cmd.exe`，**嚴禁使用 PowerShell**。執行指令時請確保語法符合 CMD 標準（例如使用 `cmd /c "..."` 來支援多重指令）。
-- **Python 環境規範**: 在 Windows 環境操作時，必須優先使用 `python.exe`，**嚴禁使用 Python**。執行指令時請確保語法符合 CMD 標準（例如使用 `cmd /c "..."` 來支援多重指令）。
+# 財經週報系統操作手冊 (Finance Report System SOP)
 
-# 財經影片週報生成流程 (Finance Video Weekly Report Workflow)
-
-## 1. 觸發條件 (Trigger)
-當使用者要求「整理影片重點」、「生成財經週報」或針對 `videolist.md` 進行分析並要求輸出 HTML 時。
-
-## 2. 執行步驟 (Execution Steps)
-1.  **讀取清單**：讀取 `videolist.md` 獲取最新的影片連結與標題。
-2.  **分批獨立處理 (Batch Processing - CRITICAL)**：
-    *   **核心原則**：為避免模型在處理長文本時發生「注意力遞減 (Attention Decay)」，導致後續影片內容被簡化或遺漏，**嚴禁**一次性處理所有影片。
-    *   **執行迴圈**：針對清單中的**每一集影片 (Episode)**，必須獨立執行完整的「搜尋 -> 摘要」流程：
-        a.  **獨立搜尋**：使用 `google_web_search` 針對「該集標題 + 重點整理」進行深度搜尋。
-        b.  **獨立摘要**：立即對該集內容進行歸納，提取「重點議題」與「提及標的」。
-        c.  **暫存**：將該集的分析結果暫存，接著處理下一集。
-3.  **分析歸納重點**：
-    *   **重點議題摘要**：詳細說明議題的內容、邏輯與觀點。若涉及重大變化（趨勢、風險、獲利影響），需特別警示。
-    *   **提及標的整理**：標註代碼、多空看法及具體的情境說明（為什麼看多/看空？）。
-4.  **完整彙整與生成**：將所有獨立處理的結果彙整，依據下方的 HTML 格式規範輸出至 `report/` 目錄，檔名格式為 `weekly_finance_report_YYYY-MM-DD.html`。
-
-## 3. 輸出格式規範 (HTML Format Specification)
-
-*   **嚴格禁止使用表情符號 (NO EMOJIS)**：所有內容、標題、圖示位置均不得出現表情符號。
-*   HTML 檔案需包含 CSS 樣式以確保閱讀體驗，結構如下：
-
-*   **Header**: 包含標題（如「財經 YouTube 影片重點彙整」）與生成日期。
-*   **Container**: 主要內容區塊。
-*   **Creator Section**: 每個創作者一個區塊（Card 樣式）。
-    *   **Creator Name**: 創作者名稱（H2）。
-    *   **Episode Block**: 每一集一個子區塊。
-        *   **Episode Title**: 影片標題與連結（H3）。
-        *   **Summary Section**:
-            *   標題：「重點議題摘要」
-            *   內容：條列式重點（ul/li）。
-        *   **Targets Section**:
-            *   標題：「提及標的」
-            *   表格（Table）：包含欄位 [代碼/名稱]、[多空/觀點]、[提及情境說明]。
-
-### 範例 CSS 風格 (參考)
-*   使用乾淨、現代的風格 (無襯線字體)。
-*   標的表格需有邊框，表頭背景色需區隔。
-*   多空觀點可用顏色標示（如：看多/紅、看空/綠、中性/灰）。
-*   **響應式設計 (RWD)**：
-    *   必須包含 `@media screen and (max-width: 768px)` 設定。
-    *   在手機版面下，`table` 必須轉換為卡片式 (Card) 佈局：
-        *   隱藏 `thead`。
-        *   `tr` 轉為獨立區塊 (Block)，加上邊框與圓角。
-        *   `td` 轉為區塊，第一欄 (標的) 作為卡片標題，第二欄 (觀點) 與第三欄 (說明) 依序排列。
-        *   使用 `::before` 偽元素補上「觀點：」、「說明：」等標籤，確保手機閱讀清晰。
+## 系統架構簡介
+本系統採用「自動化資料庫」與「AI 分析」分離的架構。
+*   **資料來源**: `data/database.json` (由 `daily_update.py` 自動維護)
+*   **分析結果**: `data/analysis/{video_id}.json`
+*   **最終報表**: `report/latest_report.html` (由 `generate_report.py` 生成)
 
 ---
+
+## Agent 指令集 (Command Set)
+
+### 1. 每日更新與啟動 (`@daily_update`)
+**時機**: 每日早晨，或使用者要求「更新片單」時。
+**動作**:
+1.  **更新資料庫**: 執行 `python3 daily_update.py`。
+2.  **檢查狀態**:
+    *   若無新影片 (Pending = 0)：回報「今日無新影片，目前資料庫已同步」。
+    *   **若有新影片 (Pending > 0)**：
+        *   報告新增數量（例如：「發現 3 部新影片」）。
+        *   **[自動觸發]**: 立即執行 **`@analyze_next`** 的流程（搜尋 -> 分析 -> 存檔 -> 更新報表）。
+        *   完成第一集後，主動詢問使用者：「還有 X 部影片待處理，是否繼續？」
+
+### 2. 分析下一集 (`@analyze_next` 或 「繼續」)
+**時機**: 使用者要求「開始分析」、「分析下一集」或系統閒置時。
+**動作**:
+1.  **獲取任務**: 執行以下 Python 指令獲取一部待處理影片：
+    ```python
+    from storage import Storage
+    pending = Storage().get_pending_videos()
+    if pending:
+        v = pending[0]
+        print(f"TARGET_VIDEO_ID:{v.id}")
+        print(f"TARGET_VIDEO_TITLE:{v.title}")
+    else:
+        print("NO_PENDING_VIDEOS")
+    ```
+2.  **判斷狀態**:
+    *   若輸出 `NO_PENDING_VIDEOS`: 回報「目前沒有待分析的影片」。
+    *   若取得 `TARGET_VIDEO_ID`: 進入步驟 3。
+3.  **執行分析 (Core AI Task)**:
+    *   **搜尋**: 使用 `google_web_search` 搜尋 `TARGET_VIDEO_TITLE` + "重點 逐字稿" 或 "摘要"。
+    *   **摘要**: 歸納影片的「重點議題」與「提及標的」。
+        *   *注意：保持客觀，標註多空觀點。*
+4.  **存檔**:
+    *   將分析結果整理為 JSON 物件 (Python Dict)。
+    *   執行以下 Python 指令寫入資料庫 (請替換變數)：
+    ```python
+    from storage import Storage
+    content = {
+        "key_points": ["重點1", "重點2"...],
+        "targets": [
+            {"code": "2330", "name": "台積電", "view": "看多", "rationale": "先進製程供不應求"}
+        ]
+    }
+    Storage().save_analysis("TARGET_VIDEO_ID", content)
+    ```
+5.  **更新報表**:
+    *   執行 `python3 generate_report.py`。
+    *   回報「已完成 [影片標題] 的分析與歸檔」。
+
+### 3. 發布與同步 (`@publish`)
+**時機**: 分析工作告一段落，或使用者要求「上傳報告」。
+**動作**:
+1.  執行 `python3 generate_report.py` (確保最新)。
+2.  執行 `./sync.sh` (Git Commit & Push)。
+
+---
+
+## 分析規範 (Analysis Guidelines)
+*   **重點議題**: 須包含邏輯推演，而非僅列出結論。
+*   **提及標的**:
+    *   `view`: 看多 (Bullish)、看空 (Bearish)、中性 (Neutral)。
+    *   `rationale`: 必須說明「為什麼」，例如「營收創新高」、「技術面破線」等。
+*   **格式**: 嚴禁使用 Emoji。
+
+## 疑難排解
+*   若 `database.json` 損毀，請檢查 JSON 格式是否正確。
+*   若爬蟲失敗，可能是 `yt-dlp` 需要更新 (`pip install -U yt-dlp`)。

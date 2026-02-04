@@ -1,0 +1,27 @@
+{
+  "key_points": [
+    "聯準會人事 (Fed Chair)：分析新任主席人選的政策傾向，對市場流動性與降息路徑的潛在影響。",
+    "OpenAI 去輝達化 (De-Nvidia)：討論 OpenAI 積極引入 AMD、Cerebras 等第二供應商，意圖降低對 Nvidia 的依賴並議價。雖然雙方高層公開否認不合，但供應鏈多元化是明確趨勢。",
+    "AI 監管與天網 (Skynet)：探討 DeepSeek 或 OpenAI o3 等新模型展現的自主推理能力，引發對 AI 安全與「天網」成真的倫理討論。"
+  ],
+  "targets": [
+    {
+      "code": "NVDA",
+      "name": "Nvidia",
+      "view": "中性",
+      "rationale": "雖仍是霸主，但客戶 (OpenAI) 積極扶植競爭對手 (AMD/Cerebras) 構成長期隱憂。"
+    },
+    {
+      "code": "AMD",
+      "name": "AMD",
+      "view": "看多",
+      "rationale": "受惠於 OpenAI 的供應鏈多元化策略，獲得實質訂單背書。"
+    },
+    {
+      "code": "Cerebras",
+      "name": "Cerebras (未上市)",
+      "view": "看多",
+      "rationale": "與 OpenAI 簽署百億美元合約，驗證其晶片在推論 (Inference) 領域的競爭力。"
+    }
+  ]
+}

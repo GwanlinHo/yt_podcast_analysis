@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>財經 YouTube 影片重點彙整</title>
+    
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #333;
+            --border-color: #e9ecef;
+            --bullish-color: #e74c3c;
+            --bearish-color: #27ae60;
+            --neutral-color: #7f8c8d;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        h1 { margin-bottom: 10px; color: var(--primary-color); }
+        .meta { color: #666; font-size: 0.9em; }
+        
+        .creator-section {
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            padding: 25px;
+            border-top: 4px solid var(--accent-color);
+        }
+        .creator-title {
+            margin-top: 0;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .episode-block {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed var(--border-color);
+        }
+        .episode-block:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .episode-title {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .episode-title a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .episode-title a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+        .pending-badge {
+            display: inline-block;
+            background: #ffeeba;
+            color: #856404;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        
+        .summary-section, .targets-section {
+            margin-top: 15px;
+        }
+        .section-title {
+            font-weight: bold;
+            color: var(--accent-color);
+            margin-bottom: 10px;
+            display: block;
+        }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        th {
+            background-color: #f1f3f5;
+            font-weight: 600;
+        }
+        
+        .view-bull { color: var(--bullish-color); font-weight: bold; }
+        .view-bear { color: var(--bearish-color); font-weight: bold; }
+        .view-neutral { color: var(--neutral-color); font-weight: bold; }
+        
+        /* Mobile Responsive Table to Card */
+        @media screen and (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            tr {
+                border: 1px solid var(--border-color);
+                border-radius: 8px;
+                margin-bottom: 15px;
+                padding: 10px;
+                background: #fff;
+            }
+            td {
+                border: none;
+                border-bottom: 1px solid #eee;
+                position: relative;
+                padding-left: 50%;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+            td:last-child { border-bottom: none; }
+            
+            td:before {
+                position: absolute;
+                top: 8px;
+                left: 10px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: bold;
+                color: #666;
+            }
+            
+            /* Specific labels for each column */
+            td:nth-of-type(1) { /* Name/Code */
+                padding-left: 10px;
+                font-size: 1.1em;
+                font-weight: bold;
+                color: var(--primary-color);
+                background: #f8f9fa;
+                margin: -10px -10px 10px -10px;
+                border-bottom: 1px solid var(--border-color);
+                border-radius: 8px 8px 0 0;
+            }
+            td:nth-of-type(1):before { content: ""; }
+            
+            td:nth-of-type(2):before { content: "觀點"; }
+            td:nth-of-type(3):before { content: "說明"; }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>財經 YouTube 影片重點彙整</h1>
+            <div class="meta">
+                統計期間：20260202 至 20260204<br>
+                生成時間：2026/02/04 20:40
+            </div>
+        </header>
+    
+        <div class="creator-section">
+            <h2 class="creator-title">財女珍妮</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=ISg3wM-6TwI" target="_blank">2026/02/04 (三）軟體股末日真的來了嗎？AMD, LITE財報</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>市場盤勢與洗盤行情：建議降低槓桿，關注市場反彈後領先創高的強勢股。</li><li>軟體股的 AI 挑戰：市場對其未來分歧，需觀察 AI 是取代軟體還是驅動軟體升級。</li><li>AMD 財報：資料中心表現強勁，但電競與嵌入式業務復甦緩慢。</li><li>LITE (Lumentum) 財報：AI 通訊需求為增長動能，傳統通訊市場去庫存中。</li><li>散熱族群：技術路徑明確，高功耗晶片帶動高單價散熱解決方案需求。</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>低軌衛星族群 (LEO)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>資金避風港，PCB 材料需求穩定，具備避險性質。</td>
+            </tr>
+        
+            <tr>
+                <td>散熱族群 (Cooling)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>AI 晶片功耗提升，Stiffener 與 Spreader 方案帶動 ASP 成長。</td>
+            </tr>
+        
+            <tr>
+                <td>AMD (AMD)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>AI 伺服器成長強勁，但受非 AI 業務（電競、嵌入式）復甦緩慢拖累。</td>
+            </tr>
+        
+            <tr>
+                <td>Lumentum (LITE)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>受惠於 AI 帶動的雲端通訊零件需求，長期趨勢向上。</td>
+            </tr>
+        </tbody></table></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=IhB87uCyO8U" target="_blank">2026/02/03 (二）美股跌完了？馬斯克打造 1.25 兆美元的太空 AI 帝國</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>市場觀點：近期美股下跌屬於「擁擠交易的壓力釋放」，並非基本面反轉。AI 產業的真實剛需正在浮現，修正反而是機會。</li><li>馬斯克帝國：討論 SpaceX 可能併購 xAI 的傳聞，估值達 1.25 兆美元。未來十年護城河在於將 AI 算力搬上太空 (Space-based Compute)。</li><li>產業觀察 (PCB)：從日廠 Meiko 財報觀察，車用穩健、先進封裝業務爆發。看好相關技術外溢至台股 PCB 供應鏈。</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>美股 AI 板塊 (US-Tech)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>修正為籌碼面因素，剛需強勁，擁擠交易釋放後有利後市。</td>
+            </tr>
+        
+            <tr>
+                <td>Meiko (日) (JP-Meiko)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>財報顯示封裝業務爆發成長，車用業務穩健。</td>
+            </tr>
+        
+            <tr>
+                <td>台股 PCB 鏈 (TW-PCB)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>預期受惠於封裝技術升級與訂單外溢效應。</td>
+            </tr>
+        </tbody></table></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=s4YyqevD-4M" target="_blank">2026/02/02 (一）為什麼金銀崩了？OpenAI怎麼了</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>貴金屬崩跌 (沃許衝擊)：金銀價格出現罕見暴跌，主因是川普提名 Kevin Warsh 為聯準會主席，市場預期貨幣政策將轉向鷹派 (緊縮)，導致通膨避險需求銳減。</li><li>OpenAI 危機：討論 OpenAI 每日燒錢 5500 萬美元的財務壓力，以及與輝達 (Nvidia) 的競合關係。雖然 Altman 澄清與輝達不合傳聞，但市場擔憂其現金流與 AI 變現能力。</li><li>投資啟示：短期避開受政策轉向衝擊的資產 (如貴金屬)，觀察 AI 巨頭的資本支出 (Capex) 是否持續，這將是支撐硬體股價的關鍵。</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>黃金/白銀 (GC=F)</td>
+                <td><span class="view-bear">看空</span></td>
+                <td>聯準會新主席人選鷹派，美元走強預期壓抑貴金屬避險需求。</td>
+            </tr>
+        
+            <tr>
+                <td>Nvidia (NVDA)</td>
+                <td><span class="view-bull">中性偏多</span></td>
+                <td>雖有 OpenAI 合作雜音，但 AI 基礎建設需求未減，需持續關注雲端巨頭資本支出。</td>
+            </tr>
+        </tbody></table></div></div></div>
+        <div class="creator-section">
+            <h2 class="creator-title">股癌</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=4sQxL3PYXzU" target="_blank">EP633 | 🪢</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div></div>
+        <div class="creator-section">
+            <h2 class="creator-title">M觀點</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=LR2ge16AgeA" target="_blank">EP274. 聯準會新主席人選、輝達減碼 OpenAI、天網的雛形來了？ | M觀點</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>聯準會人事 (Fed Chair)：分析新任主席人選的政策傾向，對市場流動性與降息路徑的潛在影響。</li><li>OpenAI 去輝達化 (De-Nvidia)：討論 OpenAI 積極引入 AMD、Cerebras 等第二供應商，意圖降低對 Nvidia 的依賴並議價。雖然雙方高層公開否認不合，但供應鏈多元化是明確趨勢。</li><li>AI 監管與天網 (Skynet)：探討 DeepSeek 或 OpenAI o3 等新模型展現的自主推理能力，引發對 AI 安全與「天網」成真的倫理討論。</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>Nvidia (NVDA)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>雖仍是霸主，但客戶 (OpenAI) 積極扶植競爭對手 (AMD/Cerebras) 構成長期隱憂。</td>
+            </tr>
+        
+            <tr>
+                <td>AMD (AMD)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>受惠於 OpenAI 的供應鏈多元化策略，獲得實質訂單背書。</td>
+            </tr>
+        
+            <tr>
+                <td>Cerebras (未上市) (Cerebras)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>與 OpenAI 簽署百億美元合約，驗證其晶片在推論 (Inference) 領域的競爭力。</td>
+            </tr>
+        </tbody></table></div></div></div>
+    </div>
+</body>
+</html>
+    
