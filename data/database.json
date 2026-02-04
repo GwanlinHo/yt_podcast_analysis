@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-04T20:40:28.824774",
+  "last_updated": "2026-02-04T21:39:32.499544",
   "videos": {
     "IhB87uCyO8U": {
       "id": "IhB87uCyO8U",
@@ -43,7 +43,7 @@
       "url": "https://www.youtube.com/watch?v=4sQxL3PYXzU",
       "date": "20260204",
       "channel": "股癌",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-02-04T20:28:56.178471"
     }
   }
