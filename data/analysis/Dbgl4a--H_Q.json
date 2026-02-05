@@ -1,0 +1,33 @@
+{
+  "key_points": [
+    "SpaceX 併購 xAI 的垂直整合：這不僅是資本運作，更是為了結合 SpaceX 的太空通訊（Starlink）與 xAI 的強大算力。馬斯克意圖打造「天基 AI 算力網路」，利用太空低溫與太陽能優勢，克服地面資料中心的電力限制。",
+    "Google (Alphabet) 財報解析：Google 在 AI 浪潮中重拾動能，Q4 財報顯示 Google Cloud 增長強勁且利潤率提升，證明其 GenAI 產品已進入實質變現階段。然而，市場仍對傳統廣告業務的增長放緩保持警戒。",
+    "軟體產業的消滅與重塑：討論 AI 代碼生成技術（如 Cursor, Devin）是否會消滅傳統軟體公司。Miula 認為 AI 會極大化開發效率，但也導致軟體開發門檻降低，傳統以「功能開發」為核心的軟體外包與 SaaS 護城河將面臨挑戰。"
+  ],
+  "targets": [
+    {
+      "code": "SpaceX",
+      "name": "SpaceX",
+      "view": "看多",
+      "rationale": "與 xAI 合併後將成為全球估值最高的 AI+航太公司，具備無可取代的硬體與 AI 整合能力。"
+    },
+    {
+      "code": "GOOGL",
+      "name": "Alphabet",
+      "view": "看多",
+      "rationale": "AI 轉型成功，雲端業務利潤改善明顯，雖然廣告業務受宏觀影響，但 AI 搜索（SGE）進度領先。"
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "view": "看多",
+      "rationale": "xAI 與 SpaceX 持續擴建萬卡級算力中心，輝達依然是最大受益者。"
+    },
+    {
+      "code": "SaaS",
+      "name": "軟體產業 (SaaS)",
+      "view": "中性",
+      "rationale": "AI 降低開發門檻，導致競爭加劇。傳統訂閱制可能面臨價值重估，需轉向 AI Agent 服務模式。"
+    }
+  ]
+}
