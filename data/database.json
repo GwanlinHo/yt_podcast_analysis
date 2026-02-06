@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-06T07:19:55.475366",
+  "last_updated": "2026-02-07T07:21:00.154398",
   "videos": {
     "IhB87uCyO8U": {
       "id": "IhB87uCyO8U",
@@ -63,6 +63,24 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-02-05T22:45:44.525611"
+    },
+    "naks1sKH-pg": {
+      "id": "naks1sKH-pg",
+      "title": "502.【財經時事放大鏡】SpaceX x Google x 半導體設備",
+      "url": "https://www.youtube.com/watch?v=naks1sKH-pg",
+      "date": "20260205",
+      "channel": "財報狗",
+      "status": "analyzed",
+      "created_at": "2026-02-06T13:43:55.919122"
+    },
+    "8IlT9pPbxpc": {
+      "id": "8IlT9pPbxpc",
+      "title": "2026年AI變了！GPU 不是唯一解。ft. 耐能智慧創辦人 劉峻誠 博士",
+      "url": "https://www.youtube.com/watch?v=8IlT9pPbxpc",
+      "date": "20260206",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-02-06T13:44:43.072580"
     }
   }
 }

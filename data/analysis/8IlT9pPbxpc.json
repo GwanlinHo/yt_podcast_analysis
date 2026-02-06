@@ -1,0 +1,36 @@
+{
+  "key_points": [
+    "GPU在AI運算中耗電量大、碳排放高，對環境不健康。",
+    "NPU（神經網路處理器）模擬人腦，具備低功耗、高效率的特性，是GPU的替代方案。",
+    "AI的未來不僅在雲端，更在邊緣，將AI智能下沉至終端設備是不可逆的趨勢。",
+    "耐能智慧專注於NPU技術，提供低能耗、易部署、可控成本的AI解決方案，並已拿下德國和沙烏地阿拉伯的「主權AI」標案。",
+    "提出「智慧算力三角」架構：NVIDIA GPU（雲端訓練），Intel CPU（通用運算），Broadcom ASIC（雲推理），耐能NPU（終端AI）。",
+    "劉峻誠博士認為AI應走向「哆啦A夢式AI」，強調地端、邊緣運算的NPU。"
+  ],
+  "targets": [
+    {
+      "code": "Kneron",
+      "name": "耐能智慧",
+      "view": "看多",
+      "rationale": "專注於NPU和邊緣AI晶片技術，並已獲得國際主權AI標案。"
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA (輝達)",
+      "view": "中性",
+      "rationale": "GPU領域的領導者，但面臨高功耗與NPU競爭的挑戰。"
+    },
+    {
+      "code": "INTC",
+      "name": "Intel (英特爾)",
+      "view": "中性",
+      "rationale": "在「智慧算力三角」中負責通用運算。"
+    },
+    {
+      "code": "AVGO",
+      "name": "Broadcom (博通)",
+      "view": "中性",
+      "rationale": "為雲端巨頭打造客製化AI ASIC加速器。"
+    }
+  ]
+}

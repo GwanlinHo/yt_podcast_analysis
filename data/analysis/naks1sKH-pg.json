@@ -1,0 +1,40 @@
+{
+  "key_points": [
+    "馬斯克商業版圖整合：將 xAI 併入 SpaceX 以優化財務操作，並重啟 Dojo 超級電腦訓練 Optimus 機器人。",
+    "中國記憶體產業挑戰：雖然擴產計畫明確，但面臨設備取得困難與 NAND Flash 技術轉換良率瓶頸。",
+    "Google AI 戰略：大幅提升資本支出，並嘗試透過 OCS 與 CXL 技術取代昂貴的 HBM。",
+    "AI 對 SaaS 的衝擊：AI 正在重塑軟體業，缺乏獨特數據護城河的 SaaS 廠商將面臨嚴峻挑戰。"
+  ],
+  "targets": [
+    {
+      "code": "SpaceX",
+      "name": "SpaceX/xAI",
+      "view": "看多",
+      "rationale": "馬斯克科技帝國整合帶來的財務與技術綜效。"
+    },
+    {
+      "code": "TSLA",
+      "name": "特斯拉",
+      "view": "看多",
+      "rationale": "重啟 Dojo 晶片戰略積極佈局機器人與 AI 市場。"
+    },
+    {
+      "code": "Memory",
+      "name": "中國記憶體廠",
+      "view": "中性偏空",
+      "rationale": "面臨技術轉型良率與設備取得等實質挑戰。"
+    },
+    {
+      "code": "GOOGL",
+      "name": "Google",
+      "view": "看多",
+      "rationale": "資本支出大增且在 AI 底層架構（OCS/CXL）有創新佈局。"
+    },
+    {
+      "code": "SaaS",
+      "name": "軟體服務業",
+      "view": "中性偏空",
+      "rationale": "AI 衝擊既有模式，強調數據護城河的重要性。"
+    }
+  ]
+}
