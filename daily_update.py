@@ -12,9 +12,9 @@ CHANNELS = [
 ]
 
 def get_week_start_date() -> datetime.datetime:
-    """取得本週一的日期"""
+    """取得 7 天前的日期，確保覆蓋週末"""
     today = datetime.datetime.now()
-    start = today - datetime.timedelta(days=today.weekday())
+    start = today - datetime.timedelta(days=7)
     return start
 
 def main():
