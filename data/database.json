@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-09T07:24:17.455406",
+  "last_updated": "2026-02-10T07:14:30.598337",
   "videos": {
     "IhB87uCyO8U": {
       "id": "IhB87uCyO8U",
@@ -90,6 +90,33 @@
       "channel": "股癌",
       "status": "analyzed",
       "created_at": "2026-02-08T07:10:09.830836"
+    },
+    "jVGUj3MPhTE": {
+      "id": "jVGUj3MPhTE",
+      "title": "503.【達人聊產業】從工具機大腦擴展到機器人大腦 ft. 新代科技",
+      "url": "https://www.youtube.com/watch?v=jVGUj3MPhTE",
+      "date": "20260208",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-02-10T07:10:54.082798"
+    },
+    "rX6MNXgMTkg": {
+      "id": "rX6MNXgMTkg",
+      "title": "2026/02/09 (一）道瓊五萬點， AI卻跌了！高市早苗大贏，日債又要崩？",
+      "url": "https://www.youtube.com/watch?v=rX6MNXgMTkg",
+      "date": "20260209",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-02-10T07:12:23.881021"
+    },
+    "pXdnFkvVPv8": {
+      "id": "pXdnFkvVPv8",
+      "title": "EP276. 專訪 Vincent 談投資心法、AI泡沫、2026看法、中等收入陷阱、重大決策該怎麼做？Feat. 曼報Pro 共同創辦人 Vincent",
+      "url": "https://www.youtube.com/watch?v=pXdnFkvVPv8",
+      "date": "20260209",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-02-10T07:13:09.265642"
     }
   }
 }
