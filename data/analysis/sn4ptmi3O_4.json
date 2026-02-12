@@ -1,0 +1,40 @@
+{
+  "key_points": [
+    "AI工具推出引發市場對軟體股與金融服務業的衝擊擔憂",
+    "美國1月零售銷售持平顯示消費支出降溫，債市發出經濟警訊",
+    "Alphabet計劃發行逾300億美元債券，顯示大型科技股債務需求強勁",
+    "Lyft第四季財報核心指標低於預期，股價盤後重挫"
+  ],
+  "targets": [
+    {
+      "code": "SCHW-US",
+      "name": "嘉信理財",
+      "view": "看空",
+      "rationale": "AI工具推出引發市場對金融服務業衝擊的擔憂，股價下跌7.4%"
+    },
+    {
+      "code": "RJF-US",
+      "name": "Raymond James",
+      "view": "看空",
+      "rationale": "AI衝擊擔憂導致股價下跌8.7%"
+    },
+    {
+      "code": "JPM-US",
+      "name": "摩根大通",
+      "view": "中性偏多",
+      "rationale": "認為市場對軟體業受AI衝擊反應過度，高品質標的有反彈空間"
+    },
+    {
+      "code": "GOOGL-US",
+      "name": "Alphabet",
+      "view": "看多",
+      "rationale": "發行大額債券顯示市場需求強勁"
+    },
+    {
+      "code": "LYFT-US",
+      "name": "Lyft",
+      "view": "看空",
+      "rationale": "財報營收與指標低於預期，盤後重挫逾15%"
+    }
+  ]
+}
