@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-13T07:16:06.419935",
+  "last_updated": "2026-02-14T07:15:38.739044",
   "videos": {
     "IhB87uCyO8U": {
       "id": "IhB87uCyO8U",
@@ -160,7 +160,7 @@
       "url": "https://www.youtube.com/watch?v=zEj1rlIuyoM",
       "date": "20260212",
       "channel": "財女珍妮",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-02-12T16:08:53.464939"
     },
     "uupA6bVbkiU": {
@@ -171,6 +171,15 @@
       "channel": "M觀點",
       "status": "pending",
       "created_at": "2026-02-13T07:13:54.381880"
+    },
+    "35bjMrQIGzU": {
+      "id": "35bjMrQIGzU",
+      "title": "505.【財經時事放大鏡】馬年攻略 x HBM&CXL HBM4",
+      "url": "https://www.youtube.com/watch?v=35bjMrQIGzU",
+      "date": "20260212",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-02-14T07:10:54.257378"
     }
   }
 }
