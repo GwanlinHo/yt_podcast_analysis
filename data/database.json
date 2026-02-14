@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-14T07:15:38.739044",
+  "last_updated": "2026-02-15T07:15:49.681218",
   "videos": {
     "IhB87uCyO8U": {
       "id": "IhB87uCyO8U",
@@ -169,7 +169,7 @@
       "url": "https://www.youtube.com/watch?v=uupA6bVbkiU",
       "date": "20260212",
       "channel": "M觀點",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-02-13T07:13:54.381880"
     },
     "35bjMrQIGzU": {
@@ -180,6 +180,15 @@
       "channel": "財報狗",
       "status": "pending",
       "created_at": "2026-02-14T07:10:54.257378"
+    },
+    "0Htayzl_uS0": {
+      "id": "0Htayzl_uS0",
+      "title": "EP636 | 🐚",
+      "url": "https://www.youtube.com/watch?v=0Htayzl_uS0",
+      "date": "20260214",
+      "channel": "股癌",
+      "status": "pending",
+      "created_at": "2026-02-15T07:10:09.037507"
     }
   }
 }
