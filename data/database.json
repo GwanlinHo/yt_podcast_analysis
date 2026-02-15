@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-15T07:15:49.681218",
+  "last_updated": "2026-02-16T07:15:56.288793",
   "videos": {
     "IhB87uCyO8U": {
       "id": "IhB87uCyO8U",
@@ -178,7 +178,7 @@
       "url": "https://www.youtube.com/watch?v=35bjMrQIGzU",
       "date": "20260212",
       "channel": "財報狗",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-02-14T07:10:54.257378"
     },
     "0Htayzl_uS0": {
@@ -187,7 +187,7 @@
       "url": "https://www.youtube.com/watch?v=0Htayzl_uS0",
       "date": "20260214",
       "channel": "股癌",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-02-15T07:10:09.037507"
     }
   }
