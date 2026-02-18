@@ -300,7 +300,14 @@ def main():
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(html)
     
+    # 同時產生帶日期的歷史檔案
+    today_str = datetime.datetime.now().strftime('%Y-%m-%d')
+    dated_file = f"report/weekly_finance_report_{today_str}.html"
+    with open(dated_file, 'w', encoding='utf-8') as f:
+        f.write(html)
+    
     print(f"✨ 報告已生成：{OUTPUT_FILE}")
+    print(f"📜 歷史備份已儲存：{dated_file}")
 
 if __name__ == "__main__":
     main()
