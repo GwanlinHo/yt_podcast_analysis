@@ -34,11 +34,13 @@ def main():
         'ignoreerrors': True,
         'playlistend': 10,  # 檢查最近 10 部應該足夠覆蓋一週
         'extract_flat': True,
+        'js_runtime': 'node',
     }
 
     ydl_opts_detail = {
         'quiet': True,
         'ignoreerrors': True,
+        'js_runtime': 'node',
     }
 
     new_videos_count = 0
@@ -114,7 +116,7 @@ def main():
     print(f"\n✨ 更新完成！新增 {new_videos_count} 部影片。")
 
     # 這裡未來會觸發 generate_report.py
-    # os.system("python3 generate_report.py")
+    # os.system("uv run generate_report.py")
 
 if __name__ == "__main__":
     main()

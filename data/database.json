@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-16T07:15:56.288793",
+  "last_updated": "2026-02-18T15:45:33.313254",
   "videos": {
     "IhB87uCyO8U": {
       "id": "IhB87uCyO8U",
@@ -189,6 +189,24 @@
       "channel": "股癌",
       "status": "analyzed",
       "created_at": "2026-02-15T07:10:09.037507"
+    },
+    "_4QZka0ZKIA": {
+      "id": "_4QZka0ZKIA",
+      "title": "EP278. 近期美股市場看法、豐盛之下什麼稀缺、過年連假好書推薦 | M觀點",
+      "url": "https://www.youtube.com/watch?v=_4QZka0ZKIA",
+      "date": "20260216",
+      "channel": "M觀點",
+      "status": "analyzed",
+      "created_at": "2026-02-17T18:04:09.084760"
+    },
+    "oqUR6rDIuBg": {
+      "id": "oqUR6rDIuBg",
+      "title": "2026/02/18(三）蘋果反攻，SanDisk   閃迪怎麼了？",
+      "url": "https://www.youtube.com/watch?v=oqUR6rDIuBg",
+      "date": "20260218",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-02-18T12:16:23.582577"
     }
   }
 }

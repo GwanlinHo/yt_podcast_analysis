@@ -28,11 +28,13 @@ def main():
         'ignoreerrors': True,
         'playlistend': 10,
         'extract_flat': True,
+        'js_runtime': 'node',
     }
 
     ydl_opts_detail_base = {
         'quiet': True,
         'ignoreerrors': True,
+        'js_runtime': 'node',
     }
 
     md_lines = []

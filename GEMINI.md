@@ -13,7 +13,7 @@
 ### 1. 每日更新與啟動 (`@daily_update`)
 **時機**: 每日早晨，或使用者要求「更新片單」時。
 **動作**:
-1.  **更新資料庫**: 執行 `python3 daily_update.py`。
+1.  **更新資料庫**: 執行 `uv run daily_update.py`。
 2.  **檢查狀態**:
     *   若無新影片 (Pending = 0)：回報「今日無新影片，目前資料庫已同步」。
     *   **若有新影片 (Pending > 0)**：
@@ -56,13 +56,13 @@
     Storage().save_analysis("TARGET_VIDEO_ID", content)
     ```
 5.  **更新報表**:
-    *   執行 `python3 generate_report.py`。
+    *   執行 `uv run generate_report.py`。
     *   回報「已完成 [影片標題] 的分析與歸檔」。
 
 ### 3. 發布與同步 (`@publish`)
 **時機**: 分析工作告一段落，或使用者要求「上傳報告」。
 **動作**:
-1.  執行 `python3 generate_report.py` (確保最新)。
+1.  執行 `uv run generate_report.py` (確保最新)。
 2.  執行 `./sync.sh` (Git Commit & Push)。
 
 ---
