@@ -1,40 +1,41 @@
 {
   "key_points": [
-    "馬斯克商業版圖整合：將 xAI 併入 SpaceX 以優化財務操作，並重啟 Dojo 超級電腦訓練 Optimus 機器人。",
-    "中國記憶體產業挑戰：雖然擴產計畫明確，但面臨設備取得困難與 NAND Flash 技術轉換良率瓶頸。",
-    "Google AI 戰略：大幅提升資本支出，並嘗試透過 OCS 與 CXL 技術取代昂貴的 HBM。",
-    "AI 對 SaaS 的衝擊：AI 正在重塑軟體業，缺乏獨特數據護城河的 SaaS 廠商將面臨嚴峻挑戰。"
+    "馬斯克商業版圖整合：討論 SpaceX、特斯拉與 xAI 的財務與技術協作，特別是將 xAI 併入 SpaceX 的合理性與 Dojo 超級電腦對 Optimus 機器人訓練的策略意圖。",
+    "軌道資料中心與晶片瓶頸：馬斯克預見 AI 擴張導致電力與電力傳輸挑戰，提出軌道資料中心構想，但認為晶片產能（如 terafab）仍是核心瓶頸。",
+    "記憶體產業超級週期：AI 數據中心爆發帶動 DRAM 需求，雖然中國記憶體擴產帶來潛在競爭，但設備取得與良率挑戰仍大，整體產業受 AI 需求驅動。",
+    "Google AI 佈局與技術革新：分析 Google 增加資本支出對市場的影響，以及其研發 OCS（光學計算切換）與 CXL 技術以取代部分 HBM 需求的技術路徑。",
+    "SaaS 產業的 AI 衝擊：探討 AI 技術對傳統軟體服務業的挑戰，強調擁有獨特資料護城河的公司才能在 AI 浪潮中生存。"
   ],
   "targets": [
     {
       "code": "SpaceX",
-      "name": "SpaceX/xAI",
+      "name": "SpaceX",
       "view": "看多",
-      "rationale": "馬斯克科技帝國整合帶來的財務與技術綜效。"
+      "rationale": "馬斯克旗下資源整合，軌道衛星與 AI 運算結合具備前瞻性。"
     },
     {
       "code": "TSLA",
       "name": "特斯拉",
       "view": "看多",
-      "rationale": "重啟 Dojo 晶片戰略積極佈局機器人與 AI 市場。"
-    },
-    {
-      "code": "Memory",
-      "name": "中國記憶體廠",
-      "view": "中性偏空",
-      "rationale": "面臨技術轉型良率與設備取得等實質挑戰。"
+      "rationale": "Dojo 超級電腦重啟訓練 Optimus，展現 AI 應用深度。"
     },
     {
       "code": "GOOGL",
       "name": "Google",
       "view": "看多",
-      "rationale": "資本支出大增且在 AI 底層架構（OCS/CXL）有創新佈局。"
+      "rationale": "持續增加 AI 資本支出，並透過 OCS 與 CXL 技術建立硬體架構優勢。"
     },
     {
-      "code": "SaaS",
-      "name": "軟體服務業",
-      "view": "中性偏空",
-      "rationale": "AI 衝擊既有模式，強調數據護城河的重要性。"
+      "code": "MU",
+      "name": "美光",
+      "view": "看多",
+      "rationale": "AI 數據中心帶動 DRAM 與 HBM 需求進入超級週期。"
+    },
+    {
+      "code": "TSM",
+      "name": "台積電",
+      "view": "看多",
+      "rationale": "身為 AI 晶片主要代工方，受惠於馬斯克與各巨頭對先進產能的需求。"
     }
   ]
 }

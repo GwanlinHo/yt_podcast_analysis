@@ -1,27 +1,21 @@
 {
   "key_points": [
-    "聯準會人事 (Fed Chair)：分析新任主席人選的政策傾向，對市場流動性與降息路徑的潛在影響。",
-    "OpenAI 去輝達化 (De-Nvidia)：討論 OpenAI 積極引入 AMD、Cerebras 等第二供應商，意圖降低對 Nvidia 的依賴並議價。雖然雙方高層公開否認不合，但供應鏈多元化是明確趨勢。",
-    "AI 監管與天網 (Skynet)：探討 DeepSeek 或 OpenAI o3 等新模型展現的自主推理能力，引發對 AI 安全與「天網」成真的倫理討論。"
+    "川普提名聯準會新主席人選，市場關注 Kevin Warsh 與 Scott Bessent 的政策立場，尤其是對於通膨與利率的態度。",
+    "輝達在 OpenAI 的新融資案中表現相對低調，顯示 OpenAI 可能正尋求晶片來源多樣化以降低對輝達的依賴。",
+    "OpenAI 推出名為 Operator 的 AI Agent，能直接在電腦上執行任務，被視為通往通用人工智慧（AGI）與高度自動化社會的關鍵步驟（天網雛形）。"
   ],
   "targets": [
     {
       "code": "NVDA",
-      "name": "Nvidia",
+      "name": "輝達",
       "view": "中性",
-      "rationale": "雖仍是霸主，但客戶 (OpenAI) 積極扶植競爭對手 (AMD/Cerebras) 構成長期隱憂。"
+      "rationale": "OpenAI 尋求自研晶片或替代方案可能影響長期增長動能，但短期需求仍強。"
     },
     {
-      "code": "AMD",
-      "name": "AMD",
+      "code": "AAPL",
+      "name": "蘋果",
       "view": "看多",
-      "rationale": "受惠於 OpenAI 的供應鏈多元化策略，獲得實質訂單背書。"
-    },
-    {
-      "code": "Cerebras",
-      "name": "Cerebras (未上市)",
-      "view": "看多",
-      "rationale": "與 OpenAI 簽署百億美元合約，驗證其晶片在推論 (Inference) 領域的競爭力。"
+      "rationale": "AI Agent 的發展將帶動終端設備硬體升級需求。"
     }
   ]
 }
