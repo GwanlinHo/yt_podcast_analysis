@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T05:01:07.155133",
+  "last_updated": "2026-02-20T04:00:58.631571",
   "videos": {
     "IhB87uCyO8U": {
       "id": "IhB87uCyO8U",
@@ -79,7 +79,7 @@
       "url": "https://www.youtube.com/watch?v=8IlT9pPbxpc",
       "date": "20260206",
       "channel": "財女珍妮",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-02-06T13:44:43.072580"
     },
     "u0UXVRfBPIc": {
@@ -88,7 +88,7 @@
       "url": "https://www.youtube.com/watch?v=u0UXVRfBPIc",
       "date": "20260207",
       "channel": "股癌",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-02-08T07:10:09.830836"
     },
     "jVGUj3MPhTE": {
@@ -97,7 +97,7 @@
       "url": "https://www.youtube.com/watch?v=jVGUj3MPhTE",
       "date": "20260208",
       "channel": "財報狗",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-02-10T07:10:54.082798"
     },
     "rX6MNXgMTkg": {
@@ -106,7 +106,7 @@
       "url": "https://www.youtube.com/watch?v=rX6MNXgMTkg",
       "date": "20260209",
       "channel": "財女珍妮",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-02-10T07:12:23.881021"
     },
     "pXdnFkvVPv8": {
@@ -115,7 +115,7 @@
       "url": "https://www.youtube.com/watch?v=pXdnFkvVPv8",
       "date": "20260209",
       "channel": "M觀點",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-02-10T07:13:09.265642"
     },
     "QOP-f5b2RWI": {
@@ -124,7 +124,7 @@
       "url": "https://www.youtube.com/watch?v=QOP-f5b2RWI",
       "date": "20260210",
       "channel": "財女珍妮",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-02-11T07:12:25.486663"
     },
     "yq3qs9fJr5E": {
@@ -216,6 +216,24 @@
       "channel": "股癌",
       "status": "analyzed",
       "created_at": "2026-02-18T18:00:53.221369"
+    },
+    "Cr7Bs67oWtQ": {
+      "id": "Cr7Bs67oWtQ",
+      "title": "2026/02/19(四）美國經濟陷入無就業繁榮， FED會升息嗎？",
+      "url": "https://www.youtube.com/watch?v=Cr7Bs67oWtQ",
+      "date": "20260219",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-02-20T02:00:37.724688"
+    },
+    "kQd00_Ak4kY": {
+      "id": "kQd00_Ak4kY",
+      "title": "EP279. M觀點感謝祭特別集 - 川普執政一周年總評｜M觀點",
+      "url": "https://www.youtube.com/watch?v=kQd00_Ak4kY",
+      "date": "20260219",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-02-20T02:00:49.467076"
     }
   }
 }
