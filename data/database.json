@@ -1,213 +1,6 @@
 {
-  "last_updated": "2026-02-20T04:00:58.631571",
+  "last_updated": "2026-02-22T02:03:03.725366",
   "videos": {
-    "IhB87uCyO8U": {
-      "id": "IhB87uCyO8U",
-      "title": "2026/02/03 (二）美股跌完了？馬斯克打造 1.25 兆美元的太空 AI 帝國",
-      "url": "https://www.youtube.com/watch?v=IhB87uCyO8U",
-      "date": "20260203",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-02-03T22:47:11.342237"
-    },
-    "s4YyqevD-4M": {
-      "id": "s4YyqevD-4M",
-      "title": "2026/02/02 (一）為什麼金銀崩了？OpenAI怎麼了",
-      "url": "https://www.youtube.com/watch?v=s4YyqevD-4M",
-      "date": "20260202",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-02-03T22:47:17.925803"
-    },
-    "LR2ge16AgeA": {
-      "id": "LR2ge16AgeA",
-      "title": "EP274. 聯準會新主席人選、輝達減碼 OpenAI、天網的雛形來了？ | M觀點",
-      "url": "https://www.youtube.com/watch?v=LR2ge16AgeA",
-      "date": "20260202",
-      "channel": "M觀點",
-      "status": "analyzed",
-      "created_at": "2026-02-03T22:49:22.937650"
-    },
-    "ISg3wM-6TwI": {
-      "id": "ISg3wM-6TwI",
-      "title": "2026/02/04 (三）軟體股末日真的來了嗎？AMD, LITE財報",
-      "url": "https://www.youtube.com/watch?v=ISg3wM-6TwI",
-      "date": "20260204",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-02-04T15:33:21.216543"
-    },
-    "4sQxL3PYXzU": {
-      "id": "4sQxL3PYXzU",
-      "title": "EP633 | 🪢",
-      "url": "https://www.youtube.com/watch?v=4sQxL3PYXzU",
-      "date": "20260204",
-      "channel": "股癌",
-      "status": "analyzed",
-      "created_at": "2026-02-04T20:28:56.178471"
-    },
-    "IN3jHiWSxho": {
-      "id": "IN3jHiWSxho",
-      "title": "2026/02/05 (四）軟體股末日真的來了嗎？Google漲不動",
-      "url": "https://www.youtube.com/watch?v=IN3jHiWSxho",
-      "date": "20260205",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-02-05T22:43:52.437983"
-    },
-    "Dbgl4a--H_Q": {
-      "id": "Dbgl4a--H_Q",
-      "title": "EP275. SpaceX 併 xAI、谷哥財報超級強、軟體產業會被消滅嗎 | M觀點",
-      "url": "https://www.youtube.com/watch?v=Dbgl4a--H_Q",
-      "date": "20260205",
-      "channel": "M觀點",
-      "status": "analyzed",
-      "created_at": "2026-02-05T22:45:44.525611"
-    },
-    "naks1sKH-pg": {
-      "id": "naks1sKH-pg",
-      "title": "502.【財經時事放大鏡】SpaceX x Google x 半導體設備",
-      "url": "https://www.youtube.com/watch?v=naks1sKH-pg",
-      "date": "20260205",
-      "channel": "財報狗",
-      "status": "analyzed",
-      "created_at": "2026-02-06T13:43:55.919122"
-    },
-    "8IlT9pPbxpc": {
-      "id": "8IlT9pPbxpc",
-      "title": "2026年AI變了！GPU 不是唯一解。ft. 耐能智慧創辦人 劉峻誠 博士",
-      "url": "https://www.youtube.com/watch?v=8IlT9pPbxpc",
-      "date": "20260206",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-02-06T13:44:43.072580"
-    },
-    "u0UXVRfBPIc": {
-      "id": "u0UXVRfBPIc",
-      "title": "EP634 | 👻",
-      "url": "https://www.youtube.com/watch?v=u0UXVRfBPIc",
-      "date": "20260207",
-      "channel": "股癌",
-      "status": "analyzed",
-      "created_at": "2026-02-08T07:10:09.830836"
-    },
-    "jVGUj3MPhTE": {
-      "id": "jVGUj3MPhTE",
-      "title": "503.【達人聊產業】從工具機大腦擴展到機器人大腦 ft. 新代科技",
-      "url": "https://www.youtube.com/watch?v=jVGUj3MPhTE",
-      "date": "20260208",
-      "channel": "財報狗",
-      "status": "analyzed",
-      "created_at": "2026-02-10T07:10:54.082798"
-    },
-    "rX6MNXgMTkg": {
-      "id": "rX6MNXgMTkg",
-      "title": "2026/02/09 (一）道瓊五萬點， AI卻跌了！高市早苗大贏，日債又要崩？",
-      "url": "https://www.youtube.com/watch?v=rX6MNXgMTkg",
-      "date": "20260209",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-02-10T07:12:23.881021"
-    },
-    "pXdnFkvVPv8": {
-      "id": "pXdnFkvVPv8",
-      "title": "EP276. 專訪 Vincent 談投資心法、AI泡沫、2026看法、中等收入陷阱、重大決策該怎麼做？Feat. 曼報Pro 共同創辦人 Vincent",
-      "url": "https://www.youtube.com/watch?v=pXdnFkvVPv8",
-      "date": "20260209",
-      "channel": "M觀點",
-      "status": "analyzed",
-      "created_at": "2026-02-10T07:13:09.265642"
-    },
-    "QOP-f5b2RWI": {
-      "id": "QOP-f5b2RWI",
-      "title": "2026/02/10 (二）谷歌發百年債，Seedance太恐怖，AI到底有沒有泡沫？",
-      "url": "https://www.youtube.com/watch?v=QOP-f5b2RWI",
-      "date": "20260210",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-02-11T07:12:25.486663"
-    },
-    "yq3qs9fJr5E": {
-      "id": "yq3qs9fJr5E",
-      "title": "EP635 | 🌴",
-      "url": "https://www.youtube.com/watch?v=yq3qs9fJr5E",
-      "date": "20260211",
-      "channel": "股癌",
-      "status": "pending",
-      "created_at": "2026-02-11T20:36:25.084880"
-    },
-    "bWNxybKAkLQ": {
-      "id": "bWNxybKAkLQ",
-      "title": "504.【台股美股提款機】晶圓代工追蹤：先進製程 2026 年供不應求加劇，成熟製程 8 吋優於 12 吋",
-      "url": "https://www.youtube.com/watch?v=bWNxybKAkLQ",
-      "date": "20260210",
-      "channel": "財報狗",
-      "status": "pending",
-      "created_at": "2026-02-11T20:37:44.532148"
-    },
-    "sn4ptmi3O_4": {
-      "id": "sn4ptmi3O_4",
-      "title": "2026/02/11 (三) 台積電超強， 救不了美股？",
-      "url": "https://www.youtube.com/watch?v=sn4ptmi3O_4",
-      "date": "20260211",
-      "channel": "財女珍妮",
-      "status": "pending",
-      "created_at": "2026-02-11T20:40:02.365258"
-    },
-    "zEj1rlIuyoM": {
-      "id": "zEj1rlIuyoM",
-      "title": "2026/02/12 (四）非農就業穩，不降息 美股還能漲？",
-      "url": "https://www.youtube.com/watch?v=zEj1rlIuyoM",
-      "date": "20260212",
-      "channel": "財女珍妮",
-      "status": "pending",
-      "created_at": "2026-02-12T16:08:53.464939"
-    },
-    "uupA6bVbkiU": {
-      "id": "uupA6bVbkiU",
-      "title": "EP277. 幫高市早苗拚經濟、SpaceX 先拚月球、旗艦模型同日對決 | M觀點",
-      "url": "https://www.youtube.com/watch?v=uupA6bVbkiU",
-      "date": "20260212",
-      "channel": "M觀點",
-      "status": "pending",
-      "created_at": "2026-02-13T07:13:54.381880"
-    },
-    "35bjMrQIGzU": {
-      "id": "35bjMrQIGzU",
-      "title": "505.【財經時事放大鏡】馬年攻略 x HBM&CXL HBM4",
-      "url": "https://www.youtube.com/watch?v=35bjMrQIGzU",
-      "date": "20260212",
-      "channel": "財報狗",
-      "status": "pending",
-      "created_at": "2026-02-14T07:10:54.257378"
-    },
-    "0Htayzl_uS0": {
-      "id": "0Htayzl_uS0",
-      "title": "EP636 | 🐚",
-      "url": "https://www.youtube.com/watch?v=0Htayzl_uS0",
-      "date": "20260214",
-      "channel": "股癌",
-      "status": "pending",
-      "created_at": "2026-02-15T07:10:09.037507"
-    },
-    "_4QZka0ZKIA": {
-      "id": "_4QZka0ZKIA",
-      "title": "EP278. 近期美股市場看法、豐盛之下什麼稀缺、過年連假好書推薦 | M觀點",
-      "url": "https://www.youtube.com/watch?v=_4QZka0ZKIA",
-      "date": "20260216",
-      "channel": "M觀點",
-      "status": "pending",
-      "created_at": "2026-02-17T18:04:09.084760"
-    },
-    "oqUR6rDIuBg": {
-      "id": "oqUR6rDIuBg",
-      "title": "2026/02/18(三）蘋果反攻，SanDisk   閃迪怎麼了？",
-      "url": "https://www.youtube.com/watch?v=oqUR6rDIuBg",
-      "date": "20260218",
-      "channel": "財女珍妮",
-      "status": "pending",
-      "created_at": "2026-02-18T12:16:23.582577"
-    },
     "MsKuUG5lRzg": {
       "id": "MsKuUG5lRzg",
       "title": "EP637 | 🦖",
@@ -215,7 +8,16 @@
       "date": "20260218",
       "channel": "股癌",
       "status": "analyzed",
-      "created_at": "2026-02-18T18:00:53.221369"
+      "created_at": "2026-02-21T02:00:05.950034"
+    },
+    "0Htayzl_uS0": {
+      "id": "0Htayzl_uS0",
+      "title": "EP636 | 🐚",
+      "url": "https://www.youtube.com/watch?v=0Htayzl_uS0",
+      "date": "20260214",
+      "channel": "股癌",
+      "status": "analyzed",
+      "created_at": "2026-02-21T02:00:06.909076"
     },
     "Cr7Bs67oWtQ": {
       "id": "Cr7Bs67oWtQ",
@@ -223,8 +25,17 @@
       "url": "https://www.youtube.com/watch?v=Cr7Bs67oWtQ",
       "date": "20260219",
       "channel": "財女珍妮",
-      "status": "pending",
-      "created_at": "2026-02-20T02:00:37.724688"
+      "status": "analyzed",
+      "created_at": "2026-02-21T02:00:40.148300"
+    },
+    "oqUR6rDIuBg": {
+      "id": "oqUR6rDIuBg",
+      "title": "2026/02/18(三）蘋果反攻，SanDisk   閃迪怎麼了？",
+      "url": "https://www.youtube.com/watch?v=oqUR6rDIuBg",
+      "date": "20260218",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-02-21T02:00:41.227302"
     },
     "kQd00_Ak4kY": {
       "id": "kQd00_Ak4kY",
@@ -232,8 +43,26 @@
       "url": "https://www.youtube.com/watch?v=kQd00_Ak4kY",
       "date": "20260219",
       "channel": "M觀點",
+      "status": "analyzed",
+      "created_at": "2026-02-21T02:00:51.692123"
+    },
+    "_4QZka0ZKIA": {
+      "id": "_4QZka0ZKIA",
+      "title": "EP278. 近期美股市場看法、豐盛之下什麼稀缺、過年連假好書推薦 | M觀點",
+      "url": "https://www.youtube.com/watch?v=_4QZka0ZKIA",
+      "date": "20260216",
+      "channel": "M觀點",
+      "status": "analyzed",
+      "created_at": "2026-02-21T02:01:02.189874"
+    },
+    "kn9xHoNK1Qs": {
+      "id": "kn9xHoNK1Qs",
+      "title": "EP638 | 🐈‍⬛",
+      "url": "https://www.youtube.com/watch?v=kn9xHoNK1Qs",
+      "date": "20260221",
+      "channel": "股癌",
       "status": "pending",
-      "created_at": "2026-02-20T02:00:49.467076"
+      "created_at": "2026-02-22T02:00:05.495941"
     }
   }
 }

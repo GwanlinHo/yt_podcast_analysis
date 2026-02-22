@@ -77,8 +77,9 @@ class Storage:
             return False
 
     def get_pending_videos(self) -> List[Video]:
-        """Returns list of videos with status 'pending'."""
-        return [v for v in self.videos.values() if v.status == "pending"]
+        """Returns list of videos with status 'pending', sorted by date (oldest first)."""
+        pending = [v for v in self.videos.values() if v.status == "pending"]
+        return sorted(pending, key=lambda x: x.date)
 
     def get_videos_by_date_range(self, start_date: str, end_date: str) -> List[Video]:
         """
