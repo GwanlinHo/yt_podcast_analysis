@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22T02:03:03.725366",
+  "last_updated": "2026-02-25T00:32:11.251984",
   "videos": {
     "MsKuUG5lRzg": {
       "id": "MsKuUG5lRzg",
@@ -61,8 +61,26 @@
       "url": "https://www.youtube.com/watch?v=kn9xHoNK1Qs",
       "date": "20260221",
       "channel": "股癌",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-02-22T02:00:05.495941"
+    },
+    "JgDdOAMSA7c": {
+      "id": "JgDdOAMSA7c",
+      "title": "2026/02/23(一）關稅戰不下去了？",
+      "url": "https://www.youtube.com/watch?v=JgDdOAMSA7c",
+      "date": "20260223",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-02-24T02:01:33.923153"
+    },
+    "jcQl1DiXa7Y": {
+      "id": "jcQl1DiXa7Y",
+      "title": "EP280. 川普關稅被逼變陣、Grok 4.20 體感很強、微軟遊戲高管換血 | M觀點",
+      "url": "https://www.youtube.com/watch?v=jcQl1DiXa7Y",
+      "date": "20260223",
+      "channel": "M觀點",
+      "status": "analyzed",
+      "created_at": "2026-02-24T02:01:55.220480"
     }
   }
 }
