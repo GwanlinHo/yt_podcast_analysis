@@ -1,0 +1,61 @@
+{
+  "key_points": [
+    "AI 智能替代螺旋：AI 進步導致白領階級大規模失業，減少消費，形成惡性循環。",
+    "2028 年金融危機情境：預測美國失業率可能達 10.2%，標普 500 指數重挫近四成。",
+    "房地產與私人信貸市場崩潰：高收入白領失業引發優質房貸違約潮，私募信貸市場癱瘓。",
+    "「摩擦」商業模式瓦解：AI 代理繞過中間商和交易費用，衝擊信用卡及支付商獲利。",
+    "軟體產業衝擊：AI 取代 SaaS 服務與自動化編碼，導致大規模裁員並衝擊訂閱模式。",
+    "「幽靈 GDP」現象：經濟產出增加但消費力下降，資金未在實體經濟中流通。",
+    "市場恐慌與「傻錢」：AI 的顛覆性引發恐慌交易與劇烈波動，大量盲目資金湧入。"
+  ],
+  "targets": [
+    {
+      "code": "NOW",
+      "name": "ServiceNow",
+      "view": "看空",
+      "rationale": "AI 取代 SaaS 服務與按人頭計費模式"
+    },
+    {
+      "code": "CRM",
+      "name": "Salesforce",
+      "view": "看空",
+      "rationale": "AI 取代 SaaS 服務與按人頭計費模式"
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "view": "看空",
+      "rationale": "按人頭計價的軟體訂閱模式受威脅"
+    },
+    {
+      "code": "MA",
+      "name": "Mastercard",
+      "view": "看空",
+      "rationale": "AI 代理繞過中間商交易費用"
+    },
+    {
+      "code": "V",
+      "name": "Visa",
+      "view": "看空",
+      "rationale": "AI 代理繞過中間商交易費用"
+    },
+    {
+      "code": "IBM",
+      "name": "IBM",
+      "view": "看空",
+      "rationale": "AI 自動化 COBOL 編碼降低技術壁壘"
+    },
+    {
+      "code": "CRWD",
+      "name": "CrowdStrike",
+      "view": "看空",
+      "rationale": "AI 可能取代部分資安檢測與維護需求"
+    },
+    {
+      "code": "DASH",
+      "name": "DoorDash",
+      "view": "看空",
+      "rationale": "AI 代理改變傳統餐飲服務與撮合模式"
+    }
+  ]
+}
