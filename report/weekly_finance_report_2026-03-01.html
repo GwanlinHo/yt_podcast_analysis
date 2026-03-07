@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>財經 YouTube 影片重點彙整</title>
+    
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #333;
+            --border-color: #e9ecef;
+            --bullish-color: #e74c3c;
+            --bearish-color: #27ae60;
+            --neutral-color: #7f8c8d;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        h1 { margin-bottom: 10px; color: var(--primary-color); }
+        .meta { color: #666; font-size: 0.9em; }
+        
+        .creator-section {
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            padding: 25px;
+            border-top: 4px solid var(--accent-color);
+        }
+        .creator-title {
+            margin-top: 0;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .episode-block {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed var(--border-color);
+        }
+        .episode-block:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .episode-title {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .episode-title a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .episode-title a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+        .pending-badge {
+            display: inline-block;
+            background: #ffeeba;
+            color: #856404;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        
+        .summary-section, .targets-section {
+            margin-top: 15px;
+        }
+        .section-title {
+            font-weight: bold;
+            color: var(--accent-color);
+            margin-bottom: 10px;
+            display: block;
+        }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        th {
+            background-color: #f1f3f5;
+            font-weight: 600;
+        }
+        
+        .view-bull { color: var(--bullish-color); font-weight: bold; }
+        .view-bear { color: var(--bearish-color); font-weight: bold; }
+        .view-neutral { color: var(--neutral-color); font-weight: bold; }
+        
+        /* Mobile Responsive Table to Card */
+        @media screen and (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            tr {
+                border: 1px solid var(--border-color);
+                border-radius: 8px;
+                margin-bottom: 15px;
+                padding: 10px;
+                background: #fff;
+            }
+            td {
+                border: none;
+                border-bottom: 1px solid #eee;
+                position: relative;
+                padding-left: 50%;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+            td:last-child { border-bottom: none; }
+            
+            td:before {
+                position: absolute;
+                top: 8px;
+                left: 10px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: bold;
+                color: #666;
+            }
+            
+            /* Specific labels for each column */
+            td:nth-of-type(1) { /* Name/Code */
+                padding-left: 10px;
+                font-size: 1.1em;
+                font-weight: bold;
+                color: var(--primary-color);
+                background: #f8f9fa;
+                margin: -10px -10px 10px -10px;
+                border-bottom: 1px solid var(--border-color);
+                border-radius: 8px 8px 0 0;
+            }
+            td:nth-of-type(1):before { content: ""; }
+            
+            td:nth-of-type(2):before { content: "觀點"; }
+            td:nth-of-type(3):before { content: "說明"; }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>財經 YouTube 影片重點彙整</h1>
+            <div class="meta">
+                統計期間：20260223 至 20260301<br>
+                生成時間：2026/03/01 04:00
+            </div>
+        </header>
+    
+        <div class="creator-section">
+            <h2 class="creator-title">股癌</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=mDGpvZ44vuk" target="_blank">EP640 | 🐈</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>市場近期呈現極端分化，亞洲股市（特別是台股）表現強勁，美股則相對低迷。</li><li>主委在農曆年前減碼後，於開紅盤後補回部位。</li><li>本集重點研究太陽能產業，認為 IRA 政策、AI 電力需求及非中系供應鏈轉移是三大動能。</li><li>資安股被市場錯殺，AI Agent 時代將增加資安需求。</li><li>強調整個週期走完後的獲利，不要過度在意短期市場波動。</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>太陽能 (非中系) (SOLAR)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>IRA 政策補貼、AI 資料中心電力需求、供應鏈去中化轉機。</td>
+            </tr>
+        
+            <tr>
+                <td>CrowdStrike (資安股) (CRWD)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>市場對 AI 衝擊資安股過度反應，看好 AI Agent 帶來的潛力。</td>
+            </tr>
+        
+            <tr>
+                <td>Nvidia (GTC大會) (NVDA)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>GTC 大會傳聞與對 AI 趨勢維持樂觀的心法。</td>
+            </tr>
+        </tbody></table></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=Y3UKwjPIVeE" target="_blank">EP639 | 🐗</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>市場資金輪動快速，台日股表現強勁但美股科技股體感較差，建議保持配置彈性。</li><li>操作應隨機率新高參與，以獲利墊底往上打，避免極端切換部位。</li><li>NVIDIA GTC 展望：關注 CPO 技術與 Groq/SRAM 整合對伺服器架構的影響。</li><li>太陽能產業去中化契機：美國 IRA 法案與排除中資形成供給真空，利好在地製造。</li><li>電網瓶頸：變壓器交期長達 3 年，為目前能源建設的主要瓶頸。</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>欣興 (3037)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>ABF/BT 載板缺貨漲價題材</td>
+            </tr>
+        
+            <tr>
+                <td>弘塑 (3131)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>無塵室與封裝設備需求復活</td>
+            </tr>
+        
+            <tr>
+                <td>華城 (1519)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>受益於全球變壓器產能瓶頸與交期拉長</td>
+            </tr>
+        
+            <tr>
+                <td>元晶 (6443)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>受益於去中化政策與衛星題材</td>
+            </tr>
+        
+            <tr>
+                <td>鴻海 (2317)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>受惠 AI Server 但需關注整體毛利與競爭</td>
+            </tr>
+        </tbody></table></div></div></div>
+        <div class="creator-section">
+            <h2 class="creator-title">財女珍妮</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=JYvCpc-tUzY" target="_blank">2026/02/27(五）美國人真的不會做股票，美股怎麼了？</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=xx-DXZcnu14" target="_blank">2026/02/26(四）輝達 (NVDA) 財報能救美股？ Salesforce (CRM) 沒救了？</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=aDhJk4-ouJA" target="_blank">2026/02/25(三）反彈！台積電再創高，輝達財報能更好嗎</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=ZCi_1knajYU" target="_blank">2026/02/24(二）AI恐慌交易， 2028年金融危機？</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>Citrini Research 的《2028 全球智能危機》探討 AI 過於成功導致的結構性經濟破壞。</li><li>核心概念「智能過剩」與「幽靈 GDP」：AI 提升生產力使資本方獲利，但「機器不消費」且裁員將導致佔 GDP 70% 的消費縮減。</li><li>推演五階段：2026 代理式 AI 爆發與 SaaS 訂閱銳減 -> 2026 底白領裁員與股市虛假繁榮 -> 2027 消費自動化與中介（支付、房仲、保險）消失 -> 2027 底高信用房貸違約潮 -> 2028 結構性大蕭條（失業率 10.2%）。</li><li>K 型經濟極端化：資本家更富，但中產階級失去議價能力與消費能力。</li><li>投資建議：避開單純賺取「資訊落差」或「交易摩擦」的公司，關注「核心算力」與「不可替代數據」。</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>SaaS 軟體 (Salesforce/ServiceNow) (CRM/NOW)</td>
+                <td><span class="view-bear">看空</span></td>
+                <td>企業轉向自建 AI 代理，取消按人頭計費的訂閱模式。</td>
+            </tr>
+        
+            <tr>
+                <td>金融支付 (Visa/Mastercard/Amex) (V/MA/AXP)</td>
+                <td><span class="view-bear">看空</span></td>
+                <td>AI 代理將繞過傳統系統，採用低成本穩定幣結算。</td>
+            </tr>
+        
+            <tr>
+                <td>IT 服務與外包 (IBM/Infosys)</td>
+                <td><span class="view-bear">看空</span></td>
+                <td>AI 編碼代理大幅降低開發與維護成本，取代人力外包。</td>
+            </tr>
+        
+            <tr>
+                <td>算力基礎設施 (輝達/台積電) (NVDA/TSM)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>儘管整體經濟有下行風險，但算力仍是企業提升效能、降低成本的保命設備。</td>
+            </tr>
+        </tbody></table></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=JgDdOAMSA7c" target="_blank">2026/02/23(一）關稅戰不下去了？</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>美國最高法院裁定川普援引 IEEPA 課徵的全球關稅違法，因總統無權單方面干涉國會課稅權。</li><li>此判決理論上開啟了約 1,300 億美元已繳關稅退款的可能性，對美國進口商是重大利多。</li><li>川普迅速改換法源，依據《貿易法》第 122 條宣佈 2/24 起課徵 10%~15% 的全球臨時關稅。</li><li>鋼鐵、鋁（232 條款）及對華（301 條款）關稅不受判決影響，關稅戰進入法源變換的新階段。</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>美國進口商 (IMPORT)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>最高法院裁定舊關稅違法，有望獲得巨額退稅。</td>
+            </tr>
+        
+            <tr>
+                <td>鋼鐵與鋁業 (STEEL_ALU)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>232 條款關稅不受判決影響，產業保護維持不變。</td>
+            </tr>
+        
+            <tr>
+                <td>中國供應鏈 (CHINA_SC)</td>
+                <td><span class="view-bear">看空</span></td>
+                <td>301 條款維持且全球關稅升至 15%，出口關稅壓力增大。</td>
+            </tr>
+        
+            <tr>
+                <td>台股供應鏈 (TW_SC)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>面臨 15% 新關稅衝擊，需評估成本轉嫁與洗產地風險。</td>
+            </tr>
+        </tbody></table></div></div></div>
+        <div class="creator-section">
+            <h2 class="creator-title">財報狗</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=yEOhR3_NhTY" target="_blank">506.【財經時事放大鏡】追殺 SaaS 軟體 x GTC x 關稅觀測</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div></div>
+        <div class="creator-section">
+            <h2 class="creator-title">M觀點</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=wyhHVkdMogg" target="_blank">EP281. 川普國情咨文與民調、輝達財報宇宙強、2028 全球智慧危機 | M觀點</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=jcQl1DiXa7Y" target="_blank">EP280. 川普關稅被逼變陣、Grok 4.20 體感很強、微軟遊戲高管換血 | M觀點</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>最高法院否決 IEEPA 關稅授權，川普關稅戰將轉向 301 與 232 條款，節奏放緩但程序要求更嚴謹。</li><li>台灣應避免在此時與美方重啟貿易談判，以防在川普關稅壓力下被迫簽署不利協議。</li><li>Grok 4.20 透過內建四個 AI 代理人（隊長、研究、邏輯、創意）協作模式，大幅提升回答品質與使用者體感。</li><li>微軟遊戲負責人 Phil Spencer 退休，反映 Xbox 業務在 XGP 增長停滯與集團 AI 核心定位不明的困境。</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>微軟 (MSFT)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>遊戲業務進入策略調整期，高層換血後與 AI 整合的效果尚待觀察。</td>
+            </tr>
+        
+            <tr>
+                <td>台積電 (TSM)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>AI 晶片核心製造商，具備強大議價能力，足以抵禦地緣政治帶來的關稅干擾。</td>
+            </tr>
+        
+            <tr>
+                <td>Grok (xAI)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>多代理人模式展現技術領先，產品化能力強，體感強度顯著提升。</td>
+            </tr>
+        </tbody></table></div></div></div>
+    </div>
+</body>
+</html>
+    

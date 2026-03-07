@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>財經 YouTube 影片重點彙整</title>
+    
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #333;
+            --border-color: #e9ecef;
+            --bullish-color: #e74c3c;
+            --bearish-color: #27ae60;
+            --neutral-color: #7f8c8d;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        h1 { margin-bottom: 10px; color: var(--primary-color); }
+        .meta { color: #666; font-size: 0.9em; }
+        
+        .creator-section {
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            padding: 25px;
+            border-top: 4px solid var(--accent-color);
+        }
+        .creator-title {
+            margin-top: 0;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .episode-block {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed var(--border-color);
+        }
+        .episode-block:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .episode-title {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .episode-title a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .episode-title a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+        .pending-badge {
+            display: inline-block;
+            background: #ffeeba;
+            color: #856404;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        
+        .summary-section, .targets-section {
+            margin-top: 15px;
+        }
+        .section-title {
+            font-weight: bold;
+            color: var(--accent-color);
+            margin-bottom: 10px;
+            display: block;
+        }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        th {
+            background-color: #f1f3f5;
+            font-weight: 600;
+        }
+        
+        .view-bull { color: var(--bullish-color); font-weight: bold; }
+        .view-bear { color: var(--bearish-color); font-weight: bold; }
+        .view-neutral { color: var(--neutral-color); font-weight: bold; }
+        
+        /* Mobile Responsive Table to Card */
+        @media screen and (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            tr {
+                border: 1px solid var(--border-color);
+                border-radius: 8px;
+                margin-bottom: 15px;
+                padding: 10px;
+                background: #fff;
+            }
+            td {
+                border: none;
+                border-bottom: 1px solid #eee;
+                position: relative;
+                padding-left: 50%;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+            td:last-child { border-bottom: none; }
+            
+            td:before {
+                position: absolute;
+                top: 8px;
+                left: 10px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: bold;
+                color: #666;
+            }
+            
+            /* Specific labels for each column */
+            td:nth-of-type(1) { /* Name/Code */
+                padding-left: 10px;
+                font-size: 1.1em;
+                font-weight: bold;
+                color: var(--primary-color);
+                background: #f8f9fa;
+                margin: -10px -10px 10px -10px;
+                border-bottom: 1px solid var(--border-color);
+                border-radius: 8px 8px 0 0;
+            }
+            td:nth-of-type(1):before { content: ""; }
+            
+            td:nth-of-type(2):before { content: "觀點"; }
+            td:nth-of-type(3):before { content: "說明"; }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>財經 YouTube 影片重點彙整</h1>
+            <div class="meta">
+                統計期間：20260302 至 20260302<br>
+                生成時間：2026/03/02 04:30
+            </div>
+        </header>
+    <p style='text-align:center'>本週尚未有新影片。</p>
+    </div>
+</body>
+</html>
+    

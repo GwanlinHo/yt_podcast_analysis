@@ -1,0 +1,33 @@
+{
+  "key_points": [
+    "美國政府（國防部）將 Anthropic 列為供應鏈風險，主因是該公司堅持 AI 模型不得用於無人類參與的自主殺傷武器，拒絕放寬安全限制。",
+    "OpenAI 與國防部達成協議，並完成規模達 1,100 億美元的史上最大私募融資，投資方包含 NVIDIA、Amazon 與 SoftBank，資金將用於擴建 AI 基礎設施。",
+    "Meta 再次嘗試進入穩定幣市場，這次採取較溫和的策略，試圖利用現有穩定幣架構整合 WhatsApp 與 Instagram 支付生態，以降低跨境支付成本。"
+  ],
+  "targets": [
+    {
+      "code": "ANTHROPIC",
+      "name": "Anthropic",
+      "view": "中性/偏空",
+      "rationale": "堅持倫理底線雖贏得名聲，但失去政府大單並面臨政治壓力，可能影響在美國市場的擴張。"
+    },
+    {
+      "code": "MSFT",
+      "name": "OpenAI/微軟",
+      "view": "看多",
+      "rationale": "成功獲取千億美元融資並與政府達成合作，鞏固了其在 AI 領域的領導地位與算力優勢。"
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "view": "看多",
+      "rationale": "作為 OpenAI 的大股東兼算力供應商，持續受益於 AI 基礎設施的瘋狂擴張。"
+    },
+    {
+      "code": "META",
+      "name": "Meta",
+      "view": "中性",
+      "rationale": "再次嘗試金融業務顯示其野心，但仍需觀察監管機構的態度以及用戶的接受度。"
+    }
+  ]
+}

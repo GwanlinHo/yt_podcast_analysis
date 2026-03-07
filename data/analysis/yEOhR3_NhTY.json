@@ -1,27 +1,33 @@
 {
   "key_points": [
-    "SaaS 軟體產業面臨「追殺」與估值修正：生成式 AI 威脅傳統軟體功能，且企業支出緊縮導致淨留存率 (NRR) 下滑。",
-    "NVIDIA GTC 大會焦點：Blackwell 架構維持效能領先，並透過 CUDA 和 NIM 強化軟體平台地位，佈局物理 AI 與機器人領域。",
-    "關稅觀測與供應鏈挑戰：美國關稅政策不確定性增加，最高法院裁決限制白宮權力，預期 2026 年關稅衝擊將更趨明顯。"
+    "SaaS 軟體股下殺邏輯：AI 提高效率導致傳統 Per-seat 模式受挑戰，且預算被 AI 硬體排擠",
+    "NVIDIA GTC 大會展望：關注 1.6 奈米晶片與 AI 應用解決方案，帶動供應鏈預期",
+    "關稅與地緣政治：川普關稅違憲爭議若成立，有利全球供應鏈穩定，特別是台灣電子業"
   ],
   "targets": [
     {
-      "code": "NVDA",
-      "name": "NVIDIA (輝達)",
-      "view": "看多 (Bullish)",
-      "rationale": "Blackwell 效能卓越，軟體生態系護城河深厚，AI 成長曲線延伸至實體應用。"
+      "code": "SaaS",
+      "name": "SaaS 軟體股",
+      "view": "看空",
+      "rationale": "估值重估與 AI 替代威脅"
     },
     {
-      "code": "SaaS Sectors",
-      "name": "SaaS 軟體板塊",
-      "view": "看空 (Bearish)",
-      "rationale": "面臨估值重整、AI 取代風險及企業預算審核趨嚴帶來的成長放緩。"
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "view": "看多",
+      "rationale": "技術領先與 GTC 大會催化劑"
     },
     {
       "code": "2330",
       "name": "台積電",
-      "view": "中性 (Neutral)",
-      "rationale": "關稅政策不確定性增加，雖然目前客戶行為穩定，但 2026 年後的政策性衝擊需密切觀察。"
+      "view": "看多",
+      "rationale": "AI 晶片強勁需求與製程領先"
+    },
+    {
+      "code": "SMR",
+      "name": "NuScale",
+      "view": "中性",
+      "rationale": "估值偏高且尚未獲利，需謹慎"
     }
   ]
 }
