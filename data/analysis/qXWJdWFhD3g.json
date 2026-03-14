@@ -1,0 +1,41 @@
+{
+  "key_points": [
+    "13F 報告反映 2024Q3 美股頂尖基金經理人的持倉變化，本季操作以個股挪移為主，無明顯加碼趨勢。",
+    "板塊動向：主要減碼核心消費與金融板塊，加碼農機相關標的。",
+    "消費降級與餐飲需求：討論 Dollar General 面對消費力疲軟的防禦屬性，以及 Lamb Weston 受惠於餐飲需求穩定與產能利用率回升。",
+    "娛樂與保險：探討 Cinemark 受惠於強片回歸帶動票房，以及 Selective Insurance 的估值修復邏輯。",
+    "13F 參考價值：強調報告具滯後性，應關注經理人的選股邏輯而非盲目跟單。"
+  ],
+  "targets": [
+    {
+      "code": "SIGI",
+      "name": "Selective Insurance",
+      "view": "看多",
+      "rationale": "估值修復與保費調漲預期。"
+    },
+    {
+      "code": "DG",
+      "name": "Dollar General",
+      "view": "中性",
+      "rationale": "雖具消費降級防禦屬性，但受整體消費力疲軟影響。"
+    },
+    {
+      "code": "LW",
+      "name": "Lamb Weston",
+      "view": "看多",
+      "rationale": "全球最大冷凍薯條供應商，產能利用率回升與餐飲需求穩定。"
+    },
+    {
+      "code": "CNK",
+      "name": "Cinemark",
+      "view": "看多",
+      "rationale": "電影產業復甦，內容供給回升帶動票房增長。"
+    },
+    {
+      "code": "DE",
+      "name": "Deere & Co.",
+      "view": "看多",
+      "rationale": "農機設備更新週期與精準農業題材。"
+    }
+  ]
+}

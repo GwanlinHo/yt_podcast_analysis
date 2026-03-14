@@ -1,0 +1,29 @@
+{
+  "key_points": [
+    "AI 工具（如 GitHub Copilot, Cursor）大幅提升開發效率（3-10倍），導致初級工程師職位需求銳減",
+    "企業轉向「精兵政策」，原本 10 人的專案現在僅需 3 名熟練 AI 的資深工程師即可完成",
+    "工程師需從「程式碼編寫者」轉型為「架構師」與「AI 溝通師」，掌握 Prompt Engineering 與系統設計",
+    "AI 難以取代的能力在於解決「未定義問題」、業務邏輯理解、以及品牌與策略思考",
+    "企業轉型重點在於「流程再造」與「AI Agent」整合，而非單純引入 AI 工具"
+  ],
+  "targets": [
+    {
+      "code": "CRM",
+      "name": "Salesforce",
+      "view": "看多",
+      "rationale": "其 Agentforce 與 AI 驅動轉型方案在企業端具備領先優勢"
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft (GitHub Copilot)",
+      "view": "看多",
+      "rationale": "身為 AI 開發工具的領導者，直接受惠於開發流程自動化趨勢"
+    },
+    {
+      "code": "SOFTWARE",
+      "name": "軟體工程師/開發產業",
+      "view": "中性",
+      "rationale": "產業正面臨結構性重整，初階工程師受威脅，但具備 AI 能力的資深人才價值大幅提升"
+    }
+  ]
+}

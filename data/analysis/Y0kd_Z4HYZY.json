@@ -1,0 +1,27 @@
+{
+  "key_points": [
+    "微軟推出的 Cowork (AI 協作)：AI 從工具轉變為虛擬同事，主動參與專案管理與任務分配，大幅降低企業溝通成本。",
+    "特斯拉 Digital Optimus：人形機器人 Optimus 結合 FSD 端到端 AI 技術，透過視覺學習複雜動作，預計 2025-2026 年在工廠部署，解決勞動力短缺。",
+    "NVDA 2026 GTC 與物理 AI：NVIDIA 展示 Rubin 架構與 Isaac 機器人開發平台，強調物理 AI 是下一波浪潮，光學互連技術成為突破算力瓶頸的關鍵。"
+  ],
+  "targets": [
+    {
+      "code": "MSFT",
+      "name": "微軟",
+      "view": "看多",
+      "rationale": "軟體生態系領先，AI 應用迅速滲透企業端，鞏固訂閱收入。"
+    },
+    {
+      "code": "TSLA",
+      "name": "特斯拉",
+      "view": "看多",
+      "rationale": "機器人業務潛在價值巨大，是長期估值的核心。"
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "view": "看多",
+      "rationale": "在 AI 晶片、網路與軟體平台擁有極強護城河。"
+    }
+  ]
+}

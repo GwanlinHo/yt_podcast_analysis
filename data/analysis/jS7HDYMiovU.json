@@ -1,0 +1,27 @@
+{
+  "key_points": [
+    "OpenAI GPT-5.4 突襲發布：推出 Thinking 與 Pro 版本，支援 100 萬 Token 上下文及原生電腦控制能力，鎖定高支付能力客戶。",
+    "Anthropic 爭議與 AI 安全：探討安全與發展的拉扯，執行長對政府干預的看法，以及 AI 如何改變軟體開發邏輯（『設計流程已死』）。",
+    "Robotaxi 擴張與數據真相：分析 Tesla Robotaxi 事故率數據爭議，強調數據透明度與商業化進程的加速。"
+  ],
+  "targets": [
+    {
+      "code": "OpenAI",
+      "name": "OpenAI",
+      "view": "看多",
+      "rationale": "GPT-5.4 提升推理門檻，原生電腦控制能力將衝擊 RPA 產業。"
+    },
+    {
+      "code": "Anthropic",
+      "name": "Anthropic",
+      "view": "中性",
+      "rationale": "在安全與擴張間尋求平衡，面臨監管壓力。"
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla",
+      "view": "看多",
+      "rationale": "Robotaxi 商業化進程加速，數據累積將成為未來核心。"
+    }
+  ]
+}
