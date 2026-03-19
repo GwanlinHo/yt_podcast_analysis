@@ -1,41 +1,48 @@
 {
   "key_points": [
-    "13F 報告反映 2024Q3 美股頂尖基金經理人的持倉變化，本季操作以個股挪移為主，無明顯加碼趨勢。",
-    "板塊動向：主要減碼核心消費與金融板塊，加碼農機相關標的。",
-    "消費降級與餐飲需求：討論 Dollar General 面對消費力疲軟的防禦屬性，以及 Lamb Weston 受惠於餐飲需求穩定與產能利用率回升。",
-    "娛樂與保險：探討 Cinemark 受惠於強片回歸帶動票房，以及 Selective Insurance 的估值修復邏輯。",
-    "13F 參考價值：強調報告具滯後性，應關注經理人的選股邏輯而非盲目跟單。"
+    "2025 Q4 經理人操作趨於穩定，主要變動為年底稅務調整。",
+    "AI 電力與能源轉型推動原物料（如銅）與石油中上游需求，資金持續流入基礎設施端。",
+    "另類投資（Blue Owl 事件）反映市場對流動性與泡沫的隱憂。",
+    "中概股（如 PDD）仍是避險基金首選，估值與增長潛力受關注。",
+    "Uber 成功轉型為自駕車技術合作夥伴，卡位交通生態鏈。",
+    "運動品牌（Nike、UA、LULU）正面臨轉型期，激進投資人進駐尋找翻轉機會。"
   ],
   "targets": [
     {
-      "code": "SIGI",
-      "name": "Selective Insurance",
+      "code": "PDD",
+      "name": "拼多多",
       "view": "看多",
-      "rationale": "估值修復與保費調漲預期。"
+      "rationale": "中概股首選，增長動能強且估值具吸引力。"
     },
     {
-      "code": "DG",
-      "name": "Dollar General",
-      "view": "中性",
-      "rationale": "雖具消費降級防禦屬性，但受整體消費力疲軟影響。"
+      "code": "UBER",
+      "name": "Uber",
+      "view": "看多",
+      "rationale": "轉型自駕平台成功，定位優勢顯著。"
     },
     {
-      "code": "LW",
-      "name": "Lamb Weston",
-      "view": "看多",
-      "rationale": "全球最大冷凍薯條供應商，產能利用率回升與餐飲需求穩定。"
+      "code": "UA",
+      "name": "Under Armour",
+      "view": "中性/看多",
+      "rationale": "激進投資人進駐，期待供應鏈與核心產品改革。"
     },
     {
-      "code": "CNK",
-      "name": "Cinemark",
-      "view": "看多",
-      "rationale": "電影產業復甦，內容供給回升帶動票房增長。"
+      "code": "NKE",
+      "name": "Nike",
+      "view": "中性/看空",
+      "rationale": "D2C 策略失靈與產品創新力不足，轉型挑戰大。"
     },
     {
-      "code": "DE",
-      "name": "Deere & Co.",
+      "code": "Copper",
+      "name": "銅相關標的",
       "view": "看多",
-      "rationale": "農機設備更新週期與精準農業題材。"
+      "rationale": "AI 電力需求與能源轉型的核心受惠者。"
+    },
+    {
+      "code": "Banks",
+      "name": "大型銀行",
+      "view": "看空",
+      "rationale": "資金普遍流出，經理人減碼。"
     }
   ]
 }

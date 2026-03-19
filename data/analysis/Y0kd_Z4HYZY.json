@@ -1,27 +1,39 @@
 {
   "key_points": [
-    "微軟推出的 Cowork (AI 協作)：AI 從工具轉變為虛擬同事，主動參與專案管理與任務分配，大幅降低企業溝通成本。",
-    "特斯拉 Digital Optimus：人形機器人 Optimus 結合 FSD 端到端 AI 技術，透過視覺學習複雜動作，預計 2025-2026 年在工廠部署，解決勞動力短缺。",
-    "NVDA 2026 GTC 與物理 AI：NVIDIA 展示 Rubin 架構與 Isaac 機器人開發平台，強調物理 AI 是下一波浪潮，光學互連技術成為突破算力瓶頸的關鍵。"
+    "微軟正式推出 Cowork 平台，將 AI 從個人 Copilot 進化為團隊協作的核心虛擬成員，深度整合 Office 365。",
+    "特斯拉發布 Digital Optimus 軟體系統，專為 Optimus 機器人設計的數位大腦與模擬訓練環境，提升學習效率與量產可行性。",
+    "NVIDIA 2026 GTC 重點在於 Rubin 架構與矽光子 (CPO) 技術，預計採用 HBM4 記憶體以應對更高階的 AI 算力需求。"
   ],
   "targets": [
     {
       "code": "MSFT",
       "name": "微軟",
       "view": "看多",
-      "rationale": "軟體生態系領先，AI 應用迅速滲透企業端，鞏固訂閱收入。"
+      "rationale": "Cowork 強化企業端黏著度與 AI 變現能力。"
     },
     {
       "code": "TSLA",
       "name": "特斯拉",
-      "view": "看多",
-      "rationale": "機器人業務潛在價值巨大，是長期估值的核心。"
+      "view": "中性偏多",
+      "rationale": "Digital Optimus 顯示軟體進展，但人型機器人商業化仍需時間。"
     },
     {
       "code": "NVDA",
       "name": "NVIDIA",
       "view": "看多",
-      "rationale": "在 AI 晶片、網路與軟體平台擁有極強護城河。"
+      "rationale": "Rubin 與矽光子技術維持算力絕對優勢。"
+    },
+    {
+      "code": "AVGO",
+      "name": "博通",
+      "view": "看多",
+      "rationale": "受益於 NVIDIA 資料中心架構升級及矽光子技術需求。"
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "view": "看多",
+      "rationale": "全球先進 AI 晶片代工的唯一核心。"
     }
   ]
 }

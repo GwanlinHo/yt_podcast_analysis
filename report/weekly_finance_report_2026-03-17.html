@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>財經 YouTube 影片重點彙整</title>
+    
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #333;
+            --border-color: #e9ecef;
+            --bullish-color: #e74c3c;
+            --bearish-color: #27ae60;
+            --neutral-color: #7f8c8d;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        h1 { margin-bottom: 10px; color: var(--primary-color); }
+        .meta { color: #666; font-size: 0.9em; }
+        
+        .creator-section {
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            padding: 25px;
+            border-top: 4px solid var(--accent-color);
+        }
+        .creator-title {
+            margin-top: 0;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .episode-block {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed var(--border-color);
+        }
+        .episode-block:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .episode-title {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .episode-title a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .episode-title a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+        .pending-badge {
+            display: inline-block;
+            background: #ffeeba;
+            color: #856404;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        
+        .summary-section, .targets-section {
+            margin-top: 15px;
+        }
+        .section-title {
+            font-weight: bold;
+            color: var(--accent-color);
+            margin-bottom: 10px;
+            display: block;
+        }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        th {
+            background-color: #f1f3f5;
+            font-weight: 600;
+        }
+        
+        .view-bull { color: var(--bullish-color); font-weight: bold; }
+        .view-bear { color: var(--bearish-color); font-weight: bold; }
+        .view-neutral { color: var(--neutral-color); font-weight: bold; }
+        
+        /* Mobile Responsive Table to Card */
+        @media screen and (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            tr {
+                border: 1px solid var(--border-color);
+                border-radius: 8px;
+                margin-bottom: 15px;
+                padding: 10px;
+                background: #fff;
+            }
+            td {
+                border: none;
+                border-bottom: 1px solid #eee;
+                position: relative;
+                padding-left: 50%;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+            td:last-child { border-bottom: none; }
+            
+            td:before {
+                position: absolute;
+                top: 8px;
+                left: 10px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: bold;
+                color: #666;
+            }
+            
+            /* Specific labels for each column */
+            td:nth-of-type(1) { /* Name/Code */
+                padding-left: 10px;
+                font-size: 1.1em;
+                font-weight: bold;
+                color: var(--primary-color);
+                background: #f8f9fa;
+                margin: -10px -10px 10px -10px;
+                border-bottom: 1px solid var(--border-color);
+                border-radius: 8px 8px 0 0;
+            }
+            td:nth-of-type(1):before { content: ""; }
+            
+            td:nth-of-type(2):before { content: "觀點"; }
+            td:nth-of-type(3):before { content: "說明"; }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>財經 YouTube 影片重點彙整</h1>
+            <div class="meta">
+                統計期間：20260316 至 20260317<br>
+                生成時間：2026/03/17 04:30
+            </div>
+        </header>
+    
+        <div class="creator-section">
+            <h2 class="creator-title">財女珍妮</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=g7bA1Qs3GS4" target="_blank">AI投資見頂？輝達財報不漲 ，GTC 亮點是什麼？ft. 艦長 程正樺</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>輝達財報利多不漲主因是市場預期過高與成長斜率放緩</li><li>AI 產業目前處於類似 1998 年的發展階段，距離 2026 年可能的泡沫破裂仍有時間</li><li>GTC 大會重點在於次世代 Vera Rubin 架構、HBM4 與台積電 A16 製程的應用</li><li>輝達產品策略正從單一晶片銷售轉向 SuperPod 與 GB300 等系統整合方案</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>輝達 (NVDA)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>技術領先優勢明顯，CSP 資本支出維持高檔</td>
+            </tr>
+        
+            <tr>
+                <td>台積電 (2330)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>為次世代 Feynman 晶片 A16 製程的主要代工對象</td>
+            </tr>
+        
+            <tr>
+                <td>微軟 (MSFT)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>需觀察 AI 應用（Copilot）的變現效率是否跟上投入成本</td>
+            </tr>
+        </tbody></table></div></div></div>
+        <div class="creator-section">
+            <h2 class="creator-title">M觀點</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=do18uv_aw44" target="_blank">EP286. xAI 整個打掉重練、Meta 又要大裁員、卓肯米勒投資觀點 | M觀點</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>xAI 重大架構調整：馬斯克為應對 OpenAI 與 Google 的競爭，將 xAI 策略打掉重練，反映 AI 領域技術更迭極快。</li><li>Meta 持續精簡組織：裁員並非財務危機，而是為了將資源從低效部門轉移至 AI 基礎建設（如採購 H100 晶片）。</li><li>卓肯米勒投資觀點：長期看好 AI 但短線減持 NVIDIA，認為漲幅過快；同時對美國財政赤字表示憂慮。</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>Meta (META)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>效率之年後的組織精簡提升獲利，且 AI 優化廣告效果顯著。</td>
+            </tr>
+        
+            <tr>
+                <td>NVIDIA (NVDA)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>AI 基礎建設核心，但短期需注意估值過高風險（參考卓肯米勒減持）。</td>
+            </tr>
+        
+            <tr>
+                <td>Tesla (TSLA)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>資源需在車輛與 xAI 間平衡，需觀察馬斯克如何分配核心算力。</td>
+            </tr>
+        </tbody></table></div></div></div>
+    </div>
+</body>
+</html>
+    

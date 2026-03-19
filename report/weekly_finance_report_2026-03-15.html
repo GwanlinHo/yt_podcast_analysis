@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>財經 YouTube 影片重點彙整</title>
+    
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #333;
+            --border-color: #e9ecef;
+            --bullish-color: #e74c3c;
+            --bearish-color: #27ae60;
+            --neutral-color: #7f8c8d;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        h1 { margin-bottom: 10px; color: var(--primary-color); }
+        .meta { color: #666; font-size: 0.9em; }
+        
+        .creator-section {
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            padding: 25px;
+            border-top: 4px solid var(--accent-color);
+        }
+        .creator-title {
+            margin-top: 0;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .episode-block {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed var(--border-color);
+        }
+        .episode-block:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .episode-title {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .episode-title a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .episode-title a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+        .pending-badge {
+            display: inline-block;
+            background: #ffeeba;
+            color: #856404;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        
+        .summary-section, .targets-section {
+            margin-top: 15px;
+        }
+        .section-title {
+            font-weight: bold;
+            color: var(--accent-color);
+            margin-bottom: 10px;
+            display: block;
+        }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        th {
+            background-color: #f1f3f5;
+            font-weight: 600;
+        }
+        
+        .view-bull { color: var(--bullish-color); font-weight: bold; }
+        .view-bear { color: var(--bearish-color); font-weight: bold; }
+        .view-neutral { color: var(--neutral-color); font-weight: bold; }
+        
+        /* Mobile Responsive Table to Card */
+        @media screen and (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            tr {
+                border: 1px solid var(--border-color);
+                border-radius: 8px;
+                margin-bottom: 15px;
+                padding: 10px;
+                background: #fff;
+            }
+            td {
+                border: none;
+                border-bottom: 1px solid #eee;
+                position: relative;
+                padding-left: 50%;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+            td:last-child { border-bottom: none; }
+            
+            td:before {
+                position: absolute;
+                top: 8px;
+                left: 10px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: bold;
+                color: #666;
+            }
+            
+            /* Specific labels for each column */
+            td:nth-of-type(1) { /* Name/Code */
+                padding-left: 10px;
+                font-size: 1.1em;
+                font-weight: bold;
+                color: var(--primary-color);
+                background: #f8f9fa;
+                margin: -10px -10px 10px -10px;
+                border-bottom: 1px solid var(--border-color);
+                border-radius: 8px 8px 0 0;
+            }
+            td:nth-of-type(1):before { content: ""; }
+            
+            td:nth-of-type(2):before { content: "觀點"; }
+            td:nth-of-type(3):before { content: "說明"; }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>財經 YouTube 影片重點彙整</h1>
+            <div class="meta">
+                統計期間：20260309 至 20260315<br>
+                生成時間：2026/03/15 05:01
+            </div>
+        </header>
+    
+        <div class="creator-section">
+            <h2 class="creator-title">股癌</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=JPDxWnDUtAw" target="_blank">EP644 | 🦇</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=ivBMr9eSv5s" target="_blank">EP643 | 🦊</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div></div>
+        <div class="creator-section">
+            <h2 class="creator-title">財女珍妮</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=WY0nMNsCTVU" target="_blank">2026/03/13 (五）油價再破百，川普壓不住？</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=eJklz32rDOo" target="_blank">2026/03/12 (四）通膨降溫，油價壓不住？</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=N_rrkFBsbB0" target="_blank">債市大轉折？降息循環確立，AI 不只能選股，00985D 智能選債</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=PWsS8sN2syo" target="_blank">2026/03/11 (三）甲骨文#ORCL 財報打臉空頭？亞馬遜 (AMZN)發債</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=38mgaX0gU0I" target="_blank">AI顛覆軟體業：大裁員時代，工程師危險了？ft. 伊原力科技CEO Kevin Lai</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>AI 工具使開發效率提升 3-10 倍，初階工程師需求銳減，人才市場進入結構性調整。</li><li>工程師角色重塑：從「代碼執行者」轉型為「AI Agents 編排者」與「智力資源分配者」。</li><li>軟體價值轉移：從單純功能提供轉向對企業流程、客戶旅程與跨部門整合的深度理解。</li><li>數據治理是 AI 的燃料：企業導入 AI 前必須先解決數據斷點，否則 AI 無法發揮實質效益。</li><li>垂直領域（如製造、醫療）的專業知識（Domain Knowledge）是 AI 時代下顧問服務與工程師的護城河。</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>Salesforce (CRM)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>AI 與 CRM 的結合能有效整合企業數據並優化業務流程，提升軟體服務價值。</td>
+            </tr>
+        
+            <tr>
+                <td>軟體工程師職位 (SWE)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>初階重複性任務將被 AI 取代，但具備產業知識與 AI 協作能力的人才價值將大幅提升。</td>
+            </tr>
+        </tbody></table></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=Zdz9LloWJxE" target="_blank">2026/03/10 (二）美股Ｖ轉，反彈該跑？AAOI, HIMS暴漲</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=i7VqH8h1DNg" target="_blank">2026/03/09 (一）油價破百， 空頭來了？現在該做什麼</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>油價突破100美元：受荷莫茲海峽戰事影響，供應鏈受阻導致油價飆升。</li><li>全球市場恐慌：亞太股市觸發熔斷，避險資金湧入美元。</li><li>通膨與降息推遲：油價上漲加劇通膨預期，聯準會降息時間可能延後。</li><li>投資策略建議：保持冷靜，由單筆改為定期定額，關注能源股與美元。</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>原油/能源 ETF (Energy ETF)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>供應中斷短期難以緩解。</td>
+            </tr>
+        
+            <tr>
+                <td>美元 (USD)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>全球動盪下的首選避險資產。</td>
+            </tr>
+        
+            <tr>
+                <td>美股大盤 (SPY/VOO)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>受高油價與通膨壓抑，面臨修正壓力。</td>
+            </tr>
+        
+            <tr>
+                <td>黃金 (GOLD)</td>
+                <td><span class="view-bear">中性偏空</span></td>
+                <td>受美元走強壓制，且面臨獲利了結賣壓。</td>
+            </tr>
+        </tbody></table></div></div></div>
+        <div class="creator-section">
+            <h2 class="creator-title">財報狗</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=kfX2Mu9qnOs" target="_blank">509.【財經時事放大鏡】好貴的油！好貴的？？</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div></div>
+        <div class="creator-section">
+            <h2 class="creator-title">M觀點</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=Y0kd_Z4HYZY" target="_blank">EP285. 微軟推出 Cowork、特斯拉 Digital Optimus、NVIDIA 2026 GTC | M觀點</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=jS7HDYMiovU" target="_blank">EP284. OpenAI GPT-5.4、再談 Anthropic 爭議、Robotaxi 的擴張速度 | M觀點</a>
+                    
+                </div>
+            <div class="summary-section"><span class="section-title">重點議題摘要</span><ul><li>OpenAI GPT-5.4 旨在重奪領先地位，強化原生電腦使用與 Agentic Workflow。</li><li>Anthropic 與美國國防部因 AI 倫理框架產生衝突，被列為供應鏈風險。</li><li>Tesla Robotaxi 擴張速度受限於安全優先策略，市場對其進度存有質疑。</li></ul></div><div class="targets-section"><span class="section-title">提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>OpenAI (OpenAI)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>GPT-5.4 在 Agentic Workflow 的進化極具競爭力</td>
+            </tr>
+        
+            <tr>
+                <td>Anthropic (Anthropic)</td>
+                <td><span class="view-bear">中性/偏空</span></td>
+                <td>與國防部衝突可能影響其在政府標案的擴張</td>
+            </tr>
+        
+            <tr>
+                <td>Tesla (TSLA)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>Robotaxi 擴張受限於安全考量與市場質疑</td>
+            </tr>
+        
+            <tr>
+                <td>xAI (Grok) (xAI)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>Grok 4.2 在某些使用體驗上優於 GPT-5.4</td>
+            </tr>
+        </tbody></table></div></div></div>
+    </div>
+</body>
+</html>
+    

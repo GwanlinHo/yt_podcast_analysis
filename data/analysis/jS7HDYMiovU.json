@@ -1,27 +1,33 @@
 {
   "key_points": [
-    "OpenAI GPT-5.4 突襲發布：推出 Thinking 與 Pro 版本，支援 100 萬 Token 上下文及原生電腦控制能力，鎖定高支付能力客戶。",
-    "Anthropic 爭議與 AI 安全：探討安全與發展的拉扯，執行長對政府干預的看法，以及 AI 如何改變軟體開發邏輯（『設計流程已死』）。",
-    "Robotaxi 擴張與數據真相：分析 Tesla Robotaxi 事故率數據爭議，強調數據透明度與商業化進程的加速。"
+    "OpenAI GPT-5.4 旨在重奪領先地位，強化原生電腦使用與 Agentic Workflow。",
+    "Anthropic 與美國國防部因 AI 倫理框架產生衝突，被列為供應鏈風險。",
+    "Tesla Robotaxi 擴張速度受限於安全優先策略，市場對其進度存有質疑。"
   ],
   "targets": [
     {
       "code": "OpenAI",
       "name": "OpenAI",
       "view": "看多",
-      "rationale": "GPT-5.4 提升推理門檻，原生電腦控制能力將衝擊 RPA 產業。"
+      "rationale": "GPT-5.4 在 Agentic Workflow 的進化極具競爭力"
     },
     {
       "code": "Anthropic",
       "name": "Anthropic",
-      "view": "中性",
-      "rationale": "在安全與擴張間尋求平衡，面臨監管壓力。"
+      "view": "中性/偏空",
+      "rationale": "與國防部衝突可能影響其在政府標案的擴張"
     },
     {
       "code": "TSLA",
       "name": "Tesla",
+      "view": "中性",
+      "rationale": "Robotaxi 擴張受限於安全考量與市場質疑"
+    },
+    {
+      "code": "xAI",
+      "name": "xAI (Grok)",
       "view": "看多",
-      "rationale": "Robotaxi 商業化進程加速，數據累積將成為未來核心。"
+      "rationale": "Grok 4.2 在某些使用體驗上優於 GPT-5.4"
     }
   ]
 }
