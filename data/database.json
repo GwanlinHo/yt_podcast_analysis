@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T01:02:41.371234",
+  "last_updated": "2026-03-21T04:31:44.386997",
   "videos": {
     "JPDxWnDUtAw": {
       "id": "JPDxWnDUtAw",
@@ -180,6 +180,24 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-03-20T01:01:43.698275"
+    },
+    "4_jcbc_waks": {
+      "id": "4_jcbc_waks",
+      "title": "510.【財經時事放大鏡】EUV 一路卡到建算力 x GTC 次世代算力構築",
+      "url": "https://www.youtube.com/watch?v=4_jcbc_waks",
+      "date": "20260319",
+      "channel": "財報狗",
+      "status": "analyzed",
+      "created_at": "2026-03-21T01:01:02.846009"
+    },
+    "jy1omh2VYik": {
+      "id": "jy1omh2VYik",
+      "title": "2026/03/20(五）供應鏈危機逼近，金銀暴跌，停戰曙光浮現了嗎？",
+      "url": "https://www.youtube.com/watch?v=jy1omh2VYik",
+      "date": "20260320",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-03-21T01:01:25.424455"
     }
   }
 }
