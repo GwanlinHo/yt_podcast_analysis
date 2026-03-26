@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T02:04:35.830011",
+  "last_updated": "2026-03-26T21:34:43.536300",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -160,8 +160,17 @@
       "url": "https://www.youtube.com/watch?v=qhmXPHG7jxA",
       "date": "20260325",
       "channel": "財女珍妮",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-03-26T02:00:39.616195"
+    },
+    "CDCOv2dDJYU": {
+      "id": "CDCOv2dDJYU",
+      "title": "2026/03/26 (四）存儲出大事， MU, SNDK還能漲？",
+      "url": "https://www.youtube.com/watch?v=CDCOv2dDJYU",
+      "date": "20260326",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-03-26T21:32:41.113191"
     }
   }
 }
