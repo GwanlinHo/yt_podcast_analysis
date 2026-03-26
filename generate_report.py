@@ -97,7 +97,7 @@ def generate_css():
             vertical-align: middle;
         }
         
-        .summary-section, .targets-section {
+        .summary-section, .targets-section, .macro-section, .risk-section {
             margin-top: 15px;
         }
         .section-title {
@@ -105,6 +105,18 @@ def generate_css():
             color: var(--accent-color);
             margin-bottom: 10px;
             display: block;
+        }
+        .quote-box {
+            background: #f1f3f5;
+            padding: 15px;
+            border-left: 4px solid var(--primary-color);
+            font-style: italic;
+            margin: 15px 0;
+            color: #555;
+        }
+        .risk-item {
+            color: #d63301;
+            font-weight: 500;
         }
         ul { padding-left: 20px; }
         li { margin-bottom: 8px; }
@@ -306,16 +318,34 @@ def main():
             """
             
             if analysis:
+                # Render Macro Outlook (New)
+                if analysis.get('macro_outlook'):
+                    html += """<div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul>"""
+                    for point in analysis.get('macro_outlook', []):
+                        html += f"<li>{point}</li>"
+                    html += "</ul></div>"
+
                 # Render Summary
-                html += """<div class="summary-section"><span class="section-title">重點議題摘要</span><ul>"""
+                html += """<div class="summary-section"><span class="section-title">📝 重點議題摘要</span><ul>"""
                 for point in analysis.get('key_points', []):
                     html += f"<li>{point}</li>"
                 html += "</ul></div>"
                 
                 # Render Targets
-                html += """<div class="targets-section"><span class="section-title">提及標的</span>"""
+                html += """<div class="targets-section"><span class="section-title">📊 提及標的</span>"""
                 html += render_targets_table(analysis.get('targets', []))
                 html += "</div>"
+
+                # Render Risks (New)
+                if analysis.get('risk_factors'):
+                    html += """<div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul>"""
+                    for risk in analysis.get('risk_factors', []):
+                        html += f'<li class="risk-item">{risk}</li>'
+                    html += "</ul></div>"
+
+                # Render Quote (New)
+                if analysis.get('quotes'):
+                    html += f'<div class="quote-box">「{analysis.get("quotes")}」</div>'
             else:
                 html += """<div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div>"""
                 

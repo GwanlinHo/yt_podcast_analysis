@@ -12,6 +12,7 @@
 
 ### 1. 每日更新與啟動 (`@daily_update`)
 **時機**: 每日早晨，或使用者要求「更新片單」時。
+**對象**: 股癌、財報狗、財女珍妮、M觀點、**兆華與股惑仔**。
 **動作**:
 1.  **更新資料庫**: 執行 `uv run daily_update.py`。
 2.  **檢查狀態**:
@@ -38,23 +39,24 @@
 2.  **判斷狀態**:
     *   若輸出 `NO_PENDING_VIDEOS`: 回報「目前沒有待分析的影片」。
     *   若取得 `TARGET_VIDEO_ID`: 進入步驟 3。
-3.  **執行分析 (Core AI Task)**:
-    *   **搜尋**: 使用 `google_web_search` 搜尋 `TARGET_VIDEO_TITLE` + "重點 逐字稿" 或 "摘要"。
-    *   **摘要**: 歸納影片的「重點議題」與「提及標的」。
-        *   *注意：保持客觀，標註多空觀點。*
+3.  **執行深度分析 (Core AI Task)**:
+    *   **策略**: 使用 `google_web_search` 搜尋 `TARGET_VIDEO_ID` + "逐字稿" 或 "重點摘要"。
+    *   **深度彙整**: 除了基本重點，須額外挖掘以下維度：
+        *   **🌍 總體環境 (Macro Outlook)**: 總經趨勢、市場情緒、大環境變動。
+        *   **⚠️ 風險因素 (Risk Factors)**: 產業威脅、個股風險、觀察指標。
+        *   **💬 關鍵金句 (Quotes)**: 節錄最具代表性的核心結論。
 4.  **存檔**:
-    *   將分析結果整理為 JSON 物件 (Python Dict)。
-    *   執行以下 Python 指令寫入資料庫 (請替換變數)：
+    *   將分析結果整理為 JSON 物件 (Python Dict)：
     ```python
-    from storage import Storage
-    content = {
+    {
         "key_points": ["重點1", "重點2"...],
-        "targets": [
-            {"code": "2330", "name": "台積電", "view": "看多", "rationale": "先進製程供不應求"}
-        ]
+        "macro_outlook": ["觀點1"...],
+        "targets": [{"code": "2330", "name": "台積電", "view": "多", "rationale": "..."}],
+        "risk_factors": ["風險1"...],
+        "quotes": "核心金句"
     }
-    Storage().save_analysis("TARGET_VIDEO_ID", content)
     ```
+    *   執行 `Storage().save_analysis("TARGET_VIDEO_ID", content)`。
 5.  **更新報表 (Conditional Update)**:
     *   執行 `uv run generate_report.py`。
     *   系統會自動判斷內容是否變動，若有變動則更新 `latest_report.html`。

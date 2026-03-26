@@ -7,7 +7,8 @@ CHANNELS = [
     {"name": "股癌", "url": "https://www.youtube.com/@Gooaye/videos"},
     {"name": "財報狗", "url": "https://www.youtube.com/@statementdog_official/videos"},
     {"name": "財女珍妮", "url": "https://www.youtube.com/@jcinsight/videos"},
-    {"name": "M觀點", "url": "https://www.youtube.com/@miulaviewpoint/videos"}
+    {"name": "M觀點", "url": "https://www.youtube.com/@miulaviewpoint/videos"},
+    {"name": "兆華與股惑仔", "url": "https://www.youtube.com/@li_invest/videos"}
 ]
 
 OUTPUT_FILE = "videolist.md"
