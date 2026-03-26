@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T21:34:43.536300",
+  "last_updated": "2026-03-26T21:40:04.109778",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -171,6 +171,24 @@
       "channel": "財女珍妮",
       "status": "pending",
       "created_at": "2026-03-26T21:32:41.113191"
+    },
+    "Rb9YF0JXXaw": {
+      "id": "Rb9YF0JXXaw",
+      "title": "週報ep235公開版｜精準！34000遇壓 何時勇敢？外資狂賣無懼 機會再來一次ft.盈利投資董事長 鍾國忠 2026/03/22 李兆華River @riverstockshow",
+      "url": "https://www.youtube.com/watch?v=Rb9YF0JXXaw",
+      "date": "20260322",
+      "channel": "兆華與股惑仔",
+      "status": "analyzed",
+      "created_at": "2026-03-26T21:39:00.680789"
+    },
+    "luz8R-CSwEM": {
+      "id": "luz8R-CSwEM",
+      "title": "【兆華艾綸說】伊朗續炸！黑色週末，台股還能繼續獨強？操盤手用台積電買保險，CPO.PCB.記憶體最新看法！ @riverstockshow",
+      "url": "https://www.youtube.com/watch?v=luz8R-CSwEM",
+      "date": "20260321",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-03-26T21:39:02.779343"
     }
   }
 }
