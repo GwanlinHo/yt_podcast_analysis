@@ -141,6 +141,25 @@ def generate_css():
         .view-bear { color: var(--bearish-color); font-weight: bold; }
         .view-neutral { color: var(--neutral-color); font-weight: bold; }
         
+        .disclaimer-section {
+            margin-top: 50px;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 0.85em;
+            color: #666;
+            line-height: 1.8;
+        }
+        .disclaimer-title {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            display: block;
+            text-align: center;
+            font-size: 1.1em;
+        }
+        
         /* Mobile Responsive Table to Card */
         @media screen and (max-width: 768px) {
             table, thead, tbody, th, td, tr {
@@ -229,6 +248,16 @@ def render_targets_table(targets):
         """
     html += "</tbody></table>"
     return html
+
+def generate_disclaimer():
+    return """
+    <div class="disclaimer-section">
+        <span class="disclaimer-title">💡 免責聲明與版權說明</span>
+        本報告內容係透過 AI 萃取各內容創作者之公開分享資訊彙整而成，僅供參考，不代表本系統之立場，亦不構成任何投資建議。投資人應保持獨立思考，審慎評估風險，並對其投資行為自負盈虧。
+        <br><br>
+        本系統旨在協助使用者快速掌握資訊趨勢，並非取代原創作者之影片。創作者的每一份支持都是其持續產出優質內容的動力，<strong>強烈建議使用者點擊報告中的連結，前往創作者的原始頻道觀看完整影片並給予訂閱與支持。</strong>
+    </div>
+    """
 
 def get_content_hash(channels, db):
     """計算影片內容的雜湊值，用於判斷內容是否變動"""
@@ -353,6 +382,7 @@ def main():
             
         html += "</div>" # End creator-section
         
+    html += generate_disclaimer()
     html += """
     </div>
 </body>
