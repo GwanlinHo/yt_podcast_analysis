@@ -8,9 +8,9 @@ from storage import Storage, Video
 OUTPUT_FILE = "report/latest_report.html"
 
 def get_week_range():
-    """取得本週一與今天的日期字串 (YYYYMMDD)"""
+    """取得 7 天前與今天的日期字串 (YYYYMMDD)"""
     today = datetime.datetime.now()
-    start = today - datetime.timedelta(days=today.weekday())
+    start = today - datetime.timedelta(days=7)
     return start.strftime('%Y%m%d'), today.strftime('%Y%m%d')
 
 def generate_css():
