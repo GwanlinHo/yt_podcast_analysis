@@ -15,7 +15,8 @@
 本專案支援 GitHub Pages，你可以透過以下步驟設定：
 1.  前往 GitHub Repository 的 **Settings** > **Pages**。
 2.  將 **Build and deployment** > **Branch** 設定為 `main` (或你使用的分支)，資料夾選取 `/ (root)`。
-3.  儲存後，你就可以透過 `https://<你的帳號>.github.io/<專案名稱>/` 隨時隨地查看最新的財經摘要。
+3.  儲存後，你就可以透過以下網址隨時隨地查看最新的財經摘要：
+    **👉 [https://GwanlinHo.github.io/yt_podcast_analysis/](https://GwanlinHo.github.io/yt_podcast_analysis/)**
 
 ## 📂 專案結構
 
