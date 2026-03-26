@@ -1,6 +1,8 @@
 import os
 import json
 import datetime
+import argparse
+import hashlib
 from storage import Storage, Video
 
 OUTPUT_FILE = "report/latest_report.html"
@@ -216,7 +218,25 @@ def render_targets_table(targets):
     html += "</tbody></table>"
     return html
 
+def get_content_hash(channels, db):
+    """計算影片內容的雜湊值，用於判斷內容是否變動"""
+    content_data = []
+    for channel, videos in channels.items():
+        for v in videos:
+            analysis = db.get_analysis(v.id) if v.status == "analyzed" else None
+            content_data.append({
+                "id": v.id,
+                "status": v.status,
+                "analysis": analysis
+            })
+    return hashlib.md5(json.dumps(content_data, sort_keys=True).encode()).hexdigest()
+
 def main():
+    parser = argparse.ArgumentParser(description="產生財經影片重點彙整報表")
+    parser.add_argument("--weekly", action="store_true", help="產生帶日期的週報存檔 (weekly_finance_report_YYYY-MM-DD.html)")
+    parser.add_argument("--force", action="store_true", help="強制更新 latest_report.html，不論內容是否變動")
+    args = parser.parse_args()
+
     db = Storage()
     start_str, end_str = get_week_range()
     
@@ -230,7 +250,20 @@ def main():
             channels[v.channel] = []
         channels[v.channel].append(v)
 
+    # 條件式檢查：內容是否有變動
+    current_hash = get_content_hash(channels, db)
+    hash_file = "data/.report_hash"
+    old_hash = ""
+    if os.path.exists(hash_file):
+        with open(hash_file, 'r') as f:
+            old_hash = f.read().strip()
+
+    if current_hash == old_hash and not args.force and not args.weekly:
+        print("💡 內容無變動，跳過報表更新。")
+        return
+
     # Start HTML
+    now = datetime.datetime.now()
     html = f"""<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
@@ -245,7 +278,7 @@ def main():
             <h1>財經 YouTube 影片重點彙整</h1>
             <div class="meta">
                 統計期間：{start_str} 至 {end_str}<br>
-                生成時間：{datetime.datetime.now().strftime('%Y/%m/%d %H:%M')}
+                生成時間：{now.strftime('%Y/%m/%d %H:%M')}
             </div>
         </header>
     """
@@ -296,18 +329,28 @@ def main():
 </html>
     """
 
-    # Write to file
+    # Write to latest_report.html
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(html)
     
-    # 同時產生帶日期的歷史檔案
-    today_str = datetime.datetime.now().strftime('%Y-%m-%d')
-    dated_file = f"report/weekly_finance_report_{today_str}.html"
-    with open(dated_file, 'w', encoding='utf-8') as f:
+    # 同時寫入根目錄的 index.html 以支援 GitHub Pages
+    with open("index.html", 'w', encoding='utf-8') as f:
         f.write(html)
     
-    print(f"✨ 報告已生成：{OUTPUT_FILE}")
-    print(f"📜 歷史備份已儲存：{dated_file}")
+    # 儲存雜湊值
+    with open(hash_file, 'w') as f:
+        f.write(current_hash)
+    
+    print(f"✨ 報告已更新：{OUTPUT_FILE}")
+    print(f"🌐 靜態網頁已同步：index.html")
+
+    # 只有在 --weekly 模式下才產生帶日期的存檔
+    if args.weekly:
+        today_str = now.strftime('%Y-%m-%d')
+        dated_file = f"report/weekly_finance_report_{today_str}.html"
+        with open(dated_file, 'w', encoding='utf-8') as f:
+            f.write(html)
+        print(f"📜 週報存檔已儲存：{dated_file}")
 
 if __name__ == "__main__":
     main()

@@ -55,15 +55,17 @@
     }
     Storage().save_analysis("TARGET_VIDEO_ID", content)
     ```
-5.  **更新報表**:
+5.  **更新報表 (Conditional Update)**:
     *   執行 `uv run generate_report.py`。
+    *   系統會自動判斷內容是否變動，若有變動則更新 `latest_report.html`。
     *   回報「已完成 [影片標題] 的分析與歸檔」。
 
-### 3. 發布與同步 (`@publish`)
-**時機**: 分析工作告一段落，或使用者要求「上傳報告」。
+### 3. 發布與結算週報 (`@publish`)
+**時機**: 週末或分析工作告一段落，使用者要求「結算週報」或「同步報告」。
 **動作**:
-1.  執行 `uv run generate_report.py` (確保最新)。
-2.  執行 `./sync.sh` (Git Commit & Push)。
+1.  **結算週報**: 執行 `uv run generate_report.py --weekly`。
+    *   此舉會更新 `latest_report.html` 並產出一份帶日期的存檔 `report/weekly_finance_report_YYYY-MM-DD.html`。
+2.  **發布與同步**: 執行 `./sync.sh` (Git Commit & Push)。
 
 ---
 

@@ -1,0 +1,33 @@
+{
+  "key_points": [
+    "AI 是效率工具，重點在於使用工具的人而非取代論，AI Agent 商機在於產出決策結果的能力",
+    "馬斯克 Terafab 佈局選擇三星是基於成本與控制權，將為台股設備供應商帶來巨大紅利",
+    "震盪盤勢中應觀察基本面未變但受情緒影響的強勢股，關注營收與盈餘的成長趨勢"
+  ],
+  "targets": [
+    {
+      "code": "Equipment",
+      "name": "台股設備股",
+      "view": "看多",
+      "rationale": "馬斯克投資 Terafab 帶來數百億美元級別的設備紅利"
+    },
+    {
+      "code": "SSNLF",
+      "name": "三星",
+      "view": "看多",
+      "rationale": "獲得馬斯克 Terafab 代工訂單，成本與控制優勢吸引大客戶"
+    },
+    {
+      "code": "PLTR",
+      "name": "Palantir",
+      "view": "看多",
+      "rationale": "AI Agent 領先者，協助企業整理數據並產出具體決策"
+    },
+    {
+      "code": "NET",
+      "name": "Cloudflare",
+      "view": "看多",
+      "rationale": "AI 爬蟲的收費站與流量守門員，受惠於網路流量安全需求"
+    }
+  ]
+}

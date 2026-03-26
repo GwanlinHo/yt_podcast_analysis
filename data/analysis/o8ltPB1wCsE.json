@@ -1,0 +1,35 @@
+{
+  "key_points": [
+    "實體 AI (Physical AI) 的轉折點：機器人技術正從實驗室走向複雜現實世界，從感知轉向思考與行動。",
+    "代幣工廠 (Token Factory) 概念：未來的資料中心將產生「行動代幣」以驅動機器人執行任務。",
+    "Agility Robotics 與 Skild AI：分享 Digit 機器人的實戰部署經驗，以及開發「通用型大腦」讓 AI 能驅動任何硬體。",
+    "模擬與現實的橋樑 (Sim-to-Real)：強調 NVIDIA Cosmos 與 Isaac GR00T 框架在人形機器人開發與工廠模擬中的關鍵地位。",
+    "Miula 觀點：關注機器人處理器與感測器供應鏈，並指出技術護城河在於數據規模與模擬精準度。"
+  ],
+  "targets": [
+    {
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "view": "看多",
+      "rationale": "作為機器人產業的底層架構提供者，其軟硬體（Blackwell/Thor/Isaac）具備壟斷優勢。"
+    },
+    {
+      "code": "2317",
+      "name": "鴻海",
+      "view": "看多",
+      "rationale": "被點名為數位孿生與代工製造領域的重要夥伴。"
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "view": "看多",
+      "rationale": "作為核心處理器的代工廠，受益於機器人處理器需求的增長。"
+    },
+    {
+      "code": "Robotics Startups",
+      "name": "人形機器人新創",
+      "view": "中性偏多",
+      "rationale": "技術雖有突破，但實現大規模量產與商業獲利仍需時間驗證。"
+    }
+  ]
+}

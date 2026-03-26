@@ -1,40 +1,46 @@
-# YouTube Tech & Podcast Analysis (財經影片分析系統)
+# YouTube Finance Analysis (財經影片分析系統)
 
-本系統用於自動化追蹤、分析 YouTube 財經頻道，並生成結構化的分析報告。系統採用資料庫與 AI 分析分離的架構。
+本系統用於自動化追蹤、分析 YouTube 財經頻道（如股癌、財報狗、財女珍妮、M觀點等），並透過 AI 生成結構化的分析報告。
 
-## 功能
+## 🌟 特色功能
 
-- **自動化更新**: 透過 `daily_update.py` 追蹤指定頻道（如股癌、財報狗、財女珍妮、M觀點等）的新影片。
-- **AI 深度分析**: 透過 Gemini Agent 對影片重點議題進行歸納，並標註提及標的多空觀點。
-- **結構化報表**: 自動生成 HTML 格式的財經週報與最新分析報告。
-- **資料庫管理**: 所有影片資訊與分析結果皆以 JSON 格式持久化儲存。
+- **自動化更新**: 透過 `daily_update.py` 追蹤新影片。
+- **AI 深度分析**: 透過 Gemini Agent 歸納重點議題，標註多空觀點與邏輯。
+- **GitHub Pages 支援**: 自動同步更新根目錄的 `index.html`，方便手機隨時查看。
+- **條件式報告生成**: 只有在內容有實質更新時才更新報表，節省儲存空間。
+- **週報存檔機制**: 可定期產出帶日期的歷史週報檔案。
 
-## 專案結構
+## 📱 行動端查看 (GitHub Pages)
 
-- `daily_update.py`: 每日更新資料庫腳本。
-- `generate_report.py`: 生成 HTML 報表腳本。
-- `storage.py`: 資料庫存取邏輯 (Storage Class)。
-- `data/`:
-  - `database.json`: 影片清單與狀態資料庫。
-  - `analysis/`: 存放各影片詳細分析結果的 JSON 檔案。
-- `report/`: 存放生成的 HTML 財經週報與最新報表 (`latest_report.html`)。
-- `GEMINI.md`: 記錄 Agent 的標準作業流程 (SOP) 與輸出規範。
-- `sync.sh`: Git 同步腳本，用於發布報告。
+本專案支援 GitHub Pages，你可以透過以下步驟設定：
+1.  前往 GitHub Repository 的 **Settings** > **Pages**。
+2.  將 **Build and deployment** > **Branch** 設定為 `main` (或你使用的分支)，資料夾選取 `/ (root)`。
+3.  儲存後，你就可以透過 `https://<你的帳號>.github.io/<專案名稱>/` 隨時隨地查看最新的財經摘要。
 
-## 安裝與使用
+## 📂 專案結構
 
-1. **環境設定** (建議使用 [uv](https://github.com/astral-sh/uv)):
-   ```bash
-   uv sync
-   ```
+- `index.html`: **[核心]** 供 GitHub Pages 顯示的最新報告網頁。
+- `generate_report.py`: 生成 HTML 報表與同步 `index.html` 的腳本。
+- `daily_update.py`: 每日更新影片資料庫。
+- `storage.py`: 資料庫 (JSON) 存取邏輯。
+- `data/`: 存放影片資料庫與詳細分析結果。
+- `report/`: 存放 `latest_report.html` 與帶日期的歷史週報存檔。
+- `GEMINI.md`: 標準作業流程 (SOP) 與分析規範。
 
-2. **操作流程** (透過 Gemini Agent 指令):
-   - **`@daily_update`**: 更新影片資料庫並檢查有無新影片。
-   - **`@analyze_next`**: 針對下一部待處理影片進行內容摘要與標的分析。
-   - **`@publish`**: 生成最新報表並執行 `sync.sh` 同步至遠端。
+## 🚀 操作流程
 
-## 輸出規範
+### 1. 每日更新與分析
+透過 Gemini Agent 執行指令：
+- **`@daily_update`**: 獲取新片清單。
+- **`@analyze_next`**: 自動分析下一部影片內容。
 
-- **重點議題**: 須包含邏輯推演。
-- **提及標的**: 需標註多空觀點 (`view`) 與理由 (`rationale`) 與對應標的。
-- **格式規範**: 嚴禁使用 Emoji。
+### 2. 結算週報與同步
+- **生成最新狀態**: `uv run generate_report.py` (僅內容變動時更新 `index.html`)。
+- **結算帶日期週報**: `uv run generate_report.py --weekly`。
+- **同步至 GitHub**: 執行 `./sync.sh` 或透過指令 `@publish`。
+
+## 📋 分析規範
+
+- **重點議題**: 須包含邏輯推演，而非僅列出結論。
+- **提及標的**: 需標註多空觀點 (`Bullish`/`Bearish`/`Neutral`) 與具體理由 (`rationale`)。
+- **格式**: 為求專業感，嚴禁在報告內容中使用 Emoji。

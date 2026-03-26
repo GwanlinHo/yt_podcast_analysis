@@ -1,0 +1,33 @@
+{
+  "key_points": [
+    "AI 基礎建設與能源挑戰：探討 AI 資料中心電力缺口，關注 SMR (小型核反應爐) 作為潛在解決方案。",
+    "市場趨勢與籌碼面：分析美股近期破底震盪與 CTA 籌碼洗盤，建議維持投資紀律與戰略彈性。",
+    "產業動態：資金流向 eMMC、MLC NAND 與 NOR Flash；針對 NVIDIA GTC 後的光通訊與 LPU 商機，提醒留意利多出盡風險。"
+  ],
+  "targets": [
+    {
+      "code": "2337",
+      "name": "旺宏",
+      "view": "看多",
+      "rationale": "受惠於大廠產能排擠效應，帶動 NOR Flash 等產品需求。"
+    },
+    {
+      "code": "Memory",
+      "name": "記憶體 (eMMC/NAND)",
+      "view": "中性偏多",
+      "rationale": "板塊出現輪動，報價與需求存在差異。"
+    },
+    {
+      "code": "SMR",
+      "name": "小型核反應爐",
+      "view": "關注",
+      "rationale": "作為 AI 資料中心缺電的潛在長期解決方案。"
+    },
+    {
+      "code": "Optical",
+      "name": "光通訊",
+      "view": "謹慎",
+      "rationale": "市場預期已高，需注意 GTC 大會後的利多出盡風險。"
+    }
+  ]
+}

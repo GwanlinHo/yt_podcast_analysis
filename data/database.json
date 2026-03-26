@@ -1,149 +1,14 @@
 {
-  "last_updated": "2026-03-21T04:31:44.386997",
+  "last_updated": "2026-03-26T02:04:35.830011",
   "videos": {
-    "JPDxWnDUtAw": {
-      "id": "JPDxWnDUtAw",
-      "title": "EP644 | 🦇",
-      "url": "https://www.youtube.com/watch?v=JPDxWnDUtAw",
-      "date": "20260314",
+    "cnsLcRD2TMs": {
+      "id": "cnsLcRD2TMs",
+      "title": "EP646 | 🦙",
+      "url": "https://www.youtube.com/watch?v=cnsLcRD2TMs",
+      "date": "20260321",
       "channel": "股癌",
       "status": "analyzed",
-      "created_at": "2026-03-15T02:00:05.536375"
-    },
-    "ivBMr9eSv5s": {
-      "id": "ivBMr9eSv5s",
-      "title": "EP643 | 🦊",
-      "url": "https://www.youtube.com/watch?v=ivBMr9eSv5s",
-      "date": "20260311",
-      "channel": "股癌",
-      "status": "analyzed",
-      "created_at": "2026-03-15T02:00:06.497540"
-    },
-    "kfX2Mu9qnOs": {
-      "id": "kfX2Mu9qnOs",
-      "title": "509.【財經時事放大鏡】好貴的油！好貴的？？",
-      "url": "https://www.youtube.com/watch?v=kfX2Mu9qnOs",
-      "date": "20260312",
-      "channel": "財報狗",
-      "status": "analyzed",
-      "created_at": "2026-03-15T02:00:16.189046"
-    },
-    "qXWJdWFhD3g": {
-      "id": "qXWJdWFhD3g",
-      "title": "508.【達人聊投資】13F 報告投資機會 ft. 投資沙岸的揀貝人",
-      "url": "https://www.youtube.com/watch?v=qXWJdWFhD3g",
-      "date": "20260308",
-      "channel": "財報狗",
-      "status": "analyzed",
-      "created_at": "2026-03-15T02:00:17.242798"
-    },
-    "N_rrkFBsbB0": {
-      "id": "N_rrkFBsbB0",
-      "title": "債市大轉折？降息循環確立，AI 不只能選股，00985D 智能選債",
-      "url": "https://www.youtube.com/watch?v=N_rrkFBsbB0",
-      "date": "20260311",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-03-15T02:00:27.045725"
-    },
-    "38mgaX0gU0I": {
-      "id": "38mgaX0gU0I",
-      "title": "AI顛覆軟體業：大裁員時代，工程師危險了？ft. 伊原力科技CEO Kevin Lai",
-      "url": "https://www.youtube.com/watch?v=38mgaX0gU0I",
-      "date": "20260310",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-03-15T02:00:28.075980"
-    },
-    "WY0nMNsCTVU": {
-      "id": "WY0nMNsCTVU",
-      "title": "2026/03/13 (五）油價再破百，川普壓不住？",
-      "url": "https://www.youtube.com/watch?v=WY0nMNsCTVU",
-      "date": "20260313",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-03-15T02:00:37.348452"
-    },
-    "eJklz32rDOo": {
-      "id": "eJklz32rDOo",
-      "title": "2026/03/12 (四）通膨降溫，油價壓不住？",
-      "url": "https://www.youtube.com/watch?v=eJklz32rDOo",
-      "date": "20260312",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-03-15T02:00:38.313918"
-    },
-    "PWsS8sN2syo": {
-      "id": "PWsS8sN2syo",
-      "title": "2026/03/11 (三）甲骨文#ORCL 財報打臉空頭？亞馬遜 (AMZN)發債",
-      "url": "https://www.youtube.com/watch?v=PWsS8sN2syo",
-      "date": "20260311",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-03-15T02:00:39.225894"
-    },
-    "Zdz9LloWJxE": {
-      "id": "Zdz9LloWJxE",
-      "title": "2026/03/10 (二）美股Ｖ轉，反彈該跑？AAOI, HIMS暴漲",
-      "url": "https://www.youtube.com/watch?v=Zdz9LloWJxE",
-      "date": "20260310",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-03-15T02:00:40.287352"
-    },
-    "i7VqH8h1DNg": {
-      "id": "i7VqH8h1DNg",
-      "title": "2026/03/09 (一）油價破百， 空頭來了？現在該做什麼",
-      "url": "https://www.youtube.com/watch?v=i7VqH8h1DNg",
-      "date": "20260309",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-03-15T02:00:41.457989"
-    },
-    "Y0kd_Z4HYZY": {
-      "id": "Y0kd_Z4HYZY",
-      "title": "EP285. 微軟推出 Cowork、特斯拉 Digital Optimus、NVIDIA 2026 GTC | M觀點",
-      "url": "https://www.youtube.com/watch?v=Y0kd_Z4HYZY",
-      "date": "20260312",
-      "channel": "M觀點",
-      "status": "analyzed",
-      "created_at": "2026-03-15T02:00:58.154170"
-    },
-    "jS7HDYMiovU": {
-      "id": "jS7HDYMiovU",
-      "title": "EP284. OpenAI GPT-5.4、再談 Anthropic 爭議、Robotaxi 的擴張速度 | M觀點",
-      "url": "https://www.youtube.com/watch?v=jS7HDYMiovU",
-      "date": "20260309",
-      "channel": "M觀點",
-      "status": "analyzed",
-      "created_at": "2026-03-15T02:00:59.200486"
-    },
-    "g7bA1Qs3GS4": {
-      "id": "g7bA1Qs3GS4",
-      "title": "AI投資見頂？輝達財報不漲 ，GTC 亮點是什麼？ft. 艦長 程正樺",
-      "url": "https://www.youtube.com/watch?v=g7bA1Qs3GS4",
-      "date": "20260316",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-03-17T02:00:26.801672"
-    },
-    "do18uv_aw44": {
-      "id": "do18uv_aw44",
-      "title": "EP286. xAI 整個打掉重練、Meta 又要大裁員、卓肯米勒投資觀點 | M觀點",
-      "url": "https://www.youtube.com/watch?v=do18uv_aw44",
-      "date": "20260316",
-      "channel": "M觀點",
-      "status": "analyzed",
-      "created_at": "2026-03-17T02:00:57.734864"
-    },
-    "zllE5XH6sko": {
-      "id": "zllE5XH6sko",
-      "title": "2026/03/17 (二）輝達GTC最大亮點是什麼？AI將顛覆整個商業模式？",
-      "url": "https://www.youtube.com/watch?v=zllE5XH6sko",
-      "date": "20260317",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-03-18T02:00:40.049628"
+      "created_at": "2026-03-22T00:30:47.488091"
     },
     "g4Oeovjs42U": {
       "id": "g4Oeovjs42U",
@@ -152,34 +17,7 @@
       "date": "20260318",
       "channel": "股癌",
       "status": "analyzed",
-      "created_at": "2026-03-19T01:30:52.383929"
-    },
-    "UY9EodmQMh8": {
-      "id": "UY9EodmQMh8",
-      "title": "2026/03/18 (三）輝達股價，為什麼漲不動？",
-      "url": "https://www.youtube.com/watch?v=UY9EodmQMh8",
-      "date": "20260318",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-03-19T01:31:24.439259"
-    },
-    "q8Qgv0cWLzM": {
-      "id": "q8Qgv0cWLzM",
-      "title": "2026/03/19 (四）聯準會按兵不動，今年可能會升息？光通逆勢漲，美光財報佳",
-      "url": "https://www.youtube.com/watch?v=q8Qgv0cWLzM",
-      "date": "20260319",
-      "channel": "財女珍妮",
-      "status": "analyzed",
-      "created_at": "2026-03-20T01:01:21.348289"
-    },
-    "61ogGJGbNPg": {
-      "id": "61ogGJGbNPg",
-      "title": "EP287. 輝達 GTC 發表重點、OpenAI 砍掉支線、Agent 外殼大戰 | M觀點",
-      "url": "https://www.youtube.com/watch?v=61ogGJGbNPg",
-      "date": "20260319",
-      "channel": "M觀點",
-      "status": "analyzed",
-      "created_at": "2026-03-20T01:01:43.698275"
+      "created_at": "2026-03-22T00:30:48.419099"
     },
     "4_jcbc_waks": {
       "id": "4_jcbc_waks",
@@ -188,7 +26,16 @@
       "date": "20260319",
       "channel": "財報狗",
       "status": "analyzed",
-      "created_at": "2026-03-21T01:01:02.846009"
+      "created_at": "2026-03-22T00:30:59.253419"
+    },
+    "g7bA1Qs3GS4": {
+      "id": "g7bA1Qs3GS4",
+      "title": "AI投資見頂？輝達財報不漲 ，GTC 亮點是什麼？ft. 艦長 程正樺",
+      "url": "https://www.youtube.com/watch?v=g7bA1Qs3GS4",
+      "date": "20260316",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-03-22T00:31:11.817863"
     },
     "jy1omh2VYik": {
       "id": "jy1omh2VYik",
@@ -197,7 +44,124 @@
       "date": "20260320",
       "channel": "財女珍妮",
       "status": "analyzed",
-      "created_at": "2026-03-21T01:01:25.424455"
+      "created_at": "2026-03-22T00:31:23.284154"
+    },
+    "q8Qgv0cWLzM": {
+      "id": "q8Qgv0cWLzM",
+      "title": "2026/03/19 (四）聯準會按兵不動，今年可能會升息？光通逆勢漲，美光財報佳",
+      "url": "https://www.youtube.com/watch?v=q8Qgv0cWLzM",
+      "date": "20260319",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-03-22T00:31:24.507130"
+    },
+    "UY9EodmQMh8": {
+      "id": "UY9EodmQMh8",
+      "title": "2026/03/18 (三）輝達股價，為什麼漲不動？",
+      "url": "https://www.youtube.com/watch?v=UY9EodmQMh8",
+      "date": "20260318",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-03-22T00:31:25.677819"
+    },
+    "zllE5XH6sko": {
+      "id": "zllE5XH6sko",
+      "title": "2026/03/17 (二）輝達GTC最大亮點是什麼？AI將顛覆整個商業模式？",
+      "url": "https://www.youtube.com/watch?v=zllE5XH6sko",
+      "date": "20260317",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-03-22T00:31:26.981668"
+    },
+    "o8ltPB1wCsE": {
+      "id": "o8ltPB1wCsE",
+      "title": "輝達 GTC 觀看派對：From Concept to Production: Humanoid Robotics at Scale Ft. Miula",
+      "url": "https://www.youtube.com/watch?v=o8ltPB1wCsE",
+      "date": "20260321",
+      "channel": "M觀點",
+      "status": "analyzed",
+      "created_at": "2026-03-22T00:31:47.017837"
+    },
+    "61ogGJGbNPg": {
+      "id": "61ogGJGbNPg",
+      "title": "EP287. 輝達 GTC 發表重點、OpenAI 砍掉支線、Agent 外殼大戰 | M觀點",
+      "url": "https://www.youtube.com/watch?v=61ogGJGbNPg",
+      "date": "20260319",
+      "channel": "M觀點",
+      "status": "analyzed",
+      "created_at": "2026-03-22T00:31:48.132022"
+    },
+    "do18uv_aw44": {
+      "id": "do18uv_aw44",
+      "title": "EP286. xAI 整個打掉重練、Meta 又要大裁員、卓肯米勒投資觀點 | M觀點",
+      "url": "https://www.youtube.com/watch?v=do18uv_aw44",
+      "date": "20260316",
+      "channel": "M觀點",
+      "status": "analyzed",
+      "created_at": "2026-03-22T00:31:49.308838"
+    },
+    "9z4fUdifOqY": {
+      "id": "9z4fUdifOqY",
+      "title": "511.【達人聊產業】從 PCB 到半導體：看志聖 x G2C+ 如何致勝 ft. 志聖梁又文總經理",
+      "url": "https://www.youtube.com/watch?v=9z4fUdifOqY",
+      "date": "20260322",
+      "channel": "財報狗",
+      "status": "analyzed",
+      "created_at": "2026-03-24T01:30:57.602694"
+    },
+    "i_YrNHl9FHo": {
+      "id": "i_YrNHl9FHo",
+      "title": "2026/03/23 (一）美股不行，馬斯克Terafab能行嗎？ #TSLA #SPACEX",
+      "url": "https://www.youtube.com/watch?v=i_YrNHl9FHo",
+      "date": "20260323",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-03-24T01:31:19.542809"
+    },
+    "HwkixoxGyZM": {
+      "id": "HwkixoxGyZM",
+      "title": "EP288. 美超微偷偷賣中國、馬斯克超級晶圓廠、Palantir 加碼國防 | M觀點",
+      "url": "https://www.youtube.com/watch?v=HwkixoxGyZM",
+      "date": "20260323",
+      "channel": "M觀點",
+      "status": "analyzed",
+      "created_at": "2026-03-24T01:31:40.746954"
+    },
+    "ZB9oxcv7aGQ": {
+      "id": "ZB9oxcv7aGQ",
+      "title": "【技術分析全攻略】多頭市場最容易犯的3個錯，你中了幾個？ ft. 朱家泓、林穎",
+      "url": "https://www.youtube.com/watch?v=ZB9oxcv7aGQ",
+      "date": "20260324",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-03-25T02:00:28.104688"
+    },
+    "h8ydCGbilH8": {
+      "id": "h8ydCGbilH8",
+      "title": "2026/03/24 (二）川普TACO， 反彈該跑？輝達(NVDA) 佈局電力",
+      "url": "https://www.youtube.com/watch?v=h8ydCGbilH8",
+      "date": "20260324",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-03-25T02:00:39.111874"
+    },
+    "hag1of5TGSk": {
+      "id": "hag1of5TGSk",
+      "title": "EP647 | 🍬",
+      "url": "https://www.youtube.com/watch?v=hag1of5TGSk",
+      "date": "20260325",
+      "channel": "股癌",
+      "status": "analyzed",
+      "created_at": "2026-03-26T02:00:07.397237"
+    },
+    "qhmXPHG7jxA": {
+      "id": "qhmXPHG7jxA",
+      "title": "2026/03/25 (三）私募信貸風暴未完，軟體股再崩潰",
+      "url": "https://www.youtube.com/watch?v=qhmXPHG7jxA",
+      "date": "20260325",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-03-26T02:00:39.616195"
     }
   }
 }
