@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T21:40:04.109778",
+  "last_updated": "2026-03-28T20:03:57.619830",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -169,7 +169,7 @@
       "url": "https://www.youtube.com/watch?v=CDCOv2dDJYU",
       "date": "20260326",
       "channel": "財女珍妮",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-03-26T21:32:41.113191"
     },
     "Rb9YF0JXXaw": {
@@ -187,8 +187,62 @@
       "url": "https://www.youtube.com/watch?v=luz8R-CSwEM",
       "date": "20260321",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-03-26T21:39:02.779343"
+    },
+    "_cQQce1y0_c": {
+      "id": "_cQQce1y0_c",
+      "title": "512.【財經時事放大鏡】開牙科 x 跑外送",
+      "url": "https://www.youtube.com/watch?v=_cQQce1y0_c",
+      "date": "20260326",
+      "channel": "財報狗",
+      "status": "analyzed",
+      "created_at": "2026-03-27T20:00:20.961234"
+    },
+    "cEiYgUXrQqc": {
+      "id": "cEiYgUXrQqc",
+      "title": "如何利用房地產高槓桿？2026資金重回基本面 聰明人靠「這類資產」",
+      "url": "https://www.youtube.com/watch?v=cEiYgUXrQqc",
+      "date": "20260327",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-03-27T20:00:35.535130"
+    },
+    "_M9Z71GgKdU": {
+      "id": "_M9Z71GgKdU",
+      "title": "2026/03/27 (五）殖利率飆、美債危險，川普急了嗎？",
+      "url": "https://www.youtube.com/watch?v=_M9Z71GgKdU",
+      "date": "20260327",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-03-27T20:00:51.148264"
+    },
+    "94wsZ3zwv10": {
+      "id": "94wsZ3zwv10",
+      "title": "EP289. OpenAI 砍 Sora、特斯拉 Semi 卡車、谷歌新 AI 技術 | M觀點",
+      "url": "https://www.youtube.com/watch?v=94wsZ3zwv10",
+      "date": "20260326",
+      "channel": "M觀點",
+      "status": "analyzed",
+      "created_at": "2026-03-27T20:01:21.942626"
+    },
+    "FFHn73SkGxM": {
+      "id": "FFHn73SkGxM",
+      "title": "EP648 | 🦆",
+      "url": "https://www.youtube.com/watch?v=FFHn73SkGxM",
+      "date": "20260328",
+      "channel": "股癌",
+      "status": "pending",
+      "created_at": "2026-03-28T20:00:08.877270"
+    },
+    "6TMcvgkwqz4": {
+      "id": "6TMcvgkwqz4",
+      "title": "【兆華艾綸說】川普救不了通膨危機？誰能避開油價衝擊？5不和5要！太空商機.設備.CPO走自己的路",
+      "url": "https://www.youtube.com/watch?v=6TMcvgkwqz4",
+      "date": "20260328",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-03-28T20:01:39.672226"
     }
   }
 }
