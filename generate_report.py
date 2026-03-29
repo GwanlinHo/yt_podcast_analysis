@@ -3,6 +3,7 @@ import json
 import datetime
 import argparse
 import hashlib
+import subprocess
 from storage import Storage, Video
 
 OUTPUT_FILE = "report/latest_report.html"
