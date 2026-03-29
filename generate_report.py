@@ -405,6 +405,15 @@ def main():
     print(f"✨ 報告已更新：{OUTPUT_FILE}")
     print(f"🌐 靜態網頁已同步：index.html")
 
+    # 自動同步到 GitHub (Auto-sync to GitHub)
+    try:
+        print("🚀 正在啟動自動同步 (Triggering auto-sync)...")
+        # 呼叫現有的 sync.sh 進行 Git 操作
+        subprocess.run(["bash", "sync.sh"], check=True)
+        print("✅ GitHub 同步完成。")
+    except Exception as e:
+        print(f"⚠️ 自動同步發生錯誤 (Sync failed): {e}")
+
     # 只有在 --weekly 模式下才產生帶日期的存檔
     if args.weekly:
         today_str = now.strftime('%Y-%m-%d')
