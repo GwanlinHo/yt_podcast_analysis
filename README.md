@@ -6,8 +6,9 @@
 
 - **自動化更新**: 透過 `daily_update.py` 追蹤新影片。
 - **AI 深度分析**: 透過 Gemini Agent 歸納重點議題，標註多空觀點與邏輯。
-- **GitHub Pages 支援**: 自動同步更新根目錄的 `index.html`，方便手機隨時查看。
-- **條件式報告生成**: 只有在內容有實質更新時才更新報表，節省儲存空間。
+- **GitHub 自動同步**: **[新功能]** `generate_report.py` 成功更新報表後，會自動執行 `./sync.sh` 將最新的 `index.html` 上傳至 GitHub。
+- **GitHub Pages 支援**: 支援 GitHub Pages，方便手機隨時透過 URL 查看最新報表。
+- **條件式報告生成**: 只有在內容有實質更新時才更新報表，節省儲存空間與減少 Git 無意義提交。
 - **週報存檔機制**: 可定期產出帶日期的歷史週報檔案。
 
 ## 📱 行動端查看 (GitHub Pages)
@@ -32,13 +33,13 @@
 
 ### 1. 每日更新與分析
 透過 Gemini Agent 執行指令：
-- **`@daily_update`**: 獲取新片清單。
-- **`@analyze_next`**: 自動分析下一部影片內容。
+- **`@daily_update`**: 獲取新片清單，並自動分析第一部新影片。
+- **`@analyze_next`**: 分析下一部影片，並**自動同步至 GitHub**。
 
-### 2. 結算週報與同步
-- **生成最新狀態**: `uv run generate_report.py` (僅內容變動時更新 `index.html`)。
-- **結算帶日期週報**: `uv run generate_report.py --weekly`。
-- **同步至 GitHub**: 執行 `./sync.sh` 或透過指令 `@publish`。
+### 2. 生成報表與同步 (自動化)
+- **生成最新狀態**: `uv run generate_report.py` (僅內容變動時更新 `index.html` 且**自動推送到 GitHub**)。
+- **結算帶日期週報**: `uv run generate_report.py --weekly` (產生週報存檔並**自動同步**)。
+- **手動同步**: 仍可直接執行 `./sync.sh` 進行強制同步。
 
 ## 📋 分析規範
 
