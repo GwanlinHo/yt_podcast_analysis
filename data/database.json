@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T12:01:26.857534",
+  "last_updated": "2026-03-29T20:03:51.812993",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -243,6 +243,15 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-03-28T20:01:39.672226"
+    },
+    "2kk0ingiYHI": {
+      "id": "2kk0ingiYHI",
+      "title": "週報ep237公開版|戰事氣氛差 清明假前怎麼做？支撐32000？轉移資金到這裡!ft.盈利投資董事長 鍾國忠 2026/03/29 李兆華River @riverstockshow",
+      "url": "https://www.youtube.com/watch?v=2kk0ingiYHI",
+      "date": "20260329",
+      "channel": "兆華與股惑仔",
+      "status": "analyzed",
+      "created_at": "2026-03-29T20:01:46.049926"
     }
   }
 }
