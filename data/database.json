@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T06:02:02.664663",
+  "last_updated": "2026-03-30T20:03:20.302061",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -252,6 +252,24 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-03-29T20:01:46.049926"
+    },
+    "8Hd4WBhH5aw": {
+      "id": "8Hd4WBhH5aw",
+      "title": "2026/03/30 (一）納指進入修正區，美伊戰爭AI衝擊還沒來？科技股下跌 才剛開始？",
+      "url": "https://www.youtube.com/watch?v=8Hd4WBhH5aw",
+      "date": "20260330",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-03-30T20:00:52.102006"
+    },
+    "0fiKXac30Jo": {
+      "id": "0fiKXac30Jo",
+      "title": "EP290. 美國科技股怎麼看、社群巨頭的兒少責任、Siri 不再只有 GPT | M觀點",
+      "url": "https://www.youtube.com/watch?v=0fiKXac30Jo",
+      "date": "20260330",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-03-30T20:01:23.501460"
     }
   }
 }
