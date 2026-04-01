@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T10:03:06.651035",
+  "last_updated": "2026-04-01T20:03:22.252017",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -279,6 +279,24 @@
       "channel": "財女珍妮",
       "status": "analyzed",
       "created_at": "2026-03-31T10:01:33.291090"
+    },
+    "PpgaPfnZuHI": {
+      "id": "PpgaPfnZuHI",
+      "title": "EP649 | 💌",
+      "url": "https://www.youtube.com/watch?v=PpgaPfnZuHI",
+      "date": "20260401",
+      "channel": "股癌",
+      "status": "analyzed",
+      "created_at": "2026-04-01T20:00:07.989944"
+    },
+    "fUcJ95VS24s": {
+      "id": "fUcJ95VS24s",
+      "title": "2026/04/01 (三）停戰有譜，美股真的跌完了？Nvidia再投資Marvell 20億美元",
+      "url": "https://www.youtube.com/watch?v=fUcJ95VS24s",
+      "date": "20260401",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-04-01T20:00:57.986253"
     }
   }
 }

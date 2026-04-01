@@ -1,0 +1,52 @@
+{
+  "key_points": [
+    "台股強勢反彈，若續創新高則先前的下跌僅視為多頭回檔",
+    "美股受油價與 VIX 影響，暫視為逃命波，操作建議逢高調節",
+    "輝達（NVIDIA）結盟 Marvell，目標是與博通（Broadcom）競爭 ASIC 與資料中心利潤",
+    "Astera Labs (ALAB) 與 Marvell 賽道不同，受輝達結盟影響有限",
+    "玻璃基板放量需 1.5-2 年，目前屬於資金提前卡位的投機題材"
+  ],
+  "macro_outlook": [
+    "台股相對美股強勢",
+    "美股受油價與恐慌指數（VIX）高企影響，短期不樂觀",
+    "建議降低槓桿，保留戰略縱深（現金水位）"
+  ],
+  "targets": [
+    {
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "view": "Bullish",
+      "rationale": "結盟 Marvell 強攻 ASIC，擴大資料中心話語權"
+    },
+    {
+      "code": "MRVL",
+      "name": "Marvell",
+      "view": "Bullish",
+      "rationale": "獲輝達結盟加持"
+    },
+    {
+      "code": "AVGO",
+      "name": "Broadcom",
+      "view": "Neutral",
+      "rationale": "面臨輝達與 Marvell 結盟的競爭威脅"
+    },
+    {
+      "code": "ALAB",
+      "name": "Astera Labs",
+      "view": "Neutral",
+      "rationale": "賽道不同，影響有限，但需觀察盤勢變化"
+    },
+    {
+      "code": "N/A",
+      "name": "玻璃基板類股",
+      "view": "Neutral",
+      "rationale": "投機題材，尚未有實質營收貢獻"
+    }
+  ],
+  "risk_factors": [
+    "美股逃命波風險",
+    "油價居高不下影響通膨與情緒",
+    "投機題材過度炒作的回檔風險"
+  ],
+  "quotes": "資金控管優於單點預測。大盤修正時不要試圖精準摸底或一次性清倉，保留現金水位是為了確保長期的生存。"
+}
