@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02T20:02:21.088996",
+  "last_updated": "2026-04-03T20:04:09.499149",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -306,6 +306,33 @@
       "channel": "財女珍妮",
       "status": "analyzed",
       "created_at": "2026-04-02T20:00:49.278504"
+    },
+    "lKb0nLoCreg": {
+      "id": "lKb0nLoCreg",
+      "title": "513.【財經時事放大鏡】光油並進",
+      "url": "https://www.youtube.com/watch?v=lKb0nLoCreg",
+      "date": "20260402",
+      "channel": "財報狗",
+      "status": "analyzed",
+      "created_at": "2026-04-03T20:00:21.409602"
+    },
+    "rJ3rreMXkHs": {
+      "id": "rJ3rreMXkHs",
+      "title": "2026/04/03 (五）美股為什麼又Ｖ轉了？終於要講微軟....為什麼跌？",
+      "url": "https://www.youtube.com/watch?v=rJ3rreMXkHs",
+      "date": "20260403",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-04-03T20:00:48.513984"
+    },
+    "aD7YVVvWpnE": {
+      "id": "aD7YVVvWpnE",
+      "title": "EP291. 微軟推進多模型、OpenAI 最後募資、Claude Code 外洩事件 | M觀點",
+      "url": "https://www.youtube.com/watch?v=aD7YVVvWpnE",
+      "date": "20260402",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-04-03T20:01:17.909103"
     }
   }
 }
