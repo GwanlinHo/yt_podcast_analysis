@@ -1,0 +1,40 @@
+{
+  "key_points": [
+    "SpaceX 秘密提交 IPO 申請，目標估值 2 兆美元，預計募資達 750 億美元。",
+    "SpaceX IPO 內容涵蓋 Starlink、xAI 以及 X 平台，展現馬斯克整合太空、AI 與通訊生態系的野心。",
+    "微軟推出 MAI 系列自主研發模型，旨在減少對 OpenAI 的依賴並優化 AI 運算成本。",
+    "Google 發布 Gemma 4 開源模型，主打 Apache 2.0 授權與本地端執行，挑戰封閉模型市場。",
+    "阿提米絲二號任務成功進行，打破載人航太最遠距離紀錄，象徵月球探索邁向常態化。"
+  ],
+  "macro_outlook": [
+    "太空產業進入資本市場新紀元，SpaceX 的上市將帶動整體航太與衛星通訊板塊的估值重估。",
+    "大型科技公司 (Big Tech) 的 AI 策略正從「採購現成模型」轉向「自研底層模型」以確保利潤與成本控管。",
+    "商業太空探索正從技術展示轉向基礎設施建置（太空通訊 + 交通）。"
+  ],
+  "targets": [
+    {
+      "code": "SpaceX",
+      "name": "SpaceX",
+      "view": "Bullish",
+      "rationale": "具備全球領先的發射服務優勢與 Starlink 穩定的現金流潛力。"
+    },
+    {
+      "code": "MSFT",
+      "name": "微軟",
+      "view": "Bullish",
+      "rationale": "MAI 模型有助於實現 AI 技術自主與降低長期推論成本。"
+    },
+    {
+      "code": "GOOGL",
+      "name": "Alphabet (Google)",
+      "view": "Bullish",
+      "rationale": "Gemma 4 開源策略有助於擴大其在開源開發者社群的影響力。"
+    }
+  ],
+  "risk_factors": [
+    "SpaceX 的超高估值需依賴 Starlink 持續維持用戶高速增長及盈利能力。",
+    "自研 AI 模型若效能無法顯著超越或持平 OpenAI，恐難以實現完全替代。",
+    "載人太空任務具備高度風險，任何安全事故都將對相關企業市值造成巨大衝擊。"
+  ],
+  "quotes": "SpaceX 的 IPO 不只是關於火箭，它是關於人類成為跨行星物種的基礎設施建設。"
+}

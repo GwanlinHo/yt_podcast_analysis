@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T20:02:21.180771",
+  "last_updated": "2026-04-07T20:03:14.976225",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -360,6 +360,24 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-04-05T20:01:30.554580"
+    },
+    "Mk5ltNRLou8": {
+      "id": "Mk5ltNRLou8",
+      "title": "2026/04/07 (二）伊朗拒停火， 油價不漲了？博通、Google擴大合作",
+      "url": "https://www.youtube.com/watch?v=Mk5ltNRLou8",
+      "date": "20260407",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-04-07T20:00:45.258920"
+    },
+    "UJe3npRuk2Y": {
+      "id": "UJe3npRuk2Y",
+      "title": "EP292. SpaceX 即將 IPO、微軟與谷歌新模型、阿提米絲二號任務 | M觀點",
+      "url": "https://www.youtube.com/watch?v=UJe3npRuk2Y",
+      "date": "20260406",
+      "channel": "M觀點",
+      "status": "analyzed",
+      "created_at": "2026-04-07T20:01:11.176999"
     }
   }
 }
