@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T20:36:21.736193",
+  "last_updated": "2026-04-08T20:15:43.372110",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -378,6 +378,33 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-04-07T20:01:11.176999"
+    },
+    "tzaaCt32yic": {
+      "id": "tzaaCt32yic",
+      "title": "EP651 | One for all",
+      "url": "https://www.youtube.com/watch?v=tzaaCt32yic",
+      "date": "20260408",
+      "channel": "股癌",
+      "status": "pending",
+      "created_at": "2026-04-08T20:00:04.841300"
+    },
+    "FOt-7G1Bdcw": {
+      "id": "FOt-7G1Bdcw",
+      "title": "514.【達人聊投資】Claude 一更一殺, SaaS 十載枯榮談 ft.前美股分析師 Freddy",
+      "url": "https://www.youtube.com/watch?v=FOt-7G1Bdcw",
+      "date": "20260407",
+      "channel": "財報狗",
+      "status": "analyzed",
+      "created_at": "2026-04-08T20:00:20.314657"
+    },
+    "Hq_XgfPiBuE": {
+      "id": "Hq_XgfPiBuE",
+      "title": "2026/04/08 (三）停戰再兩週， 這次是真的？",
+      "url": "https://www.youtube.com/watch?v=Hq_XgfPiBuE",
+      "date": "20260408",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-04-08T20:00:50.122693"
     }
   }
 }
