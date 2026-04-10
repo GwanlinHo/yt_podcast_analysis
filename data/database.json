@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-10T06:07:22.668564",
+  "last_updated": "2026-04-10T14:02:19.923315",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -423,6 +423,24 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-04-10T06:04:47.298345"
+    },
+    "Uo0fg39vJxE": {
+      "id": "Uo0fg39vJxE",
+      "title": "515.【財經時事放大鏡】Intel & 半導體耗材",
+      "url": "https://www.youtube.com/watch?v=Uo0fg39vJxE",
+      "date": "20260409",
+      "channel": "財報狗",
+      "status": "analyzed",
+      "created_at": "2026-04-10T14:00:37.112957"
+    },
+    "uuDZ8WIU8dc": {
+      "id": "uuDZ8WIU8dc",
+      "title": "2026/04/10 (五）硬體沒漲完，軟體又崩潰。亞馬遜站回年線！",
+      "url": "https://www.youtube.com/watch?v=uuDZ8WIU8dc",
+      "date": "20260410",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-04-10T14:01:01.200968"
     }
   }
 }
