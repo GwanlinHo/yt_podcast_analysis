@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-11T04:02:05.503434",
+  "last_updated": "2026-04-12T20:03:03.457018",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -441,6 +441,33 @@
       "channel": "財女珍妮",
       "status": "analyzed",
       "created_at": "2026-04-10T14:01:01.200968"
+    },
+    "NCAgqfGtqts": {
+      "id": "NCAgqfGtqts",
+      "title": "EP652 | 🐸",
+      "url": "https://www.youtube.com/watch?v=NCAgqfGtqts",
+      "date": "20260411",
+      "channel": "股癌",
+      "status": "analyzed",
+      "created_at": "2026-04-12T20:00:07.956898"
+    },
+    "LCXMqi4UjJw": {
+      "id": "LCXMqi4UjJw",
+      "title": "週報ep241公開版｜精準預言 反攻3000點要創高！不硬追 何時會有回檔機會？ft.盈利投資董事長 鍾國忠 2026/04/12 李兆華River @riverstockshow",
+      "url": "https://www.youtube.com/watch?v=LCXMqi4UjJw",
+      "date": "20260412",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-04-12T20:02:01.369996"
+    },
+    "lqjvPTMbNdI": {
+      "id": "lqjvPTMbNdI",
+      "title": "【兆華艾綸說】沒事了？台股差百點創高！6大權值股助攻？馬斯克Terafab計劃是什麼？獨家ABF隱藏股",
+      "url": "https://www.youtube.com/watch?v=lqjvPTMbNdI",
+      "date": "20260411",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-04-12T20:02:02.597536"
     }
   }
 }
