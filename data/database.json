@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-13T20:03:42.789762",
+  "last_updated": "2026-04-14T20:03:31.118555",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -486,6 +486,15 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-04-13T20:01:21.076923"
+    },
+    "LcZbpnDplTE": {
+      "id": "LcZbpnDplTE",
+      "title": "2026/04/14 (二）海峽封鎖，美股利空出盡還是逃命？ 甲骨文ORCL大漲，閃迪進NQ100",
+      "url": "https://www.youtube.com/watch?v=LcZbpnDplTE",
+      "date": "20260414",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-04-14T20:00:51.457454"
     }
   }
 }
