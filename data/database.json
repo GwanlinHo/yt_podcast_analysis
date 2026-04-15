@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-14T20:03:31.118555",
+  "last_updated": "2026-04-15T20:02:24.680753",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -495,6 +495,24 @@
       "channel": "財女珍妮",
       "status": "analyzed",
       "created_at": "2026-04-14T20:00:51.457454"
+    },
+    "Euz6DTkhjrE": {
+      "id": "Euz6DTkhjrE",
+      "title": "EP653 | 🕊",
+      "url": "https://www.youtube.com/watch?v=Euz6DTkhjrE",
+      "date": "20260415",
+      "channel": "股癌",
+      "status": "analyzed",
+      "created_at": "2026-04-15T20:00:05.758218"
+    },
+    "Rv2NyQweGhA": {
+      "id": "Rv2NyQweGhA",
+      "title": "2026/04/15 (三）納指10連漲， 巨頭終於要動了？AVGO, MRVL, CRDO噴出",
+      "url": "https://www.youtube.com/watch?v=Rv2NyQweGhA",
+      "date": "20260415",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-04-15T20:00:50.012943"
     }
   }
 }
