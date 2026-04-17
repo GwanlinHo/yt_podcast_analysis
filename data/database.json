@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-17T06:02:33.941480",
+  "last_updated": "2026-04-17T20:03:51.214105",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -531,6 +531,24 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-04-17T06:01:36.181191"
+    },
+    "lFYZg-fdhJ8": {
+      "id": "lFYZg-fdhJ8",
+      "title": "516.【財經時事放大鏡】Hermes x ASML x MLCC",
+      "url": "https://www.youtube.com/watch?v=lFYZg-fdhJ8",
+      "date": "20260416",
+      "channel": "財報狗",
+      "status": "analyzed",
+      "created_at": "2026-04-17T20:00:23.124020"
+    },
+    "2SomW_ahKvs": {
+      "id": "2SomW_ahKvs",
+      "title": "2026/04/17(五）美股創高！台積電拉回，還能買嗎？Netflix財報後大跌",
+      "url": "https://www.youtube.com/watch?v=2SomW_ahKvs",
+      "date": "20260417",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-04-17T20:00:53.049001"
     }
   }
 }
