@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18T14:03:20.812806",
+  "last_updated": "2026-04-18T20:02:51.116563",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -558,6 +558,15 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-04-18T14:01:54.029565"
+    },
+    "5fsHnTWdcjY": {
+      "id": "5fsHnTWdcjY",
+      "title": "EP654 | 🌵",
+      "url": "https://www.youtube.com/watch?v=5fsHnTWdcjY",
+      "date": "20260418",
+      "channel": "股癌",
+      "status": "analyzed",
+      "created_at": "2026-04-18T20:00:06.681081"
     }
   }
 }
