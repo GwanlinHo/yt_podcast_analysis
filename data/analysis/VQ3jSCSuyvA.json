@@ -1,0 +1,38 @@
+{
+  "key_points": [
+    "Uber 成為 AI Token 調用量最高的企業之一，實現實質效率提升與成本節省。",
+    "Salesforce 透過資料治理與工作流整合建立 AI 時代的護城河，化解被取代的疑慮。",
+    "Anduril 代表矽谷模式軍工企業崛起，強調 AI 在國防領域的生存價值。",
+    "2026 年是 AI 驗收年，市場轉向關注實質 Token 用量與財報表現。"
+  ],
+  "macro_outlook": [
+    "AI 應用從敘事轉向實質結果，關注企業端的變現能力。",
+    "軟體股經歷 AI 恐慌後正在重新定價。",
+    "軍備競賽加劇，科技公司面臨地緣政治選邊站的挑戰。"
+  ],
+  "targets": [
+    {
+      "code": "UBER",
+      "name": "Uber",
+      "view": "看多",
+      "rationale": "高效調用 AI 降低營運成本，提升毛利。"
+    },
+    {
+      "code": "CRM",
+      "name": "Salesforce",
+      "view": "看多",
+      "rationale": "Agentforce 策略顯示其資料治理優勢不可替代。"
+    },
+    {
+      "code": "ASML",
+      "name": "ASML",
+      "view": "中性",
+      "rationale": "半導體人才與技術仍是 AI 戰場的基礎。"
+    }
+  ],
+  "risk_factors": [
+    "資本支出 (Capex) 極高，獲利成長若跟不上可能引發修正。",
+    "地緣政治摩擦影響全球供應鏈。"
+  ],
+  "quotes": "AI 時代的競爭力不再是你有多少用戶，而是你消耗了多少有效的 Token。"
+}
