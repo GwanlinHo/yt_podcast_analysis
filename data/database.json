@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-20T14:03:52.937620",
+  "last_updated": "2026-04-21T20:03:07.052823",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -594,6 +594,15 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-04-20T14:01:32.038611"
+    },
+    "6wIR7TOP6YY": {
+      "id": "6wIR7TOP6YY",
+      "title": "2026/04/21(二）談判重啟，巨頭怎麼股價下跌了？庫克交棒，亞馬遜再投資 Anthropic，Marvll，Google合作",
+      "url": "https://www.youtube.com/watch?v=6wIR7TOP6YY",
+      "date": "20260421",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-04-21T20:00:53.074419"
     }
   }
 }
