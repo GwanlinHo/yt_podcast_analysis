@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T20:03:07.052823",
+  "last_updated": "2026-04-22T20:03:57.076144",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -603,6 +603,24 @@
       "channel": "財女珍妮",
       "status": "analyzed",
       "created_at": "2026-04-21T20:00:53.074419"
+    },
+    "MQHORJMMYJg": {
+      "id": "MQHORJMMYJg",
+      "title": "EP655 | 🐯",
+      "url": "https://www.youtube.com/watch?v=MQHORJMMYJg",
+      "date": "20260422",
+      "channel": "股癌",
+      "status": "analyzed",
+      "created_at": "2026-04-22T20:00:06.416282"
+    },
+    "PBcwQPaNbwQ": {
+      "id": "PBcwQPaNbwQ",
+      "title": "2026/04/22(三）聯準會新局，新主席怎麼看降息？馬斯克出手，買下AI編程工具！UNH財報後大漲",
+      "url": "https://www.youtube.com/watch?v=PBcwQPaNbwQ",
+      "date": "20260422",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-04-22T20:00:51.068656"
     }
   }
 }
