@@ -1,0 +1,37 @@
+{
+  "key_points": [
+    "蘋果硬體副總裁 John Ternus 將於 2026/9/1 接任執行長，提姆庫克轉任執行董事長",
+    "AI 競爭重心轉向「代理人 (Agent)」與「垂直整合」實戰階段",
+    "SpaceX 宣布與 Cursor 合作，標誌著 AI 工具進入航太級、任務關鍵型工程領域",
+    "Cursor 作為 AI 原生開發工具，其專案 RAG 與 Composer 模式已展現顯著競爭優勢"
+  ],
+  "macro_outlook": [
+    "科技產業進入領導層更迭與 AI 工程化雙重轉型期",
+    "AI 輔助開發從簡單腳本進化到處理複雜大型工程，提升高階製造效率"
+  ],
+  "targets": [
+    {
+      "code": "AAPL",
+      "name": "Apple",
+      "view": "Bullish",
+      "rationale": "換帥象徵回歸硬體創新導向，利於長期產品競爭力"
+    },
+    {
+      "code": "Private",
+      "name": "SpaceX",
+      "view": "Bullish",
+      "rationale": "透過 AI 工具加速星艦與星鏈工程進度，擴大航太領先優勢"
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "view": "Neutral",
+      "rationale": "面對 Cursor 與 Anthropic 等新興挑戰者，傳統軟體生態面臨轉型壓力"
+    }
+  ],
+  "risk_factors": [
+    "蘋果領導層更迭初期的管理磨合挑戰",
+    "過度依賴 AI 輔助開發可能帶來的系統性漏洞或代碼質量風險"
+  ],
+  "quotes": "未來的競爭不在於誰擁有最強的 AI，而在於誰能最快讓 AI 進入核心工程流程。"
+}
