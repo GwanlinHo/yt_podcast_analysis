@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T02:03:45.429023",
+  "last_updated": "2026-04-24T20:03:12.231875",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -639,6 +639,15 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-04-24T02:01:26.139581"
+    },
+    "9dmH0WkP8ig": {
+      "id": "9dmH0WkP8ig",
+      "title": "517.【財經時事放大鏡】日本與台股都地震 x Google",
+      "url": "https://www.youtube.com/watch?v=9dmH0WkP8ig",
+      "date": "20260423",
+      "channel": "財報狗",
+      "status": "analyzed",
+      "created_at": "2026-04-24T20:00:19.734904"
     }
   }
 }
