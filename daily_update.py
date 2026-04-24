@@ -80,8 +80,8 @@ def main():
                     
                     upload_date = entry.get('upload_date')
                     
-                    # 若 flat mode 沒抓到日期，嘗試抓詳情 (但通常會有)
-                    if not upload_date:
+                    # 若 flat mode 沒抓到日期 (None 或 "NA")，嘗試抓詳情
+                    if not upload_date or upload_date == "NA":
                         try:
                             with yt_dlp.YoutubeDL(ydl_opts_detail) as ydl_detail:
                                 info = ydl_detail.extract_info(url, download=False)
