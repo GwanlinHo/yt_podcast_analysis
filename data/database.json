@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-25T02:05:47.740287",
+  "last_updated": "2026-04-25T20:02:49.612798",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -648,6 +648,24 @@
       "channel": "財報狗",
       "status": "analyzed",
       "created_at": "2026-04-24T20:00:19.734904"
+    },
+    "-SBOKVzL6S0": {
+      "id": "-SBOKVzL6S0",
+      "title": "EP656 | 🍇",
+      "url": "https://www.youtube.com/watch?v=-SBOKVzL6S0",
+      "date": "20260425",
+      "channel": "股癌",
+      "status": "analyzed",
+      "created_at": "2026-04-25T20:00:07.818113"
+    },
+    "hGe6xA0rEg8": {
+      "id": "hGe6xA0rEg8",
+      "title": "【兆華艾綸說】爆天量攻4萬！洗刷中勇敢買，google概念再起，IC設計、BBU超值股？",
+      "url": "https://www.youtube.com/watch?v=hGe6xA0rEg8",
+      "date": "20260425",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-04-25T20:01:55.017616"
     }
   }
 }
