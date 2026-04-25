@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>財經 YouTube 影片重點彙整</title>
+    
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #333;
+            --border-color: #e9ecef;
+            --bullish-color: #e74c3c;
+            --bearish-color: #27ae60;
+            --neutral-color: #7f8c8d;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        h1 { margin-bottom: 10px; color: var(--primary-color); }
+        .meta { color: #666; font-size: 0.9em; }
+        
+        .creator-section {
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            padding: 25px;
+            border-top: 4px solid var(--accent-color);
+        }
+        .creator-title {
+            margin-top: 0;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .episode-block {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed var(--border-color);
+        }
+        .episode-block:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .episode-title {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .episode-title a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .episode-title a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+        .pending-badge {
+            display: inline-block;
+            background: #ffeeba;
+            color: #856404;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        
+        .summary-section, .targets-section, .macro-section, .risk-section {
+            margin-top: 15px;
+        }
+        .section-title {
+            font-weight: bold;
+            color: var(--accent-color);
+            margin-bottom: 10px;
+            display: block;
+        }
+        .quote-box {
+            background: #f1f3f5;
+            padding: 15px;
+            border-left: 4px solid var(--primary-color);
+            font-style: italic;
+            margin: 15px 0;
+            color: #555;
+        }
+        .risk-item {
+            color: #d63301;
+            font-weight: 500;
+        }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        th {
+            background-color: #f1f3f5;
+            font-weight: 600;
+        }
+        
+        .view-bull { color: var(--bullish-color); font-weight: bold; }
+        .view-bear { color: var(--bearish-color); font-weight: bold; }
+        .view-neutral { color: var(--neutral-color); font-weight: bold; }
+        
+        .disclaimer-section {
+            margin-top: 50px;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 0.85em;
+            color: #666;
+            line-height: 1.8;
+        }
+        .disclaimer-title {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            display: block;
+            text-align: center;
+            font-size: 1.1em;
+        }
+        
+        /* Mobile Responsive Table to Card */
+        @media screen and (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            tr {
+                border: 1px solid var(--border-color);
+                border-radius: 8px;
+                margin-bottom: 15px;
+                padding: 10px;
+                background: #fff;
+            }
+            td {
+                border: none;
+                border-bottom: 1px solid #eee;
+                position: relative;
+                padding-left: 50%;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+            td:last-child { border-bottom: none; }
+            
+            td:before {
+                position: absolute;
+                top: 8px;
+                left: 10px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: bold;
+                color: #666;
+            }
+            
+            /* Specific labels for each column */
+            td:nth-of-type(1) { /* Name/Code */
+                padding-left: 10px;
+                font-size: 1.1em;
+                font-weight: bold;
+                color: var(--primary-color);
+                background: #f8f9fa;
+                margin: -10px -10px 10px -10px;
+                border-bottom: 1px solid var(--border-color);
+                border-radius: 8px 8px 0 0;
+            }
+            td:nth-of-type(1):before { content: ""; }
+            
+            td:nth-of-type(2):before { content: "觀點"; }
+            td:nth-of-type(3):before { content: "說明"; }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>財經 YouTube 影片重點彙整</h1>
+            <div class="meta">
+                統計期間：20260418 至 20260425<br>
+                生成時間：2026/04/25 22:00
+            </div>
+        </header>
+    
+        <div class="creator-section">
+            <h2 class="creator-title">股癌</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=-SBOKVzL6S0" target="_blank">EP656 | 🍇</a>
+                    
+                </div>
+            <div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul><li>市場情緒極度瘋狂，交易圈普遍存在績效焦慮。</li><li>台股結構變動：金管會放寬 ETF 對單一個股持股上限至 25%，強化台積電對指數的影響力。</li><li>AI 投資轉向：從盲目燒算力轉向檢視 AI Token 消耗與實質獲利轉換。</li></ul></div><div class="summary-section"><span class="section-title">📝 重點議題摘要</span><ul><li>伺服器配置迷思：市場傳言 CPU 與 GPU 配置將達 1:1，但現實中 Agentic AI 伺服器配置多為 2:1 或 4:1，基本面未如股價反映的極端樂觀。</li><li>ASIC 與 TPU 產業鏈：Google TPU 發展中，聯發科與博通在 ASIC 領域競爭，需警惕聯發科綁定 Intel EMIB 封裝良率的風險。</li><li>資金輪動板塊：資金轉向廠務、被動元件（如國巨）及 CPU 測試板塊，預期 CPU 缺貨可能成為下一個市場焦點。</li></ul></div><div class="targets-section"><span class="section-title">📊 提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>台積電 (2330)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>指數破 4 萬點只是時間問題；ETF 持股上限放寬帶動資金回流。</td>
+            </tr>
+        
+            <tr>
+                <td>聯發科 (2454)</td>
+                <td><span class="view-neutral">中性 (Neutral)</span></td>
+                <td>搶食 Google AI 晶片代工，但須警惕 Intel EMIB 先進封裝良率風險。</td>
+            </tr>
+        
+            <tr>
+                <td>國巨 (2327)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>Custom CPU 引爆被動元件與電阻漲價趨勢。</td>
+            </tr>
+        
+            <tr>
+                <td>漢唐 (2404)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>台積電資本支出帶動廠務股表態。</td>
+            </tr>
+        
+            <tr>
+                <td>Intel (INTC)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>財報數據優異且釋出漲價訊息，帶動 CPU 類股大漲。</td>
+            </tr>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">系統性風險：台股過度依賴單一權值股（台積電），結構性風險累積。</li><li class="risk-item">技術隱患：先進封裝（EMIB）良率問題可能影響供應鏈。</li><li class="risk-item">心理風險：動能交易盛行下的績效焦慮導致非理性決策。</li></ul></div><div class="quote-box">「台股現在完全就是台積電的形狀，指數破 4 萬點以上只是時間問題。」</div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=MQHORJMMYJg" target="_blank">EP655 | 🐯</a>
+                    
+                </div>
+            <div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul><li>極致動能下的生存法則：指數處於歷史高位時，市場情緒容易過熱。</li><li>規模即力量：在資本密集型產業中，大者恆大的趨勢愈發明顯。</li></ul></div><div class="summary-section"><span class="section-title">📝 重點議題摘要</span><ul><li>規模優勢 (Scale Advantage)：市場動能極強時，具備規模經濟與採購能力的企業（如大型雲端商、半導體巨頭）佔據絕對優勢。</li><li>AI 與 ASIC 市場：重點關注 AI 技術股，特別是 ASIC 市場的競爭格局與合作關係。</li><li>半導體供應鏈：台積電及相關設備、廠務股在極高稼動率下的表現持續看好。</li><li>心理偏誤防範：在指數挑戰新高里程碑時，投資人應注意追高風險與心理韌性。</li></ul></div><div class="targets-section"><span class="section-title">📊 提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>台積電 (2330)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>稼動率維持高檔，AI 基礎設施需求帶動設備與廠務長期成長。</td>
+            </tr>
+        
+            <tr>
+                <td>ASIC 族群 (ASIC)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>特殊應用晶片市場需求爆發，具備技術規模優勢者勝出。</td>
+            </tr>
+        
+            <tr>
+                <td>AI 技術股 (AI)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>大型雲端服務商持續擴張軍備競賽。</td>
+            </tr>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">槓桿失控風險：市場情緒高漲時，過度使用槓桿可能導致一次性崩盤。</li><li class="risk-item">心理偏誤：追高殺低的情緒化決策。</li><li class="risk-item">獲利回吐：建議在獲利豐厚時適度「剪碼」，降低曝險。</li></ul></div><div class="quote-box">「誰比較大組誰贏。在市場熱到發燙時，捏卵也要捏得有策略。」</div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=5fsHnTWdcjY" target="_blank">EP654 | 🌵</a>
+                    
+                </div>
+            <div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul><li>市場對人工智慧的論述已進入要求財務回報的成熟期</li><li>估值邏輯改變：軟體公司的估值將從 AI 夢想轉向真金白銀的財務數字</li><li>台股支撐體系：以運算權值為核心，產能稼動率微變即引發報價連鎖反應</li></ul></div><div class="summary-section"><span class="section-title">📝 重點議題摘要</span><ul><li>AI 評價邏輯從單純的願景擴張期進入實質產出績效的驗證期</li><li>運算瓶頸正從 GPU 轉向 CPU，導致 CPU 資源消耗量成為市場新焦點</li><li>被動元件（MLCC、電阻、電感）因稼動率衝向滿載，引發報價調升與噴發行情</li></ul></div><div class="targets-section"><span class="section-title">📊 提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>國巨 (2327)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>全球被動元件領航者，受惠於電阻漲價與產能稼動率接近滿載</td>
+            </tr>
+        
+            <tr>
+                <td>萬潤 (6187)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>專注先進封裝與測試設備，因 CPO 早期良率不穩帶動測試需求大幅成長</td>
+            </tr>
+        
+            <tr>
+                <td>欣興 (3037)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>隨通用與 AI 伺服器規格升級，高階載板需求與資金流轉密切相關</td>
+            </tr>
+        
+            <tr>
+                <td>台積電 (2330)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>維持高資本支出，先進製程與加速器板需求深不見底</td>
+            </tr>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">CPO 技術方案目前良率尚未完全穩定，可能影響短期出貨節奏</li><li class="risk-item">若軟體公司無法將 AI 轉化為實際營收，高估值可能面臨劇烈修正</li></ul></div><div class="quote-box">「未來軟體公司的估值將從『有無 AI 夢想』轉向『真金白銀的財務數字』。」</div></div></div>
+        <div class="creator-section">
+            <h2 class="creator-title">兆華與股惑仔</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=hGe6xA0rEg8" target="_blank">【兆華艾綸說】爆天量攻4萬！洗刷中勇敢買，google概念再起，IC設計、BBU超值股？</a>
+                    <span class="pending-badge">待分析</span>
+                </div>
+            <div class="summary-section"><p style="color:#999; font-style:italic;">系統尚未分析此影片內容。</p></div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=6d8b8VJKDn4" target="_blank">週報ep243公開版｜外資買.投信賣 要上調高點嗎？中線支撐上移 34500就是好位ft.盈利投資董事長 鍾國忠 2026/04/19 李兆華River @riverstockshow</a>
+                    
+                </div>
+            <div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul><li>台股勇創歷史新高（36,341 點），市場正處於驚奇 4 月的噴發期。</li><li>大環境資金充沛，但結構性調整正在發生，並非所有權值股皆同步走揚。</li><li>市場正經歷評價 (P/E Ratio) 的重整，具備新題材（如 CPO、機器人）的標的成為新焦點。</li></ul></div><div class="summary-section"><span class="section-title">📝 重點議題摘要</span><ul><li>外資轉向買超而投信開始調節，市場結構出現微妙變化。</li><li>台股站上歷史高點後，資金正積極尋找具備補漲潛力的低位階個股。</li><li>鍾國忠老師強調 34500 點為中線關鍵支撐位，回測不破應視為布局良機。</li><li>資金正從過熱的指數型 ETF 撤出，回流至獲利佳但基期相對較低的標的。</li></ul></div><div class="targets-section"><span class="section-title">📊 提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>大立光 (3008)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>切入矽光子 (CPO) 領域，具備新成長動能，資金延續性強。</td>
+            </tr>
+        
+            <tr>
+                <td>聯發科 (2454)</td>
+                <td><span class="view-neutral">Neutral</span></td>
+                <td>專注於評價重估而非短期業績爆發，適合穩健觀察。</td>
+            </tr>
+        
+            <tr>
+                <td>大銀微 (4576)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>機器人產業火種帶動者，位階相對具優勢。</td>
+            </tr>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">高點震盪風險增加，不宜盲目追逐已過熱的 ETF。</li><li class="risk-item">若個股破月線，應視為型態轉弱的預警訊號。</li></ul></div><div class="quote-box">「34500就是好位；都說不追高，為何這兩天是找個股買不是 ETF？因為個股還有低位階！」</div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=zMM1swd5pXo" target="_blank">【兆華艾綸說0418】美股跟上來了！買台積電不如買台積電們？機器人.PCB.被動元件高低配</a>
+                    
+                </div>
+            <div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul><li>台積電釋出正向訊號，資金流向中小型題材股。</li><li>產業焦點從 AI 伺服器擴散至機器人、高階 PCB 及被動元件。</li></ul></div><div class="summary-section"><span class="section-title">📝 重點議題摘要</span><ul><li>台積電法說後資金開始流向「積友友」（台積電供應鏈）及中小型題材股。</li><li>人形機器人成為長線資本支出重點，看好具備精密機械與自動化經驗的台廠。</li><li>AI 伺服器與 800G 交換器需求帶動高頻高速材料全面放量。</li><li>被動元件處於低位階「黃金右下角」，國巨展望樂觀引領資金進場。</li></ul></div><div class="targets-section"><span class="section-title">📊 提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>盟立 (2464)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>受惠於機器人自動化系統需求。</td>
+            </tr>
+        
+            <tr>
+                <td>上銀 (2049)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>關鍵傳動元件應用於機器人關節。</td>
+            </tr>
+        
+            <tr>
+                <td>台燿 (6274)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>M8 高頻高速材料需求強勁，M9 有望量產。</td>
+            </tr>
+        
+            <tr>
+                <td>高技 (5439)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>深耕電輔車與伺服器板，具備利基優勢。</td>
+            </tr>
+        
+            <tr>
+                <td>楠梓電 (2316)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>轉投資滬士電子在 AI 領域表現強勁。</td>
+            </tr>
+        
+            <tr>
+                <td>國巨 (2327)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>產業龍頭，展望樂觀，資金進場卡位。</td>
+            </tr>
+        
+            <tr>
+                <td>金山電 (3041)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>鋁電解電容需求回溫，具補漲潛力。</td>
+            </tr>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">中小型題材股波動性較大。</li><li class="risk-item">若台積電未來資本支出調整可能影響供應鏈情緒。</li><li class="risk-item">產業復甦力道是否能持續維持。</li></ul></div><div class="quote-box">「台積電讓出指數空間，正是中小型題材股百花齊放的機會。」</div></div></div>
+        <div class="creator-section">
+            <h2 class="creator-title">財女珍妮</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=JzbKsuNUVpk" target="_blank">2026/04/23(四)特斯拉財報，狂砸250億擴張AI與機器人版圖，以及其他重點公司的財報！</a>
+                    
+                </div>
+            <div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul><li>市場估值邏輯從「電動車銷量」轉向「實體 AI 與機器人平台」。</li><li>2026 年為 AI 基礎設施與機器人量產的關鍵元年，科技巨頭進入資本支出競賽。</li><li>通膨與利率環境下，市場對 AI 投資何時轉化為自由現金流展現高度敏感性。</li></ul></div><div class="summary-section"><span class="section-title">📝 重點議題摘要</span><ul><li>特斯拉 2026 Q1 營收 223.9 億美元、EPS 0.41 美元，均優於預期。</li><li>資本支出上調至 250 億美元，全力投入 Terafab AI 算力工廠與 Optimus 量產。</li><li>Optimus 機器人預計 2026 年夏季於 Fremont 工廠量產，目標年產 100 萬台。</li><li>Cybercab 無人計程車預計 2026 年底前在全美 12 個州獲得無監督自駕許可。</li><li>能源業務毛利率維持 30% 高水準，成為公司利潤穩定的重要支柱。</li></ul></div><div class="targets-section"><span class="section-title">📊 提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>特斯拉 (TSLA)</td>
+                <td><span class="view-bull">看多 (長線)</span></td>
+                <td>營收利潤超預期，AI 與機器人量產進度明確，能源業務強勁。</td>
+            </tr>
+        
+            <tr>
+                <td>微軟 (MSFT)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>AI Copilot 變現能力強，Azure 雲端業務維持 40% 以上增長預期。</td>
+            </tr>
+        
+            <tr>
+                <td>Meta (META)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>AI 驅動廣告投放效率大幅提升，風險回報比具吸引力。</td>
+            </tr>
+        
+            <tr>
+                <td>Google (GOOGL)</td>
+                <td><span class="view-bull">中性/看多</span></td>
+                <td>Google Cloud 增長動能強，但市場對 AI 紅利預期極高，容錯率低。</td>
+            </tr>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">汽車庫存壓力：Q1 交付 35.8 萬輛略低於預期，庫存積壓可能導致降價並侵蝕毛利率。</li><li class="risk-item">AI 變現週期長：高額投資若無法在 2-3 年內轉化為實質營收，高估值可能面臨修正。</li><li class="risk-item">監管風險：Robotaxi 在各州的無監督自駕許可進度仍具不確定性。</li></ul></div><div class="quote-box">「特斯拉正進行一場「燒錢換未來」的終極豪賭，市場關注點已從賣了多少車，轉向這台 AI 機器人何時能幫公司賺錢。」</div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=PBcwQPaNbwQ" target="_blank">2026/04/22(三）聯準會新局，新主席怎麼看降息？馬斯克出手，買下AI編程工具！UNH財報後大漲</a>
+                    
+                </div>
+            <div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul><li>聯準會處於軟著陸驗證期，市場對繼任人選帶來的政策不確定性感到不安</li><li>市場從 AI 狂熱轉向獲利驗證，要求看到 AI 投入對利潤的實質貢獻</li></ul></div><div class="summary-section"><span class="section-title">📝 重點議題摘要</span><ul><li>聯準會領導層更迭，政策傾向預防性管理，高利率環境可能持續</li><li>馬斯克收購 AI 編程工具，強化 AI 佈局，重點轉向實體 AI 與機器人</li><li>AI 競爭焦點轉向電力供應與冷卻技術等基礎建設</li><li>聯合健康 (UNH) 財報後股價大漲，展現強大韌性，但長期仍有成本壓力</li></ul></div><div class="targets-section"><span class="section-title">📊 提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>聯合健康 (UNH)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>財報表現強勁引發大漲，具備規模優勢抵銷監管壓力</td>
+            </tr>
+        
+            <tr>
+                <td>AI 基礎建設 (如能源) (AI-Infrastructure)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>算力競爭關鍵轉向能源供應，瓦特成為核心貨幣</td>
+            </tr>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">聯準會主席更迭帶來的政策動盪風險</li><li class="risk-item">小型 AI 公司面臨資金斷鏈與估值修正</li><li class="risk-item">地緣政治衝突影響能源與硬體供應鏈</li></ul></div><div class="quote-box">「未來的核心貨幣不是美元，而是瓦特 (Wattage)。」</div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=6wIR7TOP6YY" target="_blank">2026/04/21(二）談判重啟，巨頭怎麼股價下跌了？庫克交棒，亞馬遜再投資 Anthropic，Marvll，Google合作</a>
+                    
+                </div>
+            <div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul><li>AI 競賽進入「基礎設施深化」階段，雲端巨頭與晶片夥伴的關係更趨緊密。</li><li>全球供應鏈重組談判進入關鍵期，對大型科技股的成本結構產生潛在影響。</li></ul></div><div class="summary-section"><span class="section-title">📝 重點議題摘要</span><ul><li>Apple 庫克啟動交棒計畫，引發市場對後庫克時代策略方向的關注。</li><li>亞馬遜追加投資 Anthropic，強化 AWS 的生成式 AI 競爭力與基礎設施整合。</li><li>Marvell 與 Google 在 AI 客製化晶片與網路技術領域達成深度合作。</li><li>談判重啟（可能涉及供應鏈或貿易條件）使市場觀望氣氛轉濃。</li></ul></div><div class="targets-section"><span class="section-title">📊 提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>Apple (AAPL)</td>
+                <td><span class="view-neutral">Neutral</span></td>
+                <td>領導層交棒帶來的不確定性，短期內可能壓抑股價，需觀察繼任者對 AI 整合的具體路徑。</td>
+            </tr>
+        
+            <tr>
+                <td>Amazon (AMZN)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>持續投資 Anthropic 證明其在雲端 AI 市場不落後的決心，且 AWS 與模型的深度整合將帶動獲利。</td>
+            </tr>
+        
+            <tr>
+                <td>Marvell (MRVL)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>與 Google 的合作鞏固了其在客製化 AI 矽晶圓市場的領先地位，受惠於資料中心升級需求。</td>
+            </tr>
+        
+            <tr>
+                <td>Alphabet (GOOGL)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>透過與 Marvell 合作提升硬體效率，並持續在 AI 生態系中擴張影響力。</td>
+            </tr>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">高階主管變更導致的執行風險與企業文化變動。</li><li class="risk-item">AI 投資報酬率 (ROI) 是否能如期反映在財報上的市場疑慮。</li><li class="risk-item">地緣政治與貿易談判可能導致的供應鏈成本上升。</li></ul></div><div class="quote-box">「AI 競賽下半場，巨頭開始重組領導層與供應鏈；庫克交棒標誌著 Apple 一個時代的結束，下一個十年將由 AI 定義。」</div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=woAVn4U79v4" target="_blank">2026/04/20(一）美軍扣船，美股漲假的？退休的最大風險不是崩盤！</a>
+                    
+                </div>
+            <div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul><li>地緣政治風險升溫（美軍扣船），但市場部分消化利空。</li><li>美股創新高後震盪，資金尋找具備基本面支撐的標的。</li><li>通膨風險仍是退休規劃的核心考量。</li></ul></div><div class="summary-section"><span class="section-title">📝 重點議題摘要</span><ul><li>美軍扣押伊朗貨輪事件對市場情緒有影響，但市場展現抗跌性。</li><li>退休的最大風險並非市場崩盤，而是通膨導致的購買力下降與長壽風險。</li><li>投資者應專注於長期增長與現金流，避免因恐懼而錯過複利成長。</li><li>市場在憂慮中成長，地緣政治引發的油價波動需持續觀察。</li></ul></div><div class="targets-section"><span class="section-title">📊 提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>Netflix (NFLX)</td>
+                <td><span class="view-bull">中性偏多</span></td>
+                <td>財報後大跌提供修正機會，關注抄底點位。</td>
+            </tr>
+        
+            <tr>
+                <td>Tesla (TSLA)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>轉型 AI 與利潤率提升，關注 AI5 晶片進展。</td>
+            </tr>
+        
+            <tr>
+                <td>Microsoft (MSFT)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>AI 整合建立護城河，關注 AI 變現進度。</td>
+            </tr>
+        
+            <tr>
+                <td>美光 (MU)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>AI 帶動 HBM 需求成為核心驅動力。</td>
+            </tr>
+        
+            <tr>
+                <td>博通 (AVGO)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>在網通與 ASIC 領域具備領先地位。</td>
+            </tr>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">算力成本失控可能導致 AI 泡沫疑慮。</li><li class="risk-item">地緣政治不確定性（如荷姆茲海峽封鎖）衝擊供應鏈。</li></ul></div><div class="quote-box">「退休的最大風險不是崩盤，而是你因為害怕崩盤而錯過了整個時代的成長。」</div></div></div>
+        <div class="creator-section">
+            <h2 class="creator-title">M觀點</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=ovwdGwR8tZ8" target="_blank">EP297. 蘋果正式啟動接班、AI 前段班各有動作、SpaceX 合作 Cursor | M觀點</a>
+                    
+                </div>
+            <div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul><li>科技產業進入領導層更迭與 AI 工程化雙重轉型期</li><li>AI 輔助開發從簡單腳本進化到處理複雜大型工程，提升高階製造效率</li></ul></div><div class="summary-section"><span class="section-title">📝 重點議題摘要</span><ul><li>蘋果硬體副總裁 John Ternus 將於 2026/9/1 接任執行長，提姆庫克轉任執行董事長</li><li>AI 競爭重心轉向「代理人 (Agent)」與「垂直整合」實戰階段</li><li>SpaceX 宣布與 Cursor 合作，標誌著 AI 工具進入航太級、任務關鍵型工程領域</li><li>Cursor 作為 AI 原生開發工具，其專案 RAG 與 Composer 模式已展現顯著競爭優勢</li></ul></div><div class="targets-section"><span class="section-title">📊 提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>Apple (AAPL)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>換帥象徵回歸硬體創新導向，利於長期產品競爭力</td>
+            </tr>
+        
+            <tr>
+                <td>SpaceX (Private)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>透過 AI 工具加速星艦與星鏈工程進度，擴大航太領先優勢</td>
+            </tr>
+        
+            <tr>
+                <td>Microsoft (MSFT)</td>
+                <td><span class="view-neutral">Neutral</span></td>
+                <td>面對 Cursor 與 Anthropic 等新興挑戰者，傳統軟體生態面臨轉型壓力</td>
+            </tr>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">蘋果領導層更迭初期的管理磨合挑戰</li><li class="risk-item">過度依賴 AI 輔助開發可能帶來的系統性漏洞或代碼質量風險</li></ul></div><div class="quote-box">「未來的競爭不在於誰擁有最強的 AI，而在於誰能最快讓 AI 進入核心工程流程。」</div></div>
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=VQ3jSCSuyvA" target="_blank">EP296. Uber 燒光 AI 預算、Salesforce 變陣求生、Anduril 無人軍團 | M觀點</a>
+                    
+                </div>
+            <div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul><li>AI 應用從敘事轉向實質結果，關注企業端的變現能力。</li><li>軟體股經歷 AI 恐慌後正在重新定價。</li><li>軍備競賽加劇，科技公司面臨地緣政治選邊站的挑戰。</li></ul></div><div class="summary-section"><span class="section-title">📝 重點議題摘要</span><ul><li>Uber 成為 AI Token 調用量最高的企業之一，實現實質效率提升與成本節省。</li><li>Salesforce 透過資料治理與工作流整合建立 AI 時代的護城河，化解被取代的疑慮。</li><li>Anduril 代表矽谷模式軍工企業崛起，強調 AI 在國防領域的生存價值。</li><li>2026 年是 AI 驗收年，市場轉向關注實質 Token 用量與財報表現。</li></ul></div><div class="targets-section"><span class="section-title">📊 提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>Uber (UBER)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>高效調用 AI 降低營運成本，提升毛利。</td>
+            </tr>
+        
+            <tr>
+                <td>Salesforce (CRM)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>Agentforce 策略顯示其資料治理優勢不可替代。</td>
+            </tr>
+        
+            <tr>
+                <td>ASML (ASML)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>半導體人才與技術仍是 AI 戰場的基礎。</td>
+            </tr>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">資本支出 (Capex) 極高，獲利成長若跟不上可能引發修正。</li><li class="risk-item">地緣政治摩擦影響全球供應鏈。</li></ul></div><div class="quote-box">「AI 時代的競爭力不再是你有多少用戶，而是你消耗了多少有效的 Token。」</div></div></div>
+        <div class="creator-section">
+            <h2 class="creator-title">財報狗</h2>
+        
+            <div class="episode-block">
+                <div class="episode-title">
+                    <a href="https://www.youtube.com/watch?v=9dmH0WkP8ig" target="_blank">517.【財經時事放大鏡】日本與台股都地震 x Google</a>
+                    
+                </div>
+            <div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul><li>AI 產業投資進入 ROI 考核期，市場將嚴格篩選能將 AI 技術轉化為利潤的企業。</li><li>美股科技巨頭（MAG7）受高預期支撐，財報表現需優於預期才能維持股價動能。</li><li>全球金融市場受日圓套利交易平倉與通膨數據拉扯，波動性顯著增加。</li></ul></div><div class="summary-section"><span class="section-title">📝 重點議題摘要</span><ul><li>日本與台股近期出現劇烈波動，反映市場對利率政策轉向與全球流動性縮減的敏感度。</li><li>AI 產業進入實踐驗證期，投資者焦點從硬體建置轉向軟體應用與實際營收貢獻。</li><li>Google 財報亮點在於 Cloud 業務持續成長且獲利能力提升，緩解了市場對其廣告業務受 AI 衝擊的擔憂。</li></ul></div><div class="targets-section"><span class="section-title">📊 提及標的</span>
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 25%">標的</th>
+                <th style="width: 15%">觀點</th>
+                <th>情境說明</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td>Google (GOOGL)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>雲端業務成長強勁且獲利結構改善，AI 整合提升搜尋效率。</td>
+            </tr>
+        
+            <tr>
+                <td>台積電 (2330)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>作為 AI 硬體核心供應商，長期基本面穩健，短期震盪視為進場機會。</td>
+            </tr>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">AI 變現速度緩慢：若企業支出龐大卻無法短期獲利，可能導致資本支出縮減。</li><li class="risk-item">地緣政治不確定性：貿易限制與晶片法案對半導體產業鏈的長期影響。</li><li class="risk-item">市場流動性風險：日本利率政策調整引發的全球資產配置大洗牌。</li></ul></div><div class="quote-box">「投資不是在預測未來，而是在評估勝率與賠率的平衡。」</div></div></div>
+    <div class="disclaimer-section">
+        <span class="disclaimer-title">💡 免責聲明與版權說明</span>
+        本報告內容係透過 AI 萃取各內容創作者之公開分享資訊彙整而成，僅供參考，不代表本系統之立場，亦不構成任何投資建議。投資人應保持獨立思考，審慎評估風險，並對其投資行為自負盈虧。
+        <br><br>
+        本系統旨在協助使用者快速掌握資訊趨勢，並非取代原創作者之影片。創作者的每一份支持都是其持續產出優質內容的動力，<strong>強烈建議使用者點擊報告中的連結，前往創作者的原始頻道觀看完整影片並給予訂閱與支持。</strong>
+    </div>
+    
+    </div>
+</body>
+</html>
+    
