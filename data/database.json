@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-26T20:02:40.122902",
+  "last_updated": "2026-04-27T12:03:28.849935",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -675,6 +675,24 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-04-26T20:01:41.052795"
+    },
+    "ZtTaMQhGvfE": {
+      "id": "ZtTaMQhGvfE",
+      "title": "2026/04/27(一) 費半創紀18連漲，還能進場嗎？Intel暴漲20%，財報透露什麼？",
+      "url": "https://www.youtube.com/watch?v=ZtTaMQhGvfE",
+      "date": "20260427",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-04-27T12:01:10.649715"
+    },
+    "p5Irp_9NCvM": {
+      "id": "p5Irp_9NCvM",
+      "title": "EP298. 英特爾突然爆紅、OpenAI GPT-5.5、創作者該如何用 AI | M觀點 2026-04-27 12:01",
+      "url": "https://www.youtube.com/watch?v=p5Irp_9NCvM",
+      "date": "20260426",
+      "channel": "M觀點",
+      "status": "analyzed",
+      "created_at": "2026-04-27T12:01:35.128260"
     }
   }
 }
