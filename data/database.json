@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27T18:01:31.881571",
+  "last_updated": "2026-04-28T20:02:56.338918",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -687,12 +687,21 @@
     },
     "p5Irp_9NCvM": {
       "id": "p5Irp_9NCvM",
-      "title": "EP298. 英特爾突然爆紅、OpenAI GPT-5.5、創作者該如何用 AI | M觀點 2026-04-27 12:01",
+      "title": "EP298. 英特爾突然爆紅、OpenAI GPT-5.5、創作者該如何用 AI | M觀點",
       "url": "https://www.youtube.com/watch?v=p5Irp_9NCvM",
       "date": "20260426",
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-04-27T12:01:35.128260"
+    },
+    "f3z-XP0n2rE": {
+      "id": "f3z-XP0n2rE",
+      "title": "2026/04/28(二)AI戰場重組誰是贏家？微軟OpenAI分手了。OpenAI手機要找高通跟聯發科？",
+      "url": "https://www.youtube.com/watch?v=f3z-XP0n2rE",
+      "date": "20260428",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-04-28T20:00:47.487613"
     }
   }
 }
