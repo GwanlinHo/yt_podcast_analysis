@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30T00:00:54.074175",
+  "last_updated": "2026-04-30T06:00:53.403218",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -727,7 +727,7 @@
       "url": "https://www.youtube.com/watch?v=r1KME0sZEk4",
       "date": "20260429",
       "channel": "財女珍妮",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-04-29T20:00:53.078473"
     }
   }
