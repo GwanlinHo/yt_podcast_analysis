@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-28T20:02:56.338918",
+  "last_updated": "2026-04-29T20:02:40.109140",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -702,6 +702,33 @@
       "channel": "財女珍妮",
       "status": "analyzed",
       "created_at": "2026-04-28T20:00:47.487613"
+    },
+    "osQQt5fYQ0c": {
+      "id": "osQQt5fYQ0c",
+      "title": "EP657 | 🐫",
+      "url": "https://www.youtube.com/watch?v=osQQt5fYQ0c",
+      "date": "20260429",
+      "channel": "股癌",
+      "status": "pending",
+      "created_at": "2026-04-29T20:00:06.648306"
+    },
+    "5IXHbehsV9s": {
+      "id": "5IXHbehsV9s",
+      "title": "518.【達人聊產業】RFID 啟動 DIGITAL 異世界的鑰匙 ft. 韋僑江鴻佑總經理",
+      "url": "https://www.youtube.com/watch?v=5IXHbehsV9s",
+      "date": "20260428",
+      "channel": "財報狗",
+      "status": "analyzed",
+      "created_at": "2026-04-29T20:00:21.571181"
+    },
+    "r1KME0sZEk4": {
+      "id": "r1KME0sZEk4",
+      "title": "2026/04/29(三) 美股爲什麼又跌了？ #GLW #CLS #STX 財報",
+      "url": "https://www.youtube.com/watch?v=r1KME0sZEk4",
+      "date": "20260429",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-04-29T20:00:53.078473"
     }
   }
 }
