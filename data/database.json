@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30T10:02:20.968126",
+  "last_updated": "2026-05-01T12:03:15.781908",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -738,6 +738,33 @@
       "channel": "財女珍妮",
       "status": "analyzed",
       "created_at": "2026-04-30T10:01:05.299616"
+    },
+    "hr3NyuLUj7k": {
+      "id": "hr3NyuLUj7k",
+      "title": "519.【財經時事放大鏡】Event Trade？台積電 & Google",
+      "url": "https://www.youtube.com/watch?v=hr3NyuLUj7k",
+      "date": "20260430",
+      "channel": "財報狗",
+      "status": "analyzed",
+      "created_at": "2026-05-01T12:00:53.154783"
+    },
+    "vHn4oCL3094": {
+      "id": "vHn4oCL3094",
+      "title": "2026/05/01(五) 美國經濟靠AI撐住了！蘋果最強季度，閃迪為何崩潰？ #AAPL #SNDK #WDC",
+      "url": "https://www.youtube.com/watch?v=vHn4oCL3094",
+      "date": "20260501",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-05-01T12:01:18.152529"
+    },
+    "BwLv5z5I9x0": {
+      "id": "BwLv5z5I9x0",
+      "title": "EP299. 微軟放開 OpenAI、Meta 放棄 Manus、AI 又有鬼故事 | M觀點",
+      "url": "https://www.youtube.com/watch?v=BwLv5z5I9x0",
+      "date": "20260430",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-05-01T12:01:44.661215"
     }
   }
 }
