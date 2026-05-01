@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T20:08:15.434194",
+  "last_updated": "2026-05-02T04:08:44.855032",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -765,6 +765,15 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-05-01T12:01:44.661215"
+    },
+    "_jxGyWr7EJO": {
+      "id": "_jxGyWr7EJO",
+      "title": "EP1088｜4月漲7203點，5月還有好光景？台積電回檔更好買，熱門產業絕對要有！",
+      "url": "https://www.youtube.com/watch?v=_jxGyWr7EJO",
+      "date": "20260430",
+      "channel": "兆華與股惑仔",
+      "status": "analyzed",
+      "created_at": "2026-05-02T04:08:14.466098"
     }
   }
 }
