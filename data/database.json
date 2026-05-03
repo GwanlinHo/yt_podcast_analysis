@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T12:02:00.207626",
+  "last_updated": "2026-05-03T20:03:36.588136",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -783,6 +783,15 @@
       "channel": "股癌",
       "status": "analyzed",
       "created_at": "2026-05-02T20:00:05.983233"
+    },
+    "RSqkFMRvRbQ": {
+      "id": "RSqkFMRvRbQ",
+      "title": "週報ep247公開版｜4月爆量7千點 行情還會更熱！台積電條款上路前 投信暖身ft.盈利投資董事長 鍾國忠 2026/05/03 李兆華River @riverstockshow",
+      "url": "https://www.youtube.com/watch?v=RSqkFMRvRbQ",
+      "date": "20260503",
+      "channel": "兆華與股惑仔",
+      "status": "analyzed",
+      "created_at": "2026-05-03T20:02:07.678920"
     }
   }
 }
