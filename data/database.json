@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T04:08:24.867623",
+  "last_updated": "2026-05-05T20:03:42.181779",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -810,6 +810,15 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-05-04T20:01:21.535511"
+    },
+    "xcp3WhbtlAE": {
+      "id": "xcp3WhbtlAE",
+      "title": "2026/05/05(二) Palantir為什麼不漲？#PLTR #ON #NVDA #MU",
+      "url": "https://www.youtube.com/watch?v=xcp3WhbtlAE",
+      "date": "20260505",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-05-05T20:00:51.904335"
     }
   }
 }
