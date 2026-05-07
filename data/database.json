@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T20:03:29.147325",
+  "last_updated": "2026-05-07T20:03:21.022352",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -837,6 +837,15 @@
       "channel": "股癌",
       "status": "analyzed",
       "created_at": "2026-05-06T20:00:04.553252"
+    },
+    "eOTN9B4ZgyY": {
+      "id": "eOTN9B4ZgyY",
+      "title": "2026/05/07(四) 財報好不漲，到底為什麼？#ETN #ANET #ARM #COHR",
+      "url": "https://www.youtube.com/watch?v=eOTN9B4ZgyY",
+      "date": "20260507",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-05-07T20:00:51.265284"
     }
   }
 }
