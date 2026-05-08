@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T08:09:43.772344",
+  "last_updated": "2026-05-08T20:03:12.818287",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -864,6 +864,15 @@
       "channel": "財報狗",
       "status": "analyzed",
       "created_at": "2026-05-08T08:00:44.702370"
+    },
+    "6MH_QD1qfro": {
+      "id": "6MH_QD1qfro",
+      "title": "2026/05/08(五)美股下跌還能買嗎？ #ANET #DDOG #FTNT",
+      "url": "https://www.youtube.com/watch?v=6MH_QD1qfro",
+      "date": "20260508",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-05-08T20:00:53.359000"
     }
   }
 }
