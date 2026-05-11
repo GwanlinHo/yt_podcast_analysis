@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T10:02:24.866651",
+  "last_updated": "2026-05-11T14:03:02.327797",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -849,7 +849,7 @@
     },
     "yukUlI7xvjI": {
       "id": "yukUlI7xvjI",
-      "title": "EP301. PLTR 會被打敗嗎、SpaceXAI 算力出租中、輝達台北 GTC | M觀點",
+      "title": "EP301. PLTR 會被打敗嗎、SpaceXAI 算力出租中、NVIDIA 台北 GTC | M觀點",
       "url": "https://www.youtube.com/watch?v=yukUlI7xvjI",
       "date": "20260507",
       "channel": "M觀點",
@@ -900,6 +900,15 @@
       "channel": "財女珍妮",
       "status": "analyzed",
       "created_at": "2026-05-11T10:00:59.978939"
+    },
+    "iaVZAKD2oCA": {
+      "id": "iaVZAKD2oCA",
+      "title": "EP302. 台股美股過熱了嗎、蘋果下單英特爾、Optimus 工程驗證 | M觀點",
+      "url": "https://www.youtube.com/watch?v=iaVZAKD2oCA",
+      "date": "20260511",
+      "channel": "M觀點",
+      "status": "analyzed",
+      "created_at": "2026-05-11T14:01:37.994741"
     }
   }
 }
