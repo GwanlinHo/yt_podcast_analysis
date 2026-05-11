@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T20:03:47.494906",
+  "last_updated": "2026-05-11T10:02:24.866651",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -891,6 +891,15 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-05-10T20:01:38.219522"
+    },
+    "-bpVVYpj1IE": {
+      "id": "-bpVVYpj1IE",
+      "title": "2026/05/11(一) 財報、非農超預期，科技股再創高！#RKLB升空 #NET財報",
+      "url": "https://www.youtube.com/watch?v=-bpVVYpj1IE",
+      "date": "20260511",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-05-11T10:00:59.978939"
     }
   }
 }
