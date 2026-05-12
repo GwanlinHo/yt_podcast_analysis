@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T02:01:42.315505",
+  "last_updated": "2026-05-12T12:03:46.807570",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -909,6 +909,15 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-05-11T14:01:37.994741"
+    },
+    "d-GQ1ovnTco": {
+      "id": "d-GQ1ovnTco",
+      "title": "2026/05/12(二) 美股狂牛，才剛開始？半導體是不是漲到壞掉了？",
+      "url": "https://www.youtube.com/watch?v=d-GQ1ovnTco",
+      "date": "20260512",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-05-12T12:01:40.180846"
     }
   }
 }

@@ -1,0 +1,51 @@
+{
+  "key_points": [
+    "美股科技股與其餘板塊表現極度脫鉤，資金高度集中於 AI 基礎設施產業鏈，形成「一枝獨秀」格局。",
+    "市場正從單純的 AI 訓練轉向 Agentic AI（代理型 AI）的大規模部署，帶動 Token 生成與電力需求爆發式成長。",
+    "光通訊族群被視為 AI 的「神經系統」，受惠於銅退光進的物理極限轉移及 NVIDIA 的 20 億美元策略性投資。",
+    "能源股如 CEG 受惠於資料中心電力缺口與核能補貼政策，Q1 營收與獲利均大幅超越市場預期。"
+  ],
+  "macro_outlook": [
+    "Agentic AI 時代來臨，算力需求從線性轉向爆發性，基礎設施建設已成為當前市場最核心的投資主軸。",
+    "半導體週期進入全面擴張期，不僅處理器（CPU/GPU）強勁，類比晶片庫存調整也接近尾聲，板塊全面開花。",
+    "能源供應已成為 AI 發展的隱形瓶頸，核能重啟與潔淨能源合置（Co-location）計畫是長期觀察重點。"
+  ],
+  "targets": [
+    {
+      "code": "CEG",
+      "name": "Constellation Energy",
+      "view": "Bullish",
+      "rationale": "Q1 EPS 與營收遠超預期，核能補貼受益且德州資料中心共置供電申請獲准。"
+    },
+    {
+      "code": "AAOI",
+      "name": "Applied Optoelectronics",
+      "view": "Bullish",
+      "rationale": "1.6T 光收發器獲大單且 800G 量產，被視為銅退光進趨勢下的最大受益者。"
+    },
+    {
+      "code": "LITE",
+      "name": "Lumentum",
+      "view": "Bullish",
+      "rationale": "獲 NVIDIA 投資並納入 S&P 500 指數，OCS 與 CPO 技術需求遠超產能 30%。"
+    },
+    {
+      "code": "COHR",
+      "name": "Coherent",
+      "view": "Bullish",
+      "rationale": "受惠於 NVIDIA 深度合作與指數納入效應，資料中心與通訊部門營收強勁。"
+    },
+    {
+      "code": "INTC",
+      "name": "Intel",
+      "view": "Bullish",
+      "rationale": "資料中心 CPU/GPU 需求復甦，近期股價反彈動能極強，反映基本面回溫。"
+    }
+  ],
+  "risk_factors": [
+    "光通訊元件產能瓶頸（如 LITE 需求超產能 30%），可能限制短期營收爆發力。",
+    "核能重啟計畫（如 Crane Center）時程長達數年，對近期現金流貢獻有限。",
+    "科技股相對其餘板塊溢價過高，需防範宏觀經濟變動引發的資金獲利了結回流。"
+  ],
+  "quotes": "美股狂牛才剛開始？AI 基礎設施已從算力延伸至能源與傳輸，這是一場全面的產業結構重組。"
+}
