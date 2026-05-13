@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T08:02:23.199849",
+  "last_updated": "2026-05-13T14:03:38.177949",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -927,6 +927,15 @@
       "channel": "財報狗",
       "status": "analyzed",
       "created_at": "2026-05-13T08:00:43.524020"
+    },
+    "QKyM1UeHeLw": {
+      "id": "QKyM1UeHeLw",
+      "title": "2026/05/13(三) 通膨升溫，川習會前半導體跳水？#ASTS #CRCL",
+      "url": "https://www.youtube.com/watch?v=QKyM1UeHeLw",
+      "date": "20260513",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-05-13T14:01:14.912799"
     }
   }
 }
