@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T20:03:09.344106",
+  "last_updated": "2026-05-14T12:03:05.130937",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -945,6 +945,15 @@
       "channel": "股癌",
       "status": "analyzed",
       "created_at": "2026-05-13T20:00:05.459656"
+    },
+    "rKQ3c44h5Lw": {
+      "id": "rKQ3c44h5Lw",
+      "title": "2026/05/14(四) 川普訪中，利多還利空，官員喊升息？#CRWV #NBIS",
+      "url": "https://www.youtube.com/watch?v=rKQ3c44h5Lw",
+      "date": "20260514",
+      "channel": "財女珍妮",
+      "status": "analyzed",
+      "created_at": "2026-05-14T12:01:12.183629"
     }
   }
 }
