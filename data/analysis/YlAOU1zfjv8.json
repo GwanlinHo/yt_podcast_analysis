@@ -1,0 +1,49 @@
+{
+  "key_points": [
+    "川習會關注中美貿易關係與科技管制（如晶片與 AI 技術）的適度鬆綁空間",
+    "美方企業（Nvidia, Boeing, Tesla, Qualcomm）爭取中國市場訂單的關鍵時刻",
+    "Google 發布 Googlebooks 平台，標誌著從 ChromeOS 向深度 AI 集成的戰略轉型",
+    "主動型 ETF 在 AI 驅動市場中的超額回報潛力與高管理費風險的權衡"
+  ],
+  "macro_outlook": [
+    "中美地緣政治對抗持續，但雙方在經濟利益上仍有談判空間，可能帶動科技股結構性復甦",
+    "AI PC 浪潮正在加速，軟硬體整合將大模型能力轉化為實際用戶體驗"
+  ],
+  "targets": [
+    {
+      "code": "NVDA",
+      "name": "Nvidia",
+      "view": "Bullish",
+      "rationale": "關注川習會後中國市場訂單的回流可能性"
+    },
+    {
+      "code": "GOOG",
+      "name": "Google",
+      "view": "Bullish",
+      "rationale": "Googlebooks 標誌著 AI PC 戰略的重大進展與生產力工具轉型"
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla",
+      "view": "Neutral",
+      "rationale": "受惠於中美關係緩和但競爭壓力仍大"
+    },
+    {
+      "code": "QCOM",
+      "name": "Qualcomm",
+      "view": "Bullish",
+      "rationale": "中國市場訂單對其營收具有關鍵影響"
+    },
+    {
+      "code": "BA",
+      "name": "Boeing",
+      "view": "Bullish",
+      "rationale": "潛在的中國飛機大單挹注"
+    }
+  ],
+  "risk_factors": [
+    "政治對抗的不確定性可能隨時中斷貿易談判進程",
+    "主動型 ETF 表現高度依賴經理人判斷，長期未必能跑贏被動指數"
+  ],
+  "quotes": "回歸商業本質去思考。保持理性觀察並透過分批布局來降低風險，是當前市場環境下的核心策略。"
+}
