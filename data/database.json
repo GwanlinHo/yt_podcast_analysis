@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T02:02:50.754163",
+  "last_updated": "2026-05-15T10:03:20.183737",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -963,6 +963,24 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-05-15T02:01:32.212495"
+    },
+    "DOlG7o799Uo": {
+      "id": "DOlG7o799Uo",
+      "title": "522.【財經時事放大鏡】功率 x 8\" x HVDC",
+      "url": "https://www.youtube.com/watch?v=DOlG7o799Uo",
+      "date": "20260514",
+      "channel": "財報狗",
+      "status": "analyzed",
+      "created_at": "2026-05-15T10:01:06.205342"
+    },
+    "OIsfiXJtVMQ": {
+      "id": "OIsfiXJtVMQ",
+      "title": "2026/05/15 (五) 輝達一週漲20%，創高還能追？台積電又喊三層蛋糕",
+      "url": "https://www.youtube.com/watch?v=OIsfiXJtVMQ",
+      "date": "20260515",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-05-15T10:01:31.683466"
     }
   }
 }
