@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T10:04:32.162040",
+  "last_updated": "2026-05-15T22:10:15.419472",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -981,6 +981,96 @@
       "channel": "財女珍妮",
       "status": "analyzed",
       "created_at": "2026-05-15T10:01:31.683466"
+    },
+    "GnV5ocVfhdA": {
+      "id": "GnV5ocVfhdA",
+      "title": "【理財達人秀】輝達利多殺盤是買點？廣達換鴻海？台積電三層蛋糕 機器人.CPO找補漲？被動.低軌.設備季報體檢 補票大全集？｜李兆華、鍾國忠、黃豐凱、翁士峻2026.05.15【電視完整版】",
+      "url": "https://www.youtube.com/watch?v=GnV5ocVfhdA",
+      "date": "20260515",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-15T22:09:08.286665"
+    },
+    "LFgr2NHYyOc": {
+      "id": "LFgr2NHYyOc",
+      "title": "【理財達人秀】輝達創高 投信搶季報好股 大戶右下撿 便宜IC設計？｜李兆華、高憲容 2026.05.14 part3",
+      "url": "https://www.youtube.com/watch?v=LFgr2NHYyOc",
+      "date": "20260514",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-15T22:09:09.786015"
+    },
+    "3_zR8fPs-D0": {
+      "id": "3_zR8fPs-D0",
+      "title": "【理財達人秀】三星真罷工？ 記憶體價漲！ 功率元件起飛 跟法人進出｜李兆華、林信富 2026.05.14 part2",
+      "url": "https://www.youtube.com/watch?v=3_zR8fPs-D0",
+      "date": "20260514",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-15T22:09:11.242802"
+    },
+    "68HRs3d7IUU": {
+      "id": "68HRs3d7IUU",
+      "title": "【理財達人秀】川習會台股影響？ 能再攻！ 被動漲價循環 CPO買轉強｜李兆華、容逸燊 2026.05.14 part1",
+      "url": "https://www.youtube.com/watch?v=68HRs3d7IUU",
+      "date": "20260514",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-15T22:09:12.836944"
+    },
+    "DQnaX9G-c5A": {
+      "id": "DQnaX9G-c5A",
+      "title": "【理財達人秀】台股一日回檔結束？投信搶漲價股！川習會解黃仁勳晶片禁令？記憶體.被動.IC設計大戶撿便宜？Q1季報大禮包？｜李兆華、容逸燊、林信富、高憲容2026.05.14【電視完整版】",
+      "url": "https://www.youtube.com/watch?v=DQnaX9G-c5A",
+      "date": "20260514",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-15T22:09:14.623573"
+    },
+    "lvtDELWY3us": {
+      "id": "lvtDELWY3us",
+      "title": "【兆華艾綸說】楊雲翔獨家分享30年功力！對帳單看30萬變億元，老三哲學大贏家｜李兆華、艾綸、楊雲翔 2026.05.13",
+      "url": "https://www.youtube.com/watch?v=lvtDELWY3us",
+      "date": "20260514",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-15T22:09:16.549901"
+    },
+    "AhSOWCIKoVQ": {
+      "id": "AhSOWCIKoVQ",
+      "title": "【兆華艾綸說】無塵室滿單不怕通膨 5月報稅痛 股利節稅大法｜李兆華、艾綸 2026.05.13 part1",
+      "url": "https://www.youtube.com/watch?v=AhSOWCIKoVQ",
+      "date": "20260513",
+      "channel": "兆華與股惑仔",
+      "status": "analyzed",
+      "created_at": "2026-05-15T22:09:18.207338"
+    },
+    "zOyHfkwUxvs": {
+      "id": "zOyHfkwUxvs",
+      "title": "【理財達人秀】CPO滑一跤 剩一半籌碼好？ 陪浪子回頭 鎖處置、大戶股｜李兆華、權證小哥 2026.05.13 part3",
+      "url": "https://www.youtube.com/watch?v=zOyHfkwUxvs",
+      "date": "20260513",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-15T22:09:19.658699"
+    },
+    "d6xXJBxFhV0": {
+      "id": "d6xXJBxFhV0",
+      "title": "【理財達人秀】CPI驚魂 台股過壓力測試？ 低軌、功率元件 飆股基因復活｜李兆華、王建文 2026.05.13 part2",
+      "url": "https://www.youtube.com/watch?v=d6xXJBxFhV0",
+      "date": "20260513",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-15T22:09:21.039916"
+    },
+    "yw8opAbYj3A": {
+      "id": "yw8opAbYj3A",
+      "title": "【理財達人秀】美股跌、台股不怕 4萬地板 人氣股重摔 回後給機會｜李兆華、朱家泓 2026.05.13 part1",
+      "url": "https://www.youtube.com/watch?v=yw8opAbYj3A",
+      "date": "20260513",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-15T22:09:22.442742"
     }
   }
 }
