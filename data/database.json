@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T10:06:25.895707",
+  "last_updated": "2026-05-16T20:02:51.282294",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1029,7 +1029,7 @@
     },
     "lvtDELWY3us": {
       "id": "lvtDELWY3us",
-      "title": "【兆華艾綸說】楊雲翔獨家分享30年功力！對帳單看30萬變億元，老三哲學大贏家｜李兆華、艾綸、楊雲翔 2026.05.13",
+      "title": "【兆華艾綸說】楊雲翔30年功力獨家分享！6年對帳單看30萬變1.5億元，老三哲學大贏家｜李兆華、艾綸、楊雲翔 2026.05.13",
       "url": "https://www.youtube.com/watch?v=lvtDELWY3us",
       "date": "20260514",
       "channel": "兆華與股惑仔",
@@ -1098,6 +1098,15 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-05-16T10:01:44.919123"
+    },
+    "lllOBl96vzk": {
+      "id": "lllOBl96vzk",
+      "title": "EP662 | ⛑️",
+      "url": "https://www.youtube.com/watch?v=lllOBl96vzk",
+      "date": "20260516",
+      "channel": "股癌",
+      "status": "analyzed",
+      "created_at": "2026-05-16T20:00:05.263699"
     }
   }
 }
