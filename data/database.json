@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T04:18:44.891996",
+  "last_updated": "2026-05-16T10:03:46.693996",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1071,6 +1071,33 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-05-15T22:09:22.442742"
+    },
+    "PNZqrZ4uG_w": {
+      "id": "PNZqrZ4uG_w",
+      "title": "【理財達人秀】季報大體檢 廣達換鴻海？選被動營家 鎖轉強低軌｜李兆華、翁士峻 2026.05.15 part3",
+      "url": "https://www.youtube.com/watch?v=PNZqrZ4uG_w",
+      "date": "20260515",
+      "channel": "兆華與股惑仔",
+      "status": "analyzed",
+      "created_at": "2026-05-16T10:01:42.583081"
+    },
+    "pUiQGAvAjZo": {
+      "id": "pUiQGAvAjZo",
+      "title": "【理財達人秀】台積三層蛋糕 誰最美味？機器人找補漲 CPO買拉回｜李兆華、黃豐凱 2026.05.15 part2",
+      "url": "https://www.youtube.com/watch?v=pUiQGAvAjZo",
+      "date": "20260515",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-16T10:01:43.813757"
+    },
+    "x9jigPWu5Ls": {
+      "id": "x9jigPWu5Ls",
+      "title": "【理財達人秀】創高變殺盤 川普明牌曝光！封測新機會 設備安心抱｜李兆華、鍾國忠 2026.05.15 part1",
+      "url": "https://www.youtube.com/watch?v=x9jigPWu5Ls",
+      "date": "20260515",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-16T10:01:44.919123"
     }
   }
 }
