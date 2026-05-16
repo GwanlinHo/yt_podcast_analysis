@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T10:04:52.160377",
+  "last_updated": "2026-05-16T10:06:25.895707",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1096,7 +1096,7 @@
       "url": "https://www.youtube.com/watch?v=x9jigPWu5Ls",
       "date": "20260515",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-05-16T10:01:44.919123"
     }
   }
