@@ -1,42 +1,36 @@
 {
   "key_points": [
-    "川習會聚焦於風險控管與戰略穩定，而非達成結構性的大交易，短期對市場是利多。",
-    "馬斯克的 Grok 面臨全球監管壓力（Deepfake 問題），被迫強化過濾機制，但 AI 仍是其商業版圖核心。",
-    "AI Agent 崛起導致軟體產業典範轉移，傳統 SaaS 的人頭計費模式面臨嚴峻挑戰。"
+    "2026年5月北京川習會：達成管理式競爭下的暫時休兵，包含波音訂單與稀土管理共識，但在台灣議題與科技禁令上仍具結構性矛盾。",
+    "xAI 併入 SpaceX：馬斯克將 xAI 資源整合為 SpaceXAI，退役舊型 Grok 模型並將重心轉向 AI 基礎設施與專業開發工具 Grok Build。",
+    "AI 衝擊 SaaS 產業：AI Agent 取代人力導致傳統「席位制」定價模式崩解，企業預算從工具類軟體轉向 AI 基礎設施與 API 服務。"
   ],
   "macro_outlook": [
-    "中美關係進入邊打邊談的常態，科技競爭長期格局未變。",
-    "軟體產業正從軟體作為工具轉向軟體作為 AI 的基礎設施。"
+    "美中關係進入「管理式競爭」階段，短期商業利益交換優於長期戰略和解。",
+    "軟體經濟從 SaaS (Software-as-a-Service) 轉向 CSaaS (Service-as-a-Software)，軟體本身即為服務執行者。"
   ],
   "targets": [
+    {
+      "code": "BA",
+      "name": "波音",
+      "view": "Neutral/Bullish",
+      "rationale": "中方承諾採購200架飛機，但細節待落實。"
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "view": "Bullish",
+      "rationale": "企業預算持續轉向 AI 基礎設施與算力採購。"
+    },
     {
       "code": "CRM",
       "name": "Salesforce",
       "view": "Bearish",
-      "rationale": "AI Agent 縮減了對傳統軟體介面的需求，面臨價值被侵蝕風險。"
-    },
-    {
-      "code": "NOW",
-      "name": "ServiceNow",
-      "view": "Bearish",
-      "rationale": "傳統人頭計費模式受 AI 自動化衝擊，市場重新評估其護城河。"
-    },
-    {
-      "code": "PLTR",
-      "name": "Palantir",
-      "view": "Bullish",
-      "rationale": "作為 AI 友善平台且具備核心業務數據處理能力，是轉型浪潮中的贏家。"
-    },
-    {
-      "code": "TSLA",
-      "name": "Tesla",
-      "view": "Bullish",
-      "rationale": "Grok 是馬斯克 AI 佈局的核心，雖然面臨監管但不會被放棄。"
+      "rationale": "傳統席位制受 AI Agent 裁員潮威脅，轉型壓力巨大。"
     }
   ],
   "risk_factors": [
-    "各國監管機構對 AI 生成內容的法規趨嚴。",
-    "傳統 SaaS 公司估值修正，若轉型不力將失去市場競爭力。"
+    "地緣政治：美國對台政策趨向交易化與避戰，可能引發區域盟友信心波動。",
+    "商業模式：傳統 SaaS 公司若無法快速切換至按成果計費模式，將面臨估值大幅下修。"
   ],
-  "quotes": "軟體作為工具的時代正在結束，軟體作為 AI 的基礎設施才是未來的戰場。"
+  "quotes": "2026年標誌著一個時代的終結：軟體不再僅僅是服務的載體，軟體本身就變成了服務者。這不是 SaaS 的消亡，而是平庸軟體的終結。"
 }
