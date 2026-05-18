@@ -1,0 +1,50 @@
+{
+  "key_points": [
+    "DRAM 產業正從傳統景氣循環轉向長期結構性短缺，26Q1 三巨頭營收皆創歷史新高。",
+    "AI 需求重心由訓練轉向推理，並邁向代理式 AI (Agentic AI)，帶動傳統 Server DRAM 需求激增。",
+    "2026 年 HBM 成長預期放緩至 40~55%，但非 HBM 先進製程 DRAM 成長動能將顯著轉強。",
+    "三星表示傳統 DRAM 獲利率已超越 HBM，顯示市場對通用型記憶體的需求極為強勁。"
+  ],
+  "macro_outlook": [
+    "DRAM 供應處於結構性緊繃，原廠庫存極低且產能滿載。",
+    "AI 推理需求帶動通用伺服器市場復甦，對 DRAM 的拉貨動能將延續至 2027 年。",
+    "2026 下半年先進製程報價欲小不易，維持強勢格局。"
+  ],
+  "targets": [
+    {
+      "code": "Samsung",
+      "name": "三星",
+      "view": "看多 (Bullish)",
+      "rationale": "傳統 DRAM 佔比高受惠報價上漲，獲利率超越 HBM，且 1c 製程追趕 HBM4 有成。"
+    },
+    {
+      "code": "Micron",
+      "name": "美光",
+      "view": "看多 (Bullish)",
+      "rationale": "先進製程領導者，受惠於 AI 推理需求引發的結構性短缺。"
+    },
+    {
+      "code": "2408",
+      "name": "南亞科",
+      "view": "中性 (Neutral)",
+      "rationale": "成熟製程供給減少帶動短期報價，但下半年面臨長鑫存儲 (CXMT) 產能開出的競爭壓力。"
+    },
+    {
+      "code": "2344",
+      "name": "華邦電",
+      "view": "中性 (Neutral)",
+      "rationale": "下半年成長動能可能受中國產能釋放影響，報價漲幅恐不如先進製程。"
+    },
+    {
+      "code": "3260",
+      "name": "威剛",
+      "view": "中性 (Neutral)",
+      "rationale": "雖有低價庫存效益，但 2026 年中後進貨成本上升將壓縮毛利。"
+    }
+  ],
+  "risk_factors": [
+    "中國長鑫存儲 (CXMT) 的產能釋放 (DDR5/LPDDR5) 可能舒緩供給缺口，影響成熟製程報價動能。",
+    "模組廠面臨採購成本上升與毛利率縮減的雙重挑戰。"
+  ],
+  "quotes": "傳統 DRAM 的利潤率確實比 HBM 更高 (Conventional DRAMs have higher margins versus HBM)。"
+}
