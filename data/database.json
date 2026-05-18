@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-18T20:05:35.221352",
+  "last_updated": "2026-05-19T02:04:14.087317",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1143,6 +1143,15 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-05-18T20:01:51.775223"
+    },
+    "WBGlk1Z-cZQ": {
+      "id": "WBGlk1Z-cZQ",
+      "title": "【理財達人秀】台股盤中V轉買點還在？台積賣世界 有下一檔？機器人.AI眼鏡正熱 電源IC找剛發動？SpaceX要分拆 低軌再飛？｜李兆華、李永年、林漢偉、楊雲翔2026.05.18【電視完整版】",
+      "url": "https://www.youtube.com/watch?v=WBGlk1Z-cZQ",
+      "date": "20260518",
+      "channel": "兆華與股惑仔",
+      "status": "analyzed",
+      "created_at": "2026-05-19T02:01:33.065455"
     }
   }
 }
