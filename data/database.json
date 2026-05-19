@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-19T02:04:14.087317",
+  "last_updated": "2026-05-19T12:04:14.993071",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1152,6 +1152,42 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-05-19T02:01:33.065455"
+    },
+    "EmcZyVyoYdU": {
+      "id": "EmcZyVyoYdU",
+      "title": "2026/05/19(二) SpaceX上市，是特斯拉利空？STX大跌，存儲一起遭殃",
+      "url": "https://www.youtube.com/watch?v=EmcZyVyoYdU",
+      "date": "20260519",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-05-19T12:01:08.610648"
+    },
+    "kOlXEVZtFq0": {
+      "id": "kOlXEVZtFq0",
+      "title": "【理財達人秀】SpaceX要分拆 低軌再飛？電源IC漲價 找剛發動？｜李兆華、楊雲翔 2026.05.18 part3",
+      "url": "https://www.youtube.com/watch?v=kOlXEVZtFq0",
+      "date": "20260518",
+      "channel": "兆華與股惑仔",
+      "status": "analyzed",
+      "created_at": "2026-05-19T12:01:46.680538"
+    },
+    "daSNmrqcYhM": {
+      "id": "daSNmrqcYhM",
+      "title": "【理財達人秀】台積賣世界 還有下一檔？機器人、AI眼鏡 火種正熱｜李兆華、林漢偉 2026.05.18 part2",
+      "url": "https://www.youtube.com/watch?v=daSNmrqcYhM",
+      "date": "20260518",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-19T12:01:47.794713"
+    },
+    "m3VJTiWq0qo": {
+      "id": "m3VJTiWq0qo",
+      "title": "【理財達人秀】美債、美股拉警報 好時機？國巨、技嘉領軍 資減法人買｜李兆華、李永年 2026.05.18 part1",
+      "url": "https://www.youtube.com/watch?v=m3VJTiWq0qo",
+      "date": "20260518",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-19T12:01:49.002645"
     }
   }
 }
