@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T16:02:10.223335",
+  "last_updated": "2026-05-20T20:03:34.807335",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1209,7 +1209,7 @@
     },
     "A-lBdJxxsrg": {
       "id": "A-lBdJxxsrg",
-      "title": "【兆華艾綸說】近季線必買 48K、台積3000肯定到｜李兆華、艾綸、張錫 2026.05.19 part2",
+      "title": "【兆華艾綸說】教授珍貴一堂課！通膨有解，台股48K會到？｜李兆華、艾綸、張錫 2026.05.19 part2",
       "url": "https://www.youtube.com/watch?v=A-lBdJxxsrg",
       "date": "20260520",
       "channel": "兆華與股惑仔",
@@ -1218,7 +1218,7 @@
     },
     "TeHHQGQ0YAY": {
       "id": "TeHHQGQ0YAY",
-      "title": "【兆華艾綸說】台積三層蛋糕 真！致富秘笈｜李兆華、艾綸 2026.05.19 part1",
+      "title": "【兆華艾綸說】買技術領先就對，艾綸詳解台積三層蛋糕，真！致富秘笈｜李兆華、艾綸 2026.05.19 part1",
       "url": "https://www.youtube.com/watch?v=TeHHQGQ0YAY",
       "date": "20260519",
       "channel": "兆華與股惑仔",
@@ -1231,7 +1231,7 @@
       "url": "https://www.youtube.com/watch?v=uRcs-xe5bWg",
       "date": "20260519",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-05-20T10:01:53.586806"
     },
     "WMTDTLVjbig": {
@@ -1269,6 +1269,15 @@
       "channel": "兆華與股惑仔",
       "status": "pending",
       "created_at": "2026-05-20T10:01:58.238606"
+    },
+    "wgd3AJ3Wuzk": {
+      "id": "wgd3AJ3Wuzk",
+      "title": "EP663 | 🦘",
+      "url": "https://www.youtube.com/watch?v=wgd3AJ3Wuzk",
+      "date": "20260520",
+      "channel": "股癌",
+      "status": "pending",
+      "created_at": "2026-05-20T20:00:06.203070"
     }
   }
 }
