@@ -53,6 +53,34 @@ def generate_css():
         header h1 { margin: 0; font-size: 2.5em; letter-spacing: 1px; }
         .meta { margin-top: 15px; opacity: 0.9; font-size: 1.1em; }
         
+        /* Navigation Bar */
+        .nav-bar {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .nav-item {
+            background: #fff;
+            padding: 8px 18px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 600;
+            font-size: 0.9em;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: all 0.3s;
+            border: 1px solid #eee;
+        }
+        .nav-item:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Focus Section */
         .focus-section {
             background: #fff;
             border-left: 8px solid #f1c40f;
@@ -61,14 +89,30 @@ def generate_css():
             margin-bottom: 40px;
             box-shadow: var(--shadow);
         }
+        .focus-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
         .focus-title {
             font-size: 1.5em;
             color: #d35400;
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
             font-weight: bold;
+            margin: 0;
         }
+        .search-box {
+            padding: 10px 20px;
+            border-radius: 25px;
+            border: 2px solid #eee;
+            font-size: 0.9em;
+            width: 300px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        .search-box:focus { border-color: var(--accent-color); }
 
         .creator-section {
             background: var(--card-bg);
@@ -77,6 +121,7 @@ def generate_css():
             margin-bottom: 40px;
             padding: 35px;
             border-top: 5px solid var(--accent-color);
+            scroll-margin-top: 20px;
         }
         .creator-title {
             margin-top: 0;
@@ -167,9 +212,38 @@ def generate_css():
             td:nth-of-type(1):before { content: ""; }
             td:nth-of-type(2):before { content: "觀點"; }
             td:nth-of-type(3):before { content: "說明"; }
+            .search-box { width: 100%; }
         }
     </style>
+    <script>
+        function filterTargets() {
+            const input = document.getElementById('targetSearch');
+            const filter = input.value.toUpperCase();
+            const table = document.getElementById('focusTable');
+            const tr = table.getElementsByTagName('tr');
+
+            for (let i = 1; i < tr.length; i++) {
+                const td = tr[i].getElementsByTagName('td')[0];
+                if (td) {
+                    const txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
     """
+
+def render_nav_bar(channels):
+    if not channels: return ""
+    html = '<div class="nav-bar">'
+    for name in channels.keys():
+        html += f'<a href="#{name}" class="nav-item">📍 {name}</a>'
+    html += '</div>'
+    return html
 
 def render_focus_summary(channels, db):
     """彙整本週提及的所有標的"""
@@ -181,8 +255,7 @@ def render_focus_summary(channels, db):
                 if analysis and analysis.get('targets'):
                     all_targets.extend(analysis.get('targets'))
     
-    if not all_targets:
-        return ""
+    if not all_targets: return ""
 
     # 去重：以 code 為 key
     seen = set()
@@ -195,8 +268,11 @@ def render_focus_summary(channels, db):
 
     html = """
     <div class="focus-section">
-        <div class="focus-title">🚀 本週投資焦點彙整 (Investment Focus)</div>
-        <table>
+        <div class="focus-header">
+            <h2 class="focus-title">🚀 本週投資焦點彙整 (Focus)</h2>
+            <input type="text" id="targetSearch" onkeyup="filterTargets()" placeholder="搜尋標的名稱或代碼..." class="search-box">
+        </div>
+        <table id="focusTable">
             <thead>
                 <tr>
                     <th style="width: 25%">標的</th>
@@ -313,6 +389,8 @@ def main():
                 📅 統計期間：{start_str} 至 {end_str} | ⏱️ 生成：{now.strftime('%Y/%m/%d %H:%M')}
             </div>
         </header>
+        
+        {render_nav_bar(channels)}
         {render_focus_summary(channels, db)}
     """
 
@@ -320,7 +398,7 @@ def main():
         html += "<p style='text-align:center'>本週尚未有新影片。</p>"
     
     for channel_name, video_list in channels.items():
-        html += f'<div class="creator-section"><h2 class="creator-title">{channel_name}</h2>'
+        html += f'<div class="creator-section" id="{channel_name}"><h2 class="creator-title">{channel_name}</h2>'
         for v in video_list:
             analysis = db.get_analysis(v.id) if v.status == "analyzed" else None
             html += f"""

@@ -42,6 +42,34 @@
         header h1 { margin: 0; font-size: 2.5em; letter-spacing: 1px; }
         .meta { margin-top: 15px; opacity: 0.9; font-size: 1.1em; }
         
+        /* Navigation Bar */
+        .nav-bar {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .nav-item {
+            background: #fff;
+            padding: 8px 18px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 600;
+            font-size: 0.9em;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: all 0.3s;
+            border: 1px solid #eee;
+        }
+        .nav-item:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Focus Section */
         .focus-section {
             background: #fff;
             border-left: 8px solid #f1c40f;
@@ -50,14 +78,30 @@
             margin-bottom: 40px;
             box-shadow: var(--shadow);
         }
+        .focus-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
         .focus-title {
             font-size: 1.5em;
             color: #d35400;
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
             font-weight: bold;
+            margin: 0;
         }
+        .search-box {
+            padding: 10px 20px;
+            border-radius: 25px;
+            border: 2px solid #eee;
+            font-size: 0.9em;
+            width: 300px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        .search-box:focus { border-color: var(--accent-color); }
 
         .creator-section {
             background: var(--card-bg);
@@ -66,6 +110,7 @@
             margin-bottom: 40px;
             padding: 35px;
             border-top: 5px solid var(--accent-color);
+            scroll-margin-top: 20px;
         }
         .creator-title {
             margin-top: 0;
@@ -156,8 +201,29 @@
             td:nth-of-type(1):before { content: ""; }
             td:nth-of-type(2):before { content: "觀點"; }
             td:nth-of-type(3):before { content: "說明"; }
+            .search-box { width: 100%; }
         }
     </style>
+    <script>
+        function filterTargets() {
+            const input = document.getElementById('targetSearch');
+            const filter = input.value.toUpperCase();
+            const table = document.getElementById('focusTable');
+            const tr = table.getElementsByTagName('tr');
+
+            for (let i = 1; i < tr.length; i++) {
+                const td = tr[i].getElementsByTagName('td')[0];
+                if (td) {
+                    const txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
     
 </head>
 <body>
@@ -165,13 +231,18 @@
         <header>
             <h1>財經投資週報系統</h1>
             <div class="meta">
-                📅 統計期間：20260515 至 20260522 | ⏱️ 生成：2026/05/22 01:06
+                📅 統計期間：20260515 至 20260522 | ⏱️ 生成：2026/05/22 01:11
             </div>
         </header>
         
+        <div class="nav-bar"><a href="#財女珍妮" class="nav-item">📍 財女珍妮</a><a href="#兆華與股惑仔" class="nav-item">📍 兆華與股惑仔</a><a href="#M觀點" class="nav-item">📍 M觀點</a><a href="#股癌" class="nav-item">📍 股癌</a><a href="#財報狗" class="nav-item">📍 財報狗</a></div>
+        
     <div class="focus-section">
-        <div class="focus-title">🚀 本週投資焦點彙整 (Investment Focus)</div>
-        <table>
+        <div class="focus-header">
+            <h2 class="focus-title">🚀 本週投資焦點彙整 (Focus)</h2>
+            <input type="text" id="targetSearch" onkeyup="filterTargets()" placeholder="搜尋標的名稱或代碼..." class="search-box">
+        </div>
+        <table id="focusTable">
             <thead>
                 <tr>
                     <th style="width: 25%">標的</th>
@@ -661,7 +732,7 @@
                 <td>雖有低價庫存效益，但 2026 年中後進貨成本上升將壓縮毛利。</td>
             </tr>
         </tbody></table></div>
-    <div class="creator-section"><h2 class="creator-title">財女珍妮</h2>
+    <div class="creator-section" id="財女珍妮"><h2 class="creator-title">財女珍妮</h2>
             <div class="episode-block">
                 <div class="episode-title">
                     <a href="https://www.youtube.com/watch?v=WA1SZpaupzk" target="_blank">2026/05/21(四) 輝達財報後還能漲嗎？SpaceX S1終於出爐 #NVDA #SPCX</a>
@@ -853,7 +924,7 @@
                 <td><span class="view-neutral">Bullish</span></td>
                 <td>COUPE 技術顯示光學傳輸是 AI 規模化後的必然路徑，相關廠商具備長線機會</td>
             </tr>
-        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">短期股價漲幅巨大且市值極高，市場預期過於集中可能引發財報後的劇烈震盪</li><li class="risk-item">地緣政治對高階晶片出口中國的限制仍是長期不確定因素</li></ul></div><div class="quote-box">「台積電的三層蛋糕技術藍圖顯示，AI 基礎建設的建設期至少會持續到 2030 年，這是一場由算力驅動的生產力革命。」</div></div></div><div class="creator-section"><h2 class="creator-title">兆華與股惑仔</h2>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">短期股價漲幅巨大且市值極高，市場預期過於集中可能引發財報後的劇烈震盪</li><li class="risk-item">地緣政治對高階晶片出口中國的限制仍是長期不確定因素</li></ul></div><div class="quote-box">「台積電的三層蛋糕技術藍圖顯示，AI 基礎建設的建設期至少會持續到 2030 年，這是一場由算力驅動的生產力革命。」</div></div></div><div class="creator-section" id="兆華與股惑仔"><h2 class="creator-title">兆華與股惑仔</h2>
             <div class="episode-block">
                 <div class="episode-title">
                     <a href="https://www.youtube.com/watch?v=25mptNb77eA" target="_blank">【兆華艾綸說】曲博鐵口：台積電不可能輸！別亂買，玻璃基板還早，載版沒被取代，誰是真CoPoS概念股？｜李兆華、艾綸、曲建仲 2026.05.20 part2</a>
@@ -1701,7 +1772,7 @@
                 <td><span class="view-neutral">中性</span></td>
                 <td>雖長線看好 AI 基建，但短線受川習會政治變數與漲多洗盤影響，建議觀察震盪後的支撐。</td>
             </tr>
-        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">川習會談判結果若不如預期，可能引發市場對供應鏈出口限制的恐憂。</li><li class="risk-item">520 行情過後的市場情緒轉換，以及 Nvidia 財報可能出現的 利多出盡 效應。</li><li class="risk-item">封測族群若獲利成長速度趕不上股價評價提升速度，恐面臨估值修正風險。</li></ul></div><div class="quote-box">「不要追高已噴發的熱門股，利用季報後的震盪期，卡位封測與設備等具備獲利支撐的補票股。」</div></div></div><div class="creator-section"><h2 class="creator-title">M觀點</h2>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">川習會談判結果若不如預期，可能引發市場對供應鏈出口限制的恐憂。</li><li class="risk-item">520 行情過後的市場情緒轉換，以及 Nvidia 財報可能出現的 利多出盡 效應。</li><li class="risk-item">封測族群若獲利成長速度趕不上股價評價提升速度，恐面臨估值修正風險。</li></ul></div><div class="quote-box">「不要追高已噴發的熱門股，利用季報後的震盪期，卡位封測與設備等具備獲利支撐的補票股。」</div></div></div><div class="creator-section" id="M觀點"><h2 class="creator-title">M觀點</h2>
             <div class="episode-block">
                 <div class="episode-title">
                     <a href="https://www.youtube.com/watch?v=xf2bvG2Fhng" target="_blank">EP305. 輝達財報與 AI 回檔、Google AI 努力跟上、Meta 大裁員來了 | M觀點</a>
@@ -1769,7 +1840,7 @@
                 <td><span class="view-neutral">Bearish</span></td>
                 <td>傳統席位制受 AI Agent 裁員潮威脅，轉型壓力巨大。</td>
             </tr>
-        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">地緣政治：美國對台政策趨向交易化與避戰，可能引發區域盟友信心波動。</li><li class="risk-item">商業模式：傳統 SaaS 公司若無法快速切換至按成果計費模式，將面臨估值大幅下修。</li></ul></div><div class="quote-box">「2026年標誌著一個時代的終結：軟體不再僅僅是服務的載體，軟體本身就變成了服務者。這不是 SaaS 的消亡，而是平庸軟體的終結。」</div></div></div><div class="creator-section"><h2 class="creator-title">股癌</h2>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">地緣政治：美國對台政策趨向交易化與避戰，可能引發區域盟友信心波動。</li><li class="risk-item">商業模式：傳統 SaaS 公司若無法快速切換至按成果計費模式，將面臨估值大幅下修。</li></ul></div><div class="quote-box">「2026年標誌著一個時代的終結：軟體不再僅僅是服務的載體，軟體本身就變成了服務者。這不是 SaaS 的消亡，而是平庸軟體的終結。」</div></div></div><div class="creator-section" id="股癌"><h2 class="creator-title">股癌</h2>
             <div class="episode-block">
                 <div class="episode-title">
                     <a href="https://www.youtube.com/watch?v=wgd3AJ3Wuzk" target="_blank">EP663 | 🦘</a>
@@ -1837,7 +1908,7 @@
                 <td><span class="view-neutral">中性</span></td>
                 <td>成熟製程拉貨主要為補庫存，終端需求復甦力道仍有待觀察。</td>
             </tr>
-        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">若市場進一步下跌超過 8%，槓桿壓力將顯著增大，可能引發心理防線崩潰。</li><li class="risk-item">終端需求長期疲軟可能導致補庫存後的再次庫存調整。</li><li class="risk-item">AI 伺服器專案時程若持續遞延，將影響相關族群的短期獲利表現。</li></ul></div><div class="quote-box">「很多人問說現在跌下來要不要怕？其實你看身邊的人，大家去年到今年賺這麼多，這點回檔根本沒感覺。而且現在想借錢買股票還借不到，券商額度都滿了，這反而好事，大家槓桿被動被控制住了。」</div></div></div><div class="creator-section"><h2 class="creator-title">財報狗</h2>
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">若市場進一步下跌超過 8%，槓桿壓力將顯著增大，可能引發心理防線崩潰。</li><li class="risk-item">終端需求長期疲軟可能導致補庫存後的再次庫存調整。</li><li class="risk-item">AI 伺服器專案時程若持續遞延，將影響相關族群的短期獲利表現。</li></ul></div><div class="quote-box">「很多人問說現在跌下來要不要怕？其實你看身邊的人，大家去年到今年賺這麼多，這點回檔根本沒感覺。而且現在想借錢買股票還借不到，券商額度都滿了，這反而好事，大家槓桿被動被控制住了。」</div></div></div><div class="creator-section" id="財報狗"><h2 class="creator-title">財報狗</h2>
             <div class="episode-block">
                 <div class="episode-title">
                     <a href="https://www.youtube.com/watch?v=IF118KsjCEg" target="_blank">524.【達人聊產業】突破傳輸瓶頸的背面鑽頭，大量如何用控制器攻克 PCB ft. 簡禎祈總經理</a>
