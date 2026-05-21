@@ -259,25 +259,29 @@ def render_macro_summary(db, start_str, end_str):
     return html
 
 def render_focus_summary(db, start_str, end_str):
-    """彙整本週提及的所有標的"""
+    """彙整本週提及的所有標的與多空情緒統計"""
     unique_targets = db.get_aggregated_targets(start_str, end_str)
     if not unique_targets: return ""
 
-    html = """
+    # 情緒統計
+    bull_count = sum(1 for t in unique_targets if "多" in t.get('view', ''))
+    bear_count = sum(1 for t in unique_targets if "空" in t.get('view', ''))
+    total_count = len(unique_targets)
+    sentiment_ratio = f"{bull_count} 多 / {bear_count} 空"
+
+    html = f"""
     <div class="focus-section">
         <div class="focus-header">
-            <h2 class="focus-title">🚀 本週投資焦點彙整 (Focus)</h2>
+            <h2 class="focus-title">
+                🚀 本週投資焦點彙整 
+                <span style="font-size: 0.6em; color: #7f8c8d; margin-left: 10px; font-weight: normal;">
+                    (市場情緒：<span class="view-bull">{bull_count}</span> 多 / <span class="view-bear">{bear_count}</span> 空)
+                </span>
+            </h2>
             <input type="text" id="targetSearch" onkeyup="filterTargets()" placeholder="搜尋標的名稱或代碼..." class="search-box">
         </div>
         <table id="focusTable">
-            <thead>
-                <tr>
-                    <th style="width: 25%">標的</th>
-                    <th style="width: 15%">觀點</th>
-                    <th>核心理由摘要</th>
-                </tr>
-            </thead>
-            <tbody>
+...
     """
     for t in unique_targets:
         view_class = "view-neutral"
