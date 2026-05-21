@@ -159,37 +159,48 @@ def generate_css():
     </script>
     """
 
+def generate_search_index(db):
+    """產生全文檢索索引檔案"""
+    index_data = []
+    for v in db.videos.values():
+        if v.status == "analyzed":
+            analysis = db.get_analysis(v.id)
+            if analysis:
+                content_text = f"{v.title} {' '.join(analysis.get('key_points', []))} {' '.join(analysis.get('macro_outlook', []))}"
+                index_data.append({
+                    "id": v.id,
+                    "title": v.title,
+                    "url": v.url,
+                    "date": v.date,
+                    "channel": v.channel,
+                    "text": content_text.lower()
+                })
+    
+    index_path = "data/search_index.json"
+    with open(index_path, 'w', encoding='utf-8') as f:
+        json.dump(index_data, f, ensure_ascii=False)
+    print(f"🔍 全文檢索索引已更新: {index_path}")
+
 def generate_archives(db):
-    """產生包含所有歷史影片的搜尋頁面與全局統計"""
+    """產生包含所有歷史影片的搜尋頁面與全文檢索介面"""
     all_videos = sorted(db.videos.values(), key=lambda x: x.date, reverse=True)
     stats = db.get_global_stats()
-    now = datetime.datetime.now()
     
     html = f"""<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
-    <title>財經影片全量知識庫</title>
+    <title>財經影片全文檢索中心</title>
     {generate_css()}
     <style>
-        .stats-grid {{
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-bottom: 40px;
-        }}
-        .stat-card {{
-            background: var(--card-bg);
-            padding: 25px;
-            border-radius: 15px;
-            box-shadow: var(--shadow);
-            text-align: center;
-            border-bottom: 5px solid var(--accent-color);
-        }}
+        .stats-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 40px; }}
+        .stat-card {{ background: var(--card-bg); padding: 25px; border-radius: 15px; box-shadow: var(--shadow); text-align: center; border-bottom: 5px solid var(--accent-color); }}
         .stat-value {{ font-size: 2em; font-weight: 800; color: var(--accent-color); }}
         .stat-label {{ font-size: 0.9em; color: #7f8c8d; margin-top: 5px; font-weight: 600; }}
         .top-targets-list {{ text-align: left; margin-top: 15px; padding: 0; list-style: none; }}
         .top-targets-list li {{ display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border-color); font-size: 0.9em; }}
+        .search-mode-toggle {{ margin-bottom: 20px; text-align: center; }}
+        .highlight {{ background: #fff3cd; padding: 0 2px; border-radius: 3px; font-weight: bold; }}
     </style>
 </head>
 <body>
@@ -236,9 +247,10 @@ def generate_archives(db):
         
         <div class="focus-section">
             <div class="focus-header">
-                <h2 class="focus-title">🔍 全量影片索引</h2>
-                <input type="text" id="archiveSearch" onkeyup="filterArchives()" placeholder="搜尋標題、頻道或日期..." class="search-box">
+                <h2 class="focus-title">🔍 全文知識檢索</h2>
+                <input type="text" id="archiveSearch" onkeyup="handleSearch()" placeholder="搜尋關鍵字（含分析內容）..." class="search-box">
             </div>
+            <div id="searchInfo" style="margin-bottom: 15px; font-size: 0.9em; color: #7f8c8d;"></div>
             <table id="archiveTable">
                 <thead>
                     <tr>
@@ -248,7 +260,7 @@ def generate_archives(db):
                         <th style="width: 10%">狀態</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="archiveBody">
     """
     for v in all_videos:
         status_tag = '<span class="view-bear">待分析</span>' if v.status == 'pending' else '<span style="color: var(--bearish-color); font-weight:bold;">已完成</span>'
@@ -266,15 +278,37 @@ def generate_archives(db):
         </div>
     </div>
     <script>
-        function filterArchives() {
-            const input = document.getElementById('archiveSearch');
-            const filter = input.value.toUpperCase();
-            const table = document.getElementById('archiveTable');
-            const tr = table.getElementsByTagName('tr');
-            for (let i = 1; i < tr.length; i++) {
-                const text = tr[i].textContent || tr[i].innerText;
-                tr[i].style.display = text.toUpperCase().indexOf(filter) > -1 ? "" : "none";
+        let searchIndex = [];
+        
+        // 載入索引檔
+        fetch('data/search_index.json')
+            .then(response => response.json())
+            .then(data => { searchIndex = data; })
+            .catch(err => console.error("無法載入檢索索引:", err));
+
+        function handleSearch() {
+            const query = document.getElementById('archiveSearch').value.toLowerCase().trim();
+            const body = document.getElementById('archiveBody');
+            const info = document.getElementById('searchInfo');
+            
+            if (query === "") {
+                location.reload(); // 恢復原始列表
+                return;
             }
+
+            const results = searchIndex.filter(item => item.text.includes(query));
+            info.innerText = `找到 ${results.length} 筆相關分析結果`;
+            
+            let html = "";
+            results.sort((a, b) => b.date.localeCompare(a.date)).forEach(item => {
+                html += `<tr>
+                    <td>${item.date}</td>
+                    <td>${item.channel}</td>
+                    <td><a href="${item.url}" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">${item.title}</a></td>
+                    <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
+                </tr>`;
+            });
+            body.innerHTML = html || "<tr><td colspan='4' style='text-align:center'>無匹配結果</td></tr>";
         }
     </script>
 </body>
@@ -282,7 +316,7 @@ def generate_archives(db):
     """
     with open("archives.html", 'w', encoding='utf-8') as f:
         f.write(html)
-    print("📚 全量知識庫統計頁面已更新: archives.html")
+    print("📚 全文檢索知識庫頁面已更新: archives.html")
 
 def render_nav_bar(channels):
     if not channels: return ""
@@ -435,6 +469,7 @@ def main():
     with open(hash_file, 'w') as f: f.write(curr_hash)
     # 執行數據匯出與全量知識庫生成
     db.export_to_csv()
+    generate_search_index(db)
     generate_archives(db)
 
     print(f"✨ 報告已更新：{OUTPUT_FILE}")
