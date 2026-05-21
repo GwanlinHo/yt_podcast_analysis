@@ -159,9 +159,83 @@ def generate_css():
     </script>
     """
 
+def generate_archives(db):
+    """產生包含所有歷史影片的搜尋頁面"""
+    all_videos = sorted(db.videos.values(), key=lambda x: x.date, reverse=True)
+    now = datetime.datetime.now()
+    
+    html = f"""<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>財經影片全量知識庫</title>
+    {generate_css()}
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>全量財經知識檢索中心</h1>
+            <div class="meta">收錄數量：{len(all_videos)} 部影片 | 更新時間：{now.strftime('%Y/%m/%d %H:%M')}</div>
+        </header>
+        <div class="nav-bar">
+            <a href="index.html" class="nav-item">🏠 返回本週週報</a>
+            <a href="data/all_analysis.csv" class="nav-item">📥 匯出 CSV 數據</a>
+        </div>
+        
+        <div class="focus-section">
+            <div class="focus-header">
+                <h2 class="focus-title">🔍 全量影片索引</h2>
+                <input type="text" id="archiveSearch" onkeyup="filterArchives()" placeholder="搜尋標題、頻道或日期..." class="search-box">
+            </div>
+            <table id="archiveTable">
+                <thead>
+                    <tr>
+                        <th style="width: 15%">日期</th>
+                        <th style="width: 15%">頻道</th>
+                        <th>影片標題</th>
+                        <th style="width: 10%">狀態</th>
+                    </tr>
+                </thead>
+                <tbody>
+    """
+    for v in all_videos:
+        status_tag = '<span class="view-bear">待分析</span>' if v.status == 'pending' else '<span class="view-bear" style="color: var(--accent-color)">已完成</span>'
+        html += f"""
+            <tr>
+                <td>{v.date}</td>
+                <td>{v.channel}</td>
+                <td><a href="{v.url}" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">{v.title}</a></td>
+                <td>{status_tag}</td>
+            </tr>
+        """
+    html += """
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script>
+        function filterArchives() {
+            const input = document.getElementById('archiveSearch');
+            const filter = input.value.toUpperCase();
+            const table = document.getElementById('archiveTable');
+            const tr = table.getElementsByTagName('tr');
+            for (let i = 1; i < tr.length; i++) {
+                const text = tr[i].textContent || tr[i].innerText;
+                tr[i].style.display = text.toUpperCase().indexOf(filter) > -1 ? "" : "none";
+            }
+        }
+    </script>
+</body>
+</html>
+    """
+    with open("archives.html", 'w', encoding='utf-8') as f:
+        f.write(html)
+    print("📚 全量知識庫頁面已更新: archives.html")
+
 def render_nav_bar(channels):
     if not channels: return ""
     html = '<div class="nav-bar">'
+    html += '<a href="archives.html" class="nav-item" style="background: var(--accent-color); color: white;">🏛️ 全量知識庫</a>'
     for name in channels.keys():
         html += f'<a href="#{name}" class="nav-item">📍 {name}</a>'
     html += '</div>'
@@ -307,6 +381,10 @@ def main():
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f: f.write(html)
     with open("index.html", 'w', encoding='utf-8') as f: f.write(html)
     with open(hash_file, 'w') as f: f.write(curr_hash)
+    # 執行數據匯出與全量知識庫生成
+    db.export_to_csv()
+    generate_archives(db)
+
     print(f"✨ 報告已更新：{OUTPUT_FILE}")
     try:
         subprocess.run(["bash", "sync.sh"], check=True)

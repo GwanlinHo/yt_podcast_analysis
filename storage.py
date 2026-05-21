@@ -154,3 +154,19 @@ class Storage:
                 if analysis and "macro_outlook" in analysis:
                     summary.extend(analysis["macro_outlook"])
         return list(dict.fromkeys(summary)) # 簡單去重並保持順序
+
+    def export_to_csv(self, output_path: str = "data/all_analysis.csv"):
+        """將所有已分析數據匯出為 CSV"""
+        import csv
+        analyzed_videos = [v for v in self.videos.values() if v.status == "analyzed"]
+        
+        with open(output_path, 'w', encoding='utf-8-sig', newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(["日期", "頻道", "標題", "主要標的", "重點摘要", "連結"])
+            
+            for v in analyzed_videos:
+                analysis = self.get_analysis(v.id)
+                targets = ", ".join([f"{t.get('name')}({t.get('code')})" for t in analysis.get('targets', [])])
+                summary = " | ".join(analysis.get('key_points', []))
+                writer.writerow([v.date, v.channel, v.title, targets, summary, v.url])
+        print(f"📊 數據已匯出至 CSV: {output_path}")
