@@ -56,8 +56,17 @@ def main():
 
         for target_url in target_urls:
             try:
+                # 檢查 URL 是否有效，避免不必要的 ERROR 輸出
+                # 注意：yt-dlp 在 quiet 模式下若遇到 404 仍可能輸出 stderr
                 with yt_dlp.YoutubeDL(ydl_opts_list) as ydl:
-                    result = ydl.extract_info(target_url, download=False)
+                    # 使用 download=False 且處理特定異常
+                    try:
+                        result = ydl.extract_info(target_url, download=False)
+                    except yt_dlp.utils.DownloadError as e:
+                        if "404" in str(e) or "This channel does not have a" in str(e):
+                            # print(f"      ℹ️ 跳過不存在的標籤頁: {target_url.split('/')[-1]}")
+                            continue
+                        raise e
                 
                 if result is None or 'entries' not in result:
                     continue
