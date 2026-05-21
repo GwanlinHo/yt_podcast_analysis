@@ -3,204 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>財經 YouTube 影片重點彙整</title>
+    <title>財經投資週報系統</title>
     
     <style>
         :root {
-            --primary-color: #2c3e50;
+            --primary-gradient: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
             --accent-color: #3498db;
-            --bg-color: #f8f9fa;
+            --bg-color: #f4f7f6;
             --card-bg: #ffffff;
-            --text-color: #333;
-            --border-color: #e9ecef;
-            --bullish-color: #e74c3c;
-            --bearish-color: #27ae60;
+            --text-color: #2c3e50;
+            --border-color: #dcdde1;
+            --bullish-color: #e84118;
+            --bearish-color: #44bd32;
             --neutral-color: #7f8c8d;
+            --shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Segoe UI', Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7;
             color: var(--text-color);
             background-color: var(--bg-color);
             margin: 0;
-            padding: 20px;
+            padding: 40px 20px;
         }
         .container {
-            max-width: 1000px;
+            max-width: 1100px;
             margin: 0 auto;
         }
         header {
             text-align: center;
-            margin-bottom: 40px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid var(--border-color);
+            margin-bottom: 50px;
+            padding: 40px;
+            background: var(--primary-gradient);
+            color: white;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
         }
-        h1 { margin-bottom: 10px; color: var(--primary-color); }
-        .meta { color: #666; font-size: 0.9em; }
+        header h1 { margin: 0; font-size: 2.5em; letter-spacing: 1px; }
+        .meta { margin-top: 15px; opacity: 0.9; font-size: 1.1em; }
         
+        .focus-section {
+            background: #fff;
+            border-left: 8px solid #f1c40f;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 40px;
+            box-shadow: var(--shadow);
+        }
+        .focus-title {
+            font-size: 1.5em;
+            color: #d35400;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+
         .creator-section {
             background: var(--card-bg);
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            margin-bottom: 30px;
-            padding: 25px;
-            border-top: 4px solid var(--accent-color);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            margin-bottom: 40px;
+            padding: 35px;
+            border-top: 5px solid var(--accent-color);
         }
         .creator-title {
             margin-top: 0;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 10px;
-            margin-bottom: 20px;
+            font-size: 1.8em;
+            color: var(--accent-color);
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
         }
         
         .episode-block {
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 1px dashed var(--border-color);
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 8px;
+            background: #fafbfc;
+            border: 1px solid #f0f1f2;
         }
-        .episode-block:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
+        .episode-block:hover { border-color: var(--accent-color); }
         .episode-title {
-            font-size: 1.2em;
-            margin-bottom: 15px;
+            font-size: 1.3em;
+            margin-bottom: 20px;
         }
         .episode-title a {
-            color: var(--primary-color);
+            color: #2980b9;
             text-decoration: none;
-            font-weight: bold;
+            font-weight: 700;
         }
-        .episode-title a:hover {
-            color: var(--accent-color);
-            text-decoration: underline;
-        }
-        .pending-badge {
-            display: inline-block;
-            background: #ffeeba;
-            color: #856404;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.8em;
-            margin-left: 10px;
-            vertical-align: middle;
-        }
+        .episode-title a:hover { color: var(--accent-color); text-decoration: underline; }
         
-        .summary-section, .targets-section, .macro-section, .risk-section {
-            margin-top: 15px;
-        }
         .section-title {
             font-weight: bold;
-            color: var(--accent-color);
-            margin-bottom: 10px;
+            color: #34495e;
+            margin-bottom: 12px;
             display: block;
+            font-size: 1.1em;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 10px;
         }
         .quote-box {
-            background: #f1f3f5;
-            padding: 15px;
-            border-left: 4px solid var(--primary-color);
+            background: #edf2f7;
+            padding: 20px;
+            border-radius: 8px;
             font-style: italic;
-            margin: 15px 0;
-            color: #555;
+            margin: 20px 0;
+            color: #4a5568;
+            font-size: 1.05em;
+            text-align: center;
         }
-        .risk-item {
-            color: #d63301;
-            font-weight: 500;
-        }
+        .risk-item { color: #c0392b; font-weight: 600; }
         ul { padding-left: 20px; }
         li { margin-bottom: 8px; }
         
         table {
             width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-            font-size: 0.95em;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin-top: 15px;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
         }
-        th, td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid var(--border-color);
-        }
-        th {
-            background-color: #f1f3f5;
-            font-weight: 600;
-        }
+        th, td { padding: 15px; text-align: left; border-bottom: 1px solid var(--border-color); }
+        th { background-color: #f8f9fa; font-weight: 700; color: #7f8c8d; text-transform: uppercase; font-size: 0.85em; }
         
-        .view-bull { color: var(--bullish-color); font-weight: bold; }
-        .view-bear { color: var(--bearish-color); font-weight: bold; }
-        .view-neutral { color: var(--neutral-color); font-weight: bold; }
+        .view-bull { color: var(--bullish-color); font-weight: 800; }
+        .view-bear { color: var(--bearish-color); font-weight: 800; }
+        .view-neutral { color: var(--neutral-color); font-weight: 800; }
         
         .disclaimer-section {
-            margin-top: 50px;
-            padding: 20px;
+            margin-top: 60px;
+            padding: 30px;
             background: #fff;
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            font-size: 0.85em;
-            color: #666;
-            line-height: 1.8;
-        }
-        .disclaimer-title {
-            font-weight: bold;
-            color: var(--primary-color);
-            margin-bottom: 10px;
-            display: block;
+            border-radius: 12px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            box-shadow: var(--shadow);
             text-align: center;
-            font-size: 1.1em;
         }
         
-        /* Mobile Responsive Table to Card */
+        /* Mobile Responsive */
         @media screen and (max-width: 768px) {
-            table, thead, tbody, th, td, tr {
-                display: block;
-            }
-            thead tr {
-                position: absolute;
-                top: -9999px;
-                left: -9999px;
-            }
-            tr {
-                border: 1px solid var(--border-color);
-                border-radius: 8px;
-                margin-bottom: 15px;
-                padding: 10px;
-                background: #fff;
-            }
-            td {
-                border: none;
-                border-bottom: 1px solid #eee;
-                position: relative;
-                padding-left: 50%;
-                padding-top: 8px;
-                padding-bottom: 8px;
-            }
-            td:last-child { border-bottom: none; }
-            
-            td:before {
-                position: absolute;
-                top: 8px;
-                left: 10px;
-                width: 45%;
-                padding-right: 10px;
-                white-space: nowrap;
-                font-weight: bold;
-                color: #666;
-            }
-            
-            /* Specific labels for each column */
-            td:nth-of-type(1) { /* Name/Code */
-                padding-left: 10px;
-                font-size: 1.1em;
-                font-weight: bold;
-                color: var(--primary-color);
-                background: #f8f9fa;
-                margin: -10px -10px 10px -10px;
-                border-bottom: 1px solid var(--border-color);
-                border-radius: 8px 8px 0 0;
-            }
+            table, thead, tbody, th, td, tr { display: block; }
+            thead tr { position: absolute; top: -9999px; left: -9999px; }
+            tr { border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 15px; }
+            td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%; }
+            td:before { position: absolute; top: 15px; left: 15px; width: 45%; font-weight: bold; color: #666; }
+            td:nth-of-type(1) { padding-left: 15px; background: #f8f9fa; font-weight: bold; }
             td:nth-of-type(1):before { content: ""; }
-            
             td:nth-of-type(2):before { content: "觀點"; }
             td:nth-of-type(3):before { content: "說明"; }
         }
@@ -210,16 +163,505 @@
 <body>
     <div class="container">
         <header>
-            <h1>財經 YouTube 影片重點彙整</h1>
+            <h1>財經投資週報系統</h1>
             <div class="meta">
-                統計期間：20260515 至 20260522<br>
-                生成時間：2026/05/22 00:35
+                📅 統計期間：20260515 至 20260522 | ⏱️ 生成：2026/05/22 01:06
             </div>
         </header>
-    
-        <div class="creator-section">
-            <h2 class="creator-title">財女珍妮</h2>
         
+    <div class="focus-section">
+        <div class="focus-title">🚀 本週投資焦點彙整 (Investment Focus)</div>
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 25%">標的</th>
+                    <th style="width: 15%">觀點</th>
+                    <th>核心理由摘要</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            <tr>
+                <td><strong>NVIDIA</strong> (NVDA)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>財報展現強大統治力，Vera Rubin 架構與代理型 AI 展望確保其長期增長動能。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>SpaceX</strong> (SPCX)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>Starlink 獲利能力驚人，併購 xAI 開啟軌道算力想像空間，是十年一遇的長線機會。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>Alphabet (Google)</strong> (GOOGL)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>具備從自研晶片 (TPU 8i) 到終端應用 (Gmail, Search) 的全棧優勢。Gemini 3.5 Flash 大幅降低推理成本，有利於 Agent 經濟規模化。擁有強大的生態系分發護城河。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>特斯拉</strong> (TSLA)</td>
+                <td><span class="view-neutral">Bearish</span></td>
+                <td>資金被 SpaceX IPO 擠壓，且馬斯克溢價因 SpaceX 獨立上市而遭稀釋。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>希捷</strong> (STX)</td>
+                <td><span class="view-neutral">Bearish</span></td>
+                <td>產能受限且公司拒絕擴產，短期成長空間封頂，引發板塊修正。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>美光</strong> (MU)</td>
+                <td><span class="view-neutral">Bearish</span></td>
+                <td>受存儲產業情緒轉向及 STX 產能瓶頸言論連鎖反應影響。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>Cerebras</strong> (CBRS)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>IPO表現強勁且技術架構具備差異化優勢，被視為AI推論市場最強有力的挑戰者。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>美債殖利率</strong> (USD)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>通膨黏性與地緣政治風險支撐殖利率維持在高位，5%成為新的心理關卡。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>資產配置計畫</strong> (ASSET_ALLOC)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>長期透過股債平衡降低波動，提高風險調整後報酬</td>
+            </tr>
+        
+            <tr>
+                <td><strong>再平衡策略</strong> (REBALANCE)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>紀律化執行低買高賣，克服人性貪婪與恐懼</td>
+            </tr>
+        
+            <tr>
+                <td><strong>台積電</strong> (2330)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>AI 三層蛋糕架構領先，先進製程與封裝（CoWoS）及矽光子（COUPE）將驅動未來十年成長</td>
+            </tr>
+        
+            <tr>
+                <td><strong>台積電ADR</strong> (TSMC)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>同台積電，受惠於 AI 產值比重提升與全球半導體領導地位</td>
+            </tr>
+        
+            <tr>
+                <td><strong>矽光子族群</strong> (CPO/SiPh)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>COUPE 技術顯示光學傳輸是 AI 規模化後的必然路徑，相關廠商具備長線機會</td>
+            </tr>
+        
+            <tr>
+                <td><strong>群翊</strong> (6664)</td>
+                <td><span class="view-bull">中性偏多 (Neutral-Bullish)</span></td>
+                <td>具備 CoPoS 相關塗佈與壓膜設備技術，已切入玻璃基板驗證鏈。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>欣興、臻鼎</strong> (ABF Substrate)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>並非被取代，而是正積極升級技術卡位玻璃基板市場，具備轉型紅利。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>國巨</strong> (2327)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>高階 MLCC 缺貨潮帶動量價齊揚，技術面噴發且具備族群領頭作用。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>欣興 / 景碩</strong> (3037 / 3189)</td>
+                <td><span class="view-bull">中性偏多 (Neutral-Bullish)</span></td>
+                <td>PCB 族群籌碼換手期，具備基期優勢，等待技術面整理完成後的攻擊。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>記憶體族群 (南亞科、華邦電)</strong> (Memory Sector)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>位階極低且法人開始低檔吃貨，具備強大的落後補漲潛力。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>AI 供應鏈 (散熱、封裝、IC設計)</strong> (AI Supply Chain)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>隨台積電獲利增長同步受惠，台灣具備全球領先技術優勢。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>鴻海 / 廣達</strong> (2317 / 2382)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>代理式 AI 帶動伺服器代工與推論算力設備訂單成長。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>玉晶光</strong> (3406)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>AI 智慧眼鏡 (Android XR) 帶動光學鏡頭關鍵供應需求。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>全新</strong> (2455)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>受益於 AI 穿戴裝置中的化合物半導體與感測元件需求。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>聯電</strong> (2303)</td>
+                <td><span class="view-bull">中性偏多 (Neutral-Bullish)</span></td>
+                <td>具備低位階與高殖利率優勢，在外資與投信青睞下具備穩盤功能。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>被動元件族群 (日電貿、凱美、華新科)</strong> (Passive Components)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>受惠於成本推升與需求噴發的集體漲價潮，族群性轉強明確。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>CPO / 矽光子族群</strong> (CPO / Silicon Photonics)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>進入商轉元年，解決 AI 資料中心傳輸瓶頸，具備節能與高速傳輸剛性需求。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>穎崴</strong> (6515)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>受惠於 CPO 相關測試介面需求，具備技術領先優勢。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>高階 PCB 族群</strong> (High-end PCB)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>回檔後提供良好布局時機，AI 基礎建設持續擴張帶動基本面支撐。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>台股加權指數</strong> (TSEC)</td>
+                <td><span class="view-bull">中性偏多 (Neutral-Bullish)</span></td>
+                <td>4 萬點大關具備技術支撐，洗盤後若能止跌回穩，長線多頭趨勢未變。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>光學族群 (大立光、今國光等)</strong> (Optical Sector)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>受惠 Google AI 眼鏡實質題材，技術面出現回檔整理後的轉強契機。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>先進封裝設備商 (如辛耘、弘塑)</strong> (CoWoS/CoPoS Supply Chain)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>隨 Google TPU 與 NVIDIA 晶片需求持續擴張，封裝設備需求具備高能見度。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>台積電 / 國巨</strong> (2330 / 2327)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>分別代表 AI 核心算力與高階電子元件的領先者，獲利隨 AI 滲透率提升而爆發。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>CPO 與 PCB 族群</strong> (CPO / PCB Sector)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>受惠於 AI 基礎建設升級，2026 年進入實質商轉與量產階段。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>特化供應鏈</strong> (Sector)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>2 奈米及先進封裝帶動光阻劑、化學藥劑需求大增。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>華旭先進</strong> (6682)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>經濟部證實其擴大投資台灣，建置先進封裝玻璃基板產線</td>
+            </tr>
+        
+            <tr>
+                <td><strong>雷射鑽孔與研磨設備</strong> (設備商)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>設備先行邏輯，初期受益最明顯的是 TGV 鑽孔與拋光設備商</td>
+            </tr>
+        
+            <tr>
+                <td><strong>群聯</strong> (群聯)</td>
+                <td><span class="view-neutral">Neutral</span></td>
+                <td>記憶體大回檔，需觀察技術面乖離修正後的支撐位。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>上銀</strong> (上銀)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>機器人族群為 AI 長線核心，大戶鎖碼跡象明顯。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>直得</strong> (直得)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>受惠機器人與 AI 設備需求，尋找低轉強機會。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>華新科</strong> (華新科)</td>
+                <td><span class="view-neutral">Neutral</span></td>
+                <td>被動元件法人籌碼鎖定，隨大盤回檔尋求配置機會。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>昇貿</strong> (昇貿)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>低軌衛星題材穩定，法人籌碼相對集中。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>禾伸堂</strong> (3026)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>被動元件擴散標的，具備漲價題材且股價相對基期較低。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>華新科</strong> (2492)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>族群領頭羊，近期表現強悍，法人買盤支撐。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>啟碁</strong> (6285)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>低軌衛星地面設備需求放量，營收獲利可驗證，股價創歷史新高。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>事欣科</strong> (4916)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>具備航太與國防雙題材，受 SpaceX IPO 利多刺激，強勢拉出漲停。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>雷科</strong> (6207)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>玻璃基板新題材設備廠，大戶鎖碼名單，具備技術突破優勢。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>昇達科</strong> (3491)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>低軌衛星關鍵零組件，產品組合優化帶動毛利率顯著提升。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>廣達</strong> (2382)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>機器人領域佈局與 AI 伺服器需求持續成長。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>鴻海</strong> (2317)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>身為機器人供應鏈大廠，受惠物理 AI 趨勢。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>群創</strong> (3481)</td>
+                <td><span class="view-bull">看多</span></td>
+                <td>積極切入面板級封裝與玻璃基板技術，轉型具備想像空間。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>世界先進</strong> (5347)</td>
+                <td><span class="view-neutral">Neutral</span></td>
+                <td>台積電處分持股導致籌碼短期動盪，但有助於公司經營自主化。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>茂達</strong> (6138)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>電源管理 IC 基期低，受惠於 HPC 需求帶動業績回升。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>華通</strong> (2313)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>低軌衛星地面接收站主要供應商，直接受惠 SpaceX 擴張。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>強茂</strong> (2481)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>功率半導體族群受惠於 AI 基建電力需求外溢，股價位階較低。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>新唐</strong> (4919)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>MCU 需求回升與漲價題材帶動，族群性轉強跡象明顯。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>上銀</strong> (2049)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>機器人營收占比衝上 12%，大戶持股增加。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>盟立</strong> (2464)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>具備人形機器人與機器狗雙重題材，資金關注度高。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>世界先進</strong> (2334)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>短線受台積電賣股心理影響跌停，但長線有特定機構接手，160.6 元具支撐參考。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>技嘉</strong> (2376)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>AI 伺服器出貨動能強，散戶洗盤完成後法人持續買超，多頭動能強勁。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>二線光通訊</strong> (CPO族群)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>台積電頂層光學傳輸趨勢明確，二線補漲股具備潛力。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>信昌電</strong> (6173)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>具備 AI 題材的被動元件股，季報表現佳且股價型態剛轉強，符合翁士峻推薦的 營家 股特徵。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>精材</strong> (3374)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>台積電子公司，深度參與先進封裝與矽光子佈局，屬於位階較低的落後補漲標的。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>昇陽半導體</strong> (8028)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>2 奈米晶圓薄化與再生晶圓需求強勁，公司實施庫藏股展現信心，股價表現強勢。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>德淵</strong> (4720)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>成功切入半導體封裝材料與 AMC 濾網，從傳統產業轉型為半導體耗材供應商，打出 15 年大底。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>六方科-KY</strong> (4569)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>提供 AI 與 CPO 相關精密機械零件，受惠美系大客戶需求，財報表現亮眼。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>京元電</strong> (2449)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>AI 晶片測試需求強勁，基本面穩健，股價回檔至支撐位具備補漲潛力。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>台星科</strong> (3265)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>先進封裝測試相關標的，受惠於 OSAT 產業輪動，季報表現佳。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>南茂</strong> (8150)</td>
+                <td><span class="view-bull">多</span></td>
+                <td>位階相對較低之封測股，具備補漲空間，適合作為避開高位階股的資金防禦選擇。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>Meta Platforms</strong> (META)</td>
+                <td><span class="view-bull">中性偏多 (Neutral-Bullish)</span></td>
+                <td>戰略性資源重分配 (裁員補算力) 有利於變現效率，需觀察 AI 廣告工具的實質營收貢獻。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>波音</strong> (BA)</td>
+                <td><span class="view-neutral">Neutral/Bullish</span></td>
+                <td>中方承諾採購200架飛機，但細節待落實。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>Salesforce</strong> (CRM)</td>
+                <td><span class="view-neutral">Bearish</span></td>
+                <td>傳統席位制受 AI Agent 裁員潮威脅，轉型壓力巨大。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>被動元件族群 (MLCC、鋁電容)</strong> (MLCC/Capacitors)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>大廠掃貨與漲價趨勢確立，產業進入供需失衡的獲利爆發期。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>墨爾本公寓市場</strong> (Melbourne Unit)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>目前處於價值窪地，租金回報潛力大，適合長期布局。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>雙鴻</strong> (3324)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>短期受產品線時程遞延影響，營收動能暫緩，待新專案放量。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>奇鋐</strong> (3017)</td>
+                <td><span class="view-neutral">中性</span></td>
+                <td>與雙鴻類似，AI 長線趨勢未變但短期面臨技術面與時程修正。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>大量科技</strong> (3167)</td>
+                <td><span class="view-neutral">Bullish</span></td>
+                <td>自研控制器建立技術護城河，高精度背鑽技術精準切入 AI 伺服器需求，且半導體檢測設備具備第二成長動能。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>三星</strong> (Samsung)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>傳統 DRAM 佔比高受惠報價上漲，獲利率超越 HBM，且 1c 製程追趕 HBM4 有成。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>美光</strong> (Micron)</td>
+                <td><span class="view-bull">看多 (Bullish)</span></td>
+                <td>先進製程領導者，受惠於 AI 推理需求引發的結構性短缺。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>南亞科</strong> (2408)</td>
+                <td><span class="view-neutral">中性 (Neutral)</span></td>
+                <td>成熟製程供給減少帶動短期報價，但下半年面臨長鑫存儲 (CXMT) 產能開出的競爭壓力。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>華邦電</strong> (2344)</td>
+                <td><span class="view-neutral">中性 (Neutral)</span></td>
+                <td>下半年成長動能可能受中國產能釋放影響，報價漲幅恐不如先進製程。</td>
+            </tr>
+        
+            <tr>
+                <td><strong>威剛</strong> (3260)</td>
+                <td><span class="view-neutral">中性 (Neutral)</span></td>
+                <td>雖有低價庫存效益，但 2026 年中後進貨成本上升將壓縮毛利。</td>
+            </tr>
+        </tbody></table></div>
+    <div class="creator-section"><h2 class="creator-title">財女珍妮</h2>
             <div class="episode-block">
                 <div class="episode-title">
                     <a href="https://www.youtube.com/watch?v=WA1SZpaupzk" target="_blank">2026/05/21(四) 輝達財報後還能漲嗎？SpaceX S1終於出爐 #NVDA #SPCX</a>
@@ -411,10 +853,7 @@
                 <td><span class="view-neutral">Bullish</span></td>
                 <td>COUPE 技術顯示光學傳輸是 AI 規模化後的必然路徑，相關廠商具備長線機會</td>
             </tr>
-        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">短期股價漲幅巨大且市值極高，市場預期過於集中可能引發財報後的劇烈震盪</li><li class="risk-item">地緣政治對高階晶片出口中國的限制仍是長期不確定因素</li></ul></div><div class="quote-box">「台積電的三層蛋糕技術藍圖顯示，AI 基礎建設的建設期至少會持續到 2030 年，這是一場由算力驅動的生產力革命。」</div></div></div>
-        <div class="creator-section">
-            <h2 class="creator-title">兆華與股惑仔</h2>
-        
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">短期股價漲幅巨大且市值極高，市場預期過於集中可能引發財報後的劇烈震盪</li><li class="risk-item">地緣政治對高階晶片出口中國的限制仍是長期不確定因素</li></ul></div><div class="quote-box">「台積電的三層蛋糕技術藍圖顯示，AI 基礎建設的建設期至少會持續到 2030 年，這是一場由算力驅動的生產力革命。」</div></div></div><div class="creator-section"><h2 class="creator-title">兆華與股惑仔</h2>
             <div class="episode-block">
                 <div class="episode-title">
                     <a href="https://www.youtube.com/watch?v=25mptNb77eA" target="_blank">【兆華艾綸說】曲博鐵口：台積電不可能輸！別亂買，玻璃基板還早，載版沒被取代，誰是真CoPoS概念股？｜李兆華、艾綸、曲建仲 2026.05.20 part2</a>
@@ -1262,10 +1701,7 @@
                 <td><span class="view-neutral">中性</span></td>
                 <td>雖長線看好 AI 基建，但短線受川習會政治變數與漲多洗盤影響，建議觀察震盪後的支撐。</td>
             </tr>
-        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">川習會談判結果若不如預期，可能引發市場對供應鏈出口限制的恐憂。</li><li class="risk-item">520 行情過後的市場情緒轉換，以及 Nvidia 財報可能出現的 利多出盡 效應。</li><li class="risk-item">封測族群若獲利成長速度趕不上股價評價提升速度，恐面臨估值修正風險。</li></ul></div><div class="quote-box">「不要追高已噴發的熱門股，利用季報後的震盪期，卡位封測與設備等具備獲利支撐的補票股。」</div></div></div>
-        <div class="creator-section">
-            <h2 class="creator-title">M觀點</h2>
-        
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">川習會談判結果若不如預期，可能引發市場對供應鏈出口限制的恐憂。</li><li class="risk-item">520 行情過後的市場情緒轉換，以及 Nvidia 財報可能出現的 利多出盡 效應。</li><li class="risk-item">封測族群若獲利成長速度趕不上股價評價提升速度，恐面臨估值修正風險。</li></ul></div><div class="quote-box">「不要追高已噴發的熱門股，利用季報後的震盪期，卡位封測與設備等具備獲利支撐的補票股。」</div></div></div><div class="creator-section"><h2 class="creator-title">M觀點</h2>
             <div class="episode-block">
                 <div class="episode-title">
                     <a href="https://www.youtube.com/watch?v=xf2bvG2Fhng" target="_blank">EP305. 輝達財報與 AI 回檔、Google AI 努力跟上、Meta 大裁員來了 | M觀點</a>
@@ -1333,10 +1769,7 @@
                 <td><span class="view-neutral">Bearish</span></td>
                 <td>傳統席位制受 AI Agent 裁員潮威脅，轉型壓力巨大。</td>
             </tr>
-        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">地緣政治：美國對台政策趨向交易化與避戰，可能引發區域盟友信心波動。</li><li class="risk-item">商業模式：傳統 SaaS 公司若無法快速切換至按成果計費模式，將面臨估值大幅下修。</li></ul></div><div class="quote-box">「2026年標誌著一個時代的終結：軟體不再僅僅是服務的載體，軟體本身就變成了服務者。這不是 SaaS 的消亡，而是平庸軟體的終結。」</div></div></div>
-        <div class="creator-section">
-            <h2 class="creator-title">股癌</h2>
-        
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">地緣政治：美國對台政策趨向交易化與避戰，可能引發區域盟友信心波動。</li><li class="risk-item">商業模式：傳統 SaaS 公司若無法快速切換至按成果計費模式，將面臨估值大幅下修。</li></ul></div><div class="quote-box">「2026年標誌著一個時代的終結：軟體不再僅僅是服務的載體，軟體本身就變成了服務者。這不是 SaaS 的消亡，而是平庸軟體的終結。」</div></div></div><div class="creator-section"><h2 class="creator-title">股癌</h2>
             <div class="episode-block">
                 <div class="episode-title">
                     <a href="https://www.youtube.com/watch?v=wgd3AJ3Wuzk" target="_blank">EP663 | 🦘</a>
@@ -1404,10 +1837,7 @@
                 <td><span class="view-neutral">中性</span></td>
                 <td>成熟製程拉貨主要為補庫存，終端需求復甦力道仍有待觀察。</td>
             </tr>
-        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">若市場進一步下跌超過 8%，槓桿壓力將顯著增大，可能引發心理防線崩潰。</li><li class="risk-item">終端需求長期疲軟可能導致補庫存後的再次庫存調整。</li><li class="risk-item">AI 伺服器專案時程若持續遞延，將影響相關族群的短期獲利表現。</li></ul></div><div class="quote-box">「很多人問說現在跌下來要不要怕？其實你看身邊的人，大家去年到今年賺這麼多，這點回檔根本沒感覺。而且現在想借錢買股票還借不到，券商額度都滿了，這反而好事，大家槓桿被動被控制住了。」</div></div></div>
-        <div class="creator-section">
-            <h2 class="creator-title">財報狗</h2>
-        
+        </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">若市場進一步下跌超過 8%，槓桿壓力將顯著增大，可能引發心理防線崩潰。</li><li class="risk-item">終端需求長期疲軟可能導致補庫存後的再次庫存調整。</li><li class="risk-item">AI 伺服器專案時程若持續遞延，將影響相關族群的短期獲利表現。</li></ul></div><div class="quote-box">「很多人問說現在跌下來要不要怕？其實你看身邊的人，大家去年到今年賺這麼多，這點回檔根本沒感覺。而且現在想借錢買股票還借不到，券商額度都滿了，這反而好事，大家槓桿被動被控制住了。」</div></div></div><div class="creator-section"><h2 class="creator-title">財報狗</h2>
             <div class="episode-block">
                 <div class="episode-title">
                     <a href="https://www.youtube.com/watch?v=IF118KsjCEg" target="_blank">524.【達人聊產業】突破傳輸瓶頸的背面鑽頭，大量如何用控制器攻克 PCB ft. 簡禎祈總經理</a>
@@ -1477,13 +1907,9 @@
             </tr>
         </tbody></table></div><div class="risk-section"><span class="section-title">⚠️ 風險警示與觀察指標</span><ul><li class="risk-item">中國長鑫存儲 (CXMT) 的產能釋放 (DDR5/LPDDR5) 可能舒緩供給缺口，影響成熟製程報價動能。</li><li class="risk-item">模組廠面臨採購成本上升與毛利率縮減的雙重挑戰。</li></ul></div><div class="quote-box">「傳統 DRAM 的利潤率確實比 HBM 更高 (Conventional DRAMs have higher margins versus HBM)。」</div></div></div>
     <div class="disclaimer-section">
-        <span class="disclaimer-title">💡 免責聲明與版權說明</span>
-        本報告內容係透過 AI 萃取各內容創作者之公開分享資訊彙整而成，僅供參考，不代表本系統之立場，亦不構成任何投資建議。投資人應保持獨立思考，審慎評估風險，並對其投資行為自負盈虧。
+        <strong>💡 免責聲明與版權說明</strong><br><br>
+        本報告內容係透過 AI 萃取各內容創作者之公開分享資訊彙整而成，僅供參考，不代表本系統之立場。投資人應保持獨立思考，審慎評估風險。
         <br><br>
-        本系統旨在協助使用者快速掌握資訊趨勢，並非取代原創作者之影片。創作者的每一份支持都是其持續產出優質內容的動力，<strong>強烈建議使用者點擊報告中的連結，前往創作者的原始頻道觀看完整影片並給予訂閱與支持。</strong>
+        <strong>支持創作者：</strong>強烈建議點擊報告中的連結，前往創作者的原始頻道觀看完整影片並給予訂閱與支持。
     </div>
-    
-    </div>
-</body>
-</html>
-    
+    </div></body></html>
