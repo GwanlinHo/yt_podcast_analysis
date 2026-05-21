@@ -35,13 +35,13 @@ def main():
         'ignoreerrors': True,
         'playlistend': 10,  # 檢查最近 10 部應該足夠覆蓋一週
         'extract_flat': True,
-        'js_runtime': 'node',
+        'js_runtime': 'node', # 明確指定使用 node
     }
 
     ydl_opts_detail = {
         'quiet': True,
         'ignoreerrors': True,
-        'js_runtime': 'node',
+        'js_runtime': 'node', # 明確指定使用 node
     }
 
     new_videos_count = 0

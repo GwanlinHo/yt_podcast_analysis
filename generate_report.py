@@ -417,7 +417,7 @@ def main():
     # 只有在 --weekly 模式下才產生帶日期的存檔
     if args.weekly:
         today_str = now.strftime('%Y-%m-%d')
-        dated_file = f"report/weekly_finance_report_{today_str}.html"
+        dated_file = f"report/history/weekly_finance_report_{today_str}.html"
         with open(dated_file, 'w', encoding='utf-8') as f:
             f.write(html)
         print(f"📜 週報存檔已儲存：{dated_file}")
