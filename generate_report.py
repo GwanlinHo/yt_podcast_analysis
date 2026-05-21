@@ -245,26 +245,23 @@ def render_nav_bar(channels):
     html += '</div>'
     return html
 
-def render_focus_summary(channels, db):
-    """彙整本週提及的所有標的"""
-    all_targets = []
-    for video_list in channels.values():
-        for v in video_list:
-            if v.status == "analyzed":
-                analysis = db.get_analysis(v.id)
-                if analysis and analysis.get('targets'):
-                    all_targets.extend(analysis.get('targets'))
-    
-    if not all_targets: return ""
+def render_macro_summary(db, start_str, end_str):
+    trends = db.get_macro_outlook_summary(start_str, end_str)
+    if not trends: return ""
+    html = """
+    <div class="focus-section" style="border-left-color: #3498db;">
+        <div class="focus-title" style="color: #2980b9;">🌍 本週總經與產業趨勢彙整 (Macro Trends)</div>
+        <ul>
+    """
+    for t in trends:
+        html += f"<li>{t}</li>"
+    html += "</ul></div>"
+    return html
 
-    # 去重：以 code 為 key
-    seen = set()
-    unique_targets = []
-    for t in all_targets:
-        code = t.get('code', 'N/A')
-        if code not in seen:
-            unique_targets.append(t)
-            seen.add(code)
+def render_focus_summary(db, start_str, end_str):
+    """彙整本週提及的所有標的"""
+    unique_targets = db.get_aggregated_targets(start_str, end_str)
+    if not unique_targets: return ""
 
     html = """
     <div class="focus-section">
@@ -391,7 +388,8 @@ def main():
         </header>
         
         {render_nav_bar(channels)}
-        {render_focus_summary(channels, db)}
+        {render_macro_summary(db, start_str, end_str)}
+        {render_focus_summary(db, start_str, end_str)}
     """
 
     if not channels:

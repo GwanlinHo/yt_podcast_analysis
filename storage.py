@@ -122,3 +122,31 @@ class Storage:
                 print(f"Error reading analysis: {e}")
                 return None
         return None
+
+    def get_aggregated_targets(self, start_date: str, end_date: str) -> List[dict]:
+        """彙整指定期間內所有影片提及的投資標的，並進行初步去重。"""
+        videos = self.get_videos_by_date_range(start_date, end_date)
+        all_targets = []
+        seen_codes = set()
+        
+        for v in videos:
+            if v.status == "analyzed":
+                analysis = self.get_analysis(v.id)
+                if analysis and "targets" in analysis:
+                    for t in analysis["targets"]:
+                        code = t.get("code", "N/A")
+                        if code not in seen_codes:
+                            all_targets.append(t)
+                            seen_codes.add(code)
+        return all_targets
+
+    def get_macro_outlook_summary(self, start_date: str, end_date: str) -> List[str]:
+        """彙整指定期間內所有的宏觀環境觀點。"""
+        videos = self.get_videos_by_date_range(start_date, end_date)
+        summary = []
+        for v in videos:
+            if v.status == "analyzed":
+                analysis = self.get_analysis(v.id)
+                if analysis and "macro_outlook" in analysis:
+                    summary.extend(analysis["macro_outlook"])
+        return list(dict.fromkeys(summary)) # 簡單去重並保持順序
