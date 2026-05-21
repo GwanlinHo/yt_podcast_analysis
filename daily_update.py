@@ -1,6 +1,7 @@
 import yt_dlp
 import datetime
 import os
+import subprocess
 from storage import Storage, Video
 
 # 目標頻道清單 (從 fetch_yt_list.py 遷移)
@@ -128,7 +129,10 @@ def main():
     # 若有新影片或內容更新，觸發報表生成
     if new_videos_count > 0:
         print("🚀 檢測到新影片，正在生成報表...")
-        os.system("uv run generate_report.py")
+        try:
+            subprocess.run(["uv", "run", "generate_report.py"], check=True)
+        except Exception as e:
+            print(f"⚠️ 報表生成失敗: {e}")
     else:
         print("💡 無新影片，跳過報表自動生成。")
 
