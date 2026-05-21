@@ -25,3 +25,10 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Project Specific
+*.srt
+data/.report_hash
+.python-version
+.uv/
+uv.lock

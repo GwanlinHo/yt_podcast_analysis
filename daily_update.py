@@ -116,8 +116,12 @@ def main():
     db.save_database()
     print(f"\n✨ 更新完成！新增 {new_videos_count} 部影片。")
 
-    # 這裡未來會觸發 generate_report.py
-    # os.system("uv run generate_report.py")
+    # 若有新影片或內容更新，觸發報表生成
+    if new_videos_count > 0:
+        print("🚀 檢測到新影片，正在生成報表...")
+        os.system("uv run generate_report.py")
+    else:
+        print("💡 無新影片，跳過報表自動生成。")
 
 if __name__ == "__main__":
     main()
