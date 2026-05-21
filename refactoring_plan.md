@@ -41,39 +41,40 @@ yt_analysis/
 ## 任務清單 (Task Breakdown)
 
 ### Phase 1: 基礎建設與資料層 (Infrastructure & Data Layer)
-- [ ] **1.1 初始化目錄結構**
+- [x] **1.1 初始化目錄結構**
     - 建立 `data/`, `data/analysis/`, `report/history/` 目錄。
-- [ ] **1.2 實作資料存取模組 (`storage.py`)**
+- [x] **1.2 實作資料存取模組 (`storage.py`)**
     - 定義 `Video` 資料結構 (Dataclass)。
     - 實作 `load_database()`, `save_database()`。
     - 實作 `save_analysis(video_id, content)`, `get_analysis(video_id)`。
     - 實作 `upsert_video()` 邏輯 (避免重複，更新狀態)。
 
 ### Phase 2: 每日更新機制 (Daily Update Mechanism)
-- [ ] **2.1 改造爬蟲邏輯 (`fetch_yt_list.py` -> `daily_update.py`)**
+- [x] **2.1 改造爬蟲邏輯 (`fetch_yt_list.py` -> `daily_update.py`)**
     - 修改 `fetch_yt_list.py` 的邏輯，使其不再直接輸出 MD，而是呼叫 `storage.py` 更新資料庫。
     - 加入「日期過濾」：只抓取本週 (週一至今日) 的影片。
-- [ ] **2.2 整合自動化流程**
+- [x] **2.2 整合自動化流程**
     - 確保腳本能被 Crontab 呼叫 (處理路徑問題)。
 
 ### Phase 3: 報告生成引擎 (Report Generation Engine)
-- [ ] **3.1 設計 HTML 模板**
+- [x] **3.1 設計 HTML 模板**
     - 建立支援「已分析 (完整內容)」與「待分析 (僅標題/連結)」兩種狀態的 HTML 結構。
     - 確保 RWD 手機版顯示正常。
-- [ ] **3.2 實作生成器 (`generate_report.py`)**
+- [x] **3.2 實作生成器 (`generate_report.py`)**
     - 從 `database.json` 讀取本週所有影片。
     - 若狀態為 `analyzed`，讀取對應 JSON 並填入模板。
     - 若狀態為 `pending`，填入「待處理」佔位符。
     - 輸出 `report/latest_report.html`。
 
 ### Phase 4: Agent 整合與歸檔 (Agent Integration & Automation)
-- [ ] **4.1 更新 Agent SOP (`GEMINI.md`)**
+- [x] **4.1 更新 Agent SOP (`GEMINI.md`)**
     - 新增指令：「分析下一集」 (讀 DB -> 搜 -> 寫 JSON -> 重新生成 HTML)。
     - 新增指令：「本週歸檔」 (Move HTML -> Push Git)。
-- [ ] **4.2 建立/更新執行腳本 (`sync.sh` / `run_daily.sh`)**
+- [x] **4.2 建立/更新執行腳本 (`sync.sh` / `run_daily.sh`)**
     - 方便使用者一鍵執行或設定 Crontab。
 
 ---
 
 ## 執行記錄
 *   2026-02-02: 計畫書建立。
+*   2026-05-22: 重構計畫全數完成。所有功能皆已實作並通過驗證。
