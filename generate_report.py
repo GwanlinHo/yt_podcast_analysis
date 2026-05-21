@@ -160,8 +160,9 @@ def generate_css():
     """
 
 def generate_archives(db):
-    """產生包含所有歷史影片的搜尋頁面"""
+    """產生包含所有歷史影片的搜尋頁面與全局統計"""
     all_videos = sorted(db.videos.values(), key=lambda x: x.date, reverse=True)
+    stats = db.get_global_stats()
     now = datetime.datetime.now()
     
     html = f"""<!DOCTYPE html>
@@ -170,16 +171,67 @@ def generate_archives(db):
     <meta charset="UTF-8">
     <title>財經影片全量知識庫</title>
     {generate_css()}
+    <style>
+        .stats-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }}
+        .stat-card {{
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            border-bottom: 5px solid var(--accent-color);
+        }}
+        .stat-value {{ font-size: 2em; font-weight: 800; color: var(--accent-color); }}
+        .stat-label {{ font-size: 0.9em; color: #7f8c8d; margin-top: 5px; font-weight: 600; }}
+        .top-targets-list {{ text-align: left; margin-top: 15px; padding: 0; list-style: none; }}
+        .top-targets-list li {{ display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border-color); font-size: 0.9em; }}
+    </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>全量財經知識檢索中心</h1>
-            <div class="meta">收錄數量：{len(all_videos)} 部影片 | 更新時間：{now.strftime('%Y/%m/%d %H:%M')}</div>
+            <div class="meta">大數據洞察：系統已自動處理 {stats['total_analyzed']} 份深度分析報告</div>
         </header>
         <div class="nav-bar">
             <a href="index.html" class="nav-item">🏠 返回本週週報</a>
             <a href="data/all_analysis.csv" class="nav-item">📥 匯出 CSV 數據</a>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value">{stats['total_videos']}</div>
+                <div class="stat-label">收錄影片總數</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{int((stats['total_analyzed']/stats['total_videos'])*100)}%</div>
+                <div class="stat-label">AI 分析完成率</div>
+            </div>
+            <div class="stat-card" style="grid-row: span 2;">
+                <div class="stat-label" style="font-size: 1.1em; color: var(--text-color); margin-bottom: 10px;">🔥 歷史熱門標的 (Top 10)</div>
+                <ul class="top-targets-list">
+    """
+    for name, count in stats['top_targets']:
+        html += f'<li><span>{name}</span><span style="color: var(--bullish-color); font-weight:bold;">{count}x</span></li>'
+    
+    html += f"""
+                </ul>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label" style="margin-bottom: 10px;">📊 來源頻道產量</div>
+                <div style="font-size: 0.85em; text-align: left;">
+    """
+    for ch, count in sorted(stats['channel_distribution'].items(), key=lambda x: x[1], reverse=True):
+        html += f'<div style="margin-bottom: 5px;">{ch}: <span style="float:right; font-weight:bold;">{count}</span></div>'
+
+    html += """
+                </div>
+            </div>
         </div>
         
         <div class="focus-section">
@@ -199,7 +251,7 @@ def generate_archives(db):
                 <tbody>
     """
     for v in all_videos:
-        status_tag = '<span class="view-bear">待分析</span>' if v.status == 'pending' else '<span class="view-bear" style="color: var(--accent-color)">已完成</span>'
+        status_tag = '<span class="view-bear">待分析</span>' if v.status == 'pending' else '<span style="color: var(--bearish-color); font-weight:bold;">已完成</span>'
         html += f"""
             <tr>
                 <td>{v.date}</td>
@@ -230,7 +282,7 @@ def generate_archives(db):
     """
     with open("archives.html", 'w', encoding='utf-8') as f:
         f.write(html)
-    print("📚 全量知識庫頁面已更新: archives.html")
+    print("📚 全量知識庫統計頁面已更新: archives.html")
 
 def render_nav_bar(channels):
     if not channels: return ""

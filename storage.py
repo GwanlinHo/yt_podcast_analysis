@@ -170,3 +170,33 @@ class Storage:
                 summary = " | ".join(analysis.get('key_points', []))
                 writer.writerow([v.date, v.channel, v.title, targets, summary, v.url])
         print(f"📊 數據已匯出至 CSV: {output_path}")
+
+    def get_global_stats(self) -> dict:
+        """獲取知識庫全局統計數據"""
+        all_videos = list(self.videos.values())
+        analyzed = [v for v in all_videos if v.status == "analyzed"]
+        
+        # 頻道分佈
+        channel_counts = {}
+        for v in all_videos:
+            channel_counts[v.channel] = channel_counts.get(v.channel, 0) + 1
+            
+        # 歷史熱門標的 (Top 10)
+        target_counts = {}
+        for v in analyzed:
+            analysis = self.get_analysis(v.id)
+            if analysis and "targets" in analysis:
+                for t in analysis["targets"]:
+                    name = t.get("name", "Unknown")
+                    code = t.get("code", "N/A")
+                    key = f"{name} ({code})"
+                    target_counts[key] = target_counts.get(key, 0) + 1
+        
+        top_targets = sorted(target_counts.items(), key=lambda x: x[1], reverse=True)[:10]
+        
+        return {
+            "total_videos": len(all_videos),
+            "total_analyzed": len(analyzed),
+            "channel_distribution": channel_counts,
+            "top_targets": top_targets
+        }

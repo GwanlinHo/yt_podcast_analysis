@@ -147,16 +147,59 @@
         }
     </script>
     
+    <style>
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .stat-card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            border-bottom: 5px solid var(--accent-color);
+        }
+        .stat-value { font-size: 2em; font-weight: 800; color: var(--accent-color); }
+        .stat-label { font-size: 0.9em; color: #7f8c8d; margin-top: 5px; font-weight: 600; }
+        .top-targets-list { text-align: left; margin-top: 15px; padding: 0; list-style: none; }
+        .top-targets-list li { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border-color); font-size: 0.9em; }
+    </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>全量財經知識檢索中心</h1>
-            <div class="meta">收錄數量：152 部影片 | 更新時間：2026/05/22 01:53</div>
+            <div class="meta">大數據洞察：系統已自動處理 152 份深度分析報告</div>
         </header>
         <div class="nav-bar">
             <a href="index.html" class="nav-item">🏠 返回本週週報</a>
             <a href="data/all_analysis.csv" class="nav-item">📥 匯出 CSV 數據</a>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value">152</div>
+                <div class="stat-label">收錄影片總數</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">100%</div>
+                <div class="stat-label">AI 分析完成率</div>
+            </div>
+            <div class="stat-card" style="grid-row: span 2;">
+                <div class="stat-label" style="font-size: 1.1em; color: var(--text-color); margin-bottom: 10px;">🔥 歷史熱門標的 (Top 10)</div>
+                <ul class="top-targets-list">
+    <li><span>台積電 (2330)</span><span style="color: var(--bullish-color); font-weight:bold;">42x</span></li><li><span>國巨 (2327)</span><span style="color: var(--bullish-color); font-weight:bold;">17x</span></li><li><span>聯發科 (2454)</span><span style="color: var(--bullish-color); font-weight:bold;">13x</span></li><li><span>輝達 (NVDA)</span><span style="color: var(--bullish-color); font-weight:bold;">13x</span></li><li><span>NVIDIA (NVDA)</span><span style="color: var(--bullish-color); font-weight:bold;">12x</span></li><li><span>微軟 (MSFT)</span><span style="color: var(--bullish-color); font-weight:bold;">11x</span></li><li><span>特斯拉 (TSLA)</span><span style="color: var(--bullish-color); font-weight:bold;">8x</span></li><li><span>華通 (2313)</span><span style="color: var(--bullish-color); font-weight:bold;">8x</span></li><li><span>ASML (ASML)</span><span style="color: var(--bullish-color); font-weight:bold;">6x</span></li><li><span>鴻海 (2317)</span><span style="color: var(--bullish-color); font-weight:bold;">6x</span></li>
+                </ul>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label" style="margin-bottom: 10px;">📊 來源頻道產量</div>
+                <div style="font-size: 0.85em; text-align: left;">
+    <div style="margin-bottom: 5px;">財女珍妮: <span style="float:right; font-weight:bold;">50</span></div><div style="margin-bottom: 5px;">兆華與股惑仔: <span style="float:right; font-weight:bold;">47</span></div><div style="margin-bottom: 5px;">M觀點: <span style="float:right; font-weight:bold;">21</span></div><div style="margin-bottom: 5px;">股癌: <span style="float:right; font-weight:bold;">19</span></div><div style="margin-bottom: 5px;">財報狗: <span style="float:right; font-weight:bold;">15</span></div>
+                </div>
+            </div>
         </div>
         
         <div class="focus-section">
@@ -179,1064 +222,1064 @@
                 <td>20260521</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=WA1SZpaupzk" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/21(四) 輝達財報後還能漲嗎？SpaceX S1終於出爐 #NVDA #SPCX</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260521</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=25mptNb77eA" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說】曲博鐵口：台積電不可能輸！別亂買，玻璃基板還早，載版沒被取代，誰是真CoPoS概念股？｜李兆華、艾綸、曲建仲 2026.05.20 part2</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260521</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=xf2bvG2Fhng" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP305. 輝達財報與 AI 回檔、Google AI 努力跟上、Meta 大裁員來了 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260521</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=UQbTrMgD428" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】輝達財報好不漲 最佳進場點!台股轉局勢 被動買誰？PCB籌碼換手 CPO挑已整理？跌深處置.記憶體 便宜名單大公開！｜李兆華、蔡明翰、容逸燊、權證小哥2026.05.21【電視完整版】</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260520</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=KP0hQRH04wc" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/20(三) Google能超越輝達嗎？ Google I/O 大亮點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260520</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=A-lBdJxxsrg" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說】教授珍貴一堂課！通膨有解，台股48K會到？｜李兆華、艾綸、張錫 2026.05.19 part2</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260520</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=wgd3AJ3Wuzk" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP663 | 🦘</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260520</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=KRy2YKULDvg" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說】google軟硬新火種！艾綸詳解Gemini大進化 ，AI眼鏡這次好想買？｜李兆華、艾綸 2026.05.20 part1</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260520</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=GgSKT0rhk4o" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】外資喊台股5萬 國巨650 被動全面漲 成熟看聯電｜李兆華、不魯 2026.05.20 part3</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260520</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=VK8wciVM5YI" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】谷歌大會 AI新機會？ CPO、PCB 回後買上漲？｜李兆華、王建文 2026.05.20 part2</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260520</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=TIwmJdqwK70" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】4萬點守住 520後還能漲？ 光學跟大戶 失血股要賣？｜李兆華、朱家泓 2026.05.20 part1</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260520</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=tMnbXASK5Mo" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說】谷歌大會5重點一次掌握，AI眼鏡該買了？曲博認證，先進封裝CoWoS、CoPoS概念股？有英特爾，美國很快不需要台積電？2大關鍵優勢必贏！｜李兆華、艾綸、曲建仲2026.05.20</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260520</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=NRQNqbtUAZo" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】520行情失靈 外資卻喊5萬？輝達財報前洗盤 台股隨時轉強？谷歌Gemini進化 光學.被動新機會？CPO.PCB回後買？｜李兆華、朱家泓、王建文、不魯2026.05.20【電視完整版】</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260519</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=EmcZyVyoYdU" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/19(二) SpaceX上市，是特斯拉利空？STX大跌，存儲一起遭殃</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260519</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=IF118KsjCEg" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">524.【達人聊產業】突破傳輸瓶頸的背面鑽頭，大量如何用控制器攻克 PCB ft. 簡禎祈總經理</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260519</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=TeHHQGQ0YAY" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說】買技術領先就對，艾綸詳解台積三層蛋糕，真！致富秘笈｜李兆華、艾綸 2026.05.19 part1</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260519</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=uRcs-xe5bWg" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】玻璃基板新寵 載板回溫 主動大小通吃 績效霸榜！｜李兆華、紀緯明 2026.05.19 part3</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260519</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=WMTDTLVjbig" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】三大利空衝擊 記憶體能撿？ 電腦展焦點 大戶鎖機器人｜李兆華、高憲容 2026.05.19 part2</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260519</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=CMseoSdrj4g" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】油價債息飆 重演3月殺盤？ 被動找擴散 低軌跟法人！｜李兆華、黃豐凱 2026.05.19 part1</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260519</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=sEe93Nn9Jqs" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說】多頭總司令：接近季線必買，台積3000肯定到，台股重回48000？趁亂掌握三層蛋糕致富秘笈，特化.設備出黑馬？｜李兆華、艾綸、張錫2026.05.19【網路獨播版】</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260519</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=CiMoW7oNOCo" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】台股四萬攻防戰 輝達財報能救價？油價債息飆 漲前大買點？被動.低軌.機器人 大戶鎖碼名單？玻璃基板新寵？｜李兆華、黃豐凱、高憲容、紀緯明2026.05.19【電視完整版】</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260518</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=x-ADxTl1ljI" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/18(一) 殖利率破5%，美股又要跌了嗎？輝達要當救世主，Cerebras上市，成最大競爭對手？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260518</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=SNvBQAt2dkQ" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP304. 川習會的結果分析、馬斯克會放棄 Grok 嗎、AI 公司為何狂殺 SaaS？ | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260518</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=WBGlk1Z-cZQ" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】台股盤中V轉買點還在？台積賣世界 有下一檔？機器人.AI眼鏡正熱 電源IC找剛發動？SpaceX要分拆 低軌再飛？｜李兆華、李永年、林漢偉、楊雲翔2026.05.18【電視完整版】</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260518</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=kOlXEVZtFq0" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】SpaceX要分拆 低軌再飛？電源IC漲價 找剛發動？｜李兆華、楊雲翔 2026.05.18 part3</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260518</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=daSNmrqcYhM" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】台積賣世界 還有下一檔？機器人、AI眼鏡 火種正熱｜李兆華、林漢偉 2026.05.18 part2</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260518</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=m3VJTiWq0qo" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】美債、美股拉警報 好時機？國巨、技嘉領軍 資減法人買｜李兆華、李永年 2026.05.18 part1</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260517</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=UzG0O9MQ4WI" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">從未虧損！真正的投資聖杯不是選股？《紀律長贏》揭開高手思維 ft. 清大校務基金操盤手 林哲群教授</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260517</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=pvFdCby3_IM" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">523.【台股美股提款機】DRAM 產業：先進製程 DRAM 供不應求加劇，2026 下半年報價漲幅欲小不易</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260516</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=lllOBl96vzk" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP662 | ⛑️</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260515</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=OIsfiXJtVMQ" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/15 (五) 輝達一週漲20%，創高還能追？台積電又喊三層蛋糕</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260515</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=GnV5ocVfhdA" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】輝達利多殺盤是買點？廣達換鴻海？台積電三層蛋糕 機器人.CPO找補漲？被動.低軌.設備季報體檢 補票大全集？｜李兆華、鍾國忠、黃豐凱、翁士峻2026.05.15【電視完整版】</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260515</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=PNZqrZ4uG_w" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】季報大體檢 廣達換鴻海？選被動營家 鎖轉強低軌｜李兆華、翁士峻 2026.05.15 part3</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260515</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=pUiQGAvAjZo" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】台積三層蛋糕 誰最美味？機器人找補漲 CPO買拉回｜李兆華、黃豐凱 2026.05.15 part2</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260515</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=x9jigPWu5Ls" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】創高變殺盤 川普明牌曝光！封測新機會 設備安心抱｜李兆華、鍾國忠 2026.05.15 part1</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260514</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=rKQ3c44h5Lw" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/14(四) 川普訪中，利多還利空，官員喊升息？#CRWV #NBIS</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260514</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=YlAOU1zfjv8" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP303. 川習會能談出什麼、谷歌新筆電系統、主動 ETF 可以投嗎 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260514</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=DOlG7o799Uo" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">522.【財經時事放大鏡】功率 x 8" x HVDC</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260514</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=LFgr2NHYyOc" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】輝達創高 投信搶季報好股 大戶右下撿 便宜IC設計？｜李兆華、高憲容 2026.05.14 part3</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260514</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=3_zR8fPs-D0" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】三星真罷工？ 記憶體價漲！ 功率元件起飛 跟法人進出｜李兆華、林信富 2026.05.14 part2</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260514</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=68HRs3d7IUU" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】川習會台股影響？ 能再攻！ 被動漲價循環 CPO買轉強｜李兆華、容逸燊 2026.05.14 part1</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260514</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=DQnaX9G-c5A" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】台股一日回檔結束？投信搶漲價股！川習會解黃仁勳晶片禁令？記憶體.被動.IC設計大戶撿便宜？Q1季報大禮包？｜李兆華、容逸燊、林信富、高憲容2026.05.14【電視完整版】</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260514</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=lvtDELWY3us" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說】楊雲翔30年功力獨家分享！6年對帳單看30萬變1.5億元，老三哲學大贏家｜李兆華、艾綸、楊雲翔 2026.05.13</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260513</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=QKyM1UeHeLw" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/13(三) 通膨升溫，川習會前半導體跳水？#ASTS #CRCL</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260513</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=tHpKFDmNAh0" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP661 | 🚲</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260513</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=AhSOWCIKoVQ" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說】無塵室滿單不怕通膨 5月報稅痛 股利節稅大法｜李兆華、艾綸 2026.05.13 part1</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260513</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=zOyHfkwUxvs" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】CPO滑一跤 剩一半籌碼好？ 陪浪子回頭 鎖處置、大戶股｜李兆華、權證小哥 2026.05.13 part3</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260513</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=d6xXJBxFhV0" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】CPI驚魂 台股過壓力測試？ 低軌、功率元件 飆股基因復活｜李兆華、王建文 2026.05.13 part2</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260513</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=yw8opAbYj3A" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【理財達人秀】美股跌、台股不怕 4萬地板 人氣股重摔 回後給機會｜李兆華、朱家泓 2026.05.13 part1</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260512</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=d-GQ1ovnTco" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/12(二) 美股狂牛，才剛開始？半導體是不是漲到壞掉了？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260512</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=KpdF1urxaXA" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">521.【台股美股提款機】半導體前段設備：代理式 AI 需求激增，2027 年設備成長幅度更勝 2026 年</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260511</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=-bpVVYpj1IE" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/11(一) 財報、非農超預期，科技股再創高！#RKLB升空 #NET財報</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260511</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=iaVZAKD2oCA" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP302. 台股美股過熱了嗎、蘋果下單英特爾、Optimus 工程驗證 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260510</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=JvQ_K5DVW-I" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">週報ep249公開版｜520前持續衝高 再回檔測試！3%理論 回4萬點大震盪？ft.盈利投資董事長 鍾國忠 2026/05/10 李兆華River @riverstockshow</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260509</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=qyk2I1_jyuQ" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP660 | 🍄‍🟫</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260508</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=6MH_QD1qfro" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/08(五)美股下跌還能買嗎？ #ANET #DDOG #FTNT</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260507</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=eOTN9B4ZgyY" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/07(四) 財報好不漲，到底為什麼？#ETN #ANET #ARM #COHR</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260507</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=yukUlI7xvjI" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP301. PLTR 會被打敗嗎、SpaceXAI 算力出租中、NVIDIA 台北 GTC | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260507</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=O_hfP-3WTBk" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">520.【財經時事放大鏡】機器人 x 矽晶圓</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260506</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=2v39VVTgZ1A" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/06(三) AMD狂飆，NVDA失色，LITE, ANET財報後下跌</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260506</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=pP-JU2PCDnU" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP659 | 🦤</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260505</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=xcp3WhbtlAE" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/05(二) Palantir為什麼不漲？#PLTR #ON #NVDA #MU</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260504</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=O8w0b0oWUeY" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/04(一) 伊朗提談判新方案，戰爭已結束？AI續強，軟體復活了嗎 #CAT #TEAM</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260504</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=jzvRyORhr4A" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP300. 三大雲財報看重點、馬斯克 OpenAI 法庭戰、沒跟上成長列車怎麼辦？ | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260503</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=RSqkFMRvRbQ" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">週報ep247公開版｜4月爆量7千點 行情還會更熱！台積電條款上路前 投信暖身ft.盈利投資董事長 鍾國忠 2026/05/03 李兆華River @riverstockshow</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260502</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=X3DKXq4RXwo" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP658 | 🪿</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260501</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=vHn4oCL3094" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/05/01(五) 美國經濟靠AI撐住了！蘋果最強季度，閃迪為何崩潰？ #AAPL #SNDK #WDC</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260430</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=T5vdEoVsn8I" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/30(四) FED最大分歧，巨頭財報穩了？#GOOG #AMZN #MSFT #META #TER #NXPI</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260430</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=hr3NyuLUj7k" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">519.【財經時事放大鏡】Event Trade？台積電 & Google</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260430</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=BwLv5z5I9x0" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP299. 微軟放開 OpenAI、Meta 放棄 Manus、AI 又有鬼故事 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260430</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=_jxGyWr7EJO" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP1088｜4月漲7203點，5月還有好光景？台積電回檔更好買，熱門產業絕對要有！</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260429</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=osQQt5fYQ0c" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP657 | 🐫</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260429</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=r1KME0sZEk4" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/29(三) 美股爲什麼又跌了？ #GLW #CLS #STX 財報</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260428</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=f3z-XP0n2rE" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/28(二)AI戰場重組誰是贏家？微軟OpenAI分手了。OpenAI手機要找高通跟聯發科？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260428</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=5IXHbehsV9s" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">518.【達人聊產業】RFID 啟動 DIGITAL 異世界的鑰匙 ft. 韋僑江鴻佑總經理</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260427</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=ZtTaMQhGvfE" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/27(一) 費半創紀18連漲，還能進場嗎？Intel暴漲20%，財報透露什麼？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260426</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=21JjrcME-6I" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">週報ep245公開版｜ETF政策利多 投信回補！高點不預設 回檔找支撐買ft.盈利投資董事長 鍾國忠 2026/04/26 李兆華River @riverstockshow</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260426</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=p5Irp_9NCvM" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP298. 英特爾突然爆紅、OpenAI GPT-5.5、創作者該如何用 AI | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260425</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=-SBOKVzL6S0" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP656 | 🍇</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260425</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=hGe6xA0rEg8" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說】爆天量攻4萬！洗刷中勇敢買，google概念再起，IC設計、BBU超值股？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260423</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=JzbKsuNUVpk" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/23(四)特斯拉財報，狂砸250億擴張AI與機器人版圖，以及其他重點公司的財報！</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260423</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=ovwdGwR8tZ8" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP297. 蘋果正式啟動接班、AI 前段班各有動作、SpaceX 合作 Cursor | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260423</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=9dmH0WkP8ig" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">517.【財經時事放大鏡】日本與台股都地震 x Google</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260422</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=MQHORJMMYJg" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP655 | 🐯</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260422</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=PBcwQPaNbwQ" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/22(三）聯準會新局，新主席怎麼看降息？馬斯克出手，買下AI編程工具！UNH財報後大漲</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260421</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=6wIR7TOP6YY" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/21(二）談判重啟，巨頭怎麼股價下跌了？庫克交棒，亞馬遜再投資 Anthropic，Marvll，Google合作</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260420</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=woAVn4U79v4" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/20(一）美軍扣船，美股漲假的？退休的最大風險不是崩盤！</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260420</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=VQ3jSCSuyvA" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP296. Uber 燒光 AI 預算、Salesforce 變陣求生、Anduril 無人軍團 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260419</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=6d8b8VJKDn4" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">週報ep243公開版｜外資買.投信賣 要上調高點嗎？中線支撐上移 34500就是好位ft.盈利投資董事長 鍾國忠 2026/04/19 李兆華River @riverstockshow</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260418</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=zMM1swd5pXo" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說0418】美股跟上來了！買台積電不如買台積電們？機器人.PCB.被動元件高低配</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260418</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=5fsHnTWdcjY" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP654 | 🌵</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260417</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=2SomW_ahKvs" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/17(五）美股創高！台積電拉回，還能買嗎？Netflix財報後大跌</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260416</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=uefsROq0TRg" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/16 (四）美股創新高 ，泡沫示警？ASML財報，Tesla AI5晶片設計定案</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260416</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=Z_Vzmc3JzSQ" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP295. OpenAI 關鍵抉擇、AI 裁員末日論、美股突然間創新高 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260416</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=lFYZg-fdhJ8" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">516.【財經時事放大鏡】Hermes x ASML x MLCC</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260415</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=Euz6DTkhjrE" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP653 | 🕊</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260415</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=Rv2NyQweGhA" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/15 (三）納指10連漲， 巨頭終於要動了？AVGO, MRVL, CRDO噴出</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260414</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=LcZbpnDplTE" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/14 (二）海峽封鎖，美股利空出盡還是逃命？ 甲骨文ORCL大漲，閃迪進NQ100</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260413</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=5cr5TT1miKc" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/13 (一）談判破裂，美國為何反封鎖荷姆茲海峽？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260413</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=lqHShUXVCSc" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP294. 美國軟體股又崩潰、特斯拉 FSD 荷蘭過關、亞馬遜最新股東信 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260412</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=LCXMqi4UjJw" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">週報ep241公開版｜鍾大膽高低點預言，全命中！反攻3000點要創高，不硬追，何時會有回檔機會？ft.盈利投資董事長 鍾國忠 2026/04/12 李兆華River @riverstockshow</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260411</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=NCAgqfGtqts" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP652 | 🐸</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260411</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=lqjvPTMbNdI" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說】沒事了？台股差百點創高！6大權值股助攻？馬斯克Terafab計劃是什麼？獨家ABF隱藏股</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260410</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=uuDZ8WIU8dc" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/10 (五）硬體沒漲完，軟體又崩潰。亞馬遜站回年線！</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260409</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=fw2TJZ_R2ng" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/09 (四）停戰不同調，  META翻身？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260409</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=pHKM2AhgbYo" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP293. Anthropic 超強模型 Mythos、特斯拉英特爾合作、Meta 交成績單了 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260409</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=Uo0fg39vJxE" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">515.【財經時事放大鏡】Intel & 半導體耗材</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260408</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=tzaaCt32yic" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP651 | One for all</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260408</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=Hq_XgfPiBuE" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/08 (三）停戰再兩週， 這次是真的？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260407</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=Mk5ltNRLou8" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/07 (二）伊朗拒停火， 油價不漲了？博通、Google擴大合作</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260407</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=FOt-7G1Bdcw" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">514.【達人聊投資】Claude 一更一殺, SaaS 十載枯榮談 ft.前美股分析師 Freddy</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260406</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=UJe3npRuk2Y" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP292. SpaceX 即將 IPO、微軟與谷歌新模型、阿提米絲二號任務 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260405</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=K6Dp7xbICQg" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">週報ep239公開版｜美伊利空測試 低點無多？3000點區間 靈活加減碼ft.盈利投資董事長 鍾國忠 2026/04/05 李兆華River @riverstockshow</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260404</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=IL_5Qvka5sU" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP650 | 🦄</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260404</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=KUep6N3RK5E" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說】連假測試美伊利空跌完沒？輝達打造AI供應鏈帝國，中小股依舊兇猛！用0050正二存股可行嗎？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260403</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=rJ3rreMXkHs" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/03 (五）美股為什麼又Ｖ轉了？終於要講微軟....為什麼跌？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260402</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=emqpfpR_v1w" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/02 (四）史上最大IPO， SpaceX 要來了！</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260402</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=lKb0nLoCreg" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">513.【財經時事放大鏡】光油並進</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260402</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=aD7YVVvWpnE" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP291. 微軟推進多模型、OpenAI 最後募資、Claude Code 外洩事件 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260401</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=PpgaPfnZuHI" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP649 | 💌</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260401</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=fUcJ95VS24s" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/04/01 (三）停戰有譜，美股真的跌完了？Nvidia再投資Marvell 20億美元</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260331</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=HKvX6uPHwFg" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/03/31 (二）鮑威爾放軟，衰退升溫？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260330</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=8Hd4WBhH5aw" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/03/30 (一）納指進入修正區，美伊戰爭AI衝擊還沒來？科技股下跌 才剛開始？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260330</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=0fiKXac30Jo" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP290. 美國科技股怎麼看、社群巨頭的兒少責任、Siri 不再只有 GPT | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260329</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=2kk0ingiYHI" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">週報ep237公開版|戰事氣氛差 清明假前怎麼做？支撐32000？轉移資金到這裡!ft.盈利投資董事長 鍾國忠 2026/03/29 李兆華River @riverstockshow</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260328</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=FFHn73SkGxM" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP648 | 🦆</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260328</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=6TMcvgkwqz4" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說】川普救不了通膨危機？誰能避開油價衝擊？5不和5要！太空商機.設備.CPO走自己的路</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260327</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=cEiYgUXrQqc" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">如何利用房地產高槓桿？2026資金重回基本面 聰明人靠「這類資產」</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260327</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=_M9Z71GgKdU" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/03/27 (五）殖利率飆、美債危險，川普急了嗎？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260326</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=CDCOv2dDJYU" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/03/26 (四）存儲出大事， MU, SNDK還能漲？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260326</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=_cQQce1y0_c" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">512.【財經時事放大鏡】開牙科 x 跑外送</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260326</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=94wsZ3zwv10" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP289. OpenAI 砍 Sora、特斯拉 Semi 卡車、谷歌新 AI 技術 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260325</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=hag1of5TGSk" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP647 | 🍬</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260325</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=qhmXPHG7jxA" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/03/25 (三）私募信貸風暴未完，軟體股再崩潰</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260324</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=ZB9oxcv7aGQ" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【技術分析全攻略】多頭市場最容易犯的3個錯，你中了幾個？ ft. 朱家泓、林穎</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260324</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=h8ydCGbilH8" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/03/24 (二）川普TACO， 反彈該跑？輝達(NVDA) 佈局電力</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260323</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=i_YrNHl9FHo" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/03/23 (一）美股不行，馬斯克Terafab能行嗎？ #TSLA #SPACEX</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260323</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=HwkixoxGyZM" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP288. 美超微偷偷賣中國、馬斯克超級晶圓廠、Palantir 加碼國防 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260322</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=9z4fUdifOqY" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">511.【達人聊產業】從 PCB 到半導體：看志聖 x G2C+ 如何致勝 ft. 志聖梁又文總經理</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260322</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=Rb9YF0JXXaw" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">週報ep235公開版｜精準！34000遇壓 何時勇敢？外資狂賣無懼 機會再來一次ft.盈利投資董事長 鍾國忠 2026/03/22 李兆華River @riverstockshow</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260321</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=cnsLcRD2TMs" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP646 | 🦙</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260321</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=o8ltPB1wCsE" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">輝達 GTC 觀看派對：From Concept to Production: Humanoid Robotics at Scale Ft. Miula</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260321</td>
                 <td>兆華與股惑仔</td>
                 <td><a href="https://www.youtube.com/watch?v=luz8R-CSwEM" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">【兆華艾綸說】伊朗續炸！黑色週末，台股還能繼續獨強？操盤手用台積電買保險，CPO.PCB.記憶體最新看法！ @riverstockshow</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260320</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=jy1omh2VYik" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/03/20(五）供應鏈危機逼近，金銀暴跌，停戰曙光浮現了嗎？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260319</td>
                 <td>財報狗</td>
                 <td><a href="https://www.youtube.com/watch?v=4_jcbc_waks" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">510.【財經時事放大鏡】EUV 一路卡到建算力 x GTC 次世代算力構築</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260319</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=q8Qgv0cWLzM" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/03/19 (四）聯準會按兵不動，今年可能會升息？光通逆勢漲，美光財報佳</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260319</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=61ogGJGbNPg" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP287. 輝達 GTC 發表重點、OpenAI 砍掉支線、Agent 外殼大戰 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260318</td>
                 <td>股癌</td>
                 <td><a href="https://www.youtube.com/watch?v=g4Oeovjs42U" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP645 | 🎱</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260318</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=UY9EodmQMh8" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/03/18 (三）輝達股價，為什麼漲不動？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260317</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=zllE5XH6sko" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">2026/03/17 (二）輝達GTC最大亮點是什麼？AI將顛覆整個商業模式？</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260316</td>
                 <td>財女珍妮</td>
                 <td><a href="https://www.youtube.com/watch?v=g7bA1Qs3GS4" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">AI投資見頂？輝達財報不漲 ，GTC 亮點是什麼？ft. 艦長 程正樺</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
             <tr>
                 <td>20260316</td>
                 <td>M觀點</td>
                 <td><a href="https://www.youtube.com/watch?v=do18uv_aw44" target="_blank" style="text-decoration:none; color: var(--text-color); font-weight: 600;">EP286. xAI 整個打掉重練、Meta 又要大裁員、卓肯米勒投資觀點 | M觀點</a></td>
-                <td><span class="view-bear" style="color: var(--accent-color)">已完成</span></td>
+                <td><span style="color: var(--bearish-color); font-weight:bold;">已完成</span></td>
             </tr>
         
                 </tbody>
