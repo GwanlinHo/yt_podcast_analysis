@@ -258,16 +258,21 @@ def render_macro_summary(db, start_str, end_str):
     html += "</ul></div>"
     return html
 
+def get_finance_link(code):
+    """根據代碼生成 Google Finance 連結"""
+    if not code or code == "N/A": return "#"
+    if code[0].isdigit():
+        return f"https://www.google.com/finance/quote/{code}:TPE"
+    else:
+        return f"https://www.google.com/finance/quote/{code}:NASDAQ"
+
 def render_focus_summary(db, start_str, end_str):
     """彙整本週提及的所有標的與多空情緒統計"""
     unique_targets = db.get_aggregated_targets(start_str, end_str)
     if not unique_targets: return ""
 
-    # 情緒統計
     bull_count = sum(1 for t in unique_targets if "多" in t.get('view', ''))
     bear_count = sum(1 for t in unique_targets if "空" in t.get('view', ''))
-    total_count = len(unique_targets)
-    sentiment_ratio = f"{bull_count} 多 / {bear_count} 空"
 
     html = f"""
     <div class="focus-section">
@@ -281,7 +286,14 @@ def render_focus_summary(db, start_str, end_str):
             <input type="text" id="targetSearch" onkeyup="filterTargets()" placeholder="搜尋標的名稱或代碼..." class="search-box">
         </div>
         <table id="focusTable">
-...
+            <thead>
+                <tr>
+                    <th style="width: 25%">標的</th>
+                    <th style="width: 15%">觀點</th>
+                    <th>核心理由摘要</th>
+                </tr>
+            </thead>
+            <tbody>
     """
     for t in unique_targets:
         view_class = "view-neutral"
@@ -289,9 +301,12 @@ def render_focus_summary(db, start_str, end_str):
         if "多" in view_text: view_class = "view-bull"
         elif "空" in view_text: view_class = "view-bear"
         
+        code = t.get('code', 'N/A')
+        link = get_finance_link(code)
+        
         html += f"""
             <tr>
-                <td><strong>{t.get('name', '')}</strong> ({t.get('code', '')})</td>
+                <td><strong>{t.get('name', '')}</strong> <a href="{link}" target="_blank" style="font-size: 0.85em; color: #95a5a6; text-decoration: none;">({code} 📈)</a></td>
                 <td><span class="{view_class}">{view_text}</span></td>
                 <td>{t.get('rationale', '')}</td>
             </tr>
@@ -320,9 +335,12 @@ def render_targets_table(targets):
         if "多" in view_text: view_class = "view-bull"
         elif "空" in view_text: view_class = "view-bear"
         
+        code = t.get('code', 'N/A')
+        link = get_finance_link(code)
+
         html += f"""
             <tr>
-                <td>{t.get('name', '')} ({t.get('code', '')})</td>
+                <td>{t.get('name', '')} <a href="{link}" target="_blank" style="font-size: 0.85em; color: #95a5a6; text-decoration: none;">({code} 📈)</a></td>
                 <td><span class="{view_class}">{view_text}</span></td>
                 <td>{t.get('rationale', '')}</td>
             </tr>
