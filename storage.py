@@ -124,10 +124,9 @@ class Storage:
         return None
 
     def get_aggregated_targets(self, start_date: str, end_date: str) -> List[dict]:
-        """彙整指定期間內所有影片提及的投資標的，並進行初步去重。"""
+        """彙整指定期間內所有影片提及的投資標的，並統計專家共識次數。"""
         videos = self.get_videos_by_date_range(start_date, end_date)
-        all_targets = []
-        seen_codes = set()
+        target_map = {} # code -> {data, mentions}
         
         for v in videos:
             if v.status == "analyzed":
@@ -135,10 +134,15 @@ class Storage:
                 if analysis and "targets" in analysis:
                     for t in analysis["targets"]:
                         code = t.get("code", "N/A")
-                        if code not in seen_codes:
-                            all_targets.append(t)
-                            seen_codes.add(code)
-        return all_targets
+                        if code not in target_map:
+                            t["mentions"] = 1
+                            target_map[code] = t
+                        else:
+                            target_map[code]["mentions"] += 1
+        
+        # 按提及次數降序排列，次數相同則按代碼升序
+        sorted_targets = sorted(target_map.values(), key=lambda x: (-x["mentions"], x.get("code", "")))
+        return sorted_targets
 
     def get_macro_outlook_summary(self, start_date: str, end_date: str) -> List[str]:
         """彙整指定期間內所有的宏觀環境觀點。"""

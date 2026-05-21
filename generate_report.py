@@ -274,27 +274,9 @@ def render_focus_summary(db, start_str, end_str):
     bull_count = sum(1 for t in unique_targets if "多" in t.get('view', ''))
     bear_count = sum(1 for t in unique_targets if "空" in t.get('view', ''))
 
-    html = f"""
-    <div class="focus-section">
-        <div class="focus-header">
-            <h2 class="focus-title">
-                🚀 本週投資焦點彙整 
-                <span style="font-size: 0.6em; color: #7f8c8d; margin-left: 10px; font-weight: normal;">
-                    (市場情緒：<span class="view-bull">{bull_count}</span> 多 / <span class="view-bear">{bear_count}</span> 空)
-                </span>
-            </h2>
-            <input type="text" id="targetSearch" onkeyup="filterTargets()" placeholder="搜尋標的名稱或代碼..." class="search-box">
-        </div>
-        <table id="focusTable">
-            <thead>
-                <tr>
-                    <th style="width: 25%">標的</th>
-                    <th style="width: 15%">觀點</th>
-                    <th>核心理由摘要</th>
-                </tr>
-            </thead>
-            <tbody>
-    """
+    # 使用直接字串拼接避免 f-string 雙大括號混淆
+    html = '<div class="focus-section"><div class="focus-header"><h2 class="focus-title">🚀 本週投資焦點彙整 <span style="font-size: 0.6em; color: #7f8c8d; margin-left: 10px; font-weight: normal;">(市場情緒：<span class="view-bull">' + str(bull_count) + '</span> 多 / <span class="view-bear">' + str(bear_count) + '</span> 空)</span></h2><input type="text" id="targetSearch" onkeyup="filterTargets()" placeholder="搜尋標的名稱或代碼..." class="search-box"></div><table id="focusTable"><thead><tr><th style="width: 20%">標的</th><th style="width: 10%; text-align: center;">共識</th><th style="width: 15%">觀點</th><th>核心理由摘要</th></tr></thead><tbody>'
+    
     for t in unique_targets:
         view_class = "view-neutral"
         view_text = t.get('view', '中性')
@@ -303,10 +285,13 @@ def render_focus_summary(db, start_str, end_str):
         
         code = t.get('code', 'N/A')
         link = get_finance_link(code)
-        
+        mentions = t.get('mentions', 1)
+        mention_style = 'style="font-weight: 800; color: #d35400;"' if mentions > 1 else ""
+
         html += f"""
             <tr>
                 <td><strong>{t.get('name', '')}</strong> <a href="{link}" target="_blank" style="font-size: 0.85em; color: #95a5a6; text-decoration: none;">({code} 📈)</a></td>
+                <td style="text-align: center;"><span {mention_style}>{mentions}x</span></td>
                 <td><span class="{view_class}">{view_text}</span></td>
                 <td>{t.get('rationale', '')}</td>
             </tr>
@@ -359,27 +344,15 @@ def generate_disclaimer():
     """
 
 def render_history_links():
-    """掃描歷史目錄並生成連結列表"""
-    # 這裡使用相對於 index.html 的路徑
     history_dir = "report/history"
     if not os.path.exists(history_dir): return ""
-    
     files = [f for f in os.listdir(history_dir) if f.startswith("weekly_finance_report_") and f.endswith(".html")]
     if not files: return ""
-    
     files.sort(reverse=True)
-    
-    html = """
-    <div class="disclaimer-section" style="text-align: left; margin-top: 30px;">
-        <span class="section-title" style="border-left-color: #7f8c8d; color: #7f8c8d;">📚 歷史報表存檔 (Archives)</span>
-        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 15px; justify-content: center;">
-    """
+    html = '<div class="disclaimer-section" style="text-align: left; margin-top: 30px;"><span class="section-title" style="border-left-color: #7f8c8d; color: #7f8c8d;">📚 歷史報表存檔 (Archives)</span><div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 15px; justify-content: center;">'
     for f in files:
         date_str = f.replace("weekly_finance_report_", "").replace(".html", "")
-        # 主 index.html 連結到 report/history/
-        # 但如果是 history 下的檔案連結，則需要處理相對路徑（目前只在 main 生成 index.html 時呼叫）
         html += f'<a href="report/history/{f}" class="nav-item" style="font-size: 0.85em; padding: 6px 15px; background: #f8f9fa; border-radius: 5px;">📅 {date_str}</a>'
-    
     html += "</div></div>"
     return html
 
@@ -433,7 +406,6 @@ def main():
                 📅 統計期間：{start_str} 至 {end_str} | ⏱️ 生成：{now.strftime('%Y/%m/%d %H:%M')}
             </div>
         </header>
-        
         {render_nav_bar(channels)}
         {render_macro_summary(db, start_str, end_str)}
         {render_focus_summary(db, start_str, end_str)}
