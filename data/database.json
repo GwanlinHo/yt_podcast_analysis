@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T00:30:38.175588",
+  "last_updated": "2026-05-22T00:34:17.327385",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1350,6 +1350,24 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-05-21T20:01:48.295129"
+    },
+    "xf2bvG2Fhng": {
+      "id": "xf2bvG2Fhng",
+      "title": "EP305. 輝達財報與 AI 回檔、Google AI 努力跟上、Meta 大裁員來了 | M觀點",
+      "url": "https://www.youtube.com/watch?v=xf2bvG2Fhng",
+      "date": "20260521",
+      "channel": "M觀點",
+      "status": "analyzed",
+      "created_at": "2026-05-22T00:32:49.891733"
+    },
+    "UQbTrMgD428": {
+      "id": "UQbTrMgD428",
+      "title": "【理財達人秀】輝達財報好不漲 最佳進場點!台股轉局勢 被動買誰？PCB籌碼換手 CPO挑已整理？跌深處置.記憶體 便宜名單大公開！｜李兆華、蔡明翰、容逸燊、權證小哥2026.05.21【電視完整版】",
+      "url": "https://www.youtube.com/watch?v=UQbTrMgD428",
+      "date": "20260521",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-22T00:33:01.639285"
     }
   }
 }
