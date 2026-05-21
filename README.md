@@ -26,7 +26,8 @@
 - `daily_update.py`: 每日更新影片資料庫。
 - `storage.py`: 資料庫 (JSON) 存取邏輯。
 - `data/`: 存放影片資料庫與詳細分析結果。
-- `report/`: 存放 `latest_report.html` 與帶日期的歷史週報存檔。
+- `report/`: 存放 `latest_report.html`。
+- `report/history/`: 存放帶日期的歷史週報存檔。
 - `GEMINI.md`: 標準作業流程 (SOP) 與分析規範。
 
 ## 🚀 操作流程

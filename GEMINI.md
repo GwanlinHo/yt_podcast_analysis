@@ -67,7 +67,7 @@
 **時機**: 週末或分析工作告一段落，使用者要求「結算週報」或「同步報告」。
 **動作**:
 1.  **結算週報**: 執行 `uv run generate_report.py --weekly`。
-    *   此舉會更新 `latest_report.html` 並產出一份帶日期的存檔 `report/weekly_finance_report_YYYY-MM-DD.html`。
+    *   此舉會更新 `latest_report.html` 並產出一份帶日期的存檔 `report/history/weekly_finance_report_YYYY-MM-DD.html`。
     *   **[新行為]**: 此指令也會自動觸發 `./sync.sh` 完成發布。
 2.  **確認狀態**: 報告完成並檢查 GitHub 更新狀態。
 
