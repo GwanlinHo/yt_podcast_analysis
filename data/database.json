@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21T12:00:48.968237",
+  "last_updated": "2026-05-21T20:03:58.870602",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1267,7 +1267,7 @@
       "url": "https://www.youtube.com/watch?v=CiMoW7oNOCo",
       "date": "20260519",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-05-20T10:01:58.238606"
     },
     "wgd3AJ3Wuzk": {
@@ -1278,6 +1278,78 @@
       "channel": "股癌",
       "status": "pending",
       "created_at": "2026-05-20T20:00:06.203070"
+    },
+    "WA1SZpaupzk": {
+      "id": "WA1SZpaupzk",
+      "title": "2026/05/21(四) 輝達財報後還能漲嗎？SpaceX S1終於出爐 #NVDA #SPCX",
+      "url": "https://www.youtube.com/watch?v=WA1SZpaupzk",
+      "date": "20260521",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-05-21T20:00:57.375407"
+    },
+    "25mptNb77eA": {
+      "id": "25mptNb77eA",
+      "title": "【兆華艾綸說】曲博鐵口：台積電不可能輸！別亂買，玻璃基板還早，載版沒被取代，誰是真CoPoS概念股？｜李兆華、艾綸、曲建仲 2026.05.20 part2",
+      "url": "https://www.youtube.com/watch?v=25mptNb77eA",
+      "date": "20260521",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-21T20:01:40.250773"
+    },
+    "KRy2YKULDvg": {
+      "id": "KRy2YKULDvg",
+      "title": "【兆華艾綸說】google軟硬新火種！艾綸詳解Gemini大進化 ，AI眼鏡這次好想買？｜李兆華、艾綸 2026.05.20 part1",
+      "url": "https://www.youtube.com/watch?v=KRy2YKULDvg",
+      "date": "20260520",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-21T20:01:41.646718"
+    },
+    "GgSKT0rhk4o": {
+      "id": "GgSKT0rhk4o",
+      "title": "【理財達人秀】外資喊台股5萬 國巨650 被動全面漲 成熟看聯電｜李兆華、不魯 2026.05.20 part3",
+      "url": "https://www.youtube.com/watch?v=GgSKT0rhk4o",
+      "date": "20260520",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-21T20:01:42.959024"
+    },
+    "VK8wciVM5YI": {
+      "id": "VK8wciVM5YI",
+      "title": "【理財達人秀】谷歌大會 AI新機會？ CPO、PCB 回後買上漲？｜李兆華、王建文 2026.05.20 part2",
+      "url": "https://www.youtube.com/watch?v=VK8wciVM5YI",
+      "date": "20260520",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-21T20:01:44.324250"
+    },
+    "TIwmJdqwK70": {
+      "id": "TIwmJdqwK70",
+      "title": "【理財達人秀】4萬點守住 520後還能漲？ 光學跟大戶 失血股要賣？｜李兆華、朱家泓 2026.05.20 part1",
+      "url": "https://www.youtube.com/watch?v=TIwmJdqwK70",
+      "date": "20260520",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-21T20:01:45.714571"
+    },
+    "tMnbXASK5Mo": {
+      "id": "tMnbXASK5Mo",
+      "title": "【兆華艾綸說】谷歌大會5重點一次掌握，AI眼鏡該買了？曲博認證，先進封裝CoWoS、CoPoS概念股？有英特爾，美國很快不需要台積電？2大關鍵優勢必贏！｜李兆華、艾綸、曲建仲2026.05.20",
+      "url": "https://www.youtube.com/watch?v=tMnbXASK5Mo",
+      "date": "20260520",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-21T20:01:46.898970"
+    },
+    "NRQNqbtUAZo": {
+      "id": "NRQNqbtUAZo",
+      "title": "【理財達人秀】520行情失靈 外資卻喊5萬？輝達財報前洗盤 台股隨時轉強？谷歌Gemini進化 光學.被動新機會？CPO.PCB回後買？｜李兆華、朱家泓、王建文、不魯2026.05.20【電視完整版】",
+      "url": "https://www.youtube.com/watch?v=NRQNqbtUAZo",
+      "date": "20260520",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-21T20:01:48.295129"
     }
   }
 }
