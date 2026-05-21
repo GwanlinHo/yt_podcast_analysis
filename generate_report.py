@@ -358,6 +358,31 @@ def generate_disclaimer():
     </div>
     """
 
+def render_history_links():
+    """掃描歷史目錄並生成連結列表"""
+    # 這裡使用相對於 index.html 的路徑
+    history_dir = "report/history"
+    if not os.path.exists(history_dir): return ""
+    
+    files = [f for f in os.listdir(history_dir) if f.startswith("weekly_finance_report_") and f.endswith(".html")]
+    if not files: return ""
+    
+    files.sort(reverse=True)
+    
+    html = """
+    <div class="disclaimer-section" style="text-align: left; margin-top: 30px;">
+        <span class="section-title" style="border-left-color: #7f8c8d; color: #7f8c8d;">📚 歷史報表存檔 (Archives)</span>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 15px; justify-content: center;">
+    """
+    for f in files:
+        date_str = f.replace("weekly_finance_report_", "").replace(".html", "")
+        # 主 index.html 連結到 report/history/
+        # 但如果是 history 下的檔案連結，則需要處理相對路徑（目前只在 main 生成 index.html 時呼叫）
+        html += f'<a href="report/history/{f}" class="nav-item" style="font-size: 0.85em; padding: 6px 15px; background: #f8f9fa; border-radius: 5px;">📅 {date_str}</a>'
+    
+    html += "</div></div>"
+    return html
+
 def get_content_hash(channels, db):
     content_data = []
     for channel, videos in channels.items():
@@ -450,7 +475,9 @@ def main():
             html += "</div>"
         html += "</div>"
         
-    html += generate_disclaimer() + "</div></body></html>"
+    html += generate_disclaimer()
+    html += render_history_links()
+    html += "</div></body></html>"
 
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f: f.write(html)
     with open("index.html", 'w', encoding='utf-8') as f: f.write(html)
