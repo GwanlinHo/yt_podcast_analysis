@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T01:21:00.048727",
+  "last_updated": "2026-05-22T12:02:14.430602",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1368,6 +1368,42 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-05-22T00:33:01.639285"
+    },
+    "jJP9rN2MdoA": {
+      "id": "jJP9rN2MdoA",
+      "title": "525.【財經時事放大鏡】衛星 x AI x 財爆",
+      "url": "https://www.youtube.com/watch?v=jJP9rN2MdoA",
+      "date": "20260521",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-05-22T12:00:52.032871"
+    },
+    "Wvieh6vD8wk": {
+      "id": "Wvieh6vD8wk",
+      "title": "【理財達人秀】PCB回神了 籌碼大換手？ 跌深處置、記憶體 撿便宜｜李兆華、權證小哥 2026.05.21 part3",
+      "url": "https://www.youtube.com/watch?v=Wvieh6vD8wk",
+      "date": "20260521",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-22T12:01:54.054157"
+    },
+    "WhT19Hx1DSE": {
+      "id": "WhT19Hx1DSE",
+      "title": "【理財達人秀】美伊和談ING 賺首富行情 被動能買誰 CPO挑已整理｜李兆華、容逸燊 2026.05.21 part2",
+      "url": "https://www.youtube.com/watch?v=WhT19Hx1DSE",
+      "date": "20260521",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-22T12:01:55.260293"
+    },
+    "JGtSQ9eSrmc": {
+      "id": "JGtSQ9eSrmc",
+      "title": "【理財達人秀】AI沒什麼問題 猛噴轉局勢 現在搶vs.拉回買 怎麼賺？｜李兆華、蔡明翰 2026.05.21 part1",
+      "url": "https://www.youtube.com/watch?v=JGtSQ9eSrmc",
+      "date": "20260521",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-22T12:01:56.336952"
     }
   }
 }
