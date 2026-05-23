@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-23T02:03:14.672611",
+  "last_updated": "2026-05-23T10:01:58.026894",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1413,6 +1413,33 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-05-23T02:01:33.517819"
+    },
+    "HZxlgGUD3z4": {
+      "id": "HZxlgGUD3z4",
+      "title": "【理財達人秀】520後100%漲 跟投信買3類！鎖Q1 EPS雙增 低價更會飆？｜李兆華、翁士峻 2026.05.22 part3",
+      "url": "https://www.youtube.com/watch?v=HZxlgGUD3z4",
+      "date": "20260522",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-23T10:01:38.453494"
+    },
+    "TN9Il2Oh84w": {
+      "id": "TN9Il2Oh84w",
+      "title": "【理財達人秀】蘇媽送3千億 先進封裝大補 南亞科缺到後年 記憶復活？｜李兆華、陳唯泰 2026.05.22 part2",
+      "url": "https://www.youtube.com/watch?v=TN9Il2Oh84w",
+      "date": "20260522",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-23T10:01:39.559844"
+    },
+    "dIPeDPtFOaM": {
+      "id": "dIPeDPtFOaM",
+      "title": "【理財達人秀】大戲將登場 台股創收盤高 MSCI三升 外資回頭補貨！｜李兆華、鍾國忠 2026.05.22 part1",
+      "url": "https://www.youtube.com/watch?v=dIPeDPtFOaM",
+      "date": "20260522",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-23T10:01:40.426221"
     }
   }
 }
