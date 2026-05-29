@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30T06:00:58.541991",
+  "last_updated": "2026-05-30T06:02:20.984434",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1474,7 +1474,7 @@
       "url": "https://www.youtube.com/watch?v=zFe3P9uBudw",
       "date": "20260526",
       "channel": "財報狗",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-05-30T00:01:00.503101"
     },
     "OFo0aNDYVJs": {
