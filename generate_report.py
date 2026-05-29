@@ -445,7 +445,8 @@ def main():
         html += f'<div class="creator-section" id="{ch_name}"><h2 class="creator-title">{ch_name}</h2>'
         for v in v_list:
             analysis = db.get_analysis(v.id) if v.status == "analyzed" else None
-            html += f'<div class="episode-block"><div class="episode-title"><a href="{v.url}" target="_blank">{v.title}</a>{f"<span class=\"pending-badge\">待分析</span>" if v.status == "pending" else ""}</div>'
+            badge = "<span class='pending-badge'>待分析</span>" if v.status == "pending" else ""
+            html += f'<div class="episode-block"><div class="episode-title"><a href="{v.url}" target="_blank">{v.title}</a>{badge}</div>'
             if analysis:
                 if analysis.get('macro_outlook'):
                     html += '<div class="macro-section"><span class="section-title">🌍 總體環境與趨勢觀點</span><ul>'
