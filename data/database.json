@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T04:01:46.333112",
+  "last_updated": "2026-05-31T20:02:14.698226",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1656,6 +1656,15 @@
       "channel": "股癌",
       "status": "analyzed",
       "created_at": "2026-05-30T20:00:06.030042"
+    },
+    "QsalSLSwfqY": {
+      "id": "QsalSLSwfqY",
+      "title": "【理財達人秀】科技財重分配 台灣準備走30年大運？賺台美日紅利 多頭循環大跌是送分？不限用途借貸創高 四貸同堂真過熱？｜李兆華、吳杰2026.05.31【電視完整版】",
+      "url": "https://www.youtube.com/watch?v=QsalSLSwfqY",
+      "date": "20260531",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-05-31T20:01:46.711016"
     }
   }
 }
