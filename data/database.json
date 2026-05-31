@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T20:04:17.780123",
+  "last_updated": "2026-06-01T00:02:01.189627",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1665,6 +1665,15 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-05-31T20:01:46.711016"
+    },
+    "DCNTWyqR70k": {
+      "id": "DCNTWyqR70k",
+      "title": "SP2. 輝達 GTC 直播抽顯卡 + 軟體股回神了 | M觀點特別篇",
+      "url": "https://www.youtube.com/watch?v=DCNTWyqR70k",
+      "date": "20260531",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-06-01T00:01:28.536199"
     }
   }
 }
