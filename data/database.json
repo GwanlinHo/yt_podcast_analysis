@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T10:02:42.827815",
+  "last_updated": "2026-06-01T22:02:54.081680",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1683,6 +1683,24 @@
       "channel": "財女珍妮",
       "status": "analyzed",
       "created_at": "2026-06-01T10:01:02.640865"
+    },
+    "doX24Pmdr84": {
+      "id": "doX24Pmdr84",
+      "title": "SP3. 【Watch Party】黃仁勳 GTC Taipei 2026 主題演講",
+      "url": "https://www.youtube.com/watch?v=doX24Pmdr84",
+      "date": "20260601",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-06-01T22:02:08.330525"
+    },
+    "ujQNSqHnvl4": {
+      "id": "ujQNSqHnvl4",
+      "title": "【理財達人秀】黃仁勳COMPUTEX帶貨 台股6月5萬？鴻海回3字頭 迎主升段？機器人背板股補漲 記憶體鎖4檔？碗型底.W底翻身股？｜李兆華、李永年、林漢偉、楊雲翔2026.06.01【電視完整版】",
+      "url": "https://www.youtube.com/watch?v=ujQNSqHnvl4",
+      "date": "20260601",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-01T22:02:24.936655"
     }
   }
 }
