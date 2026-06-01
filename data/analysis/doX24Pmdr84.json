@@ -1,0 +1,45 @@
+{
+  "key_points": [
+    "Vera Rubin 架構正式量產：接替 Blackwell，包含專為 AI Agent 設計的 Vera CPU，任務執行速度比傳統伺服器快 1.8 倍。",
+    "代理式 AI (Agentic AI) 時代：AI 從單純生成進化為自主理解、規劃並執行任務的代理人。",
+    "RTX Spark 與 N1X 晶片：與聯發科合作、台積電 3 奈米製程，重塑筆電生態，劍指 AI PC 市場。",
+    "AI Factory (AI 工廠) 新基建：NVIDIA 轉型為基礎設施公司，單一資料中心投資額上看 800-1000 億美元。",
+    "AI 是 GDP 生成器：透過 AI 放大生產力（3 兆變 9 兆），AI 將讓工程師產出翻倍並創造更多價值。"
+  ],
+  "macro_outlook": [
+    "全球 AI 投資進入「AI 工廠」規模化階段，單一資料中心能耗達 1GW，成為新型國家競爭力指標。",
+    "軟體開發邊際成本大幅下降，引發「軟體吞噬世界 2.0」浪潮，企業資本支出將持續投入 AI 代理人開發。",
+    "台灣供應鏈從「代工」升級為「全球 AI 總裝線」，在液冷散熱、先進封裝與電源管理具備絕對優勢。"
+  ],
+  "targets": [
+    {
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "view": "Bullish",
+      "rationale": "從晶片供應商轉型為 AI 系統基礎設施供應商，Vera Rubin 與 CUDA 生態系對競爭對手形成降維打擊。"
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "view": "Bullish",
+      "rationale": "先進封裝（CoWoS-R）與 3 奈米製程為 AI 晶片量產核心，且為聯發科 N1X 晶片代工方。"
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "view": "Bullish",
+      "rationale": "與 NVIDIA 深度合作 N1X 晶片與 RTX Spark 平台，成功打入高階 AI PC 市場。"
+    },
+    {
+      "code": "MSFT",
+      "name": "微軟",
+      "view": "Bullish",
+      "rationale": "與 NVIDIA 合作整合 Windows 與 RTX Spark 生態，掌握 AI 應用端核心入口。"
+    }
+  ],
+  "risk_factors": [
+    "故事溢價縮小：市場進入點貨驗收階段，需高度關注實際財報與 AI 應用轉化為收益的速度。",
+    "AI PC 整合風險：AI PC 普及程度取決於微軟生態系整合深度與終端使用者的更換意願。"
+  ],
+  "quotes": "Useful AI has arrived. AI 已從生成式進化到代理式。AI 是 GDP 生成器，而非失業推手。"
+}
