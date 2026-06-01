@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T00:02:28.003947",
+  "last_updated": "2026-06-01T10:01:53.625532",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1674,6 +1674,15 @@
       "channel": "M觀點",
       "status": "analyzed",
       "created_at": "2026-06-01T00:01:28.536199"
+    },
+    "za1anMkhuiQ": {
+      "id": "za1anMkhuiQ",
+      "title": "2026/06/01(一) COMPUTEX出狠招，輝達還能漲嗎？",
+      "url": "https://www.youtube.com/watch?v=za1anMkhuiQ",
+      "date": "20260601",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-06-01T10:01:02.640865"
     }
   }
 }
