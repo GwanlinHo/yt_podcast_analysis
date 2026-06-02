@@ -1,0 +1,45 @@
+{
+  "key_points": [
+    "輝達與聯發科合作發表「RTX Spark」(N1X) AI PC 晶片，直接挑戰 Intel 與 AMD 的市場霸權。",
+    "該晶片採用台積電 3 奈米製程，搭載 Blackwell 架構 GPU 與 20 核心 ARM 架構 CPU。",
+    "定義「代理式 AI (Agentic AI)」時代，強調電腦能自主理解情境並執行任務，不只是工具。",
+    "硬體規格強悍，具備 128GB 統一記憶體，支援 1200 億參數模型在本地端運行。"
+  ],
+  "macro_outlook": [
+    "AI 發展重心由雲端算力擴展至邊緣運算（Edge AI），引發 PC 產業架構的重新定價。",
+    "ARM 架構在 Windows PC 市場的滲透率將顯著提升，威脅傳統 x86 架構地位。",
+    "PC 換機潮預期將受「代理式 AI」推動而比市場預期更猛烈。"
+  ],
+  "targets": [
+    {
+      "code": "NVDA",
+      "name": "輝達",
+      "view": "Bullish",
+      "rationale": "RTX Spark 開啟代理式 AI 新賽道，將 CUDA 生態系成功遷移至 PC 端，掌握硬體定價權。"
+    },
+    {
+      "code": "ARM",
+      "name": "ARM",
+      "view": "Bullish",
+      "rationale": "作為 RTX Spark 的架構基礎，ARM 正式切入主流 Windows 高階市場，增長空間巨大。"
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "view": "Bullish",
+      "rationale": "獨家代工 N1X 晶片（3奈米），是 AI 硬體升級潮下的最大受惠者。"
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "view": "Bullish",
+      "rationale": "成功與輝達結盟切入高階 AI PC 市場，展現技術實力並提升毛利空間。"
+    }
+  ],
+  "risk_factors": [
+    "Intel 與 AMD 後續的反擊產品效能競爭。",
+    "代理式 AI 的軟體生態系成熟度是否足以吸引一般使用者更換硬體。",
+    "秋季新機上市後的實際功耗表現與市場接受度。"
+  ],
+  "quotes": "PC 架構已經 40 年沒變了，現在必須為了『代理式 AI』重新設計。這次要把這股算力塞進每個人的背包裡。"
+}
