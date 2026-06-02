@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T22:04:32.790453",
+  "last_updated": "2026-06-02T10:02:09.378209",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1701,6 +1701,42 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-06-01T22:02:24.936655"
+    },
+    "cTIe46bY3yY": {
+      "id": "cTIe46bY3yY",
+      "title": "2026/06/02(二) 一天漲6％，輝達還能繼續漲嗎？#NVDA",
+      "url": "https://www.youtube.com/watch?v=cTIe46bY3yY",
+      "date": "20260602",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-06-02T10:01:14.260217"
+    },
+    "0CWjHBcgQsA": {
+      "id": "0CWjHBcgQsA",
+      "title": "【理財達人秀】敢重押的理由？ 6月翻身股獨家教學 找碗型底、W底！｜李兆華、楊雲翔 2026.06.01 part3",
+      "url": "https://www.youtube.com/watch?v=0CWjHBcgQsA",
+      "date": "20260601",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-02T10:01:48.520020"
+    },
+    "Qh8ckTJXsX8": {
+      "id": "Qh8ckTJXsX8",
+      "title": "【理財達人秀】背板股發爐 機器人補漲？認證超缺 記憶體鎖4檔！｜李兆華、林漢偉 2026.06.01 part2",
+      "url": "https://www.youtube.com/watch?v=Qh8ckTJXsX8",
+      "date": "20260601",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-02T10:01:49.484293"
+    },
+    "Q3DI6GPaGbA": {
+      "id": "Q3DI6GPaGbA",
+      "title": "【理財達人秀】4利多齊發 6月看5萬？老AI、PCB 跟法人上車？｜李兆華、李永年 2026.06.01 part1",
+      "url": "https://www.youtube.com/watch?v=Q3DI6GPaGbA",
+      "date": "20260601",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-02T10:01:50.423670"
     }
   }
 }
