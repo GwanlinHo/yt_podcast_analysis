@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T22:57:35.954110",
+  "last_updated": "2026-06-03T23:09:52.939873",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1825,7 +1825,7 @@
       "url": "https://www.youtube.com/watch?v=KbP_w4zFBGo",
       "date": "20260603",
       "channel": "股癌",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-06-03T20:00:05.242217"
     }
   }
