@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T23:09:52.939873",
+  "last_updated": "2026-06-03T23:18:12.070467",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1827,6 +1827,33 @@
       "channel": "股癌",
       "status": "analyzed",
       "created_at": "2026-06-03T20:00:05.242217"
+    },
+    "xr-Vyyb7Yck": {
+      "id": "xr-Vyyb7Yck",
+      "title": "談判就是人生：失敗、重建與剎價的藝術 ft. 談判大叔陳侯勳",
+      "url": "https://www.youtube.com/watch?v=xr-Vyyb7Yck",
+      "date": "20260603",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-06-03T23:17:00.291356"
+    },
+    "6M6riHy3vfk": {
+      "id": "6M6riHy3vfk",
+      "title": "【兆華艾綸說】台股高檔不算貴 買漲價概念就對？台積電最會漲的時間快到？最新電力.CoPoS寶藏股？CPO時代來了 電腦展新亮點？｜李兆華、艾綸、程正樺2026.06.03【網路獨播版】",
+      "url": "https://www.youtube.com/watch?v=6M6riHy3vfk",
+      "date": "20260603",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-03T23:17:50.850871"
+    },
+    "NUBlDxpRTKU": {
+      "id": "NUBlDxpRTKU",
+      "title": "【理財達人秀】高盛喊台股五萬一 資金換手中小復活？低位階翻身 重電真翻多？CPO復活 電力股發熱 記憶體休息籌碼好？｜李兆華、朱家泓、王建文、權證小哥2026.06.03【電視完整版】",
+      "url": "https://www.youtube.com/watch?v=NUBlDxpRTKU",
+      "date": "20260603",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-03T23:17:51.793176"
     }
   }
 }
