@@ -1,0 +1,49 @@
+{
+  "key_points": [
+    "黃仁勳在 COMPUTEX 2026 欽點 Marvell 為「下一家兆元級企業」，引發光通訊族群全球暴漲。",
+    "AI 算力瓶頸轉向「連接技術」（Connectivity），800G 與 1.6T 以上傳輸必須依賴光學互連與 CPO 技術。",
+    "「光進銅退」趨勢確立：200G per lane 是銅線物理極限，下一代 AI 架構將全面擁抱光學技術。",
+    "Marvell 受惠於與輝達的深度合作，特別是在 NVLink Fusion 架構與客製化 AI 晶片領域。"
+  ],
+  "macro_outlook": [
+    "AI 基礎設施投資從單純的 GPU 算力擴散至高速網絡互連（Interconnect）與矽光子領域。",
+    "全球科技股資金高度集中於「輝達朋友圈」，由硬體代工轉向更上游的關鍵零組件與連接技術。"
+  ],
+  "targets": [
+    {
+      "code": "MRVL",
+      "name": "Marvell",
+      "view": "Bullish",
+      "rationale": "黃仁勳公開背書，受惠於光收發器與 AI 網路架構的強勁需求。"
+    },
+    {
+      "code": "4979",
+      "name": "華星光",
+      "view": "Bullish",
+      "rationale": "Marvell 關鍵合作夥伴，受惠於資料中心高速收發模組晶片需求。"
+    },
+    {
+      "code": "3163",
+      "name": "波若威",
+      "view": "Bullish",
+      "rationale": "切入 CPO 封裝供應鏈，受惠於 800G/1.6T 產品升級趨勢。"
+    },
+    {
+      "code": "3081",
+      "name": "聯亞",
+      "view": "Bullish",
+      "rationale": "矽光子磊晶材料領導廠商，為高速傳輸晶片之上游核心。"
+    },
+    {
+      "code": "3363",
+      "name": "上詮",
+      "view": "Bullish",
+      "rationale": "佈局 CPO 光纖連接技術，與台積電等大廠合作緊密。"
+    }
+  ],
+  "risk_factors": [
+    "光通訊族群短線漲幅極大，追高需留意波動風險。",
+    "CPO 廣泛商用仍需 1-2 年時間，短期營收貢獻度可能趕不上股價預期。"
+  ],
+  "quotes": "Marvell 是下一家兆元級企業；200G 是銅線的極限，接下來我們需要光。"
+}
