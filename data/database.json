@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T12:04:22.842769",
+  "last_updated": "2026-06-03T20:01:48.530207",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1818,6 +1818,15 @@
       "channel": "兆華與股惑仔",
       "status": "pending",
       "created_at": "2026-06-03T12:02:14.609357"
+    },
+    "KbP_w4zFBGo": {
+      "id": "KbP_w4zFBGo",
+      "title": "EP667 | 🌍",
+      "url": "https://www.youtube.com/watch?v=KbP_w4zFBGo",
+      "date": "20260603",
+      "channel": "股癌",
+      "status": "pending",
+      "created_at": "2026-06-03T20:00:05.242217"
     }
   }
 }
