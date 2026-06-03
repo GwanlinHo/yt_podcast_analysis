@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03T02:02:28.149860",
+  "last_updated": "2026-06-03T12:02:29.026047",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1737,6 +1737,87 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-06-02T10:01:50.423670"
+    },
+    "MOp48zRX4wo": {
+      "id": "MOp48zRX4wo",
+      "title": "528.【達人聊產業】從 CPO 到機器人，直得的微型機械&馬達商機 ft.許心璞總經理特助",
+      "url": "https://www.youtube.com/watch?v=MOp48zRX4wo",
+      "date": "20260602",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-06-03T12:01:06.303409"
+    },
+    "cu_YXSwJUQY": {
+      "id": "cu_YXSwJUQY",
+      "title": "2026/06/03 (三) 輝達欽點Marvell暴漲，帶飛光通股 #nvda  #mrvl",
+      "url": "https://www.youtube.com/watch?v=cu_YXSwJUQY",
+      "date": "20260603",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-06-03T12:01:30.333046"
+    },
+    "brqVIL-SKXs": {
+      "id": "brqVIL-SKXs",
+      "title": "【兆華艾綸說】趁早必學的 人脈槓桿 FED風暴？ 搶晶片、玻璃基板｜李兆華、艾綸、紀緯明 2026.06.02 part2",
+      "url": "https://www.youtube.com/watch?v=brqVIL-SKXs",
+      "date": "20260603",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-03T12:02:07.759727"
+    },
+    "8mO6uTWhUnU": {
+      "id": "8mO6uTWhUnU",
+      "title": "【兆華艾綸說】仁勳背板股 低轉強 艾綸精算！ 廣達、緯創目標？｜李兆華、艾綸 2026.06.02 part1",
+      "url": "https://www.youtube.com/watch?v=8mO6uTWhUnU",
+      "date": "20260602",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-03T12:02:08.849648"
+    },
+    "S5tIUXU-2u4": {
+      "id": "S5tIUXU-2u4",
+      "title": "【理財達人秀】輝達秘密武器 軟體復活？ 傳產拚翻身 下一檔台化？｜李兆華、陳唯泰 2026.06.02 part3",
+      "url": "https://www.youtube.com/watch?v=S5tIUXU-2u4",
+      "date": "20260602",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-03T12:02:09.976329"
+    },
+    "02ulTT9bpLw": {
+      "id": "02ulTT9bpLw",
+      "title": "【理財達人秀】空單6、7萬 大戶轉買輝鏈 被動、機器人大洗刷 誰上？｜李兆華、高憲容 2026.06.02 part2",
+      "url": "https://www.youtube.com/watch?v=02ulTT9bpLw",
+      "date": "20260602",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-03T12:02:11.138645"
+    },
+    "wwNblzBV5W8": {
+      "id": "wwNblzBV5W8",
+      "title": "【理財達人秀】大股嗨小股摔 健康輪動？ AI飛 一招全攬國際大廠｜李兆華、蔡明翰 2026.06.02 part1",
+      "url": "https://www.youtube.com/watch?v=wwNblzBV5W8",
+      "date": "20260602",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-03T12:02:12.346185"
+    },
+    "vJxP6ENiC5Q": {
+      "id": "vJxP6ENiC5Q",
+      "title": "【兆華艾綸說】看懂仁勳密碼 廣達.緯創目標？卡位低轉強 搶晶片.玻璃基板？算力就是營收 再賺10倍？趁早必學的人脈槓桿！｜李兆華、艾綸、紀緯明2026.06.02【網路獨播版】",
+      "url": "https://www.youtube.com/watch?v=vJxP6ENiC5Q",
+      "date": "20260602",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-03T12:02:13.408109"
+    },
+    "Vl8dEH3VuWo": {
+      "id": "Vl8dEH3VuWo",
+      "title": "【理財達人秀】台股狂洗千點 大行情還有機會？鴻海.緯創.記憶體 大戶轉買輝鏈？被動.機器人洗完誰上？傳產翻身 下檔台化?｜李兆華、蔡明翰、高憲容、陳唯泰2026.06.02【電視完整版】",
+      "url": "https://www.youtube.com/watch?v=Vl8dEH3VuWo",
+      "date": "20260602",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-03T12:02:14.609357"
     }
   }
 }
