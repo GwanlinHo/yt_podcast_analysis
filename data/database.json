@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04T06:01:56.605158",
+  "last_updated": "2026-06-04T12:02:16.454645",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1854,6 +1854,60 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-06-03T23:17:51.793176"
+    },
+    "25viM0CYHVc": {
+      "id": "25viM0CYHVc",
+      "title": "2026/06/03 (三) SpaceX正式遞表，輝達、博通又要跌了？ #nvda #avgo #nvts",
+      "url": "https://www.youtube.com/watch?v=25viM0CYHVc",
+      "date": "20260604",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-06-04T12:01:17.844081"
+    },
+    "C6YU9ASBDmk": {
+      "id": "C6YU9ASBDmk",
+      "title": "【兆華艾綸說】艦長獨解電腦展 仁勳投顧帶貨 續漲下一步｜李兆華、艾綸、程正樺 2026.06.03 part2",
+      "url": "https://www.youtube.com/watch?v=C6YU9ASBDmk",
+      "date": "20260604",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-04T12:01:55.225201"
+    },
+    "yB1DQcMQJKM": {
+      "id": "yB1DQcMQJKM",
+      "title": "【兆華艾綸說】高盛5萬1底氣？ 電源、CoPoS 艾綸獨家寶藏｜李兆華、艾綸 2026.06.03 part1",
+      "url": "https://www.youtube.com/watch?v=yB1DQcMQJKM",
+      "date": "20260603",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-04T12:01:56.392372"
+    },
+    "ate6hCLLssQ": {
+      "id": "ate6hCLLssQ",
+      "title": "【理財達人秀】台達電回神 電力股發熱？ 記憶體休息 製造籌碼好？｜李兆華、權證小哥 2026.06.03 part3",
+      "url": "https://www.youtube.com/watch?v=ate6hCLLssQ",
+      "date": "20260603",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-04T12:01:57.534891"
+    },
+    "UDIYmSUChWM": {
+      "id": "UDIYmSUChWM",
+      "title": "【理財達人秀】邁威爾飆32% CPO復活？ 量子電腦 看高買低價？｜李兆華、王建文 2026.06.03 part2",
+      "url": "https://www.youtube.com/watch?v=UDIYmSUChWM",
+      "date": "20260603",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-04T12:01:58.717203"
+    },
+    "z512HB16t6U": {
+      "id": "z512HB16t6U",
+      "title": "【理財達人秀】低位階全翻身 突破絕招！ 百元好飆股 重電真翻多｜李兆華、朱家泓 2026.06.03 part1",
+      "url": "https://www.youtube.com/watch?v=z512HB16t6U",
+      "date": "20260603",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-04T12:01:59.739897"
     }
   }
 }
