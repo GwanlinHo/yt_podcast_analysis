@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T14:01:27.170809",
+  "last_updated": "2026-06-05T20:01:52.492245",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1953,6 +1953,15 @@
       "channel": "兆華與股惑仔",
       "status": "pending",
       "created_at": "2026-06-05T08:01:41.865091"
+    },
+    "ekyPyFxLi_o": {
+      "id": "ekyPyFxLi_o",
+      "title": "529.【財經時事放大鏡】Computex 2026 門道與熱鬧",
+      "url": "https://www.youtube.com/watch?v=ekyPyFxLi_o",
+      "date": "20260605",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-06-05T20:00:18.490537"
     }
   }
 }
