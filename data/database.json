@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-08T04:01:23.840167",
+  "last_updated": "2026-06-09T00:01:44.337762",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2007,6 +2007,51 @@
       "channel": "兆華與股惑仔",
       "status": "analyzed",
       "created_at": "2026-06-06T20:01:36.434708"
+    },
+    "31Hzasmr8i0": {
+      "id": "31Hzasmr8i0",
+      "title": "530.【台股美股提款機】HDD 產業：代理式 AI 加速資料產生，26H2~27H1受惠量價齊漲",
+      "url": "https://www.youtube.com/watch?v=31Hzasmr8i0",
+      "date": "20260607",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-06-09T00:00:17.544857"
+    },
+    "u4Rg_HchMt4": {
+      "id": "u4Rg_HchMt4",
+      "title": "2026/06/08 (一) 費半崩10%，台指夜盤3000點，泡沫又要破了？",
+      "url": "https://www.youtube.com/watch?v=u4Rg_HchMt4",
+      "date": "20260608",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-06-09T00:00:43.460586"
+    },
+    "Z_5j7gsYlNc": {
+      "id": "Z_5j7gsYlNc",
+      "title": "EP309. 谷歌租 xAI 算力、微軟低調的新模型、股市修正終於來了嗎 | M觀點",
+      "url": "https://www.youtube.com/watch?v=Z_5j7gsYlNc",
+      "date": "20260608",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-06-09T00:01:09.750119"
+    },
+    "ojEsB07PR5g": {
+      "id": "ojEsB07PR5g",
+      "title": "台股大跌首日實戰教學：0050期貨跌停價，￼誰能撿到？高手實戰：下次週末遇大事，這樣判斷不害怕！《兆華與股惑仔》20260608 精華版",
+      "url": "https://www.youtube.com/watch?v=ojEsB07PR5g",
+      "date": "20260608",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-09T00:01:22.071821"
+    },
+    "DV0AMcvNyIY": {
+      "id": "DV0AMcvNyIY",
+      "title": "【理財達人秀】台股千點下影線 融資不死還有得撿？升息在路上 台積供應鏈、被動上檔無壓？輝達背板股、記憶體 老將新秀甜蜜點？｜李兆華、李永年、楊雲翔、林漢偉2026.06.08【電視完整版】",
+      "url": "https://www.youtube.com/watch?v=DV0AMcvNyIY",
+      "date": "20260608",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-09T00:01:23.254742"
     }
   }
 }
