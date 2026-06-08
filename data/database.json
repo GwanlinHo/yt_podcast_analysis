@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T02:08:25.906859",
+  "last_updated": "2026-06-09T04:03:52.627322",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2032,7 +2032,7 @@
       "url": "https://www.youtube.com/watch?v=Z_5j7gsYlNc",
       "date": "20260608",
       "channel": "M觀點",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-06-09T00:01:09.750119"
     },
     "ojEsB07PR5g": {
