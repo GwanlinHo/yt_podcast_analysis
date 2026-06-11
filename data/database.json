@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T04:05:39.919249",
+  "last_updated": "2026-06-12T00:01:47.162897",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2187,6 +2187,78 @@
       "channel": "兆華與股惑仔",
       "status": "pending",
       "created_at": "2026-06-11T00:01:25.036777"
+    },
+    "xINynEhvkI0": {
+      "id": "xINynEhvkI0",
+      "title": "2026/06/11 (四) 通膨沒事，黃金暴跌，空頭來了？",
+      "url": "https://www.youtube.com/watch?v=xINynEhvkI0",
+      "date": "20260611",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-06-12T00:00:46.824985"
+    },
+    "2F98tMvzm14": {
+      "id": "2F98tMvzm14",
+      "title": "EP310. 蘋果 WWDC 重點、Anthropic 最強模型、SpaceX AI 衛星 | M觀點",
+      "url": "https://www.youtube.com/watch?v=2F98tMvzm14",
+      "date": "20260611",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-06-12T00:01:13.239968"
+    },
+    "ezYHprRn6hM": {
+      "id": "ezYHprRn6hM",
+      "title": "【理財達人秀】ETF掃國巨.發哥 被動.IC設計跟？CPO被錯殺低接 營建賺波段？記憶體轉強抱誰?營收佳+投信買可跟單？｜李兆華、容逸燊、黃豐凱、高憲容2026.06.11【電視完整版】",
+      "url": "https://www.youtube.com/watch?v=ezYHprRn6hM",
+      "date": "20260611",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-12T00:01:25.830028"
+    },
+    "N0fjVyE6Tw4": {
+      "id": "N0fjVyE6Tw4",
+      "title": "【兆華艾綸說】賺AI超級循環 怕FED攪局 新手必看指標｜李兆華、艾綸、陳佳茹 2026.06.10 part2",
+      "url": "https://www.youtube.com/watch?v=N0fjVyE6Tw4",
+      "date": "20260611",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-12T00:01:26.887483"
+    },
+    "ZkYSO-wgT88": {
+      "id": "ZkYSO-wgT88",
+      "title": "【兆華艾綸說】台股過三關 AI火種看被動｜李兆華、艾綸 2026.06.10 part1",
+      "url": "https://www.youtube.com/watch?v=ZkYSO-wgT88",
+      "date": "20260610",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-12T00:01:27.947947"
+    },
+    "QrGwNxzxeMA": {
+      "id": "QrGwNxzxeMA",
+      "title": "【理財達人秀】台積營收創高 將還公道？ 石英、記憶體 下跌找買點？｜李兆華、林信富 2026.06.10 part3",
+      "url": "https://www.youtube.com/watch?v=QrGwNxzxeMA",
+      "date": "20260610",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-12T00:01:29.291878"
+    },
+    "72DW4U8SvVU": {
+      "id": "72DW4U8SvVU",
+      "title": "【理財達人秀】利空先反映？ SpaceX帶飛低軌 大立光亮燈 光學、CPO兩樣情｜李兆華、王建文 2026.06.10 part2",
+      "url": "https://www.youtube.com/watch?v=72DW4U8SvVU",
+      "date": "20260610",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-12T00:01:30.245463"
+    },
+    "F3VczieIq68": {
+      "id": "F3VczieIq68",
+      "title": "【理財達人秀】昨漲幅吐光 破月線怎辦？ 震後策略 換營建轉強噴！｜李兆華、朱家泓 2026.06.10 part1",
+      "url": "https://www.youtube.com/watch?v=F3VczieIq68",
+      "date": "20260610",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-12T00:01:31.119735"
     }
   }
 }
