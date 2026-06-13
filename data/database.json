@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T04:04:00.087892",
+  "last_updated": "2026-06-14T00:01:38.362324",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2304,6 +2304,42 @@
       "channel": "兆華與股惑仔",
       "status": "pending",
       "created_at": "2026-06-13T00:01:23.544445"
+    },
+    "szA2MSO_qTo": {
+      "id": "szA2MSO_qTo",
+      "title": "EP670 | 🫡",
+      "url": "https://www.youtube.com/watch?v=szA2MSO_qTo",
+      "date": "20260613",
+      "channel": "股癌",
+      "status": "pending",
+      "created_at": "2026-06-14T00:00:04.261327"
+    },
+    "k31Quo5LRMQ": {
+      "id": "k31Quo5LRMQ",
+      "title": "【理財達人秀】AI創造「營」家 不怕巨震？被動、設備、PCB 3招打天下｜李兆華、翁士峻 2026.06.12 part3",
+      "url": "https://www.youtube.com/watch?v=k31Quo5LRMQ",
+      "date": "20260612",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-14T00:01:18.148580"
+    },
+    "YbZjVNCRGl4": {
+      "id": "YbZjVNCRGl4",
+      "title": "【理財達人秀】等外資回頭 台股再創新高？盯大戶持股 下半年買雙P？｜李兆華、雷老闆 2026.06.12 part2",
+      "url": "https://www.youtube.com/watch?v=YbZjVNCRGl4",
+      "date": "20260612",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-14T00:01:19.061394"
+    },
+    "O4m37mUfP-k": {
+      "id": "O4m37mUfP-k",
+      "title": "【理財達人秀】4萬3以下 越跌就越買！記憶抱製造 高息成長抗震｜李兆華、鍾國忠 2026.06.12 part1",
+      "url": "https://www.youtube.com/watch?v=O4m37mUfP-k",
+      "date": "20260612",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-14T00:01:20.236470"
     }
   }
 }
