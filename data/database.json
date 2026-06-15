@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T04:04:41.364002",
+  "last_updated": "2026-06-16T00:01:45.503836",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2349,6 +2349,42 @@
       "channel": "財女珍妮",
       "status": "pending",
       "created_at": "2026-06-15T00:00:30.497229"
+    },
+    "BKj0bfYtPXY": {
+      "id": "BKj0bfYtPXY",
+      "title": "532.【達人聊產業】台灣綠電產業的現況、困境與展望 ft. 永鑫能源資深董事胡根地、星耀投控總經理張淑雯",
+      "url": "https://www.youtube.com/watch?v=BKj0bfYtPXY",
+      "date": "20260614",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-06-16T00:00:19.885322"
+    },
+    "Tq3w-N7-FWg": {
+      "id": "Tq3w-N7-FWg",
+      "title": "2026/06/15 (一) 美伊停戰，SpaceX 可以買嗎？#SPCX",
+      "url": "https://www.youtube.com/watch?v=Tq3w-N7-FWg",
+      "date": "20260615",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-06-16T00:00:45.504813"
+    },
+    "rHgDzZ8M5So": {
+      "id": "rHgDzZ8M5So",
+      "title": "EP311. Anthropic 作繭自縛、SPCX 風光上市、AI 時代電商怎麼做 | M觀點",
+      "url": "https://www.youtube.com/watch?v=rHgDzZ8M5So",
+      "date": "20260615",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-06-16T00:01:10.624632"
+    },
+    "UtbbWH8Fpes": {
+      "id": "UtbbWH8Fpes",
+      "title": "【理財達人秀】終戰有譜 端午變盤向上？華許風暴不怕 被動.記憶體.矽晶圓買誰？CPO.光學跟SpaceX升空？台積廠務籌碼穩？｜李兆華、李永年、林漢偉、王建文2026.06.15【電視完整版】",
+      "url": "https://www.youtube.com/watch?v=UtbbWH8Fpes",
+      "date": "20260615",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-16T00:01:23.217840"
     }
   }
 }
