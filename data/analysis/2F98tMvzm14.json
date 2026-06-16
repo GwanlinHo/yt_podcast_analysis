@@ -1,0 +1,58 @@
+{
+  "key_points": [
+    "蘋果 WWDC 2026 最大亮點是放棄自研雲端大模型，轉而與 Google Gemini 深度合作，新版 Siri AI 以 Gemini Frontier 等級模型為後端，運算則在 Google 雲（Nvidia GPU）上執行",
+    "iOS 27 將推出獨立 Siri AI 應用程式，能跨 App 執行多步驟任務（讀取照片、信件、行事曆等），並引入「Extensions」機制讓用戶可選擇 Gemini、ChatGPT 或 Claude 作為預設助理",
+    "Tim Cook 任內最後一場 WWDC，庫克宣告 AI 全面轉型，蘋果從「自己做」轉向「最佳整合者」定位",
+    "Anthropic 同步發布 Claude Fable 5（史上最強公開模型）與機構限定的 Claude Mythos 5，Fable 5 本質是套安全分類器的 Mythos 5，在三個敏感領域（網路安全、生化、模型蒸餾）觸發時自動切回 Opus 4.8 回應",
+    "SpaceX 於 2026/06/12 在那斯達克 IPO，估值逼近 1.8 兆美元，成為史上最大 IPO，Starlink 2025 年營收 114 億美元、淨利 44 億，是唯一穩定獲利的業務，而 AI 部門資本支出高達 126 億美元",
+    "SpaceX 計畫 2028 年開始部署「軌道數據中心」（Orbital AI Computing），利用太空低溫散熱與太陽能解決地球 AI 發展的能源瓶頸，2027 年底先行發射首批示範設施",
+    "台灣供應鏈受惠：CompeQ（HDI 板）、WNC（天線/RF 整合）、UMT（微波元件）、台灣太陽能電池廠商等，全球衛星產業產值預估 2027 年達 4,470 億美元"
+  ],
+  "macro_outlook": [
+    "AI 大模型競爭白熱化，Anthropic Fable 5 / Mythos 5 問世，代表「AGI 前哨」級別的能力已進入商用，語言模型疊代速度持續壓縮各家護城河",
+    "蘋果選擇與 Google 合作而非自研，標誌著科技巨頭在 AI 基礎設施上的「能力天花板分歧」開始浮現，整合平台價值重新被定義",
+    "SpaceX IPO 將太空算力敘事推向主流資本市場，「算力上太空」概念催生新一波低軌衛星供應鏈投資浪潮",
+    "能源與算力雙重瓶頸是 2026-2028 年 AI 擴張的核心限制，SpaceX 軌道數據中心提供全新解題路徑，但執行風險極高",
+    "美中科技脫鉤持續深化：蘋果新版 Siri AI 初期不支援中國市場，SpaceX 估值分析中亦強調台灣非中供應鏈的戰略定位"
+  ],
+  "targets": [
+    {
+      "code": "AAPL",
+      "name": "蘋果",
+      "view": "中性",
+      "rationale": "WWDC 放棄自研大模型、轉向 Google Gemini 合作，短期消除 AI 落後疑慮，但長期依賴第三方模型壓縮差異化空間；iOS 27 Extensions 機制讓 Siri 生態更開放，裝置換機循環能否啟動仍待觀察"
+    },
+    {
+      "code": "GOOG",
+      "name": "Alphabet / Google",
+      "view": "看多",
+      "rationale": "與蘋果深度合作使 Gemini 成為 10 億+ iPhone 用戶的 AI 後端，強化 Google 雲端算力需求與 AI 模型護城河，直接受惠 WWDC 新架構"
+    },
+    {
+      "code": "SPCX",
+      "name": "SpaceX",
+      "view": "看多",
+      "rationale": "IPO 估值 1.8 兆美元，Starlink 穩定獲利支撐 AI 軌道數據中心的長期豪賭；「太空算力」敘事具高度想像空間，惟 2027-2028 軌道部署能否如期執行為最大執行風險"
+    },
+    {
+      "code": "3037",
+      "name": "欣興電子（CompeQ）",
+      "view": "看多",
+      "rationale": "SpaceX Starlink 衛星擴產直接帶動 HDI 高頻板需求，同步切入軌道 AI 算力用高頻板，台廠中受益程度最直接"
+    },
+    {
+      "code": "ANT",
+      "name": "Anthropic（未上市）",
+      "view": "中性",
+      "rationale": "Fable 5 / Mythos 5 代表技術領先，但定價（輸入 10 美元/百萬 tokens、輸出 50 美元/百萬 tokens）遠高於市場均價，商業化落地速度為觀察重點"
+    }
+  ],
+  "risk_factors": [
+    "蘋果 Siri AI 中國市場暫不開放，短期影響大中華區 iPhone 換機率，若中國監管延遲開放恐拖累 2026 下半年業績",
+    "SpaceX 軌道數據中心計畫雄心過大，太空環境輻射、散熱、維修成本等工程挑戰尚無實際驗證，2027 示範時程存在高度不確定性",
+    "AI 競爭格局加速洗牌：Fable 5 / Mythos 5 問世後，OpenAI、Google 必將跟進，各家定價壓力上升，短期估值泡沫風險提高",
+    "SpaceX IPO 散戶瘋狂追捧，首日漲 19%，估值已充分反映樂觀情境；若軌道 AI 計畫時程延後，回調壓力大",
+    "蘋果「最佳整合者」轉型若無法留住高端用戶，長期可能讓渡 AI 生態主導權給 Google 與 Anthropic"
+  ],
+  "quotes": "蘋果放棄自研大模型，不是認輸，是認清護城河的本質——用戶不在乎跑哪個模型，只在乎 iPhone 夠不夠聰明。而 SpaceX 把算力搬上太空，則是把「能源天花板」這道牆直接繞過去。"
+}
