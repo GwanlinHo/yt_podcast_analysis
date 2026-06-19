@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T04:04:56.961635",
+  "last_updated": "2026-06-20T00:01:46.507120",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2592,6 +2592,42 @@
       "channel": "兆華與股惑仔",
       "status": "pending",
       "created_at": "2026-06-19T00:01:52.791301"
+    },
+    "d9OHvsxXH-8": {
+      "id": "d9OHvsxXH-8",
+      "title": "533.【財經時事放大鏡】從美伊到 GaN 專利戰：能源價格與功率半導體的供應鏈洗牌",
+      "url": "https://www.youtube.com/watch?v=d9OHvsxXH-8",
+      "date": "20260619",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-06-20T00:00:18.720173"
+    },
+    "hU8UDfk9mS4": {
+      "id": "hU8UDfk9mS4",
+      "title": "【理財達人秀】台積牽手美廠 封測起風？ FED放鷹 金融跟大戶連買｜李兆華、陳唯泰 2026.06.18 part3",
+      "url": "https://www.youtube.com/watch?v=hU8UDfk9mS4",
+      "date": "20260618",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-20T00:01:24.001184"
+    },
+    "VcXGK-_--LQ": {
+      "id": "VcXGK-_--LQ",
+      "title": "【理財達人秀】漲價連發 主力買被動小兵？ 南亞漲停 PCB回神布局誰？｜李兆華、權證小哥 2026.06.18 part2",
+      "url": "https://www.youtube.com/watch?v=VcXGK-_--LQ",
+      "date": "20260618",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-20T00:01:25.055650"
+    },
+    "dUym632sofU": {
+      "id": "dUym632sofU",
+      "title": "【理財達人秀】華許拆彈 噴到7月中？ 功率元件、矽晶圓 剛漲？｜李兆華、黃豐凱 2026.06.18 part1",
+      "url": "https://www.youtube.com/watch?v=dUym632sofU",
+      "date": "20260618",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-20T00:01:26.191532"
     }
   }
 }
