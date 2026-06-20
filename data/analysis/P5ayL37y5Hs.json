@@ -1,0 +1,56 @@
+{
+  "key_points": [
+    "SpaceX 以 600 億美元全換股併購 Cursor(AI coding,公司名 Anysphere):Cursor ARR 從 2025 年初 1 億美元 → 年底 100 億(成長 10 倍)、現約 400 億;曾是 Anthropic 最佳夥伴,但 Anthropic 推出 Claude Code『背刺』搶走其流量",
+    "SpaceX/XAI 與 Cursor 是天作之合:XAI 原創始團隊(11-12 人)今年初離職、馬斯克從零 rebuild;SpaceX 有算力(可出租給 Anthropic/Google)、有錢(2.4 兆市值)、有 Grok 模型;先挖 Cursor 兩位產品/工程主管,再深度合作共同訓練模型,設 600 億買權(不買需付 100 億分手費)",
+    "Cursor 團隊實力被低估:不只是 AI wrapper,也做 Harness 與模型訓練;其 Composer 2.5(基於中國 Kimi K2.5、85% 重新訓練)以 1/10 成本達到 GPT 5.5/Claude 4.8 coding 能力的 98-99%;Cursor + XAI 正合訓新模型(1.5 兆參數 vs Grok 4.3 的 5000 億),數天內推出,可能達 GPT 5.5/Opus 4.8 等級,讓 SpaceX 的 AI 估值更站得住腳",
+    "Claude Fable 5 仍被美國政府禁止出口:Anthropic 赴華府遊說未果,連支持派(財政部 Bessent)信任都崩盤;華郵報導白名單含與中國關係良好的韓國電信(模型外流疑慮);大西洋報導其安全護欄(拒絕找軟體漏洞)可用『如何改善安全』輕易繞過、照樣找出漏洞",
+    "Anthropic 偷改使用者 prompt 的供應鏈風險:偵測到蒸餾意圖就在使用者不知情下暗中降級回答;Miula 指這是嚴重供應鏈風險(若國防系統靠 Anthropic API,Anthropic 可依自身價值觀暗中降級輸出);認同 Dario Amodei 應從 CEO 退居首席科學家",
+    "Token Maxing 退潮 → Budget Optimization:黃仁勳力推的『把工程師可燒的 AI token 最大化』在 2-5 月後退燒(燒大錢卻沒多賺,如 Uber 4 月就燒完全年預算卻無明確營收);Citadel『Token 經濟學』報告指 AI 使用兩極化,未來是多模型協作的預算最佳化(MiniMax:最少錢、最多成果)"
+  ],
+  "macro_outlook": [
+    "AI 模型市場兩極化:少數困難任務用昂貴前沿模型,80-90% 簡單任務用便宜/中階/開源模型(含中國模型);多模型協作(困難給強模型、簡單給便宜模型)成主流",
+    "平台趨勢全面轉向省錢:微軟 Copilot 改用量計費並將導入便宜模型(自家 NAI 約 Claude Sonnet 4.6 等級但成本數分之一、可能 DeepSeek);Azure AI Foundry 推 Model Router 自動選模型;OpenRouter Fusion 用三個便宜模型(Gemini Flash、Kimi K2.6、DeepSeek V4 Pro)組合打敗 GPT 5.5/Fable 5、成本僅 1/10",
+    "AI 提升生產力 → 近期較易兌現的是裁員(省錢確定),創造新營收困難;但原本沒能力做 AI 的公司新增需求,美國軟體工程師職缺反而上升",
+    "Token Maxing 退潮屬短期利空,對 AI infra 長線無影響:僅約 1% 公司做 Token Maxing,其餘 99% 用量仍成長;受傷最大是前沿模型公司,受惠是中階/便宜模型公司"
+  ],
+  "targets": [
+    {
+      "code": "N/A",
+      "name": "SpaceX / XAI(未上市)",
+      "view": "多",
+      "rationale": "併購 Cursor 補強模型研發能力,1.5 兆參數新模型將推出,讓 AI 這塊估值更合理;有算力、有錢、有模型"
+    },
+    {
+      "code": "N/A",
+      "name": "Cursor / Anysphere(未上市)",
+      "view": "多",
+      "rationale": "實力被低估,非單純 AI wrapper,具 Harness + 模型訓練能力(Composer 2.5 以 1/10 成本達前沿 99% coding 力)"
+    },
+    {
+      "code": "N/A",
+      "name": "Anthropic(未上市)",
+      "view": "空",
+      "rationale": "Fable 5 被禁出口、白名單疏漏、偷改 prompt 的供應鏈風險、華府信任崩盤;Miula 認為 Dario 應退 CEO,商業化面臨最大不確定性"
+    },
+    {
+      "code": "MSFT",
+      "name": "微軟 Microsoft",
+      "view": "中性",
+      "rationale": "Copilot 轉用量計費並導入便宜模型(自家 NAI/DeepSeek),為 Budget Optimization 趨勢下的平台;Model Router 自動選模"
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA 輝達",
+      "view": "中性",
+      "rationale": "黃仁勳力推的 Token Maxing 退潮為短期利空,但 Miula 認為對 AI infra 長線需求無影響(僅 1% 公司做、其餘 99% 用量仍增)"
+    }
+  ],
+  "risk_factors": [
+    "Token Maxing 退潮若被市場炒作,可能對 AI 股造成短期壓力(目前尚未發酵)",
+    "前沿模型公司(OpenAI、Anthropic)是退潮最大受害者,但未上市、對散戶無直接持股衝擊",
+    "AI 兌現營收困難,企業增產力後傾向裁員,屬利益波動而非單純成長",
+    "Anthropic 的監管與信任危機(Fable 5 禁令、偷改 prompt 供應鏈風險)是其商業化最大不確定性",
+    "XAI + Cursor 的新模型仍略落後 OpenAI/Anthropic 最強模型(Fable 5、未發表的 GPT 新版)"
+  ],
+  "quotes": "未來不是 Token Maxing,而是 Budget Optimization——用最少的錢達到最多的成果;困難任務給厲害的模型,簡單任務給便宜的模型,甚至用幾個便宜模型協作就能打敗前沿模型。"
+}
