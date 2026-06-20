@@ -82,18 +82,25 @@ class Storage:
         return sorted(pending, key=lambda x: x.date)
 
     def get_pending_in_window(self, days: int = 7, limit: Optional[int] = 8) -> List[Video]:
-        """報告視窗(近 days 天)內、狀態為 pending 的影片，依日期新到舊排序，最多回傳 limit 部。
+        """報告視窗(近 days 天)內、狀態為 pending 的影片，依日期『最舊優先』排序，最多回傳 limit 部。
 
-        週報只顯示最近 days 天的影片，因此分析器必須優先處理「視窗內、最新」的待分析影片，
-        報告才會有內容。視窗外的舊積壓不在此回傳(刻意放棄，留待有餘裕再說)，避免分析器卡在
-        永遠不會被報告顯示的舊影片上。limit 為單次 cron 批次上限，控制 token 成本;傳 None 不設限。
+        週報只顯示最近 days 天的影片，因此分析器只處理視窗內的待分析影片;視窗外的舊積壓不在此
+        回傳(刻意放棄，避免卡在永遠不會被報告顯示的舊影片上)。
+
+        排序採『視窗內最舊優先』有兩個理由:
+          1. 內容可得性:較舊的影片，網路逐字稿/摘要較可能已被索引(WebSearch 備援才有料);
+             最新一兩天的影片常常還沒有任何可查素材。
+          2. 過期搶救:視窗內最舊的影片即將滑出 7 天視窗，必須先分析才不會永遠錯過、無法進入週報。
+             最新的影片留待後續 cron 處理，那時它們仍在視窗內。
+
+        limit 為單次 cron 批次上限，控制 token 成本;傳 None 不設限。
         """
         today = datetime.now()
         start = (today - timedelta(days=days)).strftime('%Y%m%d')
         end = today.strftime('%Y%m%d')
         pending = [v for v in self.videos.values()
                    if v.status == "pending" and start <= v.date <= end]
-        pending.sort(key=lambda x: x.date, reverse=True)  # 新到舊
+        pending.sort(key=lambda x: x.date)  # 最舊優先(即將過期者先處理)
         return pending[:limit] if limit else pending
 
     def get_videos_by_date_range(self, start_date: str, end_date: str) -> List[Video]:
