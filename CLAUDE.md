@@ -26,16 +26,16 @@
 **時機**: 使用者要求「開始分析」、「分析下一集」或系統閒置時(cron 每次執行)。
 
 **重要原則 — 批次處理且只處理「報告視窗內」影片**:
-週報只顯示最近 7 天的影片,因此分析器必須**優先且只處理視窗內、最新的待分析影片**,報告才會有內容。視窗外的舊積壓刻意放棄(`get_pending_in_window` 不會回傳),不要去分析它們。單次 cron 以 `limit`(預設 8 部)為上限,逐部分析完後**一次性**重新生成報告。
+週報只顯示最近 7 天的影片,因此分析器只處理視窗內、且**最舊優先**(即將滑出視窗者先搶救)的待分析影片,報告才會有內容。視窗外的舊積壓刻意放棄(`get_pending_in_window` 不會回傳),不要去分析它們。單次 cron 以 `limit`(預設 8 部)為上限,逐部分析完後**一次性**重新生成報告。
 
 **動作**:
-1.  **獲取本批任務清單**: 執行以下 Python 指令,取得視窗內、新到舊、最多 8 部待處理影片：
+1.  **獲取本批任務清單**: 執行以下 Python 指令,取得視窗內、最舊優先、最多 8 部待處理影片：
     ```python
     from storage import Storage
-    batch = Storage().get_pending_in_window()  # 近7天、新到舊、上限8
+    batch = Storage().get_pending_in_window()  # 近7天、最舊優先、上限8
     if batch:
         for v in batch:
-            print(f"TARGET:{v.id}\t{v.title}")
+            print(f"TARGET:{v.id}\t{v.title}\t{v.url}")
     else:
         print("NO_PENDING_IN_WINDOW")
     ```
@@ -43,8 +43,18 @@
     *   若輸出 `NO_PENDING_IN_WINDOW`: 回報「報告視窗內無待分析影片,目前資料庫已同步」,**跳到步驟 5 仍執行一次報表生成以確保同步**。
     *   若取得 `TARGET:` 清單: **逐一(for-loop)**對清單中每一部影片執行步驟 3-4(深度分析 + 存檔)。全部完成後再進入步驟 5。
 3.  **執行深度分析 (Core AI Task) — 對清單中每一部影片**:
-    *   **策略**: 使用 WebSearch 工具搜尋 `TARGET_VIDEO_ID` + "逐字稿" 或 "重點摘要"。
-    *   **深度彙整**: 除了基本重點，須額外挖掘以下維度：
+    *   **取得逐字稿的雙來源策略(務必先抓真實素材，嚴禁靠標題或主題新聞臆測創作者觀點)**:
+        1.  **首選 yt-dlp 字幕**: 直接抓該影片的 YouTube 中文自動字幕。實測可用指令(需 Node runtime + 官方遠端元件):
+            ```bash
+            export PATH=/home/pi/.config/nvm/versions/node/v22.17.0/bin:$PATH
+            uvx yt-dlp@latest --js-runtimes node --remote-components ejs:github \
+              --skip-download --write-auto-subs --sub-langs "zh" --sub-format "vtt" \
+              -o "/tmp/yt_subs/%(id)s.%(ext)s" "<影片URL>"
+            ```
+            抓到後清掉 vtt 時間軸與重複行,得到純文字逐字稿,據此忠實萃取。
+        2.  **備援 WebSearch**: 若該影片**無字幕**(常見於「兆華與股惑仔」理財達人秀電視片段、「股癌」)或抓取失敗,改用 WebSearch 搜尋該集的逐字稿/重點摘要。
+        3.  **兩者皆無真實素材時**: **跳過該片、不要存檔**(維持 pending,留待之後素材出現再由 cron 重試)。**絕不可用主題新聞或標題自行編造創作者的觀點、選股與金句。**
+    *   **深度彙整**: 根據逐字稿,除了基本重點，須額外挖掘以下維度：
         *   **總體環境 (Macro Outlook)**: 總經趨勢、市場情緒、大環境變動。
         *   **風險因素 (Risk Factors)**: 產業威脅、個股風險、觀察指標。
         *   **關鍵金句 (Quotes)**: 節錄最具代表性的核心結論。
@@ -85,3 +95,4 @@
 ## 疑難排解
 *   若 `database.json` 損毀，請檢查 JSON 格式是否正確。
 *   若爬蟲失敗，可能是 `yt-dlp` 需要更新 (`pip install -U yt-dlp`)。
+*   若抓字幕時報「no subtitles / n challenge solving failed」: 本機 yt-dlp 版本過舊或缺 JS runtime。請改用 `uvx yt-dlp@latest --js-runtimes node --remote-components ejs:github`(見上方雙來源策略)。並非每支影片都有字幕,無字幕者改走 WebSearch 備援。
