@@ -32,3 +32,5 @@ data/.report_hash
 .python-version
 .uv/
 uv.lock
+# ASR 暫存音檔(用完即刪)
+data/podcast_audio/

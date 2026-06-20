@@ -43,7 +43,8 @@
     *   若輸出 `NO_PENDING_IN_WINDOW`: 回報「報告視窗內無待分析影片,目前資料庫已同步」,**跳到步驟 5 仍執行一次報表生成以確保同步**。
     *   若取得 `TARGET:` 清單: **逐一(for-loop)**對清單中每一部影片執行步驟 3-4(深度分析 + 存檔)。全部完成後再進入步驟 5。
 3.  **執行深度分析 (Core AI Task) — 對清單中每一部影片**:
-    *   **取得逐字稿的雙來源策略(務必先抓真實素材，嚴禁靠標題或主題新聞臆測創作者觀點)**:
+    *   **來源 0(podcast 影片,最優先)**: 若 `Storage().get_transcript(video_id)` 有內容(即 `data/transcripts/<id>.txt` 存在),代表 ASR 前置步驟(`asr_prestep.py`)已先把該集 podcast 音檔轉成逐字稿。**直接讀這份逐字稿忠實萃取分析,不要再做 yt-dlp/WebSearch**。財報狗、M觀點、兆華與股惑仔 已改為 podcast RSS 來源,逐字稿一律由前置步驟提供(ASR 不在 claude 執行期間做,以免 OOM)。
+    *   **以下雙來源策略僅適用於 YouTube 來源影片(財女珍妮、股癌)(務必先抓真實素材，嚴禁靠標題或主題新聞臆測創作者觀點)**:
         1.  **首選 yt-dlp 字幕**: 直接抓該影片的 YouTube 中文自動字幕。實測可用指令(需 Node runtime + 官方遠端元件):
             ```bash
             export PATH=/home/pi/.config/nvm/versions/node/v22.17.0/bin:$PATH

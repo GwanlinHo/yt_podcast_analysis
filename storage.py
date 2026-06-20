@@ -9,6 +9,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 DB_FILE = os.path.join(DATA_DIR, "database.json")
 ANALYSIS_DIR = os.path.join(DATA_DIR, "analysis")
+TRANSCRIPT_DIR = os.path.join(DATA_DIR, "transcripts")  # ASR 前置步驟產出的逐字稿
 
 @dataclass
 class Video:
@@ -17,8 +18,10 @@ class Video:
     url: str
     date: str  # YYYYMMDD
     channel: str
-    status: str = "pending"  # pending, analyzed
+    status: str = "pending"  # pending, analyzed, skipped
     created_at: str = field(default_factory=lambda: datetime.now().isoformat())
+    source: str = "youtube"   # youtube | podcast
+    audio_url: str = ""       # podcast 音檔 enclosure(供 ASR 前置步驟下載)
 
 class Storage:
     def __init__(self):
@@ -29,6 +32,25 @@ class Storage:
     def _ensure_dirs(self):
         os.makedirs(DATA_DIR, exist_ok=True)
         os.makedirs(ANALYSIS_DIR, exist_ok=True)
+        os.makedirs(TRANSCRIPT_DIR, exist_ok=True)
+
+    def transcript_path(self, video_id: str) -> str:
+        return os.path.join(TRANSCRIPT_DIR, f"{video_id}.txt")
+
+    def has_transcript(self, video_id: str) -> bool:
+        p = self.transcript_path(video_id)
+        return os.path.exists(p) and os.path.getsize(p) > 0
+
+    def get_transcript(self, video_id: str):
+        """讀取 ASR 前置步驟產出的逐字稿(podcast 類影片用);無則回傳 None。"""
+        p = self.transcript_path(video_id)
+        if os.path.exists(p):
+            try:
+                with open(p, "r", encoding="utf-8") as f:
+                    return f.read()
+            except Exception:
+                return None
+        return None
 
     def load_database(self):
         if os.path.exists(DB_FILE):
