@@ -263,7 +263,12 @@ def generate_archives(db):
                 <tbody id="archiveBody">
     """
     for v in all_videos:
-        status_tag = '<span class="view-bear">待分析</span>' if v.status == 'pending' else '<span style="color: var(--bearish-color); font-weight:bold;">已完成</span>'
+        if v.status == 'pending':
+            status_tag = '<span class="view-bear">待分析</span>'
+        elif v.status == 'skipped':
+            status_tag = '<span style="color:#999;">無資料略過</span>'
+        else:
+            status_tag = '<span style="color: var(--bearish-color); font-weight:bold;">已完成</span>'
         html += f"""
             <tr>
                 <td>{v.date}</td>

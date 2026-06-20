@@ -126,6 +126,13 @@ def main():
     db.save_database()
     print(f"\n✨ 更新完成！新增 {new_videos_count} 部影片。")
 
+    # 清理逾期待分析:超過一週仍找不到資料(未分析成功)的影片，標記為 skipped 踢出待分析清單
+    evicted = db.evict_stale_pending()
+    if evicted:
+        print(f"🗑️ 踢出逾期未分析影片 {len(evicted)} 部(標記為 skipped):")
+        for v in evicted:
+            print(f"   [Skipped] {v.title} ({v.date}) - {v.channel}")
+
     # 若有新影片或內容更新，觸發報表生成
     if new_videos_count > 0:
         print("🚀 檢測到新影片，正在生成報表...")

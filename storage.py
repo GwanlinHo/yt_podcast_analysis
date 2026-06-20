@@ -103,6 +103,25 @@ class Storage:
         pending.sort(key=lambda x: x.date)  # 最舊優先(即將過期者先處理)
         return pending[:limit] if limit else pending
 
+    def evict_stale_pending(self, days: int = 7) -> List[Video]:
+        """將發布日已超過 days 天、卻仍為 pending(逾期未能分析成功)的影片標記為 'skipped'。
+
+        這些影片已滑出報告視窗(`get_pending_in_window` 不再回傳、也不會進週報),代表在一週的
+        重試期間始終找不到可分析的素材(無字幕且 WebSearch 也無逐字稿)。標記為 skipped 後即從
+        待分析清單移除、不再重試,但保留影片紀錄(全量知識庫顯示為「無資料略過」)。
+
+        門檻與視窗一致:date < (今天 - days) 才踢出,等於給每部影片整整一週的重試機會才放棄。
+        回傳被踢出的影片清單。
+        """
+        cutoff = (datetime.now() - timedelta(days=days)).strftime('%Y%m%d')
+        evicted = [v for v in self.videos.values()
+                   if v.status == "pending" and v.date < cutoff]
+        for v in evicted:
+            v.status = "skipped"
+        if evicted:
+            self.save_database()
+        return evicted
+
     def get_videos_by_date_range(self, start_date: str, end_date: str) -> List[Video]:
         """
         Returns list of videos within date range (inclusive).

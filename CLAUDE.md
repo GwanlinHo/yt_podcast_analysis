@@ -96,3 +96,4 @@
 *   若 `database.json` 損毀，請檢查 JSON 格式是否正確。
 *   若爬蟲失敗，可能是 `yt-dlp` 需要更新 (`pip install -U yt-dlp`)。
 *   若抓字幕時報「no subtitles / n challenge solving failed」: 本機 yt-dlp 版本過舊或缺 JS runtime。請改用 `uvx yt-dlp@latest --js-runtimes node --remote-components ejs:github`(見上方雙來源策略)。並非每支影片都有字幕,無字幕者改走 WebSearch 備援。
+*   影片狀態有三種: `pending`(待分析)、`analyzed`(已分析)、`skipped`(逾期無資料略過)。`daily_update.py` 每次執行會呼叫 `evict_stale_pending()`,把發布日超過一週、仍找不到任何可分析素材(雙來源皆失敗)的 pending 影片標記為 `skipped`,踢出待分析清單、不再重試;紀錄保留,全量知識庫顯示為「無資料略過」。
