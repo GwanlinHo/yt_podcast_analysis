@@ -17,7 +17,10 @@ from email.utils import parsedate_to_datetime
 from storage import Storage, Video, TRANSCRIPT_DIR
 
 WINDOW_DAYS = 7
-MAX_PER_RUN = 3
+# 排程警語:ASR 每集約 1.5-2 小時(Pi CPU)。現有 yt cron 每 2 小時一班,塞不下多集。
+# 本步驟應安排為「獨立、有充足時段」的班次(例如夜間單班),而非塞進 2 小時的 cron 縫隙。
+# 上限設 2,避免單次過久;每日新 podcast 集數約 1-2 集,分天消化即可。
+MAX_PER_RUN = 2
 FEEDS_FILE = "podcast_feeds.json"
 AUDIO_DIR = "data/podcast_audio"
 ASR_DIR = "/home/pi/WorkDir/asr_whisper"
