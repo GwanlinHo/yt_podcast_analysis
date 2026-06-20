@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T21:59:47.057233",
+  "last_updated": "2026-06-21T02:50:03.083980",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2374,7 +2374,7 @@
       "url": "https://www.youtube.com/watch?v=rHgDzZ8M5So",
       "date": "20260615",
       "channel": "M觀點",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-06-16T00:01:10.624632"
     },
     "UtbbWH8Fpes": {
@@ -2628,6 +2628,15 @@
       "channel": "兆華與股惑仔",
       "status": "pending",
       "created_at": "2026-06-20T00:01:26.191532"
+    },
+    "09it9s2AbTs": {
+      "id": "09it9s2AbTs",
+      "title": "EP672 | 🐣",
+      "url": "https://www.youtube.com/watch?v=09it9s2AbTs",
+      "date": "20260620",
+      "channel": "股癌",
+      "status": "pending",
+      "created_at": "2026-06-21T00:22:27.374051"
     }
   }
 }
