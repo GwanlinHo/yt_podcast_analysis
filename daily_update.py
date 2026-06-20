@@ -5,12 +5,11 @@ import subprocess
 from storage import Storage, Video
 
 # 目標頻道清單 (從 fetch_yt_list.py 遷移)
+# YouTube 來源頻道:只留有字幕(財女珍妮)或有粉絲逐字稿(股癌)的。
+# 財報狗、M觀點、兆華與股惑仔 改由 asr_prestep.py 走各自 podcast RSS + ASR(見 podcast_feeds.json)。
 CHANNELS = [
     {"name": "股癌", "url": "https://www.youtube.com/@Gooaye/videos"},
-    {"name": "財報狗", "url": "https://www.youtube.com/@statementdog_official/videos"},
     {"name": "財女珍妮", "url": "https://www.youtube.com/@jcinsight/videos"},
-    {"name": "M觀點", "url": "https://www.youtube.com/@miulaviewpoint/videos"},
-    {"name": "兆華與股惑仔", "url": "https://www.youtube.com/@EBCmoneyshow/videos"}
 ]
 
 def get_week_start_date() -> datetime.datetime:
