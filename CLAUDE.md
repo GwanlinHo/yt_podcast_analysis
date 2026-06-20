@@ -47,10 +47,11 @@
         1.  **首選 yt-dlp 字幕**: 直接抓該影片的 YouTube 中文自動字幕。實測可用指令(需 Node runtime + 官方遠端元件):
             ```bash
             export PATH=/home/pi/.config/nvm/versions/node/v22.17.0/bin:$PATH
-            uvx yt-dlp@latest --js-runtimes node --remote-components ejs:github \
+            uv run yt-dlp --js-runtimes node --remote-components ejs:github \
               --skip-download --write-auto-subs --sub-langs "zh" --sub-format "vtt" \
               -o "/tmp/yt_subs/%(id)s.%(ext)s" "<影片URL>"
             ```
+            (專案 venv 的 yt-dlp 已釘為新版,故用 `uv run yt-dlp`;若 venv 版本又過舊抓不到,退而改用 `uvx yt-dlp@latest` 相同參數。)
             抓到後清掉 vtt 時間軸與重複行,得到純文字逐字稿,據此忠實萃取。
         2.  **備援 WebSearch**: 若該影片**無字幕**(常見於「兆華與股惑仔」理財達人秀電視片段、「股癌」)或抓取失敗,改用 WebSearch 搜尋該集的逐字稿/重點摘要。
         3.  **兩者皆無真實素材時**: **跳過該片、不要存檔**(維持 pending,留待之後素材出現再由 cron 重試)。**絕不可用主題新聞或標題自行編造創作者的觀點、選股與金句。**
