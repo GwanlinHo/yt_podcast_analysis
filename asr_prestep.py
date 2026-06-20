@@ -11,7 +11,7 @@ claude -p @analyze_next 之前先把逐字稿準備好;claude 只負責讀逐字
 
 設計給 cron:每次最多轉 MAX_PER_RUN 集(避免單次過久);一天三班足以消化每日新集。
 """
-import json, os, subprocess, hashlib, datetime
+import json, os, re, subprocess, hashlib, datetime
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from storage import Storage, Video, TRANSCRIPT_DIR
@@ -31,6 +31,13 @@ ASR_SCRIPT = os.path.join(ASR_DIR, "transcribe.py")
 def ep_id(guid: str) -> str:
     """由 guid 產生穩定、檔名安全的 11 碼 id(模仿 YouTube id 長度)。"""
     return "pc_" + hashlib.md5(guid.encode("utf-8")).hexdigest()[:8]
+
+
+def ep_number(title: str):
+    """從標題擷取集數編號(財報狗『533.』、M觀點『EP312』、兆華『EP1122』);無則 None。
+    用於跨來源去重:同頻道若已有相同集數的影片(例如先前用 YouTube 做過的),就不重複收錄 podcast 版。"""
+    m = re.search(r"(\d{2,5})", title or "")
+    return m.group(1) if m else None
 
 
 def fetch(url: str) -> bytes:
@@ -65,8 +72,19 @@ def main():
     start = (today - datetime.timedelta(days=WINDOW_DAYS)).strftime("%Y%m%d")
     end = today.strftime("%Y%m%d")
 
+    # 跨來源去重用:每個頻道「已成功分析」影片的集數編號集合。
+    # 只對 analyzed 去重(若同集數的 YouTube 版只是 pending/skipped、未成功分析,
+    # podcast 版仍應收錄並分析,以正式補上該集)。
+    existing_eps = {}
+    for v in db.videos.values():
+        if v.status != "analyzed":
+            continue
+        n = ep_number(v.title)
+        if n:
+            existing_eps.setdefault(v.channel, set()).add(n)
+
     feeds = json.load(open(FEEDS_FILE, encoding="utf-8"))
-    added = 0
+    added, skipped_dup = 0, 0
     for channel, url in feeds.items():
         print(f"[feed] {channel} ...", flush=True)
         try:
@@ -77,12 +95,22 @@ def main():
         for vid, title, d, link, audio in eps:
             if not (start <= d <= end):
                 continue
+            if vid in db.videos:
+                continue  # 同一 podcast 集已收錄
+            n = ep_number(title)
+            if n and n in existing_eps.get(channel, set()):
+                skipped_dup += 1  # 同頻道同集數已用其他來源(如 YouTube)做過,跳過避免重複
+                continue
             v = Video(id=vid, title=title, url=link, date=d, channel=channel,
                       source="podcast", audio_url=audio)
             if db.upsert_video(v):
                 print(f"   [New] {d} {title[:36]}")
                 added += 1
+                if n:
+                    existing_eps.setdefault(channel, set()).add(n)
     db.save_database()
+    if skipped_dup:
+        print(f"[feed] 跳過 {skipped_dup} 集(同集數已由其他來源分析過,去重)")
     print(f"[feed] 視窗內新增 podcast 集數: {added}")
 
     # 轉錄:視窗內、pending、podcast、尚無逐字稿者(最舊優先,單次上限 MAX_PER_RUN)
