@@ -17,10 +17,12 @@ from email.utils import parsedate_to_datetime
 from storage import Storage, Video, TRANSCRIPT_DIR
 
 WINDOW_DAYS = 7
-# 排程警語:ASR 每集約 1.5-2 小時(Pi CPU)。現有 yt cron 每 2 小時一班,塞不下多集。
-# 本步驟應安排為「獨立、有充足時段」的班次(例如夜間單班),而非塞進 2 小時的 cron 縫隙。
-# 上限設 2,避免單次過久;每日新 podcast 集數約 1-2 集,分天消化即可。
-MAX_PER_RUN = 2
+# 排程:ASR 約 0.4x 即時(Pi CPU)。集數長短差很大(35-101 分鐘),故以「音檔總時長」
+# 為單次預算(而非固定集數),讓單次 wall-clock 可預期、不會因撞到長集而爆掉時段。
+# 預算 180 分鐘音檔 ≈ 7.5 小時轉錄;搭配 15:00 班次,約 22:30 完成,安全避開 23:00(選股)/00:00(yt) 的 claude cron。
+# 即使單集很長,至少仍會處理 1 集(避免長集永遠卡住)。
+MAX_AUDIO_MIN_PER_RUN = 180
+MAX_COUNT_PER_RUN = 6  # 安全上限(避免極短集數時一次抓太多)
 FEEDS_FILE = "podcast_feeds.json"
 AUDIO_DIR = "data/podcast_audio"
 ASR_DIR = "/home/pi/WorkDir/asr_whisper"
@@ -45,8 +47,26 @@ def fetch(url: str) -> bytes:
     return out.stdout
 
 
+def parse_duration(s) -> int:
+    """itunes:duration → 秒。支援『2108』『35:08』『01:35:08』。失敗回 0。"""
+    if not s:
+        return 0
+    s = s.strip()
+    try:
+        if ":" in s:
+            parts = [int(p) for p in s.split(":")]
+            sec = 0
+            for p in parts:
+                sec = sec * 60 + p
+            return sec
+        return int(float(s))
+    except Exception:
+        return 0
+
+
 def parse_episodes(xml_bytes: bytes, channel: str):
-    """回傳 [(id, title, date(YYYYMMDD), link, audio_url), ...]"""
+    """回傳 [(id, title, date(YYYYMMDD), link, audio_url, dur_sec), ...]"""
+    ns = {"itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd"}
     eps = []
     root = ET.fromstring(xml_bytes)
     for item in root.findall(".//item"):
@@ -56,13 +76,14 @@ def parse_episodes(xml_bytes: bytes, channel: str):
         pub = item.findtext("pubDate")
         enc = item.find("enclosure")
         audio = enc.get("url") if enc is not None else ""
+        dur = parse_duration(item.findtext("itunes:duration", default="", namespaces=ns))
         if not pub or not audio:
             continue
         try:
             d = parsedate_to_datetime(pub).strftime("%Y%m%d")
         except Exception:
             continue
-        eps.append((ep_id(guid), title, d, link or audio, audio))
+        eps.append((ep_id(guid), title, d, link or audio, audio, dur))
     return eps
 
 
@@ -84,6 +105,7 @@ def main():
             existing_eps.setdefault(v.channel, set()).add(n)
 
     feeds = json.load(open(FEEDS_FILE, encoding="utf-8"))
+    dur_map = {}  # id -> 音檔秒數(供轉錄預算用)
     added, skipped_dup = 0, 0
     for channel, url in feeds.items():
         print(f"[feed] {channel} ...", flush=True)
@@ -92,9 +114,10 @@ def main():
         except Exception as e:
             print(f"   [錯誤] 解析失敗: {e}")
             continue
-        for vid, title, d, link, audio in eps:
+        for vid, title, d, link, audio, dur in eps:
             if not (start <= d <= end):
                 continue
+            dur_map[vid] = dur
             if vid in db.videos:
                 continue  # 同一 podcast 集已收錄
             n = ep_number(title)
@@ -113,11 +136,24 @@ def main():
         print(f"[feed] 跳過 {skipped_dup} 集(同集數已由其他來源分析過,去重)")
     print(f"[feed] 視窗內新增 podcast 集數: {added}")
 
-    # 轉錄:視窗內、pending、podcast、尚無逐字稿者(最舊優先,單次上限 MAX_PER_RUN)
-    todo = [v for v in db.get_pending_in_window(days=WINDOW_DAYS, limit=None)
-            if v.source == "podcast" and not db.has_transcript(v.id)]
-    todo = todo[:MAX_PER_RUN]
-    print(f"[asr] 待轉錄 {len(todo)} 集(本次處理上限 {MAX_PER_RUN})")
+    # 轉錄:視窗內、pending、podcast、尚無逐字稿者(最舊優先)。
+    # 以音檔總時長為預算:累積到 MAX_AUDIO_MIN_PER_RUN 就停(但至少做 1 集),並設集數安全上限。
+    candidates = [v for v in db.get_pending_in_window(days=WINDOW_DAYS, limit=None)
+                  if v.source == "podcast" and not db.has_transcript(v.id)]
+    todo, budget_min, total_min = [], MAX_AUDIO_MIN_PER_RUN, 0.0
+    for v in candidates:
+        if len(todo) >= MAX_COUNT_PER_RUN:
+            break
+        dur_min = dur_map.get(v.id, 0) / 60.0
+        if dur_min <= 0:
+            dur_min = 60.0  # 無時長資訊時的保守估計
+        # 第一集(最舊)一定取(即使單集就超預算);之後放不下的長集先跳過、續抓較短的填滿,
+        # 被跳過的長集下次會成為最舊、屆時必被處理,不會永遠卡住。
+        if todo and total_min + dur_min > budget_min:
+            continue
+        todo.append(v)
+        total_min += dur_min
+    print(f"[asr] 本次處理 {len(todo)} 集,音檔合計約 {total_min:.0f} 分鐘(預算 {budget_min} 分)")
     os.makedirs(AUDIO_DIR, exist_ok=True)
     for v in todo:
         mp3 = os.path.join(AUDIO_DIR, f"{v.id}.mp3")
