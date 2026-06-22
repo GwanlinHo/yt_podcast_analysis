@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T04:26:16.972139",
+  "last_updated": "2026-06-22T15:00:05.213228",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3289,6 +3289,17 @@
       "created_at": "2026-06-21T15:00:04.759665",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/48c0f3b1-736e-4d76-a554-b07374c5fa39/rssFileVip.mp3?timestamp=1781551717162"
+    },
+    "pc_3d1a390e": {
+      "id": "pc_3d1a390e",
+      "title": "534.【達人聊產業】漁電共生與台灣綠電展望 ft. 永鑫能源資深董事胡根地、星耀投控總經理張淑雯",
+      "url": "https://open.firstory.me/story/cmqjmm33e03j501xc6jp66070",
+      "date": "20260621",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-06-22T15:00:03.924337",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmqjmm33e03j501xc6jp66070/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmqjmm33e03j601xc5uz620hh.mp3?v=1781794878256"
     }
   }
 }
