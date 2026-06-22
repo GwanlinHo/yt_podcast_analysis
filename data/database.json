@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T15:00:05.213228",
+  "last_updated": "2026-06-23T00:04:22.688523",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2911,7 +2911,7 @@
       "url": "https://www.youtube.com/watch?v=UtbbWH8Fpes",
       "date": "20260615",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "skipped",
       "created_at": "2026-06-16T00:01:23.217840",
       "source": "youtube",
       "audio_url": ""
@@ -2955,7 +2955,7 @@
       "url": "https://www.youtube.com/watch?v=a-HuGqvOlvc",
       "date": "20260615",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "skipped",
       "created_at": "2026-06-17T00:01:22.396973",
       "source": "youtube",
       "audio_url": ""
@@ -2966,7 +2966,7 @@
       "url": "https://www.youtube.com/watch?v=1-TYcjfwoYY",
       "date": "20260615",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "skipped",
       "created_at": "2026-06-17T00:01:23.529707",
       "source": "youtube",
       "audio_url": ""
@@ -2977,7 +2977,7 @@
       "url": "https://www.youtube.com/watch?v=qAe2YUAzvyo",
       "date": "20260615",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "skipped",
       "created_at": "2026-06-17T00:01:24.627030",
       "source": "youtube",
       "audio_url": ""
@@ -3252,7 +3252,7 @@
       "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/e3633b4f-c3f2-4e69-80a8-42a666834b40",
       "date": "20260616",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-06-21T15:00:02.549788",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/e3633b4f-c3f2-4e69-80a8-42a666834b40/rssFileVip.mp3?timestamp=1781761755540"
@@ -3285,7 +3285,7 @@
       "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/48c0f3b1-736e-4d76-a554-b07374c5fa39",
       "date": "20260615",
       "channel": "M觀點",
-      "status": "pending",
+      "status": "skipped",
       "created_at": "2026-06-21T15:00:04.759665",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/48c0f3b1-736e-4d76-a554-b07374c5fa39/rssFileVip.mp3?timestamp=1781551717162"
