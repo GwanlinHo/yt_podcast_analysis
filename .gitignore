@@ -34,3 +34,6 @@ data/.report_hash
 uv.lock
 # ASR 暫存音檔(用完即刪)
 data/podcast_audio/
+
+# 本機備份檔勿入庫
+*.bak
