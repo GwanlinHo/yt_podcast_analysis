@@ -1,0 +1,44 @@
+{
+  "key_points": [
+    "Google接連失去兩位頂尖AI大將：Noam Shazeer（Gemini共同負責人、Transformer論文共同作者）跳槽OpenAI，John Jumper（諾貝爾化學獎得主、AlphaFold主導者）跳槽Anthropic，對Google士氣形成重大打擊",
+    "Gemini 3.5 Pro傳出表現不如預期，可能無法超越GPT-5.5或Claude Fable 5，Google在企業端Agentic Workflow仍明顯落後",
+    "Fable 5（Claude）12萬字元系統提示詞外洩，揭示Anthropic在cloud.ai聊天介面背後內建完整Agent Harness，等同讓聊天機器人也具備多工具、多sub-agent工作流能力",
+    "Meta CTO Andrew Bosworth公開承認公司士氣是20年來最差之一，根源在於裁員8000人後將7000人調至「Applied AI」部門從事重複性AI訓練工作，嚴重影響工程師成就感",
+    "Applied AI部門本質是Placeholder：讓人才待機，待公司找到新方向後再重新分配，而非真正需要這些高薪人才做標注工作",
+    "Tesla FSD Supervised版本正式向台灣車安中心送件審查，預估最快8-9月可能通過，台灣車主將能體驗Level 2自動駕駛",
+    "台美對等貿易協議尚未通過立法院，特斯拉關稅降價至少要等到年底甚至明年；台灣Model Y目前為德國廠製造，不在美國關稅優惠範圍內"
+  ],
+  "macro_outlook": [
+    "2026年AI競爭格局：模型能力已非唯一決勝點，「模型實力 + Harness實力」的組合才是最終競爭力，Anthropic透過系統提示詞將Agent Harness內建至消費端服務",
+    "Google消費端AI市佔已達27.7%（vs ChatGPT的46.4%），差距持續縮小；但企業端Agentic Workflow落後明顯，需等至2026年底Gemini 4.0才可能出現轉機",
+    "AI人才爭奪戰激烈：頂尖研究人員（模型架構師、AI科學家）成為各AI公司搶奪資源，人才流失直接影響模型研發進度與公司士氣",
+    "中國AI公司疑似透過讓Claude Code/GPT等模型執行Agentic Workflow並將過程轉為訓練資料，加速學習Agentic能力"
+  ],
+  "targets": [
+    {
+      "code": "GOOGL",
+      "name": "Google(Alphabet)",
+      "view": "中性",
+      "rationale": "消費端市佔持續成長，但企業端落後且Gemini 3.5 Pro傳出表現不如預期，短期士氣與人才流失是隱憂，待年底Gemini 4.0見真章"
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla特斯拉",
+      "view": "看多",
+      "rationale": "FSD進入台灣審查程序，全球各市場FSD滲透率提升帶動銷量，2026年全球FSD效應開始顯現，預期今年銷售量重返成長"
+    },
+    {
+      "code": "META",
+      "name": "Meta",
+      "view": "中性",
+      "rationale": "Applied AI部門為臨時安置措施，中長期需觀察新方向落地情況；士氣問題短期難解，但公司財務仍健康"
+    }
+  ],
+  "risk_factors": [
+    "Gemini 3.5 Pro若表現不如預期，將加速外界對Google AI競爭力的質疑，進而衝擊股價與廣告主信心",
+    "AI模型安全漏洞（如Fable 5的jailbreak弱點）若無法有效修補，恐阻礙Fable 5在美國政府市場的解禁",
+    "Meta高階工程師在Applied AI部門士氣低落，若大量流失將影響核心AI研發能力",
+    "台灣立法院若持續阻擋台美貿易協議，美系科技產品關稅優惠無法落地，特斯拉降價效益遞延"
+  ],
+  "quotes": "今年2026年，AI顯學就是Harness，Agent Harness。一個AI最終的實力，要等於他的模型的實力加上Harness的實力，兩邊加起來才是一個最終實力——就像賽馬，馬是模型的能力，騎師就是Harness。"
+}
