@@ -1,0 +1,53 @@
+{
+  "key_points": [
+    "CoPoS技術核心是將封裝從圓形晶圓(Wafer)轉向方形面板(Panel Level Packaging)，主要優勢是減少邊角料浪費、提升材料使用效率",
+    "JPCA(日本電路板學會)發表報告：玻璃基板(Glass Core)將整合進CoPoS的Sub-Substrate，意味晶片本身將含有玻璃(非僅Carrier載體)，是更深度的整合",
+    "台積電預計2028年下半年量產CoPoS技術；依此時程，最晚2027年底前裝置採購將大量啟動，確定性高",
+    "Glass Core Substrate(玻璃當機板)量產時程估計2030年以後；Carrier的Panel-level應用反而較快，是近期更直接的投資機會",
+    "後段製程檢測重要性大幅提升：HBM等高價元件貼上後若有瑕疵損失極大，驅動每片必查(而非抽樣)的邏輯；KLA指出Process Control成長率將超過整體WFE",
+    "玻璃翹曲(Warpage)是Panel Level封裝最大技術挑戰：玻璃越大越容易歪曲，影響拍照對焦精度(需重設演算法)及後續製程良率"
+  ],
+  "macro_outlook": [
+    "AI算力需求推動封裝技術從2D向先進3D演進，CoPoS/Panel Level被視為下一代主流封裝方向，臺灣面板廠(群創)因具備方形製程Know-how而積極切入",
+    "NVIDIA Vera Rubin等高階AI晶片封裝複雜度持續提升，帶動後段製程「每道必查」的邏輯，檢測設備需求結構性增加",
+    "Intel擴建EIB(封裝廠)及CAPEX大幅提升，也將帶動檢測設備額外採購"
+  ],
+  "targets": [
+    {
+      "code": "KLAC",
+      "name": "KLA Corporation",
+      "view": "看多",
+      "rationale": "前後段製程控制全覆蓋，Process Control成長率將超過整體WFE，CoPoS帶動後段檢測需求結構性成長"
+    },
+    {
+      "code": "0",
+      "name": "AOI/光學檢測設備廠商",
+      "view": "看多",
+      "rationale": "圓改方導致拍照演算法及硬體需重新設計(焦距定位、翹曲偵測)，對應新一輪設備投資；臺灣相關廠商值得深入研究"
+    },
+    {
+      "code": "0",
+      "name": "CoPoS裝置廠(雷射鑽孔、清洗、銅沉積)",
+      "view": "看多",
+      "rationale": "台積電2028 H2量產前，2027年底前將大量採購；雷射改質/鑽孔是玻璃製程最難突破的環節，有護城河"
+    },
+    {
+      "code": "0",
+      "name": "翹曲解決方案廠商(台三泰等)",
+      "view": "看多",
+      "rationale": "Panel Level最大技術難點是Warpage，市場上有多種solution(壓合、成型等)，能解決翹曲的廠商具投資價值"
+    },
+    {
+      "code": "3481",
+      "name": "群創(Innolux)",
+      "view": "中性(觀察)",
+      "rationale": "已與Intel、DXMC合作Glass Substrate研發，面板製程Know-how適合CoPoS，但量產時程仍早，目前為觀察標的"
+    }
+  ],
+  "risk_factors": [
+    "Glass Core基板量產難度極高(鑽孔易裂、清洗均勻度、銅沉積等多重挑戰)，時程可能持續延後至2030年以後",
+    "CoPoS仍有技術彎道超車風險：玻璃材料CTE(熱膨脹係數)匹配問題尚未完全解決，其他材料(不鏽鋼等)也在競爭",
+    "圓形Wafer也朝方形演進(Wi-Fi Panel化)，可能模糊CoPoS定義、分散市場注意力，投資主題辨識難度提升"
+  ],
+  "quotes": "你要讓它實現，一定是要有很多的協作——CoPoS不只是把圓換成方，每個製程節點的檢測都要重新設計，後段製程的重要性被拉上來了 — Sky，財報狗投資中"
+}
