@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T04:00:35.312374",
+  "last_updated": "2026-06-26T15:00:05.069198",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1804,6 +1804,39 @@
       "created_at": "2026-06-25T15:00:03.019387",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/7fc88273-47a0-4309-b1d6-6ce96c712053/rssFileVip.mp3?timestamp=1782327220686"
+    },
+    "pc_500b4fc7": {
+      "id": "pc_500b4fc7",
+      "title": "EP1126｜白天不懂夜的黑，期指爆殺後收紅，美光救全村？Q2財報會出現營收、獲利、匯率都強，資金浪是重要觀察指標！ft.冠軍操盤手 楊雲翔",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/fd2c6d7a-19a6-4e36-9fca-7e242105ec7a",
+      "date": "20260625",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-26T15:00:02.635530",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/fd2c6d7a-19a6-4e36-9fca-7e242105ec7a/rssFileVip.mp3?timestamp=1782413429558"
+    },
+    "pc_014879a3": {
+      "id": "pc_014879a3",
+      "title": "535.【財經時事放大鏡】CoPoS x Glass core",
+      "url": "https://open.firstory.me/story/cmqtpnn1k0a9l01xee1ow5y7e",
+      "date": "20260625",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-06-26T15:00:03.771342",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmqtpnn1k0a9l01xee1ow5y7e/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmqtpnn1k0a9m01xe5shu4ljl.mp3?v=1782404619534"
+    },
+    "pc_86a6a834": {
+      "id": "pc_86a6a834",
+      "title": "EP314. iPhone 要漲價了、SpaceX 如何估值、瓦基教大家用 AI  | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/a6df4712-fc99-4115-a032-3794b9274952",
+      "date": "20260625",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-06-26T15:00:05.068739",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/a6df4712-fc99-4115-a032-3794b9274952/rssFileVip.mp3?timestamp=1782410899521"
     }
   }
 }
