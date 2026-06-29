@@ -1,0 +1,42 @@
+{
+  "key_points": [
+    "GPT-5.6 限量開放（Limited Preview），分三版本：Sol（最強旗艦）、Terra（均衡型，成本為GPT5.5一半）、Luna（小型）；命名引發幣圈PTSD（Luna/Terra曾崩盤）",
+    "Sol版在Terminal Bench 2.1（agentic coding長時間代理工作）得91.9%、Exploit Bench僅需一半token即達Claude同等成績，打敗Misalis（Claude）成為當前標竿",
+    "Anthropic預計本週與美國政府達成協議，Misalis可望重新上架；Fable 5加強護欄後也將回歸，但均維持白名單制",
+    "蘋果閃電漲價Mac/iPad/VisionPro/Apple TV（非iPhone），官方理由為RAM+NAND Flash大漲；M觀點認為成本上升合理（RAM+SSD六個月漲2200元），漲3000屬合理buffer，但通路處理方式有瑕疵",
+    "Meta Glass推出平價版（去除雷鵬聯名），降價約2000-3000元台幣；AI模型升級至MewSpark，但須在Google眼鏡Q4上市前持續強化AI能力才能守住市場",
+    "Grok 4.5（XAI Grok 1.5T模型）即將開放Beta，預計2週內付費用戶可用，據稱達Claude Opus等級"
+  ],
+  "macro_outlook": [
+    "AI模型競賽進入「雙頭馬車」格局（OpenAI vs Anthropic），中國模型（GNN 5.2約GPT5.4等級）落差縮至3-4個月，9-10月可能接近同等能力",
+    "美國政府AI監管兩難：限制frontier model使用 → 企業轉向中國開源模型 → 美國AI公司收入大減 → 削弱下代研發能力；開放又有治安/資安風險",
+    "記憶體大缺時代持續：三大記憶體廠商擴產幅度保守，RAM/Flash漲價短期內難緩解，消費性電子廠商承壓",
+    "智慧眼鏡賽道競爭加劇：Meta先行兩年，Google Q4入局，AI能力將成決勝關鍵"
+  ],
+  "targets": [
+    {
+      "code": "AAPL",
+      "name": "蘋果",
+      "view": "中性",
+      "rationale": "漲價合理但通路處理有瑕疵，傳出洽詢中國記憶體廠商（CXMT）以降低成本，短期承受輿論壓力但基本面未動搖"
+    },
+    {
+      "code": "MU",
+      "name": "美光/記憶體族群",
+      "view": "看多",
+      "rationale": "供不應求、漲價週期持續，三大廠擴產保守，記憶體短缺短期難解，但獲利大增也引發外界批評其壓低成本的態度"
+    },
+    {
+      "code": "META",
+      "name": "Meta",
+      "view": "中性偏多",
+      "rationale": "Meta Glass平價策略正確（去除聯名降低成本、擴大市場），MewSpark模型持續升化，但需在Q4 Google眼鏡上市前強化AI才能守住優勢"
+    }
+  ],
+  "risk_factors": [
+    "AI監管風險：美國政府若持續限制frontier model，等於把全球其他國家企業拱手讓給中國開源模型，反損美國AI長期競爭力",
+    "消費性電子景氣下行風險：記憶體/儲存漲價壓力傳導至筆電、手機等終端產品，消費者購買意願可能下降",
+    "模型迭代速度極快帶來的不確定性：OpenAI/Anthropic約每1-2個月升代，硬體與應用廠商生態系難以快速跟上"
+  ],
+  "quotes": "現在的AI模型競賽是OpenAI和Anthropic兩頭馬車在前面衝刺，中國模型落差只有3-4個月。如果美國限制frontier model的使用，等於把全世界其他國家的市場拱手讓給中國的開源模型——這局明明可以穩贏，結果自己在上面加腳鍊。"
+}
