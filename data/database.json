@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T06:00:38.597964",
+  "last_updated": "2026-06-30T00:00:40.868007",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1859,6 +1859,28 @@
       "created_at": "2026-06-28T05:00:04.910070",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_7a155c61": {
+      "id": "pc_7a155c61",
+      "title": "EP1128｜反彈體感不理想，買太滿、高檔套牢變多，信心受動搖？如何降壓又不錯過行情？康寧發展玻璃橋接殺傷CPO？ft.題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/97a5988d-66d4-454f-8062-ab8c76a1cbbf",
+      "date": "20260629",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-06-30T00:00:02.966859",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/97a5988d-66d4-454f-8062-ab8c76a1cbbf/rssFileVip.mp3?timestamp=1782722414165"
+    },
+    "pc_f4ddc227": {
+      "id": "pc_f4ddc227",
+      "title": "EP315. GPT-5.6 限定推出、蘋果漲價被罵翻、Meta 新智能眼鏡 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/05dbfcf7-a0b7-4e78-ac2e-a172c51cd27e",
+      "date": "20260629",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-06-30T00:00:40.867368",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/05dbfcf7-a0b7-4e78-ac2e-a172c51cd27e/rssFileVip.mp3?timestamp=1782720806256"
     }
   }
 }
