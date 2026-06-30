@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T00:00:06.303233",
+  "last_updated": "2026-07-01T05:00:40.180333",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1914,6 +1914,17 @@
       "created_at": "2026-07-01T00:00:04.035046",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/2d9e3d0e-b6a6-4ae9-80cd-9e28977531f8/rssFileVip.mp3?timestamp=1782810591647"
+    },
+    "5ifH0rz5pwo": {
+      "id": "5ifH0rz5pwo",
+      "title": "2026/06/30 (二)  韓國兆元計畫，記憶體超級投資期來了！美光慘了嗎？",
+      "url": "https://www.youtube.com/watch?v=5ifH0rz5pwo",
+      "date": "20260630",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-07-01T05:00:30.312408",
+      "source": "youtube",
+      "audio_url": ""
     }
   }
 }
