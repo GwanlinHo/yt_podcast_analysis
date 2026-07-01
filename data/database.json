@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T00:00:06.827892",
+  "last_updated": "2026-07-02T05:00:38.328812",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1936,6 +1936,28 @@
       "created_at": "2026-07-02T00:00:04.231586",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/a36a8e7a-4c7d-4870-8a49-6cf276557ff2/rssFileVip.mp3?timestamp=1782897276800"
+    },
+    "aNDEiyvHIic": {
+      "id": "aNDEiyvHIic",
+      "title": "EP675 | 🎢",
+      "url": "https://www.youtube.com/watch?v=aNDEiyvHIic",
+      "date": "20260701",
+      "channel": "股癌",
+      "status": "pending",
+      "created_at": "2026-07-02T05:00:05.221716",
+      "source": "youtube",
+      "audio_url": ""
+    },
+    "FX3Nlm_2Cno": {
+      "id": "FX3Nlm_2Cno",
+      "title": "2026/07/01 (三) 史上最強單季，還能漲嗎？康寧(GLW)變光通最強股！",
+      "url": "https://www.youtube.com/watch?v=FX3Nlm_2Cno",
+      "date": "20260701",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-07-02T05:00:28.543485",
+      "source": "youtube",
+      "audio_url": ""
     }
   }
 }
