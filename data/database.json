@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03T00:00:07.124468",
+  "last_updated": "2026-07-03T05:00:42.405831",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1969,6 +1969,17 @@
       "created_at": "2026-07-03T00:00:04.650659",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/0da08e88-66a9-4152-a636-ec02d830e286/rssFileVip.mp3?timestamp=1782983526576"
+    },
+    "X8srkeNSpfk": {
+      "id": "X8srkeNSpfk",
+      "title": "2026/07/02  (四) META搶生意，AI新戰場開打！#CRWV #NBIS",
+      "url": "https://www.youtube.com/watch?v=X8srkeNSpfk",
+      "date": "20260702",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-07-03T05:00:29.421504",
+      "source": "youtube",
+      "audio_url": ""
     }
   }
 }
