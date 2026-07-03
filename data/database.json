@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03T06:00:36.033088",
+  "last_updated": "2026-07-04T00:00:05.955848",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1980,6 +1980,39 @@
       "created_at": "2026-07-03T05:00:29.421504",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_106fc19a": {
+      "id": "pc_106fc19a",
+      "title": "EP1132｜各種市場傳言大解讀！非農就業好不好，都殺？三星說要砍價載板、國巨發漲價函卻震盪，瓶頸出現？台光電創高啟示！ft.操盤手 黃豐凱",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/4851850f-b15c-4ee9-a8fe-1c23e6067ac3",
+      "date": "20260703",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-04T00:00:02.437279",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/4851850f-b15c-4ee9-a8fe-1c23e6067ac3/rssFileVip.mp3?timestamp=1783067054415"
+    },
+    "pc_5dab2b63": {
+      "id": "pc_5dab2b63",
+      "title": "536.【財經時事放大鏡】玻璃橋 x Meta 有一批算力好便宜",
+      "url": "https://open.firstory.me/story/cmr3qqy160e9f01v96f8l6jbq",
+      "date": "20260702",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-07-04T00:00:03.542357",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmr3qqy160e9f01v96f8l6jbq/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmr3qqy160e9g01v96ur1bl27.mp3?v=1783011102569"
+    },
+    "pc_c7d47845": {
+      "id": "pc_c7d47845",
+      "title": "EP316. Claude Sonnet 5、Meta 也要賣算力、PLTR 合作 NVDA | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/71dc7fca-30b3-4e4c-87e7-76a7fd9511d7",
+      "date": "20260702",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-07-04T00:00:05.955224",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/71dc7fca-30b3-4e4c-87e7-76a7fd9511d7/rssFileVip.mp3?timestamp=1783012306117"
     }
   }
 }
