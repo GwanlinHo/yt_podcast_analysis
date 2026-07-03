@@ -17,17 +17,40 @@ from email.utils import parsedate_to_datetime
 from storage import Storage, Video, TRANSCRIPT_DIR
 
 WINDOW_DAYS = 7
-# 排程:ASR 約 0.4x 即時(Pi CPU)。集數長短差很大(35-101 分鐘),故以「音檔總時長」
-# 為單次預算(而非固定集數),讓單次 wall-clock 可預期、不會因撞到長集而爆掉時段。
-# 預算 180 分鐘音檔 ≈ 7.5 小時轉錄;搭配 15:00 班次,約 22:30 完成,安全避開 23:00(選股)/00:00(yt) 的 claude cron。
-# 即使單集很長,至少仍會處理 1 集(避免長集永遠卡住)。
-MAX_AUDIO_MIN_PER_RUN = 180
+# 排程(cron 00:00 起跑):實測轉錄約 1.5x 即時(每 1 分鐘音檔約 1.5 分鐘 wall-clock,Pi CPU),
+# 取保守 1.8x 估計留餘裕。集數長短差很大(35-101 分鐘),故以「音檔總時長」為單次預算
+# (而非固定集數),讓單次 wall-clock 可預期、不會因撞到長集而爆掉時段。
+#
+# 兩層時間保護,確保 ASR 在 05:00 的 claude @analyze_next 班之前收工並釋放「全域重型鎖」:
+#   (1) 預算 MAX_AUDIO_MIN_PER_RUN:150 分音檔 ≈ 4.5 小時轉錄(1.8x),00:00 起約 04:30 完成。
+#   (2) 硬死線 ASR_DEADLINE_HHMM(預設 04:30):每集開始前估算是否會超過死線,會超過且已做 ≥1 集就停,
+#       剩餘集數留待隔夜(它們下次成為最舊、必被處理,不會永遠卡住)。
+# 為何重要:ASR(~0.8-1.7GB)與 claude(~1GB)同時跑會 OOM。ASR 持有全域重型鎖時 claude cron 會等待或跳過;
+# 若 ASR 不準時釋鎖,05:00 的 yt claude 會一直等不到鎖 → 當日分析無法進行。故死線是硬性要求。
+MAX_AUDIO_MIN_PER_RUN = 150
 MAX_COUNT_PER_RUN = 6  # 安全上限(避免極短集數時一次抓太多)
+# 硬死線:當日 HH:MM 前必須收工(cron 00:00 起跑情境)。白天手動執行(now 已過死線)則自動不套用。
+# 測試可用環境變數覆寫,或設 ASR_NO_DEADLINE=1 完全停用死線。
+ASR_DEADLINE_HHMM = os.environ.get("ASR_DEADLINE_HHMM", "0430")
+WALL_PER_AUDIO_MIN = 1.8  # 保守:每 1 分鐘音檔估 1.8 分鐘 wall-clock(實測約 1.5)
 FEEDS_FILE = "podcast_feeds.json"
 AUDIO_DIR = "data/podcast_audio"
 ASR_DIR = "/home/pi/WorkDir/asr_whisper"
 ASR_PY = os.path.join(ASR_DIR, ".venv/bin/python3")
 ASR_SCRIPT = os.path.join(ASR_DIR, "transcribe.py")
+
+
+def compute_deadline():
+    """回傳今日死線 datetime;若已過(白天手動執行)或設 ASR_NO_DEADLINE 則回傳 None(不套用死線)。"""
+    if os.environ.get("ASR_NO_DEADLINE"):
+        return None
+    now = datetime.datetime.now()
+    try:
+        hh, mm = int(ASR_DEADLINE_HHMM[:2]), int(ASR_DEADLINE_HHMM[2:])
+    except Exception:
+        hh, mm = 4, 30
+    dl = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
+    return None if now >= dl else dl
 
 
 def ep_id(guid: str) -> str:
@@ -154,8 +177,24 @@ def main():
         todo.append(v)
         total_min += dur_min
     print(f"[asr] 本次處理 {len(todo)} 集,音檔合計約 {total_min:.0f} 分鐘(預算 {budget_min} 分)")
+    deadline = compute_deadline()
+    if deadline is not None:
+        print(f"[asr] 死線 {ASR_DEADLINE_HHMM}(到點前收工釋放重型鎖,讓 05:00 claude 班可跑)")
     os.makedirs(AUDIO_DIR, exist_ok=True)
+    done_count = 0
     for v in todo:
+        now = datetime.datetime.now()
+        # 死線護欄:已達死線就停;或預估本集會跨過死線且已完成 >=1 集就停(剩餘留待隔夜)。
+        if deadline is not None:
+            if now >= deadline:
+                print(f"[asr] 已達死線 {ASR_DEADLINE_HHMM},停止本次(剩餘 {len(todo)-done_count} 集留待下次)")
+                break
+            dur_min_est = (dur_map.get(v.id, 0) / 60.0) or 60.0
+            est_wall_min = dur_min_est * WALL_PER_AUDIO_MIN
+            if done_count >= 1 and now + datetime.timedelta(minutes=est_wall_min) > deadline:
+                print(f"[asr] 本集預估需約 {est_wall_min:.0f} 分,會超過死線 {ASR_DEADLINE_HHMM},"
+                      f"停止本次(剩餘 {len(todo)-done_count} 集留待下次)")
+                break
         mp3 = os.path.join(AUDIO_DIR, f"{v.id}.mp3")
         tpath = db.transcript_path(v.id)
         print(f"[asr] {v.date} {v.channel} {v.title[:30]} ...", flush=True)
@@ -170,6 +209,7 @@ def main():
         finally:
             if os.path.exists(mp3):
                 os.remove(mp3)  # 音檔用完即刪,省空間
+        done_count += 1
 
 
 if __name__ == "__main__":

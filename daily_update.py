@@ -30,18 +30,24 @@ def main():
     print(f"📅 搜尋範圍: {start_date.strftime('%Y-%m-%d')} ({start_date_str}) 起")
 
     # yt-dlp 設定
+    # yt-dlp Python API 的 JS runtime 正確鍵為 js_runtimes(dict)+remote_components(list);
+    # 舊寫法 'js_runtime':'node'(單數)非合法鍵、被忽略。node 由 PATH 尋得(cron wrapper 已 export nvm 路徑)。
+    _js = {
+        'js_runtimes': {'node': {'path': None}},
+        'remote_components': ['ejs:github'],
+    }
     ydl_opts_list = {
         'quiet': True,
         'ignoreerrors': True,
         'playlistend': 10,  # 檢查最近 10 部應該足夠覆蓋一週
         'extract_flat': True,
-        'js_runtime': 'node', # 明確指定使用 node
+        **_js,
     }
 
     ydl_opts_detail = {
         'quiet': True,
         'ignoreerrors': True,
-        'js_runtime': 'node', # 明確指定使用 node
+        **_js,
     }
 
     new_videos_count = 0

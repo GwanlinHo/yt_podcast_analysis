@@ -37,3 +37,6 @@ data/podcast_audio/
 
 # 本機備份檔勿入庫
 *.bak
+
+# 第三方 podcast 逐字稿(版權考量): 不公開, 僅供本機分析素材
+data/transcripts/
