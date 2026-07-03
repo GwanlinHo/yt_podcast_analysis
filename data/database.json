@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04T05:02:06.186378",
+  "last_updated": "2026-07-04T05:06:15.265200",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -1998,7 +1998,7 @@
       "url": "https://open.firstory.me/story/cmr3qqy160e9f01v96f8l6jbq",
       "date": "20260702",
       "channel": "財報狗",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-07-04T00:00:03.542357",
       "source": "podcast",
       "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmr3qqy160e9f01v96f8l6jbq/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmr3qqy160e9g01v96ur1bl27.mp3?v=1783011102569"
@@ -2020,7 +2020,7 @@
       "url": "https://www.youtube.com/watch?v=w1myNDiu6aE",
       "date": "20260703",
       "channel": "財女珍妮",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-07-04T05:01:32.418525",
       "source": "youtube",
       "audio_url": ""
