@@ -4,10 +4,11 @@
 # 原始碼/設定變更請人工另行 commit。
 
 set -o pipefail
-cd "$(dirname "$0")" || exit 1
+cd "$(dirname "${BASH_SOURCE[0]}")" || exit 1
 
-# 發布白名單(目錄項會納入其下新檔)。data/transcripts 不在此列 -> 不公開逐字稿。
-WHITELIST=(index.html archives.html report data/database.json data/analysis podcast_feeds.json)
+# 發布白名單(目錄項會納入其下新檔)。data/ 整目錄納入, 但 data/transcripts 與 data/podcast_audio
+# 已在 .gitignore -> git add 自動排除(不公開逐字稿/音檔), 其餘 data 產物(database/csv/索引/analysis)照發布。
+WHITELIST=(index.html archives.html report data podcast_feeds.json)
 
 SECRET_PATTERNS='(sk-ant-[A-Za-z0-9_-]{20,}|sk-[A-Za-z0-9]{20,}|ghp_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|AKIA[0-9A-Z]{16}|AIza[0-9A-Za-z_-]{30,}|xox[baprs]-[A-Za-z0-9-]{10,}|-----BEGIN [A-Z ]*PRIVATE KEY-----)'
 FORBIDDEN_FILES='(^|/)(\.env|\.env\..+|\.credentials\.json|credentials\.json|\.git-credentials|.+\.pem|id_rsa|.+\.key)$'
