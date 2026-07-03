@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04T00:00:05.955848",
+  "last_updated": "2026-07-04T05:02:06.186378",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2013,6 +2013,17 @@
       "created_at": "2026-07-04T00:00:05.955224",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/71dc7fca-30b3-4e4c-87e7-76a7fd9511d7/rssFileVip.mp3?timestamp=1783012306117"
+    },
+    "w1myNDiu6aE": {
+      "id": "w1myNDiu6aE",
+      "title": "2026/07/03 (五) 費半跌回季線，可以買了嗎？特斯拉(TSLA)又大跌了",
+      "url": "https://www.youtube.com/watch?v=w1myNDiu6aE",
+      "date": "20260703",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-07-04T05:01:32.418525",
+      "source": "youtube",
+      "audio_url": ""
     }
   }
 }
