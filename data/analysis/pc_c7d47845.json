@@ -1,0 +1,44 @@
+{
+  "key_points": [
+    "Claude Sonnet 5 發布：性能介於 Opus 4.7 與 Opus 4.8 之間，Terminal Bench 80.4%（Sonnet 4.6 僅 67%，Opus 4.8 為 82.7%）；GDPVAL 1618 分微勝 Opus 4.8 的 1615 分",
+    "Sonnet 5 定價與 Sonnet 4.6 相同（輸入 $3/M token、輸出 $15/M），為 Opus 4.8 六成、Fable 5 三成成本，CP 值最高的主力工作模型",
+    "2026 Q3 模型競爭格局：旗艦層 Fable 5 vs GPT 5.6 Soul；中階層 Sonnet 5 vs GPT 5.6 Tera vs Gemini 3.5 Pro vs Grok 4.5",
+    "Meta 啟動內部 Meta Compute 專案，計畫將閒置 AI 算力對外出租，學習 XAI Cortex 商模；主持人半年前早已預測，不代表 Meta 退出 AI 競賽",
+    "Palantir + NVIDIA 推出 Intelligence Engine：以 NEMOTRON 開源模型 + AIP 平台，為企業打造保有資料主權的本地高性能 AI 方案，類似 Cursor 的 fine-tune 策略",
+    "PLTR CEO Alex Karp 砲轟 OpenAI/Anthropic：逼企業無限燒 Token 卻無法換成商業成果，且吸走企業機密資料訓練自身模型；呼籲企業必須自行掌握「生產工具」",
+    "OpenAI/Anthropic 自建 Deployment 公司即是承認 Palantir 模式才是對的；企業 Harness（控制層）重要性超越模型層本身",
+    "AI 進步驚人：2026 Q3 中階模型實力已全面超越 Q1 旗艦模型；Agentic Workflow 門檻大幅降低，半年前需旗艦模型才能完成的任務現在中階模型即可輕鬆達成"
+  ],
+  "macro_outlook": [
+    "AI maxing no more：企業開始反思 AI 投入與商業產出的關係，預算審查趨嚴，CP 值高的中階模型成為主流首選，而非一味追求旗艦模型",
+    "AI 算力供需：即便 Meta、XAI 開始出租算力，需求面仍遠大於供給——三大雲端商（AWS、Google、Azure）最新財報均表明算力不足，出租算力立刻可售出",
+    "企業 AI 轉型主軸從「燒最多 Token」轉向「建立可替換模型的企業 Harness」，控制層長期價值高於模型層"
+  ],
+  "targets": [
+    {
+      "code": "META",
+      "name": "Meta Platforms",
+      "view": "看多",
+      "rationale": "Meta Compute 算力出租屬資產活化，非退出 AI；算力市場供不應求，此業務立即具商業價值；長期 AI 模型開發確定持續"
+    },
+    {
+      "code": "PLTR",
+      "name": "Palantir",
+      "view": "看多",
+      "rationale": "Intelligence Engine（AIP + NVIDIA NEMOTRON）路線被驗證正確：OpenAI/Anthropic 模仿 Palantir 建 Deployment 公司即是最佳背書；企業 Harness 需求長期確定性高"
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "view": "中性",
+      "rationale": "CUDA 護城河因 AI Agent 自動 porting 而縮窄，但 AI 基礎設施整體仍需大量 GPU；NEMOTRON 開源模型成企業私有雲核心"
+    }
+  ],
+  "risk_factors": [
+    "Sonnet 5 實測顯示完成同一任務耗用 Token 數多於 Opus 4.8，實際成本效益有待 Anthropic 優化",
+    "Meta、XAI 出租算力若被市場解讀為「閒置過剩」，可能引發 AI 基礎設施族群（光通、記憶體等）修正壓力",
+    "中國業者透過人頭公司繞過 KYC 租用美國算力訓練模型，出口管制效果存疑",
+    "企業 AI 投資若持續未能轉換為明確商業成果，Token 消耗成長率可能放緩"
+  ],
+  "quotes": "今年第三季的中階模型，實力已經打敗了今年第一季的旗艦模型——半年後主流中間模型已碾壓年初旗艦，AI Agentic Workflow 的普及門檻比所有人想像的更快消失。"
+}
