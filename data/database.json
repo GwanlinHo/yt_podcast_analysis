@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07T18:28:47.983717",
+  "last_updated": "2026-07-07T18:41:56.067314",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2042,7 +2042,7 @@
       "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/2dddf0f1-ef0e-47d5-9339-23c148883efd",
       "date": "20260706",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-07-07T00:00:03.134258",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/2dddf0f1-ef0e-47d5-9339-23c148883efd/rssFileVip.mp3?timestamp=1783329098405"
@@ -2053,7 +2053,7 @@
       "url": "https://open.firstory.me/story/cmr7n7pcz00g601wtcpabdx98",
       "date": "20260705",
       "channel": "財報狗",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-07-07T00:00:04.199086",
       "source": "podcast",
       "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmr7n7pcz00g601wtcpabdx98/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmr7n7pcz00g701wt1c2pfgbo.mp3?v=1783247079431"
