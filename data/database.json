@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07T06:13:14.190897",
+  "last_updated": "2026-07-07T18:28:47.983717",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2068,6 +2068,17 @@
       "created_at": "2026-07-07T00:00:05.472088",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/5c3f3ef5-76e1-4c4c-b2bf-ce6a2a6332a9/rssFileVip.mp3?timestamp=1783316154261"
+    },
+    "ybd6x6qbIsU": {
+      "id": "ybd6x6qbIsU",
+      "title": "2026/07/07 (二) 費半反彈，輝達就是漲不動？Kyber延期對供應鏈衝擊大嗎",
+      "url": "https://www.youtube.com/watch?v=ybd6x6qbIsU",
+      "date": "20260707",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-07-07T18:28:28.014640",
+      "source": "youtube",
+      "audio_url": ""
     }
   }
 }
