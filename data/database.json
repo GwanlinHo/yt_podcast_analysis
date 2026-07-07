@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07T18:41:56.067314",
+  "last_updated": "2026-07-08T00:00:06.488996",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2079,6 +2079,17 @@
       "created_at": "2026-07-07T18:28:28.014640",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_48cdadd7": {
+      "id": "pc_48cdadd7",
+      "title": "EP1134｜鬼故事繼續，哪一條該怕？三星Q2獲利成長19倍，卻引發韓股大跌？熱門股全軍覆沒，6月營收出爐，檢驗該買該賣！ft.AI達人 蔡明翰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/4702b99f-420e-4629-aa94-137fe3bf638f",
+      "date": "20260707",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-08T00:00:04.038461",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/4702b99f-420e-4629-aa94-137fe3bf638f/rssFileVip.mp3?timestamp=1783415623428"
     }
   }
 }
