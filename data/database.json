@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08T06:01:03.708396",
+  "last_updated": "2026-07-09T00:00:05.716213",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2090,6 +2090,17 @@
       "created_at": "2026-07-08T00:00:04.038461",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/4702b99f-420e-4629-aa94-137fe3bf638f/rssFileVip.mp3?timestamp=1783415623428"
+    },
+    "pc_bc49d87d": {
+      "id": "pc_bc49d87d",
+      "title": "EP1135｜低量磨人盤，錢快加完了？拉高耐性，熱門股來到關鍵支撐，風險報酬比好抓？要等AI復甦，還是找生技和軍工避險？ft.冠軍操盤手 楊雲翔",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/3344438a-2ca8-464c-b5bc-7c0af7a9b7d0",
+      "date": "20260708",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-09T00:00:03.357813",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/3344438a-2ca8-464c-b5bc-7c0af7a9b7d0/rssFileVip.mp3?timestamp=1783502537913"
     }
   }
 }
