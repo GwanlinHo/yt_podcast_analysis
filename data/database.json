@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09T05:00:54.144288",
+  "last_updated": "2026-07-09T05:08:57.537175",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2097,7 +2097,7 @@
       "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/3344438a-2ca8-464c-b5bc-7c0af7a9b7d0",
       "date": "20260708",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-07-09T00:00:03.357813",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/3344438a-2ca8-464c-b5bc-7c0af7a9b7d0/rssFileVip.mp3?timestamp=1783502537913"
@@ -2108,7 +2108,7 @@
       "url": "https://www.youtube.com/watch?v=OJ7HLygPhWE",
       "date": "20260708",
       "channel": "股癌",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-07-09T05:00:04.882620",
       "source": "youtube",
       "audio_url": ""
@@ -2119,7 +2119,7 @@
       "url": "https://www.youtube.com/watch?v=LyAQzODg7LM",
       "date": "20260708",
       "channel": "財女珍妮",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-07-09T05:00:39.258936",
       "source": "youtube",
       "audio_url": ""
