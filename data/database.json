@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09T06:00:57.018297",
+  "last_updated": "2026-07-10T00:00:05.891708",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2123,6 +2123,28 @@
       "created_at": "2026-07-09T05:00:39.258936",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_041b8ad8": {
+      "id": "pc_041b8ad8",
+      "title": "EP1136｜美伊不停火、楊總裁喊話，AI評價未失控，槓桿已過熱？漲價、訂單滿載不變，但慣性改變，台積電法說會後再表態？ft.型男股神 陳威良",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/1dd1eded-0d4e-4af8-b245-3624b2149e7f",
+      "date": "20260709",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-10T00:00:03.362876",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/1dd1eded-0d4e-4af8-b245-3624b2149e7f/rssFileVip.mp3?timestamp=1783590911939"
+    },
+    "pc_604a8fb5": {
+      "id": "pc_604a8fb5",
+      "title": "EP318. 科技股能持續打敗大盤嗎？Feat. 曼報Pro Vincent | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/aa467feb-5e2f-49aa-b3f9-a5f157771d85",
+      "date": "20260709",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-07-10T00:00:05.891176",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/aa467feb-5e2f-49aa-b3f9-a5f157771d85/rssFileVip.mp3?timestamp=1783612215435"
     }
   }
 }
