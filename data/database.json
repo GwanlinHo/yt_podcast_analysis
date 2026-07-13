@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13T06:00:56.900199",
+  "last_updated": "2026-07-14T00:00:06.446098",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2189,6 +2189,28 @@
       "created_at": "2026-07-12T05:00:05.450808",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_5251953c": {
+      "id": "pc_5251953c",
+      "title": "EP1137｜漲千點氣勢被韓股拖累，基本面和政策緊縮面的戰爭！台積電營收創高，殺中小帳面獲利回吐，放慢一點接，沒損失？ft.題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/730dbd47-b389-44e0-b49f-4a8484dbd2e5",
+      "date": "20260713",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-14T00:00:02.918716",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/730dbd47-b389-44e0-b49f-4a8484dbd2e5/rssFileVip.mp3?timestamp=1783934175172"
+    },
+    "pc_30df8681": {
+      "id": "pc_30df8681",
+      "title": "EP319. xAI & Meta 重回賽道、蘋果要告 OpenAI、微軟 Xbox 大重整 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/ee0ca554-9ada-4bcf-a77d-e644cfad35c8",
+      "date": "20260713",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-07-14T00:00:06.445681",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/ee0ca554-9ada-4bcf-a77d-e644cfad35c8/rssFileVip.mp3?timestamp=1783931334973"
     }
   }
 }
