@@ -1,0 +1,59 @@
+{
+  "key_points": [
+    "GPT 5.6系列全面釋出（Soul/Terra/Luna三版），旗艦版GPT 5.6 Soul綜合智力得分59（Artificial Analysis指標），Fable 5為60，幾乎同等但成本僅Fable 5的40%；GPT 5.6 Terra以GPT 5.5的一半成本提供相近能力",
+    "xAI發布Grok 4.5（1.5兆參數新基礎模型，結合Cursor團隊後訓練）：Agentic Coding能力打平GPT 5.5（AACAI=76分），成本是GPT 5.6 Terra的20%以下；同一任務消耗Token數只有GPT 5.6的30%，實際總成本僅GPT 5.6 Terra的15-20%",
+    "Meta發布Muse Spark 1.1：實力介於GPT 5.4到GPT 5.5之間，超越開源模型GLM 5.2，重回AI前沿競賽；API成本比Grok 4.5更低但Token效率稍遜",
+    "Mila認為唱衰XAI與Meta的聲音主要來自個人情感偏好，而非客觀技術分析；兩家公司均具備算力、資料、人才三大條件，從未有理由放棄研發",
+    "前沿AI模型領先順序：Anthropic > OpenAI（落後約1個月）> XAI（落後約2-3個月）> Meta（再落後1-2個月），最後一名到第一名差距僅約五個月",
+    "蘋果控告OpenAI：硬體長Tentan（前蘋果VP）被指控系統性挖角蘋果員工並要求攜帶商業機密；關鍵證據為Chain Liu離職不還筆電，被追查後發現大量竊密對話",
+    "Mila認為Sam Altman主導的OpenAI企業文化存在「為達目的不擇手段」問題，此案OpenAI在法律上風險頗高，後續法院令其提交內部文件後才能定論",
+    "微軟Xbox新任CEO Asha Shama（AI背景）宣布有史以來最大重整：裁員3200人（占20%），四家工作室獨立或出售，原因是Xbox利潤率只有Sony PS5/任天堂Switch的10-33%",
+    "Xbox策略調整：縮減非核心工作室，聚焦第一方IP，推動跨平台生態（PC+手機+主機），嘗試突破主機裝機量不足與Game Pass成長停滯的困境"
+  ],
+  "macro_outlook": [
+    "上個禮拜是AI超級黃金週：Fable 5（Anthropic）和GPT 5.5（OpenAI）兩匹馬領跑後，Grok 4.5（XAI）和Muse Spark 1.1（Meta）也追上車尾，整體AI模型競爭格局從「寡頭」走向「多強」，但成本差距迅速壓縮",
+    "Grok 4.5在帕雷托前緣（成本/能力曲線）具有極強競爭力，預計搶走部分Anthropic在Agentic Coding市場的份額；GPT 5.6系列也回搶了前幾個月被Anthropic拿走的市佔",
+    "Anthropic自去年12月Claude Opus 4.6起爆發性成長（估計十倍），但現在OpenAI和XAI雙雙反攻，Anthropic的成長速度可能趨緩",
+    "Google Gemini 3.5 Pro預計近期發布，Mila預期實力接近Grok 4.5，尚不足以超車OpenAI/Anthropic；Google真正大招為年底Gemini 3 4.0",
+    "Meta認真投入算力出租業務（Zuckerberg確認），顯示Meta意圖建立AI算力雲端業務，而非僅消化多餘算力，長遠可能成為OpenAI/Azure的挑戰者"
+  ],
+  "targets": [
+    {
+      "code": "GROK",
+      "name": "XAI（Grok 4.5）",
+      "view": "多",
+      "rationale": "1.5兆參數新模型，Agentic Coding能力等同GPT 5.5/Claude Opus 4.8但成本為前者15-20%，在帕雷托前緣競爭力極強，市場震撼效應大"
+    },
+    {
+      "code": "META",
+      "name": "Meta（Muse Spark 1.1）",
+      "view": "多",
+      "rationale": "模型實力超越GLM 5.2，重回AI前沿圈；智慧眼鏡、社群廣告AI等內部應用場景確定，不依賴第三方模型的策略具長線護城河"
+    },
+    {
+      "code": "MSFT",
+      "name": "微軟",
+      "view": "中性",
+      "rationale": "Xbox業務大重整，短期裁員影響，但微軟AI整體布局（Azure、Copilot）仍為核心成長動能；Xbox是拖累而非核心"
+    },
+    {
+      "code": "AAPL",
+      "name": "蘋果",
+      "view": "中性",
+      "rationale": "訴訟OpenAI顯示硬體機密保護意識強，但自身AI進展緩慢仍是長期隱憂；此案勝訴可能性偏高，但曠日廢時"
+    },
+    {
+      "code": "OPENAI",
+      "name": "OpenAI",
+      "view": "中性",
+      "rationale": "GPT 5.6系列具競爭力，但企業文化爭議（蘋果訴訟）與「搶客戶市場」習性使其樹立眾多潛在敵人，長期夥伴關係不穩固"
+    }
+  ],
+  "risk_factors": [
+    "AI模型成本競爭白熱化（Grok 4.5成本僅競品的15-20%），帶動整體API收費下行壓力，可能壓縮Anthropic、OpenAI的利潤空間",
+    "OpenAI蘋果訴訟案若法院要求提交內部文件，可能引發更大範圍的法律與聲譽風險，影響OpenAI的企業合作關係",
+    "XAI和Meta的崛起意味著AI基礎模型快速商品化，未來模型能力差異縮小，如何建立應用護城河成為各公司關鍵課題",
+    "微軟Xbox策略轉型仍存在不確定性：跨平台生態（Game Pass無論主機或手機的增長均已停滯）挑戰未解，裁員短期衝擊士氣"
+  ],
+  "quotes": "我跟你講，在過去這兩三個月，我在英文、中文媒體看到數落XAI和Meta的文章至少超過100篇。你看他們這次交出成績單，一交就把市場之前的唱衰全部打臉。而且打得很重。如果你是我們M觀點的聽眾，你就知道，他們根本沒有任何理由要放棄研發，只差一點點的距離，這個叫追上，不叫認輸。"
+}
