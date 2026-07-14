@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T06:01:00.056525",
+  "last_updated": "2026-07-15T00:00:05.973963",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2222,6 +2222,17 @@
       "created_at": "2026-07-14T05:00:40.855457",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_ce3251a7": {
+      "id": "pc_ce3251a7",
+      "title": "EP1138｜2個月白做工？盤中留下影線V轉，去槓桿危機過了嗎？強勢矽晶圓、軍工，弱勢被動、CPO，怎麼選？ft.紀緯明 小明同學",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/e22905ae-3828-418a-8cb0-2e101f1590f3",
+      "date": "20260714",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-15T00:00:03.460534",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/e22905ae-3828-418a-8cb0-2e101f1590f3/rssFileVip.mp3?timestamp=1784017375762"
     }
   }
 }
