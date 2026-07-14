@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T00:00:05.973963",
+  "last_updated": "2026-07-15T05:01:03.687453",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2233,6 +2233,17 @@
       "created_at": "2026-07-15T00:00:03.460534",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/e22905ae-3828-418a-8cb0-2e101f1590f3/rssFileVip.mp3?timestamp=1784017375762"
+    },
+    "k37c_ghD6I8": {
+      "id": "k37c_ghD6I8",
+      "title": "2026/07/14 (二) 記憶體反轉？SK Hynix崩15%，蘋果創歷史新高",
+      "url": "https://www.youtube.com/watch?v=k37c_ghD6I8",
+      "date": "20260714",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-07-15T05:00:42.924286",
+      "source": "youtube",
+      "audio_url": ""
     }
   }
 }
