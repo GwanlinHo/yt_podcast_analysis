@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T06:00:51.413220",
+  "last_updated": "2026-07-16T00:00:05.678250",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2244,6 +2244,17 @@
       "created_at": "2026-07-15T05:00:42.924286",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_1588be58": {
+      "id": "pc_1588be58",
+      "title": "EP1139｜CPI降溫，韓國救市，把千點還給台股，記憶體、載板回血，設備、封測為台積電法說暖身！塑化、散裝能關愛？ft.選股教練 陳唯泰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/bbf75380-a0f8-44e6-bd60-2628e7ded65c",
+      "date": "20260715",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-16T00:00:03.244122",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/bbf75380-a0f8-44e6-bd60-2628e7ded65c/rssFileVip.mp3?timestamp=1784103738631"
     }
   }
 }
