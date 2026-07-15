@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16T00:00:05.678250",
+  "last_updated": "2026-07-16T05:00:58.876715",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2255,6 +2255,28 @@
       "created_at": "2026-07-16T00:00:03.244122",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/bbf75380-a0f8-44e6-bd60-2628e7ded65c/rssFileVip.mp3?timestamp=1784103738631"
+    },
+    "_-RlJfI9X2c": {
+      "id": "_-RlJfI9X2c",
+      "title": "EP679 | 🧌",
+      "url": "https://www.youtube.com/watch?v=_-RlJfI9X2c",
+      "date": "20260715",
+      "channel": "股癌",
+      "status": "pending",
+      "created_at": "2026-07-16T05:00:04.558752",
+      "source": "youtube",
+      "audio_url": ""
+    },
+    "GV3gCpFUQcM": {
+      "id": "GV3gCpFUQcM",
+      "title": "2026/07/15 (三) IBM 暴跌 25% 史上最慘，AI 正在吞噬傳統科技業？",
+      "url": "https://www.youtube.com/watch?v=GV3gCpFUQcM",
+      "date": "20260715",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-07-16T05:00:40.581309",
+      "source": "youtube",
+      "audio_url": ""
     }
   }
 }
