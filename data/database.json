@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18T05:00:51.834834",
+  "last_updated": "2026-07-18T05:08:37.232419",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2317,7 +2317,7 @@
       "url": "https://open.firstory.me/story/cmrnmcdz30v6p01vx271y9zjy",
       "date": "20260716",
       "channel": "財報狗",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-07-18T00:00:03.891819",
       "source": "podcast",
       "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmrnmcdz30v6p01vx271y9zjy/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmrnmcdz30v6q01vxe6aydgfq.mp3?v=1784213049833"
@@ -2328,7 +2328,7 @@
       "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/fe4e2cd5-7707-4be0-ab97-1368cbb87f21",
       "date": "20260716",
       "channel": "M觀點",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-07-18T00:00:05.334722",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/fe4e2cd5-7707-4be0-ab97-1368cbb87f21/rssFileVip.mp3?timestamp=1784242634527"

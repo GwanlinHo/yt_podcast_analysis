@@ -1,0 +1,54 @@
+{
+  "key_points": [
+    "SpaceX (SPCX) 股價自高點 211 美元修正至 135 美元（跌幅 36%，發行價）；Mila 估算合理價值約 83-84 美元（市值 1.05 兆美元），認為目前仍偏貴，自己持倉僅 1-2%",
+    "Grok 4.5 模型廣受好評，使用量估計是前代 Grok 4.3 的 5-10 倍，是 SpaceX/XAI 重要的利多",
+    "Grok Bill（XAI 的 CLI 開發工具，類似 Claude Code）爆出資安問題：在背景默默將整個程式庫上傳至 XAI 的 Google Cloud，後修復並全面公開原始碼，Mila 認為救火大致成功",
+    "Mira Murati（前 OpenAI CTO）旗下 Thinking Machines Lab 推出開源 MOE 模型 Inclin：9751B 參數、每次推論啟動 41B，AII 評分 41 分，打敗 GLN 5.1、DeepSync V4 Fresh 及 NVIDIA NEMOTRON3 Ultra，但輸給 GLN 5.2、DeepSync V4 Pro 等中國最強開源模型",
+    "AI 模型評比：GPT 5.6 Luna 表現意外出色，AAI Coding Agent 評分甚至打敗 Claude Opus 4.8；Grok 4.5 實際使用體感被認為優於 Claude Fable 5 與 GPT 5.6；Claude Fable 5 被批評太慢、Token 太多、成本太高",
+    "OpenAI Codex 改名後使用人數在兩週內爆增，Mila 認為這批新用戶主要是從 Claude Code 跳過來的",
+    "Intel 18A 良率大幅提升至 85%（KBCN 通路研究）：原本 Normal Lake CPU 80% 台積電生產的計畫反轉為 80-90% 由 Intel 18A 自製，五大潛在代工客戶為蘋果、NVIDIA、AMD、亞馬遜、微軟",
+    "Starship 第 13 次飛行即將於台灣時間隔日早上 6:45 發射，此次將搭載真正的 Starlink V3 衛星，測試 Super Heavy 的 Mechazilla Chopstick 回收",
+    "中國長征十以用網系回收火箭，Mila 認為技術層次仍落後 Falcon 9（網系風險高於直接著陸），十年內能達到 Falcon 9 等級即算成功"
+  ],
+  "macro_outlook": [
+    "AI 模型競爭白熱化，整體智能水準快速提升，但主力使用者對世代升級的差異感受漸趨麻木（題目難度未到模型鑑別點），效益邊際遞減疑慮逐漸浮現",
+    "開源模型領域中國持續領先（GLN 5.2、DeepSync V4 Pro 等），美國歐美端 Inclin 的出現是補強，但仍落後一節；川普政府意識到此問題並考慮簡化開源模型審查流程",
+    "Intel 18A 良率突破 85%，進入商業化臨界點，中長期可望成為台積電的有效補充產能，但因 AI 市場持續供不應求，對台積電的衝擊極為有限",
+    "SpaceX 整體基本面仍具吸引力（太空、Starlink、XAI 等），但目前股價相對估值仍高，需等待更合理價位再布局",
+    "AI 基礎建設需求未出現逆轉跡象，未來幾年 GPU 算力仍嚴重供不應求，台積電底氣充足"
+  ],
+  "targets": [
+    {
+      "code": "SpaceX",
+      "name": "SpaceX（SPCX）",
+      "view": "看多",
+      "rationale": "合理估值約 84 美元，目前 135 仍偏貴；Grok 4.5 使用量爆增是利多，Mila 持倉約 1-2%，計畫跌至 120 再加碼、跌至 90 買滿"
+    },
+    {
+      "code": "Intel",
+      "name": "Intel（INTC）",
+      "view": "中性偏多",
+      "rationale": "18A 良率達 85%，Normal Lake CPU 80-90% 改由 18A 自製，五大潛在代工客戶確認，代工業務邁入商業化"
+    },
+    {
+      "code": "2330",
+      "name": "台積電（TSM）",
+      "view": "中性",
+      "rationale": "Intel 18A 進步影響有限，AI GPU 持續供不應求，台積電產能依舊搶手；漲價策略或趨保守以避免客戶分散至 Intel"
+    },
+    {
+      "code": "SE",
+      "name": "東南亞 Sea Ltd（SE）",
+      "view": "看多",
+      "rationale": "Mila 持有，股價自 200 美元高點跌逾 60% 至 70-80 元區間，Mila 表示越跌越看好、不為所動，長線信念不變"
+    }
+  ],
+  "risk_factors": [
+    "SpaceX 估值仍高，若 Starlink/XAI 業務未如預期發展，合理股價可能僅 40-60 美元",
+    "Grok Bill 資安事件雖已修復，若 XAI 日後再爆出類似問題，開發者信任度將受重創",
+    "Claude Fable 5 被批評速度慢、Token 成本高，若 Anthropic 未能改善，企業端市佔可能持續流失至 OpenAI 或 XAI",
+    "Intel 18A 通路調查報告隨時可能改變，實際量產良率與客戶下單意願仍需持續觀察",
+    "Inclin 等新開源模型加速普及，可能壓低商業閉源模型的定價空間"
+  ],
+  "quotes": "你怎麼確定你對一間公司有 conviction？就是當他越跌的時候，你越開心。SpaceX 跌到 60、70 塊，我會真的很開心去把它買滿。"
+}
