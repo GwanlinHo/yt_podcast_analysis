@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18T00:00:05.335235",
+  "last_updated": "2026-07-18T05:00:51.834834",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2332,6 +2332,17 @@
       "created_at": "2026-07-18T00:00:05.334722",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/fe4e2cd5-7707-4be0-ab97-1368cbb87f21/rssFileVip.mp3?timestamp=1784242634527"
+    },
+    "t2w65jkwmXQ": {
+      "id": "t2w65jkwmXQ",
+      "title": "2026/07/17 (五)  台積電財報超預期，半導體卻全跌，市場在怕什麼？",
+      "url": "https://www.youtube.com/watch?v=t2w65jkwmXQ",
+      "date": "20260717",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-07-18T05:00:37.111000",
+      "source": "youtube",
+      "audio_url": ""
     }
   }
 }
