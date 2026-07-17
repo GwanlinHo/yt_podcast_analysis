@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T06:01:00.216715",
+  "last_updated": "2026-07-18T00:00:05.335235",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2299,6 +2299,39 @@
       "created_at": "2026-07-17T05:00:55.562243",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_c5ec34e6": {
+      "id": "pc_c5ec34e6",
+      "title": "EP1141｜韓國沒開市，換台股去槓桿？史上最大跌點破季線，融資冷靜一下比較好！多數熱門股都逆風，想賺大的還是賺穩的？ft.雷老闆",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/a275583d-746e-416d-a7ca-7bf69a134775",
+      "date": "20260717",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-18T00:00:02.833353",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/a275583d-746e-416d-a7ca-7bf69a134775/rssFileVip.mp3?timestamp=1784277329348"
+    },
+    "pc_d6610695": {
+      "id": "pc_d6610695",
+      "title": "539.【財經時事放大鏡】Meta x 雲端 x 成熟製程",
+      "url": "https://open.firstory.me/story/cmrnmcdz30v6p01vx271y9zjy",
+      "date": "20260716",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-07-18T00:00:03.891819",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmrnmcdz30v6p01vx271y9zjy/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmrnmcdz30v6q01vxe6aydgfq.mp3?v=1784213049833"
+    },
+    "pc_f137ce2f": {
+      "id": "pc_f137ce2f",
+      "title": "EP320. SPCX 跌破發行價、近期 AI 熱門話題、Intel 18A 進步了 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/fe4e2cd5-7707-4be0-ab97-1368cbb87f21",
+      "date": "20260716",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-07-18T00:00:05.334722",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/fe4e2cd5-7707-4be0-ab97-1368cbb87f21/rssFileVip.mp3?timestamp=1784242634527"
     }
   }
 }
