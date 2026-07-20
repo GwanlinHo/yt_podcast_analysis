@@ -1,0 +1,44 @@
+{
+  "key_points": [
+    "Kimi K3是目前最強開源模型，2.8TB參數，性能接近GPT 5.5與GPT 5.6之間，中國模型落後美國前沿從6-12個月縮短到3-4個月",
+    "Kimi K3不是DeepSeek時刻：推論成本並未比GPT 5.6更低，每任務/bin/bash.95 vs Grok 4.5的/bin/bash.31，沒有算力效率突破",
+    "Kimi K3商業競爭力有限：API雖便宜但完成任務耗Token更多，本地部署需多台B200伺服器，一般企業難以負擔",
+    "Agentic Coding評比：Kimi K3排第四，Grok 4.5突然衝上第三（僅次於GPT 5.6+Codec和Fable+Claude Code）",
+    "Meta正式確認打造Meta Compute：挖角AWS高層Dev Brown主導算力業務，未來進入五大公有雲時代",
+    "Meta進軍雲算力黃金時機：AI算力供不應求將持續5-10年，可趁此建立客戶基礎，類比亞馬遜AWS和Google Cloud崛起路徑",
+    "模型commodity化趨勢確認，但OpenAI和Anthropic仍可獲利，類比手機市場蘋果三星有各自定位",
+    "台股大跌主因是韓國修飾效應加上累積漲幅過大，並非Kimi K3直接造成"
+  ],
+  "macro_outlook": [
+    "AI算力供不應求格局預計維持5-10年，Meta、XAI等新進者加速布局，支撐長期需求",
+    "AI模型commodity化將使算力需求持續增加（Jevons Paradox效應），而非因模型更省而減少",
+    "中國AI技術差距縮小：Kimi K3落後僅3-4個月，訓練推測仍需仰賴繞道取得的Blackwell晶片",
+    "Neo Cloud（CoreWeave、Nebius等）因Meta、XAI入局而面臨競爭壓力加大"
+  ],
+  "targets": [
+    {
+      "code": "META",
+      "name": "Meta",
+      "view": "看多",
+      "rationale": "Meta Compute戰略正確，趁AI算力供不應求建立第四/五大公有雲，類比亞馬遜AWS成功路徑，廣告以外的第二大收入來源"
+    },
+    {
+      "code": "NVDA",
+      "name": "Nvidia",
+      "view": "中性",
+      "rationale": "費半已跌入熊市，但Kimi K3並未降低算力需求，長期AI訓練與推論需求不變，短期籌碼面承壓"
+    },
+    {
+      "code": "CRWV",
+      "name": "CoreWeave",
+      "view": "中性",
+      "rationale": "Neo Cloud仍有基本面支撐，但Meta、XAI入局使競爭格局更擁擠，長期市場空間被壓縮"
+    }
+  ],
+  "risk_factors": [
+    "Kimi K3引發市場對AI資本支出合理性的疑慮，若更多低成本競爭者出現，可能持續壓縮估值",
+    "中國模型若透過繞道取得Blackwell持續訓練，可能進一步縮短技術差距",
+    "Meta Compute能否執行到位仍需觀察，AWS、Google、Microsoft已有先發優勢與客戶黏性"
+  ],
+  "quotes": "模型就像手機，手機是通用商品，但蘋果和三星還是有各自定位和利潤。模型commodity化不代表OpenAI跟Anthropic賺不到錢，只是賺不到暴利，最終就是合理利潤。而且你從DeepSeek震驚過後，算力需求有減少嗎？沒有，反而更旺盛了。"
+}
