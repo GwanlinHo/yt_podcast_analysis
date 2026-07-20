@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T06:01:17.552250",
+  "last_updated": "2026-07-21T00:00:05.883251",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2354,6 +2354,28 @@
       "created_at": "2026-07-19T05:00:05.305591",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_bb68c311": {
+      "id": "pc_bb68c311",
+      "title": "EP1142｜怕砍在阿呆谷，又怕回吐更多，減壓怎麼做？主動ETF也跌，有比個股好嗎？被動元件陷入斷頭危機，止跌訊號？ft.型男股神 陳威良",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/9e5a19e8-78da-4d4c-9ec3-dec4e9c0218d",
+      "date": "20260720",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-21T00:00:03.257400",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/9e5a19e8-78da-4d4c-9ec3-dec4e9c0218d/rssFileVip.mp3?timestamp=1784538874022"
+    },
+    "pc_289cdef9": {
+      "id": "pc_289cdef9",
+      "title": "EP321. Kimi K3 最強開源、Meta 認真要賣算力、台股要大崩盤了嗎 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/243201e8-74ea-4cb5-85b4-97f32722a701",
+      "date": "20260720",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-07-21T00:00:05.882670",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/243201e8-74ea-4cb5-85b4-97f32722a701/rssFileVip.mp3?timestamp=1784535184623"
     }
   }
 }
