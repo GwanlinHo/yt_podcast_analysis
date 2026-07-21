@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22T05:01:15.840003",
+  "last_updated": "2026-07-22T05:07:05.331920",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2405,7 +2405,7 @@
       "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/25d195f6-9673-4d75-8776-a585caec571d",
       "date": "20260721",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-07-22T00:00:03.323709",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/25d195f6-9673-4d75-8776-a585caec571d/rssFileVip.mp3?timestamp=1784636694541"
@@ -2416,7 +2416,7 @@
       "url": "https://www.youtube.com/watch?v=UNO4qNt4PCs",
       "date": "20260721",
       "channel": "財女珍妮",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-07-22T05:01:01.319390",
       "source": "youtube",
       "audio_url": ""
