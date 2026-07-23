@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T00:00:05.180286",
+  "last_updated": "2026-07-24T05:01:12.427193",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2445,7 +2445,7 @@
     },
     "fx2v-l2XRkA": {
       "id": "fx2v-l2XRkA",
-      "title": "油價突破91美元、殖利率升高，晶片股卻暴漲：這次反彈能信嗎？｜2026/07/22 (三)",
+      "title": "美光暴漲12%，費半大漲5.2%：AI晶片真的止跌了嗎？｜2026/07/22 (三)",
       "url": "https://www.youtube.com/watch?v=fx2v-l2XRkA",
       "date": "20260722",
       "channel": "財女珍妮",
@@ -2464,6 +2464,17 @@
       "created_at": "2026-07-24T00:00:02.601555",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/97a797b8-2184-4875-97e4-42f3c0d603bc/rssFileVip.mp3?timestamp=1784794892451"
+    },
+    "bKogQV6DsL0": {
+      "id": "bKogQV6DsL0",
+      "title": "Alphabet雲端暴增82%，股價卻下跌：AI賺得過燒錢速度嗎？｜2026/07/23 (四)",
+      "url": "https://www.youtube.com/watch?v=bKogQV6DsL0",
+      "date": "20260723",
+      "channel": "財女珍妮",
+      "status": "pending",
+      "created_at": "2026-07-24T05:00:52.709083",
+      "source": "youtube",
+      "audio_url": ""
     }
   }
 }
