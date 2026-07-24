@@ -1,0 +1,57 @@
+{
+  "key_points": [
+    "Kimi K3 成本比主流模型低約 2.3 倍但推理速度較慢，適合排程型背景任務；歐美企業（Doordash、Airbnb 等）已積極評估導入以降低 AI 成本",
+    "Kimi K3 採用開放標準 MXFP4（非 NVIDIA 專有 NVFP4）訓練、Delta Attention 機制節省 75% KV Cache 記憶體，理論上可脫離 NVIDIA 生態在其他加速晶片上訓練",
+    "企業自架 Kimi K3 至少需 64 張加速卡（一台 NVIDIA R72，約 200-300 萬美元），MoE 架構對網路互聯頻寬要求極高，目前仍非中小企業可負擔",
+    "NAND SSD 用於 AI KV Cache 卸載（NVIDIA CMX 技術）正在興起，NAND 需求預計從今年 3500 萬 TB 爆增至明年超 1 億 TB（約增加一個蘋果的需求量）",
+    "Super Micro 提前公布毛利率指引由 8.2-8.4% 大幅上修至 15-17%，反映 AI Server 換代訂單湧入、定價能力改善，帶動 Dell、HPE 股價上漲 5-6%",
+    "Google 本季首度對外銷售 TPU（推測首批客戶包含 Anthropic），API token 使用量從上季每分鐘 161 億跳升至 221 億，環比成長 37%，AI Agent 加速推動使用量",
+    "Google Cloud Backlog 本季新增約 2200 億美元至累計 5600 億美元；CAPEX 上修至 2050 億美元（原指引 1950 億），明年可能進一步大幅上修",
+    "中國華為深騰 950 SuperPod（1024 卡叢集）在 WAIC 2026 亮相；攝源科技與先鋒科技聯合發表採玻璃基板 CoWoS AI 晶片，但技術細節待驗證",
+    "市場擔憂 AI CAPEX 回報時間：Google FCF 本季已轉負，企業債 CDS Spread 擴大視為領先風險指標，主流預測 26 年下半年至 27 年上半年為 CAPEX 成長高峰"
+  ],
+  "macro_outlook": [
+    "AI CAPEX 週期：token 使用量仍以倍數成長（QoQ+37%），但自由現金流轉負、債市 spread 擴大，建議以 token 量及 API 使用度作為領先指標而非 FCF 落後指標",
+    "中國 AI 硬體：缺乏 HBM 的制約推動「以存代算」路線（NAND + CMX），形成差異化競爭；同時仍嚴重依賴算力，DeepSeek / Kimi 模式最終仍帶動算力需求",
+    "NAND 成為 AI 基礎建設的隱性受益者，AI KV Cache 對 NAND 需求規模可能比肩整個智慧型手機市場，且需求爆發確定性較高"
+  ],
+  "targets": [
+    {
+      "code": "SMCI",
+      "name": "Super Micro Computer",
+      "view": "看多",
+      "rationale": "毛利率指引從 8.2% 大幅跳升至 15-17%，AI Server 換代訂單湧入、定價能力強化，為最直接受益者"
+    },
+    {
+      "code": "DELL",
+      "name": "戴爾",
+      "view": "看多",
+      "rationale": "Super Micro 毛利指引上修後，Dell 股價漲 5-6%，AI Server 市場需求連動確認"
+    },
+    {
+      "code": "HPE",
+      "name": "惠普企業",
+      "view": "看多",
+      "rationale": "同 Dell 邏輯，AI Server 換代需求帶動"
+    },
+    {
+      "code": "GOOGL",
+      "name": "Alphabet/Google",
+      "view": "中性",
+      "rationale": "Cloud Backlog 達 5600 億美元極度正向，TPU 外售新收入來源；但 CAPEX 上修至 2050 億、FCF 轉負，短期市場有合理疑慮"
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "view": "看多",
+      "rationale": "算力需求仍以倍數成長，NAND CMX 等新技術仍在 NVIDIA 架構體系內強化部署；Google TPU 外售是潛在競爭但時間尚早"
+    }
+  ],
+  "risk_factors": [
+    "AI CAPEX 的企業債 CDS Spread 擴大，若 FCF 持續惡化，資本市場可能收縮對 CSP 的融資，導致 CAPEX 計畫延遲",
+    "開源中國模型低成本替代性（Kimi K3 等）可能侵蝕企業端 AI API 使用需求，進而壓縮雲端廠商定價能力",
+    "NAND 用於 AI 推理為相對早期技術，商業規模化節奏及良率仍有不確定性",
+    "Google TPU 外售打破自用壁壘，若未來更多廠商跟進，NVIDIA GPU 市場主導地位面臨長期稀釋風險"
+  ],
+  "quotes": "算力這件事就跟 DeepSeek 一樣——大家搞一搞然後發現，靠，算力不夠了，還是要買算力。"
+}
