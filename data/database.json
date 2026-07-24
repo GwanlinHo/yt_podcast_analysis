@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T06:01:14.029312",
+  "last_updated": "2026-07-25T00:00:05.240931",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2475,6 +2475,39 @@
       "created_at": "2026-07-24T05:00:52.709083",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_46d749b5": {
+      "id": "pc_46d749b5",
+      "title": "EP1146｜韓國殺招提早上路，油價又破百，要等利空測試跌不動！載板、CCL、矽晶圓看遠都很美，看近會被洗，拉長戰線能收成？ft.操盤手 黃豐凱",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/50452a4f-8c2e-4729-995b-22d1e363e704",
+      "date": "20260724",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-25T00:00:02.767727",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/50452a4f-8c2e-4729-995b-22d1e363e704/rssFileVip.mp3?timestamp=1784880520247"
+    },
+    "pc_e89d335d": {
+      "id": "pc_e89d335d",
+      "title": "540.【財經時事放大鏡】AI 上中下游：Kimi k3 x Google x TI",
+      "url": "https://open.firstory.me/story/cmrxkqpfh05fj01up9mpz6hc8",
+      "date": "20260723",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-07-25T00:00:03.835429",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmrxkqpfh05fj01up9mpz6hc8/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmrxkqpfh05fk01up5cvgb6om.mp3?v=1784815037504"
+    },
+    "pc_ec6f531d": {
+      "id": "pc_ec6f531d",
+      "title": "EP322. 谷歌新模型不夠力、川普要查中國 AI、OpenAI 模型越獄 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/54c8fc5a-e730-4cd6-8f93-37a7a2fb199d",
+      "date": "20260723",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-07-25T00:00:05.240309",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/54c8fc5a-e730-4cd6-8f93-37a7a2fb199d/rssFileVip.mp3?timestamp=1784826609774"
     }
   }
 }
