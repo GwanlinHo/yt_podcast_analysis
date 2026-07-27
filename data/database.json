@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27T06:00:34.296124",
+  "last_updated": "2026-07-28T00:00:06.913762",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2530,6 +2530,39 @@
       "created_at": "2026-07-26T05:00:04.575833",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_b770d742": {
+      "id": "pc_b770d742",
+      "title": "EP1147｜算窒息量嗎？信昌電急拉，大戶今日尾盤敲單的邏輯？被動元件曙光，CPO、老AI先跌先止跌，設備內外資都升評？ft.冠軍操盤手 楊雲翔",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/1486f522-2278-477b-b395-a9430dbd6dd2",
+      "date": "20260727",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-28T00:00:04.297690",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/1486f522-2278-477b-b395-a9430dbd6dd2/rssFileVip.mp3?timestamp=1785140726098"
+    },
+    "pc_4f4908e7": {
+      "id": "pc_4f4908e7",
+      "title": "541.【台股美股提款機】產業解析：面板級封裝 PLP 展望與競爭格局",
+      "url": "https://open.firstory.me/story/cms1x7fn51emk01yx75gph6ot",
+      "date": "20260726",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-07-28T00:00:05.426814",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cms1x7fn51emk01yx75gph6ot/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcms1x7fn51eml01yxb70o9pju.mp3?v=1785077873899"
+    },
+    "pc_feb10308": {
+      "id": "pc_feb10308",
+      "title": "EP323. Opus 5 正式發表、星艦第十三飛達標、開放模型的公開信 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/2ddb8de0-0571-47d0-ab5f-1297a3976cf6",
+      "date": "20260727",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-07-28T00:00:06.913179",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/2ddb8de0-0571-47d0-ab5f-1297a3976cf6/rssFileVip.mp3?timestamp=1785140008254"
     }
   }
 }
