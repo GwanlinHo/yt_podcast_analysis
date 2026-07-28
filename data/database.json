@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28T06:00:17.986953",
+  "last_updated": "2026-07-29T00:00:07.188811",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2563,6 +2563,17 @@
       "created_at": "2026-07-28T00:00:06.913179",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/2ddb8de0-0571-47d0-ab5f-1297a3976cf6/rssFileVip.mp3?timestamp=1785140008254"
+    },
+    "pc_a6571b1f": {
+      "id": "pc_a6571b1f",
+      "title": "EP1148｜恐懼又來，升息、輝達幫忙舉債、中國生產DUV，形成股市向下螺旋的原因？怕就等等，不想賣，先確定自己凹單的條件？ft.題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/59a51cb4-a8ad-4a59-9da2-9c960096f7c5",
+      "date": "20260728",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-29T00:00:04.714637",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/59a51cb4-a8ad-4a59-9da2-9c960096f7c5/rssFileVip.mp3?timestamp=1785228038195"
     }
   }
 }
