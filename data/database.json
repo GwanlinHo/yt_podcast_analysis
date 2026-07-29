@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T06:00:21.182735",
+  "last_updated": "2026-07-30T00:00:06.953136",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2574,6 +2574,17 @@
       "created_at": "2026-07-29T00:00:04.714637",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/59a51cb4-a8ad-4a59-9da2-9c960096f7c5/rssFileVip.mp3?timestamp=1785228038195"
+    },
+    "pc_08f7d9d0": {
+      "id": "pc_08f7d9d0",
+      "title": "EP1149｜測試4萬大關，獲利都吐光的一天？大盤融資維持率再降，整理股票，更整理心情！財報都超好，為何只反應利空？ft.型男股神 陳威良",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/addeb950-30b8-47c6-839c-e9087445fc3d",
+      "date": "20260729",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-30T00:00:04.381421",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/addeb950-30b8-47c6-839c-e9087445fc3d/rssFileVip.mp3?timestamp=1785313975909"
     }
   }
 }
