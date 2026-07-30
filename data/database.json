@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T06:00:17.270173",
+  "last_updated": "2026-07-31T00:00:07.920643",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2596,6 +2596,17 @@
       "created_at": "2026-07-30T05:00:05.145543",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_e07bd7fd": {
+      "id": "pc_e07bd7fd",
+      "title": "EP1150｜市場的理性與不理性？好財報照跌，但資金買單部份股票？融資退、政府護，反攻條件還不夠，可以觀察的事情變很多！ft.選股教練 陳唯泰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/90933ed5-6756-4e81-a28a-2c96d29c4206",
+      "date": "20260730",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-07-31T00:00:04.842735",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/90933ed5-6756-4e81-a28a-2c96d29c4206/rssFileVip.mp3?timestamp=1785402719467"
     }
   }
 }
