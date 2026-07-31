@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T06:00:33.963820",
+  "last_updated": "2026-08-01T00:00:05.661665",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2607,6 +2607,39 @@
       "created_at": "2026-07-31T00:00:04.842735",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/90933ed5-6756-4e81-a28a-2c96d29c4206/rssFileVip.mp3?timestamp=1785402719467"
+    },
+    "pc_1451df64": {
+      "id": "pc_1451df64",
+      "title": "EP1151｜史上最大漲點3281點，台積電漲停，堆積的利多，一口氣奉還！不急著當1日英雄，股價跌回合理本益比，慢慢挑！ft.操盤手 黃豐凱",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/9b6be5be-d85a-4b6a-88da-7cbde9a708d1",
+      "date": "20260731",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-01T00:00:02.969126",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/9b6be5be-d85a-4b6a-88da-7cbde9a708d1/rssFileVip.mp3?timestamp=1785497008838"
+    },
+    "pc_abc3920c": {
+      "id": "pc_abc3920c",
+      "title": "542.【達人聊產業】先進封裝良率守護者！AOM 遍尋晶圓 defect ft. 倍利科黃建中總經理",
+      "url": "https://open.firstory.me/story/cms7madtv06kz01yzchn7c7zd",
+      "date": "20260730",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-08-01T00:00:04.100777",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cms7madtv06kz01yzchn7c7zd/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcms7madtv06l001yzd4ym8fuj.mp3?v=1785422331736"
+    },
+    "pc_cb777fdf": {
+      "id": "pc_cb777fdf",
+      "title": "EP324. AI 基建股大跌中、調控 AI 公開信、美國禁中國機器人 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/7875bac9-764f-4858-9c5d-a812cec46a2f",
+      "date": "20260730",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-08-01T00:00:05.661163",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/7875bac9-764f-4858-9c5d-a812cec46a2f/rssFileVip.mp3?timestamp=1785438584625"
     }
   }
 }
