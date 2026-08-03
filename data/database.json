@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T06:00:18.207065",
+  "last_updated": "2026-08-04T00:00:07.574897",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2651,6 +2651,28 @@
       "created_at": "2026-08-02T05:00:05.364250",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_213cf57d": {
+      "id": "pc_213cf57d",
+      "title": "EP1152｜亞股我最強，利多會反應，危機解除了嗎？美伊、南韓、日幣一起看，被個股嚇破膽又捨不得放，如何重新調整？ft,題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/78136b17-124c-487a-9a4d-faf3dc95b5e2",
+      "date": "20260803",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-04T00:00:05.018005",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/78136b17-124c-487a-9a4d-faf3dc95b5e2/rssFileVip.mp3?timestamp=1785748433398"
+    },
+    "pc_543a8c72": {
+      "id": "pc_543a8c72",
+      "title": "EP325. GPT Luna 大降價、特斯拉中國會賣嗎、梁文鋒的流出談話 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/d28465fa-1a91-4fb4-b781-f692a743b7bb",
+      "date": "20260803",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-08-04T00:00:07.574311",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/d28465fa-1a91-4fb4-b781-f692a743b7bb/rssFileVip.mp3?timestamp=1785741725381"
     }
   }
 }
