@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T06:00:20.665428",
+  "last_updated": "2026-08-05T00:00:06.937811",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2673,6 +2673,17 @@
       "created_at": "2026-08-04T00:00:07.574311",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/d28465fa-1a91-4fb4-b781-f692a743b7bb/rssFileVip.mp3?timestamp=1785741725381"
+    },
+    "pc_65f595e0": {
+      "id": "pc_65f595e0",
+      "title": "EP1153｜亞馬遜股價創新高的投資啟示？訂單都在等台灣，市場的情緒平復中，Q3漲價趨緩已反應？受傷的信心和部位如何重建？ft.AI達人 蔡明翰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/d06c5f03-f436-451a-8fb1-5f9544d9d256",
+      "date": "20260804",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-05T00:00:04.232284",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/d06c5f03-f436-451a-8fb1-5f9544d9d256/rssFileVip.mp3?timestamp=1785832191120"
     }
   }
 }
