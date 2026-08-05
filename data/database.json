@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T06:30:25.695727",
+  "last_updated": "2026-08-06T00:00:07.159324",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2684,6 +2684,17 @@
       "created_at": "2026-08-05T00:00:04.232284",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/d06c5f03-f436-451a-8fb1-5f9544d9d256/rssFileVip.mp3?timestamp=1785832191120"
+    },
+    "pc_136de69c": {
+      "id": "pc_136de69c",
+      "title": "EP1154｜連續反彈上月線了，判斷彈幅滿足，還是續抱？琉明光學的背書價值，AMD和環球晶財報後跌，市場期待仍是高標！ft.型男股神 陳威良",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/d217eac7-8d04-4cac-9de2-99aa3f9316c9",
+      "date": "20260805",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-06T00:00:04.633998",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/d217eac7-8d04-4cac-9de2-99aa3f9316c9/rssFileVip.mp3?timestamp=1785918114384"
     }
   }
 }
