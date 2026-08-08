@@ -1,0 +1,60 @@
+{
+  "key_points": [
+    "Palantir Q2財報爆發，年增率92.8%，為連續第四至五季加速成長，市場稱之為Vindication時刻",
+    "Palantir 營業利益率47.1%創史上最高，超越微軟(45%)與Google，徹底證偽「不能賺錢」質疑",
+    "美國商業客戶年增率149%，Net Revenue Retention達157%（AI爆發前僅110%），舊客戶持續深化使用",
+    "美國政府業務年增率90%，顯示美國政府全力擁抱AI且高度信任Palantir",
+    "提出Benchmaking概念：企業應針對自身任務自建評測基準，從市面模型中挑最合適者，而非盲從通用benchmark",
+    "SpaceX Q2 營收年增率92%至78.1億美元；AI部門年增248%至25.6億美元；Starlink年增66%至42.9億美元",
+    "SpaceX Q3 AI部門預估收入50-60億美元（Anthropic租約放量），年化目標衝刺1000億美元",
+    "SpaceX 早期股東與員工鎖定期結束，解鎖量約現流通股兩倍，預期賣壓持續",
+    "Google DeepMind 組織調整：Demis Hassabis升任主席（實權下降），內部承認AI競爭力問題，Gemini 3.5 Pro仍未發布"
+  ],
+  "macro_outlook": [
+    "本輪財報季出現AI巨頭集體Vindication：微軟、亞馬遜、Palantir在上半年低迷後大幅反彈，AI Infra與應用股同步上漲",
+    "企業AI部署重心從Token Maxing（燒算力）轉向FDE（現場部署服務），代表AI真正進入企業核心決策層",
+    "AI算力供不應求格局未改，各大企業資本支出持續具正當性，但市場對非三大雲端廠的CAPEX仍有疑慮",
+    "Mula估SpaceX 2027年營收可達1500-2000億美元（今年全年約450億），成長曲線极為陡峭",
+    "市場格言「短期是投票機，長期是體重機」：Palantir案例再次印證價值投資者在逆風期加碼的正確性"
+  ],
+  "targets": [
+    {
+      "code": "PLTR",
+      "name": "Palantir",
+      "view": "看多",
+      "rationale": "Q2財報年增92.8%、歷史最高利益率47.1%、Net Revenue Retention 157%；FDE模式具高度護城河；合理估值約150美元區間"
+    },
+    {
+      "code": "SPCX",
+      "name": "SpaceX",
+      "view": "中性",
+      "rationale": "長線看多但現估值1.4-1.5兆美元高於合理值1兆（貴四五成）；鎖定期解除帶來賣壓，Mula目標加碼區在90-100美元"
+    },
+    {
+      "code": "MSFT",
+      "name": "微軟",
+      "view": "看多",
+      "rationale": "財報後大漲史上最大單日市值增幅，AI雲端業務成長強勁，CAPEX獲市場認可"
+    },
+    {
+      "code": "AMZN",
+      "name": "亞馬遜",
+      "view": "看多",
+      "rationale": "財報後大漲，AWS AI雲端業務高增速"
+    },
+    {
+      "code": "GOOG",
+      "name": "Google",
+      "view": "中性",
+      "rationale": "CAPEX疑慮因同業財報緩解後股價回升，但AI模型競爭力持續落後；DeepMind組織調整顯示內部承認問題"
+    }
+  ],
+  "risk_factors": [
+    "Palantir國際業務疲軟（商業客戶僅26%、政府客戶43%）：英國NHS合約不續約，歐洲政府對美系AI疑慮增加",
+    "FDE模式中長期可複製風險：微軟、Google、OpenAI、Anthropic、Meta等均宣稱要搶市場，五年後競爭格局將趨激烈",
+    "SpaceX估值過高（超合理值40-50%），加上早期股東大量解鎖（約流通股兩倍），未來幾月賣壓持續",
+    "Google AI模型競爭力持續落後：Gemini 3.5 Pro遲未發布，市場期待值已低",
+    "OpenAI/Anthropic若內部算力到位後撤租XAI算力，SpaceX AI部門營收將承壓（雖Mula認為機率低）"
+  ],
+  "quotes": "短期市場是投票機，長期是體重機。Palantir跌到120塊時多少人敢加碼？不離不棄的人，這次拿到了大禮包。市場半認錯了——因為如果要百分之百認錯，漲幅應該更大。"
+}
