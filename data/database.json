@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T06:30:22.857155",
+  "last_updated": "2026-08-11T00:00:06.619264",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2761,6 +2761,28 @@
       "created_at": "2026-08-09T05:00:05.941144",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_7606856f": {
+      "id": "pc_7606856f",
+      "title": "EP1157｜漲回45000點但意猶未盡？股價跌50%，要漲100%才回得來！別管多空交戰、彈完沒，趁盤轉穩，快把配置做起來！ft.題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/a5fce8a0-50df-40c6-9a67-e2b225fe00b6",
+      "date": "20260810",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-11T00:00:04.205454",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/a5fce8a0-50df-40c6-9a67-e2b225fe00b6/rssFileVip.mp3?timestamp=1786357029264"
+    },
+    "pc_a8d7d7f9": {
+      "id": "pc_a8d7d7f9",
+      "title": "EP327. 谷歌會放棄模型嗎、我低估了 SPCX、美股來到歷史新高 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/c9b5a32c-d698-4e94-b69d-8e9fe1f51ca9",
+      "date": "20260810",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-08-11T00:00:06.618820",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/c9b5a32c-d698-4e94-b69d-8e9fe1f51ca9/rssFileVip.mp3?timestamp=1786345903500"
     }
   }
 }
