@@ -1,0 +1,67 @@
+{
+  "key_points": [
+    "Google DeepMind組織重整，Demis Hassabis轉任Chair，外傳因Jeff Dean同期離職太難看而暫留；Mila認為實質差異不大，Hassabis即便出去也會被Google投資",
+    "Semi-analysis發文「Gemini is cooked, GCP is cooking」推論Google將放棄前沿模型；Mila強力反駁，認為此結論根本站不住腳",
+    "Sundar Pichai在財報電話會明確聲明：TPU算力分配以內部模型研發為第一優先，GCP出租算力非第一優先",
+    "三大公有雲算力三用途：模型研發(第一優先)、內部APP(Google搜尋/微軟Copilot)、出租算力(GCP/Azure/AWS)；放棄前兩塊等於長期自毀競爭力",
+    "模型新分類框架：最前沿(Fable 5/GPT 5.6 Soul)、次前沿(Grok 4.5/MuSpark 1.2/Opus 4.8/GPT 5.5)、後前沿(GPT 5.6 Luna/Gemini 5.2/DeepSeek V4 Flash)；企業AI採高低配組合",
+    "SpaceX估值從1.05T上調至1.4T：Grok 4.5推出後Token量翻三倍、Cursor ARR年底預計達100億美元(年初30億)、算力業務明年可能達8GW",
+    "若SpaceX算力做到8GW，按每GW年營收300億美元(保守)計算，年營收ARR達2400億美元，規模可超越現在任何一家公有雲",
+    "Palantir估值分析直播定於8月31日；Meta MuSpark 1.2已達次前沿等級，印證落後者能追回",
+    "美股S&P500上週五創歷史新高，7月AI Infra修正已收復約7成跌幅；高槓桿者(3-5倍)遭爆倉或被追繳",
+    "投資哲學核心：長期持有需要兩個條件——風險控管好(不開高槓桿)、conviction(深入研究建立世界觀，不做馬後炮)"
+  ],
+  "macro_outlook": [
+    "S&P500創歷史新高，美股科技巨頭(亞馬遜歷史新高、微軟年度新高)走強，AI題材(SpaceX +30%)與基本面雙引擎全面回暖",
+    "AI算力市場目前超級供不應求：每GW算力年營收高達500億美元；長線5-10年後供給增加毛利將回歸正常",
+    "企業AI採用趨勢：高低配組合(次前沿處理複雜任務、後前沿處理高頻CP值任務)，企業成本持續優化",
+    "7月修正本質為過熱後必然回調，高槓桿者遭殃(OpenAI相關投資公司爆倉、韓國散戶被追繳)；無槓桿者可低接",
+    "中國AI(DeepSeek V4 Flash達後前沿等級)走蒸餾策略快速降低研發成本，持續對前沿模型造成成本競爭壓力"
+  ],
+  "targets": [
+    {
+      "code": "GOOGL",
+      "name": "Google/Alphabet",
+      "view": "多",
+      "rationale": "Mila反駁放棄模型論：擁有最龐大AI研究資產與人才，CEO明確以模型研發為算力分配第一優先，預期年底前Gemini 4.5 Pro可達次前沿水準"
+    },
+    {
+      "code": "SPCX",
+      "name": "SpaceX",
+      "view": "多",
+      "rationale": "估值從1.05T上調至1.4T以上；Grok 4.5 Token量翻三倍、Cursor ARR年底達100億、算力業務明年達8GW年營收可超2000億美元，Starlink估值亦可能再上調1000億"
+    },
+    {
+      "code": "PLTR",
+      "name": "Palantir",
+      "view": "多",
+      "rationale": "股價已漲至171美元，8月31日Mila有正式估值分析直播；Mila強調Palantir基本面多季前已證明，股價上漲只是市場認知追趕而非新增資訊"
+    },
+    {
+      "code": "META",
+      "name": "Meta",
+      "view": "多",
+      "rationale": "MuSpark 1.2已達次前沿等級(同GPT 5.6/Grok 4.5水準)，從Llama 4失敗低潮兩年後成功追上，驗證落後的前沿實驗室仍能追回"
+    },
+    {
+      "code": "MSFT",
+      "name": "微軟",
+      "view": "多",
+      "rationale": "算力優先供給Copilot(毛利70%高於GCP出租毛利)，Microsoft 365霸主地位鞏固；NAI系列模型處次前沿，算力策略清晰"
+    },
+    {
+      "code": "SEA",
+      "name": "SEA集團(蝦皮母公司)",
+      "view": "中性",
+      "rationale": "股價多次大幅起伏(三百→四十→一百二十)，Mila長期持有不動搖；作為展示conviction投資哲學的案例，基本面判斷未改變"
+    }
+  ],
+  "risk_factors": [
+    "SpaceX現價1.7T對比Mila調整後估值1.4T仍高估約20%，短線有回調壓力，但Mila承認可能繼續低估",
+    "AI算力市場未來供給增加將壓縮毛利，SpaceX地面算力業務長線估值需隨市況重新評估",
+    "Gemini 3.0 Pro難產反映Google內部GCP商業部門與研發單位存在算力競爭張力，即便CEO定調仍有執行風險",
+    "市場修正後若再度進入瘋狂期，Mila警告下一波修正幅度可能更大；高槓桿者務必降槓桿",
+    "前沿模型研發門檻高，若OpenAI/Anthropic持續大幅領先，三大公有雲自研模型的競爭力差距可能持續擴大"
+  ],
+  "quotes": "你要能夠長期持有有兩個重點：第一是風險控管好，不承擔你無法承擔的風險；第二是對投資標的要有conviction——有堅定的信念，那需要足夠深入的研究。不是馬後炮，是在它被質疑的時候你就已經看得出來了。"
+}
