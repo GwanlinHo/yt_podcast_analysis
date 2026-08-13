@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13T06:30:23.927689",
+  "last_updated": "2026-08-14T00:00:06.823497",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2816,6 +2816,17 @@
       "created_at": "2026-08-13T05:00:07.195159",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_311d6063": {
+      "id": "pc_311d6063",
+      "title": "EP1160｜CPI降低升息疑慮，好財報有好反應，華碩、廣達一線軍歸隊，漲價升級中小股續航，明年是否「再度發育」？ft.選股教練 陳唯泰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/f3ef33a7-da73-4f73-8fa6-32532da6c5ac",
+      "date": "20260813",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-14T00:00:04.576436",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/f3ef33a7-da73-4f73-8fa6-32532da6c5ac/rssFileVip.mp3?timestamp=1786611225960"
     }
   }
 }
