@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T06:30:22.925540",
+  "last_updated": "2026-08-15T00:01:04.578732",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2827,6 +2827,17 @@
       "created_at": "2026-08-14T00:00:04.576436",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/f3ef33a7-da73-4f73-8fa6-32532da6c5ac/rssFileVip.mp3?timestamp=1786611225960"
+    },
+    "pc_d72ce443": {
+      "id": "pc_d72ce443",
+      "title": "544.【財經時事放大鏡】OCP 趨勢觀察",
+      "url": "https://open.firstory.me/story/cmsrh8ten0j6r01vxhiceg9tm",
+      "date": "20260813",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-08-15T00:01:03.344268",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmsrh8ten0j6r01vxhiceg9tm/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmsrh8ten0j6s01vxci3iept3.mp3?v=1786628518754"
     }
   }
 }
