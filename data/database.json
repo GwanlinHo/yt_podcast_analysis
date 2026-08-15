@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15T06:30:25.586966",
+  "last_updated": "2026-08-16T00:01:05.731379",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2838,6 +2838,28 @@
       "created_at": "2026-08-15T00:01:03.344268",
       "source": "podcast",
       "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmsrh8ten0j6r01vxhiceg9tm/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmsrh8ten0j6s01vxci3iept3.mp3?v=1786628518754"
+    },
+    "pc_0d614034": {
+      "id": "pc_0d614034",
+      "title": "EP1162｜股災創傷症候群！之前獲利吐光很痛，反彈到46000點又不敢買？看懂K棒不用摸頭猜底，歷史會重演，現在勝率反而高？ft.朱家泓.林穎",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/1dad7efb-5e19-4b06-8660-a4403c2727a9",
+      "date": "20260815",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-16T00:00:04.555925",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/1dad7efb-5e19-4b06-8660-a4403c2727a9/rssFileVip.mp3?timestamp=1786779810145"
+    },
+    "pc_91d4268b": {
+      "id": "pc_91d4268b",
+      "title": "EP1161｜外資回補、投信觀望，反彈6千點市場情緒沒恢復，好處是有標準！繼續漲價南亞、台光電近前高，怕跌價群聯不振？ft.操盤手 黃豐凱",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/02e8cc00-e914-48f9-874b-d6cb14edccb8",
+      "date": "20260814",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-16T00:00:04.556038",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/02e8cc00-e914-48f9-874b-d6cb14edccb8/rssFileVip.mp3?timestamp=1786733695223"
     }
   }
 }
