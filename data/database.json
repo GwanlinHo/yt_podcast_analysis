@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T06:30:19.060700",
+  "last_updated": "2026-08-19T00:00:06.325916",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2893,6 +2893,17 @@
       "created_at": "2026-08-18T00:00:07.079596",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/dbeef481-226a-4556-a855-caba3bb9787b/rssFileVip.mp3?timestamp=1786951983173"
+    },
+    "pc_f1b2491b": {
+      "id": "pc_f1b2491b",
+      "title": "EP1164｜非要養大不可！輝達繼續注資OPEN AI，基本面明朗，勇敢者追強，謹慎者回檔記得補貨？Q2季報體檢和展望！ft.AI達人 蔡明翰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/a1b9b244-1484-477a-afe2-ec247ad8ce89",
+      "date": "20260818",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-19T00:00:04.053219",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/a1b9b244-1484-477a-afe2-ec247ad8ce89/rssFileVip.mp3?timestamp=1787042046426"
     }
   }
 }
