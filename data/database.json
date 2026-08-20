@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T06:30:18.493427",
+  "last_updated": "2026-08-21T00:00:21.722577",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2926,6 +2926,17 @@
       "created_at": "2026-08-20T05:00:05.295702",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_6643e9ef": {
+      "id": "pc_6643e9ef",
+      "title": "EP1166｜量縮好布局，大型法人資金也在等出手，世界第一、寡占、高研發，ASIC、先進封裝、設備，難以預估的爆增大市場！ft.產業隊長 張捷",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/5da829b6-8279-4b00-a8f9-0266883c8573",
+      "date": "20260820",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-21T00:00:07.828228",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/5da829b6-8279-4b00-a8f9-0266883c8573/rssFileVip.mp3?timestamp=1787214888105"
     }
   }
 }
