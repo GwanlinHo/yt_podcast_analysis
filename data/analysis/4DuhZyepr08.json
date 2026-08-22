@@ -1,0 +1,48 @@
+{
+  "key_points": [
+    "盤面評估「相對健康」：7月底最深跌幅2-3成後已陸續收復，部分個股跌幅甚至達4-5成也在回補；波段類股持續墊高但缺乏FOMO氣氛，呈現「漲→休息→跌→再漲」健康調整模式",
+    "Marvell-Google客製化半導體合作是本集核心：Google委託Marvell開發TPU生態系周邊晶片（PCIe Retimer、Memory Controller、NIC、Near-memory compute），同時獲得以206美元購買Marvell股份的認購權，完成後將成Marvell第五大股東（流通股約7%），Vesting至2030年底",
+    "COT模式（Customer-Owned Tooling）是策略關鍵：Google從過去由Broadcom包辦的「turnkey一站式」轉型為自主掌握設計、光罩、關鍵料件，外包廠改收NRE費、IP授權與設計服務費",
+    "重要澄清：Marvell拿到的是Google「新開發」的輔助晶片案子（如Frozen等），並非從Broadcom或聯發科手中搶走，不應過度解讀為零和競爭",
+    "Broadcom最受衝擊：原本「五個案子全拿」的turnkey模式，COT之後可能只剩兩三個完整案，毛利遭壓縮",
+    "聯發科（MediaTek）評估中性偏利多：已在Marvell之前布局CPU能力，COT模式提升設計服務機會，並非被排擠",
+    "美光（Micron）年度紅利降至2.4個月（低於承諾上限5個月），謝孟恭評為「搶人期此舉決策欠佳」，優秀工程師易跳槽"
+  ],
+  "macro_outlook": [
+    "COT趨勢正在重塑AI晶片設計生態：雲端大廠從依賴單一turnkey廠商轉向分散設計採購，長期有利於多元IC設計廠但不利毛利偏高的整合型廠商",
+    "市場氣氛「黏滯向上」：追漲停風險高，但波段類股持續創高是正向訊號，謝孟恭認為整體趨勢仍偏正向",
+    "雲端大廠自研晶片力道持續強化：Google以認購權股份綁定Marvell是新型合作模式，預示未來更多類似策略聯盟"
+  ],
+  "targets": [
+    {
+      "code": "MRVL",
+      "name": "Marvell Technology",
+      "view": "看多",
+      "rationale": "Google以股份認購權綁定合作至2030年，新增NPU、inference、CPU等晶片案，開拓非既有玩家版圖，且合作內容為增量而非搶量"
+    },
+    {
+      "code": "AVGO",
+      "name": "Broadcom",
+      "view": "看空",
+      "rationale": "Google轉向COT模式後，Broadcom原本的turnkey五個案子可能縮減至兩三個，毛利面臨壓縮"
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "view": "中性",
+      "rationale": "謝孟恭認為COT模式對聯發科非負面，已在Marvell之前布局CPU能力，且Marvell搶的是新案非舊有聯發科份額"
+    },
+    {
+      "code": "MU",
+      "name": "美光",
+      "view": "中性",
+      "rationale": "年度紅利降至2.4個月（低於五個月上限），搶人期此舉恐影響人才留任，需觀察後續"
+    }
+  ],
+  "risk_factors": [
+    "COT模式加速，整合型turnkey廠商（Broadcom等）毛利率長期面臨下行壓力",
+    "雲端大廠持續推進自研晶片，外包廠轉型為設計服務收費模式，收入成長空間可能不如過去",
+    "美光降低工程師年度紅利，可能在AI人才戰中居於劣勢，影響產品研發節奏"
+  ],
+  "quotes": "金字塔底層藏寶藏，認真生產者用平易近人的價格提供巨大滿足感——謝孟恭（以投資比喻：好的標的不一定在最貴的地方）"
+}

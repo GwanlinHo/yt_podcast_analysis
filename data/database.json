@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23T05:00:22.690538",
+  "last_updated": "2026-08-23T05:06:26.397122",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2944,7 +2944,7 @@
       "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/ed8d0ac9-94f6-4132-98ea-81aaa8613a0c",
       "date": "20260821",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-08-22T00:00:04.397661",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/ed8d0ac9-94f6-4132-98ea-81aaa8613a0c/rssFileVip.mp3?timestamp=1787307683586"
@@ -2977,7 +2977,7 @@
       "url": "https://www.youtube.com/watch?v=4DuhZyepr08",
       "date": "20260822",
       "channel": "股癌",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-08-23T05:00:05.120092",
       "source": "youtube",
       "audio_url": ""
