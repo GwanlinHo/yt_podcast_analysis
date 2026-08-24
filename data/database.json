@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T06:30:21.707858",
+  "last_updated": "2026-08-25T00:00:05.842614",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -2981,6 +2981,28 @@
       "created_at": "2026-08-23T05:00:05.120092",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_2ddbaf97": {
+      "id": "pc_2ddbaf97",
+      "title": "EP1168｜美國債壓、南部放假，低量等表態！高息科技、非電、原物料，看跌停的比看漲停有趣？航海王怎麼當？ft.題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/e44d93e8-9875-4e63-9262-c30238dbf643",
+      "date": "20260824",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-25T00:00:03.256886",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/e44d93e8-9875-4e63-9262-c30238dbf643/rssFileVip.mp3?timestamp=1787562612052"
+    },
+    "pc_394b9c82": {
+      "id": "pc_394b9c82",
+      "title": "EP330. 輝達 GPU 要漲價、中國機器人跑很快、特斯拉新消息更新 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/2bc39045-e008-4b9c-987d-e6cb6dad2c5f",
+      "date": "20260824",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-08-25T00:00:05.842144",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/2bc39045-e008-4b9c-987d-e6cb6dad2c5f/rssFileVip.mp3?timestamp=1787555732124"
     }
   }
 }
