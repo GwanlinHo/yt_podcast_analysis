@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T06:30:22.210300",
+  "last_updated": "2026-08-26T00:00:06.084604",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3003,6 +3003,17 @@
       "created_at": "2026-08-25T00:00:05.842144",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/2bc39045-e008-4b9c-987d-e6cb6dad2c5f/rssFileVip.mp3?timestamp=1787555732124"
+    },
+    "pc_6342ca0b": {
+      "id": "pc_6342ca0b",
+      "title": "EP1169｜美債殖利率高只是壓抑，快速走低才是殺手！AI純度高、成長超越均值，就值得等？輝達財報後通常跌，再次布局機會？ft.AI達人 蔡明翰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/184fd3cc-8d8b-4502-8b8a-291754906a7a",
+      "date": "20260825",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-26T00:00:03.067745",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/184fd3cc-8d8b-4502-8b8a-291754906a7a/rssFileVip.mp3?timestamp=1787647340218"
     }
   }
 }
