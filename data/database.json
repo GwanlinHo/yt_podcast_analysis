@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T06:30:31.646949",
+  "last_updated": "2026-08-27T00:01:03.775920",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3014,6 +3014,28 @@
       "created_at": "2026-08-26T00:00:03.067745",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/184fd3cc-8d8b-4502-8b8a-291754906a7a/rssFileVip.mp3?timestamp=1787647340218"
+    },
+    "pc_375ba16e": {
+      "id": "pc_375ba16e",
+      "title": "EP1170｜輝達首批Vera Rubin裝機了，能逆轉法說必跌魔咒嗎？行情預備備…Q4電子、傳產、原物料都有話題，很熱鬧！ft.選股教練 陳唯泰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/cbe7cfbd-a3ce-476d-895d-d318c9343ccd",
+      "date": "20260826",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-27T00:00:02.559290",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/cbe7cfbd-a3ce-476d-895d-d318c9343ccd/rssFileVip.mp3?timestamp=1787733206600"
+    },
+    "pc_590ee733": {
+      "id": "pc_590ee733",
+      "title": "546.【達人聊產業】BMW 的全新世代：Neue Klasse 如何重寫下一個時代的駕馭樂趣 ft. BMW 產品負責人 Alexander 魏聖德",
+      "url": "https://open.firstory.me/story/cmt8rriwu15yu01xfd1qw98zp",
+      "date": "20260825",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-08-27T00:00:03.610357",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmt8rriwu15yu01xfd1qw98zp/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmt8rriwu15yv01xf5um8hps4.mp3?v=1787668785408"
     }
   }
 }
