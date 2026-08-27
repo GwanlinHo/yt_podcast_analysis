@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27T06:30:17.480258",
+  "last_updated": "2026-08-28T00:00:05.675427",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3047,6 +3047,28 @@
       "created_at": "2026-08-27T05:00:04.340018",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_dd2887ac": {
+      "id": "pc_dd2887ac",
+      "title": "EP1171｜輝達明年成長70%，AI霸主氣魄！毛利率要擔心嗎？台股壓尾盤但氣氛變好，老AI有殖，新技術有夢，記得停利！ft.型男股神 陳威良",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/e035b7c8-bcdb-4445-bbc5-8ee3e40fc7fa",
+      "date": "20260827",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-08-28T00:00:03.089433",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/e035b7c8-bcdb-4445-bbc5-8ee3e40fc7fa/rssFileVip.mp3?timestamp=1787818939038"
+    },
+    "pc_16954bf0": {
+      "id": "pc_16954bf0",
+      "title": "EP331. OpenAI 的晶片、蘋果 M6 & M5 Ultra、Meta 的和解方案 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/9329ca8c-5f45-466e-a79b-0d8c4cf262dd",
+      "date": "20260827",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-08-28T00:00:05.674991",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/9329ca8c-5f45-466e-a79b-0d8c4cf262dd/rssFileVip.mp3?timestamp=1787844310806"
     }
   }
 }
