@@ -1,0 +1,54 @@
+{
+  "key_points": [
+    "OpenAI發表自研推論晶片Halapeno：每瓦效能較NVIDIA GB200高1.5-1.9倍，延遲低1.7-3.6倍，預計年底少量出貨、2027年正式鋪貨",
+    "蘋果推出M6（首顆2nm晶片，12核CPU、雙Neural Engine）及M5 Ultra（最高512GB記憶體），強化端側AI能力，9月22日出貨",
+    "Meta以180億美元（10年分期）與美國29州檢察長達成和解，對青少年實施每日2小時限制、午夜至早6點禁用、上課時段靜音、隱藏按讚數等保護措施",
+    "中國GLM 5.3 Flash以神秘帳號OXα在AI推論評測中表現亮眼，中國AI競爭力不容忽視",
+    "M5 Ultra 512GB記憶體已可跑後前沿開源AI模型，端側AI時代加速來臨"
+  ],
+  "macro_outlook": [
+    "ASIC晶片崛起趨勢確立：OpenAI、Google TPU、Amazon Trainium、Meta等均自研晶片，長期蠶食NVIDIA GPU市占",
+    "主持人預測NVIDIA市占10年後從90%降至60%，但因AI市場絕對規模成長，NVIDIA營收仍持續增長",
+    "三大公有雲（AWS、Azure、GCP）面臨戰略焦慮：若OpenAI/Anthropic做大，雲端基礎設施可能被跳過",
+    "蘋果M6為過渡世代，M7才是重點；台積電2nm量產良率仍在爬坡期"
+  ],
+  "targets": [
+    {
+      "code": "NVDA",
+      "name": "輝達",
+      "view": "看多",
+      "rationale": "主持人重點持股，雖面臨ASIC競爭壓力，但Extreme Codesign系統整合、FP8/FP10軟體領先、扶持開源模型三招維持護城河；市占緩降但絕對規模仍成長"
+    },
+    {
+      "code": "AAPL",
+      "name": "蘋果",
+      "view": "看多",
+      "rationale": "M5 Ultra/M6推出刺激Mac換機潮，統一記憶體架構最適合本地跑AI模型，端側AI需求旺盛"
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "view": "中性偏多",
+      "rationale": "M6採用台積2nm代工，驗證量產能力，但蘋果刻意控制M6規模以等良率成熟，短期量能有限"
+    },
+    {
+      "code": "MU",
+      "name": "美光",
+      "view": "看多",
+      "rationale": "主持人半導體持股之一，AI時代記憶體需求持續強勁"
+    },
+    {
+      "code": "META",
+      "name": "Meta",
+      "view": "中性",
+      "rationale": "和解代價180億美元（10年分期，折現值較低），青少年保護措施可能長期影響黏著度與廣告收入"
+    }
+  ],
+  "risk_factors": [
+    "OpenAI Halapeno等ASIC持續蠶食NVIDIA市占，若ASIC軟體生態成熟，NVIDIA硬體護城河縮窄",
+    "三大公有雲若全力押注第三方模型對抗OpenAI/Anthropic，AI服務格局將加速分裂",
+    "中國AI模型（GLM 5.3 Flash等）以低價競爭，拉低全球AI API定價，壓縮美國模型廠獲利空間",
+    "Meta青少年保護措施若法官未通過或各州追加條件，後續執行成本可能超出預期"
+  ],
+  "quotes": "NVIDIA的市占10年後可能從90%降至60%，但那時候的60%可能還是現在90%的好幾倍大。自由跟責任永遠是相對的，當你有能力承擔責任的時候，你才配得上這樣的自由。"
+}
