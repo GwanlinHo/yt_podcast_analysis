@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T06:30:17.442145",
+  "last_updated": "2026-09-03T00:00:05.411089",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3146,6 +3146,28 @@
       "created_at": "2026-09-02T00:00:04.290779",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/fbff7eb8-704e-466e-af65-02d8ab666c61/rssFileVip.mp3?timestamp=1788254055985"
+    },
+    "pc_4a7f9348": {
+      "id": "pc_4a7f9348",
+      "title": "EP1175｜最後測試時間？9月升息機率破70%，全球央行升息潮？台達電瑕疵傳言，輝達新機能順利量產？避險到不太跌的股票？ft.選股教練 陳唯泰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/da988ff9-6e62-4993-9a12-a15baa6c2c8d",
+      "date": "20260902",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-09-03T00:00:02.933019",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/da988ff9-6e62-4993-9a12-a15baa6c2c8d/rssFileVip.mp3?timestamp=1788340714336"
+    },
+    "pc_9a586b63": {
+      "id": "pc_9a586b63",
+      "title": "560.【達人聊產業】相信潘董！USB、SSD 到 Edge AI 方案商 ft. 群聯潘健成執行長",
+      "url": "https://open.firstory.me/story/cmtitb7m303e501vlcyo6eo1o",
+      "date": "20260901",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-09-03T00:00:04.070706",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmtitb7m303e501vlcyo6eo1o/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmtitb7m303e601vlc0kq0c1t.mp3?v=1788276044310"
     }
   }
 }
