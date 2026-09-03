@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T06:30:21.663813",
+  "last_updated": "2026-09-04T00:00:06.375519",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3179,6 +3179,17 @@
       "created_at": "2026-09-03T05:00:05.233102",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_3cfa1e09": {
+      "id": "pc_3cfa1e09",
+      "title": "EP1176｜美台日資金動能減緩，AI零件漲幅受阻，是9月最大變數和機會？這次紅燈可能11顆，回檔用基金智動扣，會感謝自己？ft.存股教父 股魚",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/b9837b2b-1e41-4d4b-acb2-59a2f68fc2ca",
+      "date": "20260903",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-09-04T00:00:03.902360",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/b9837b2b-1e41-4d4b-acb2-59a2f68fc2ca/rssFileVip.mp3?timestamp=1788426492477"
     }
   }
 }
