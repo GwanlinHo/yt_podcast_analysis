@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05T06:30:33.091382",
+  "last_updated": "2026-09-06T00:00:06.254890",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3212,6 +3212,17 @@
       "created_at": "2026-09-05T00:00:39.391135",
       "source": "podcast",
       "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmtllsgbz0wr301y6a9l70f4d/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmtllsgbz0wr401y62zdp0n21.mp3?v=1788444738517"
+    },
+    "pc_3ccaccd0": {
+      "id": "pc_3ccaccd0",
+      "title": "EP333. Fable 5.1 霸氣登場、全美掀反資料中心浪潮、Tim Cook 時代落幕｜M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/dfb3cae2-5386-444c-aa89-26e9d00f73e7",
+      "date": "20260903",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-09-06T00:00:06.254338",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/dfb3cae2-5386-444c-aa89-26e9d00f73e7/rssFileVip.mp3?timestamp=1788458798026"
     }
   }
 }
