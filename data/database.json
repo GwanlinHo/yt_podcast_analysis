@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T06:36:12.667628",
+  "last_updated": "2026-09-08T00:00:05.897442",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3234,6 +3234,39 @@
       "created_at": "2026-09-06T05:00:06.067112",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_5126d8f0": {
+      "id": "pc_5126d8f0",
+      "title": "EP1178｜費半被川普喊上來？注意高低位階轉換！大立光被降評怎看？8月營收看記憶體、CCL、設備、被動…誰創高但便宜？ft.題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/79ec30c4-f3ac-4e4e-84f0-5cbd74f70d24",
+      "date": "20260907",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-09-08T00:00:03.446137",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/79ec30c4-f3ac-4e4e-84f0-5cbd74f70d24/rssFileVip.mp3?timestamp=1788771072493"
+    },
+    "pc_e905ecfd": {
+      "id": "pc_e905ecfd",
+      "title": "562.【台股美股提款機】NAND Flash 產業：供不應求直至 2027 年中，唯報價上漲幅度趨緩",
+      "url": "https://open.firstory.me/story/cmtq1xcbc0jpf01y8cclxfyoq",
+      "date": "20260906",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-09-08T00:00:04.567820",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmtq1xcbc0jpf01y8cclxfyoq/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmtq1xcbc0jpg01y8f6yk493w.mp3?v=1788713767186"
+    },
+    "pc_eea0223f": {
+      "id": "pc_eea0223f",
+      "title": "EP334. GPT-6 Astra 挑戰 AGI、輝達的投資護城河、Cybercab 正式登場 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/f31c3775-74fc-40c9-a75a-fc040da400b2",
+      "date": "20260907",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-09-08T00:00:05.896909",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/f31c3775-74fc-40c9-a75a-fc040da400b2/rssFileVip.mp3?timestamp=1788765189615"
     }
   }
 }
