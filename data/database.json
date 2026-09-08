@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T06:30:18.663147",
+  "last_updated": "2026-09-09T00:00:06.007126",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3267,6 +3267,17 @@
       "created_at": "2026-09-08T00:00:05.896909",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/f31c3775-74fc-40c9-a75a-fc040da400b2/rssFileVip.mp3?timestamp=1788765189615"
+    },
+    "pc_0505b393": {
+      "id": "pc_0505b393",
+      "title": "EP1179｜先講結論！就算升息也不恐怖，但費半跟上才算數，明顯回檔就是機會？8月營收有力竭現象，遇到漲不動，對策如何做？ft.AI達人 蔡明翰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/2bf2c658-c07d-4986-879a-7d8c69d4b1d9",
+      "date": "20260908",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-09-09T00:00:02.716680",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/2bf2c658-c07d-4986-879a-7d8c69d4b1d9/rssFileVip.mp3?timestamp=1788859086339"
     }
   }
 }
