@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T06:30:26.021913",
+  "last_updated": "2026-09-10T00:00:06.902581",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3278,6 +3278,17 @@
       "created_at": "2026-09-09T00:00:02.716680",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/2bf2c658-c07d-4986-879a-7d8c69d4b1d9/rssFileVip.mp3?timestamp=1788859086339"
+    },
+    "pc_fd420d49": {
+      "id": "pc_fd420d49",
+      "title": "EP1180｜就等FED掀牌，各券商推出Q4展望怎麼看，台積電準備當帶頭大哥？正二能長期存嗎？用資本利得配息的優缺點？ft.型男股神 陳威良",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/67496529-7068-447f-8d6f-882b486dcff3",
+      "date": "20260909",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-09-10T00:00:04.517211",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/67496529-7068-447f-8d6f-882b486dcff3/rssFileVip.mp3?timestamp=1788947224287"
     }
   }
 }
