@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T06:30:21.831375",
+  "last_updated": "2026-09-11T00:00:05.861550",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3300,6 +3300,17 @@
       "created_at": "2026-09-10T05:00:06.033298",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_279c6ea1": {
+      "id": "pc_279c6ea1",
+      "title": "EP1181｜台積電漂亮營收、蘋果新機、市場沒胃口？低量等利率決策的悶盤，Q4很精采，被籌資衝擊的一線公司，都很甜！ft.選股教練 陳唯泰？",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/1cd49e8c-2722-458a-8bb5-92d2a5c9287e",
+      "date": "20260910",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-09-11T00:00:03.474750",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/1cd49e8c-2722-458a-8bb5-92d2a5c9287e/rssFileVip.mp3?timestamp=1789031501863"
     }
   }
 }
