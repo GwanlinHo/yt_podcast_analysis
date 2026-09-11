@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T06:30:17.266256",
+  "last_updated": "2026-09-12T00:00:06.046905",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3311,6 +3311,39 @@
       "created_at": "2026-09-11T00:00:03.474750",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/1cd49e8c-2722-458a-8bb5-92d2a5c9287e/rssFileVip.mp3?timestamp=1789031501863"
+    },
+    "pc_59a47476": {
+      "id": "pc_59a47476",
+      "title": "EP1182｜有壓力但不悲觀！PPI略高於預期、10年期公債殖利率逼近5%、川普重提晶片關稅、油價破百，績優不漲都是機會？ft.操盤手 黃豐凱",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/3d1ac8d8-49c2-4c85-a2d7-e84fc903206f",
+      "date": "20260911",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-09-12T00:00:02.669313",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/3d1ac8d8-49c2-4c85-a2d7-e84fc903206f/rssFileVip.mp3?timestamp=1789116712353"
+    },
+    "pc_685f0209": {
+      "id": "pc_685f0209",
+      "title": "563.【財經時事放大鏡】SEMCON 細看：材料、設備、對位平台與FOPLP",
+      "url": "https://open.firstory.me/story/cmtvwc9hn0ak601qad26100bg",
+      "date": "20260910",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-09-12T00:00:04.758596",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmtvwc9hn0ak601qad26100bg/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmtvwc9hn0ak701qacchegm1n.mp3?v=1789067129222"
+    },
+    "pc_1fdf48c1": {
+      "id": "pc_1fdf48c1",
+      "title": "EP335. 蘋果摺疊手機登場、大 Agent 時代來了、Vibe Coding 101 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/095e9e51-2984-458c-81d7-038842234375",
+      "date": "20260910",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-09-12T00:00:06.046405",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/095e9e51-2984-458c-81d7-038842234375/rssFileVip.mp3?timestamp=1789067217683"
     }
   }
 }
