@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T06:30:21.884351",
+  "last_updated": "2026-09-15T00:00:05.708305",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3355,6 +3355,28 @@
       "created_at": "2026-09-13T05:00:05.152666",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_ad8afe6b": {
+      "id": "pc_ad8afe6b",
+      "title": "EP1183｜升息機率90%不怕，改跌AI降規格了？擔心AI發展超出掌握，資本市場的奸詐？光學、機器人、記憶體重災區解讀！ft.題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/d7b381ed-acb8-4bfb-9e05-95f2a406075e",
+      "date": "20260914",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-09-15T00:00:03.220665",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/d7b381ed-acb8-4bfb-9e05-95f2a406075e/rssFileVip.mp3?timestamp=1789377174662"
+    },
+    "pc_be43369e": {
+      "id": "pc_be43369e",
+      "title": "EP336. 前沿模型該減速嗎、Anthropic 威脅報告、為什麼要一直聊模型 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/9abc2822-8cfe-49e3-a1bc-748fe3a54f44",
+      "date": "20260914",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-09-15T00:00:05.707735",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/9abc2822-8cfe-49e3-a1bc-748fe3a54f44/rssFileVip.mp3?timestamp=1789369728195"
     }
   }
 }
