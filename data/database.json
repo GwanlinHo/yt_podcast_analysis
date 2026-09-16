@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16T06:31:54.686674",
+  "last_updated": "2026-09-17T00:00:04.823001",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3388,6 +3388,28 @@
       "created_at": "2026-09-16T00:00:04.365594",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/636b9e7e-887e-4a35-ab23-d4de8152e669/rssFileVip.mp3?timestamp=1789463079887"
+    },
+    "pc_75d566f7": {
+      "id": "pc_75d566f7",
+      "title": "EP1185｜不確定性快落幕，Q4上漲機率最高！哪些是今年成長、明年成長更多的產業？大封測時代來了？PCB有誰符合？ft.統一投顧總經理 廖婉婷",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/fe5ddf1a-0954-40ec-badf-31e925066ecb",
+      "date": "20260916",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-09-17T00:00:02.400034",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/fe5ddf1a-0954-40ec-badf-31e925066ecb/rssFileVip.mp3?timestamp=1789547425271"
+    },
+    "pc_9d8312fb": {
+      "id": "pc_9d8312fb",
+      "title": "564.【達人聊產業】我覺得所有直男都該心理諮商 ft. 黃天豪臨床心理師",
+      "url": "https://open.firstory.fm/story/cmu2s5bot0fz301wl00ff4db8",
+      "date": "20260915",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-09-17T00:00:03.520662",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmu2s5bot0fz301wl00ff4db8/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmu2s5bot0fz401wl5fi61s63.mp3?v=1789483481359"
     }
   }
 }
