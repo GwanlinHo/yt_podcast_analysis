@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17T06:30:25.156054",
+  "last_updated": "2026-09-18T00:00:05.584614",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3421,6 +3421,17 @@
       "created_at": "2026-09-17T05:00:05.792408",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_36835063": {
+      "id": "pc_36835063",
+      "title": "EP1186｜確定升息，台股只漲一半合理？華邦電買英飛凌廠，記憶拼圖下一步？每天一個鬼故事，換CCL盤中遇襲怎判斷？ft.選股教練 陳唯泰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/d74c9605-2a0a-4545-baa9-7f53fe09d6a7",
+      "date": "20260917",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-09-18T00:00:03.132261",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/d74c9605-2a0a-4545-baa9-7f53fe09d6a7/rssFileVip.mp3?timestamp=1789633538042"
     }
   }
 }
