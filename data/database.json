@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T00:00:05.516863",
+  "last_updated": "2026-09-23T05:02:51.197867",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3505,7 +3505,7 @@
       "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/efbd1ba0-79b6-4f9a-a2b9-8d74165d2047",
       "date": "20260921",
       "channel": "M觀點",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-09-22T00:00:14.062722",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/efbd1ba0-79b6-4f9a-a2b9-8d74165d2047/rssFileVip.mp3?timestamp=1789978752627"
@@ -3516,7 +3516,7 @@
       "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/3a268dd1-91d1-40ae-bcdd-cf522774a0b7",
       "date": "20260922",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-09-23T00:00:02.843675",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/3a268dd1-91d1-40ae-bcdd-cf522774a0b7/rssFileVip.mp3?timestamp=1790067683241"
