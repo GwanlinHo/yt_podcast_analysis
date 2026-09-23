@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T06:30:23.233010",
+  "last_updated": "2026-09-24T00:00:06.908436",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3520,6 +3520,17 @@
       "created_at": "2026-09-23T00:00:02.843675",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/3a268dd1-91d1-40ae-bcdd-cf522774a0b7/rssFileVip.mp3?timestamp=1790067683241"
+    },
+    "pc_d7d8bf03": {
+      "id": "pc_d7d8bf03",
+      "title": "EP1190｜產業巡禮，明年比今年成長性更高，晶圓、ASIC、設備、封測出列！今年是成長高峰的記憶體、PCB，重挫也能接？ft.產業隊長 張捷",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/fe06ffe4-8770-40c9-95aa-685937518919",
+      "date": "20260923",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-09-24T00:00:03.468858",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/fe06ffe4-8770-40c9-95aa-685937518919/rssFileVip.mp3?timestamp=1790155051697"
     }
   }
 }
