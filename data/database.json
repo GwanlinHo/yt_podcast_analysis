@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24T06:30:21.642997",
+  "last_updated": "2026-09-25T00:00:06.064514",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3542,6 +3542,17 @@
       "created_at": "2026-09-24T05:00:05.820451",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_29e36d11": {
+      "id": "pc_29e36d11",
+      "title": "EP1191｜台股高標過中秋，連假觀察重心是油價！CCL、載板甩開陰霾，投信節後要追績效，台積電供應鏈是首選？ft.操盤手 黃豐凱",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/e7ba1ffd-a161-4a69-952e-e31d53948d0a",
+      "date": "20260924",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-09-25T00:00:02.951214",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/e7ba1ffd-a161-4a69-952e-e31d53948d0a/rssFileVip.mp3?timestamp=1790251011959"
     }
   }
 }
