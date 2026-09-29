@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29T06:38:47.529144",
+  "last_updated": "2026-09-30T00:00:06.330579",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3586,6 +3586,28 @@
       "created_at": "2026-09-27T05:00:04.322622",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_842d8ccf": {
+      "id": "pc_842d8ccf",
+      "title": "EP1192｜台股還想放假？美債殖利率創高，壓抑盤面但不會致命！所有技術、搶單鬼故事，都只是評價的來回，把握就對！ft.AI達人 蔡明翰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/81e38a75-c830-4984-88a7-c91a697a6327",
+      "date": "20260929",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-09-30T00:00:03.637931",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/81e38a75-c830-4984-88a7-c91a697a6327/rssFileVip.mp3?timestamp=1790673228869"
+    },
+    "pc_378dc8ab": {
+      "id": "pc_378dc8ab",
+      "title": "EP340. 川習會台灣怎麼看、Meta Connect 大會、資料中心搶電大戰 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/a7e2f7cb-f0ec-42e9-ac0c-b93996196d81",
+      "date": "20260928",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-09-30T00:00:06.329951",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/a7e2f7cb-f0ec-42e9-ac0c-b93996196d81/rssFileVip.mp3?timestamp=1790618924052"
     }
   }
 }
