@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T06:31:47.663384",
+  "last_updated": "2026-10-01T00:00:05.622981",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3608,6 +3608,17 @@
       "created_at": "2026-09-30T00:00:06.329951",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/a7e2f7cb-f0ec-42e9-ac0c-b93996196d81/rssFileVip.mp3?timestamp=1790618924052"
+    },
+    "pc_a6d54fb3": {
+      "id": "pc_a6d54fb3",
+      "title": "EP1193｜台股作夢行情明顯，LED、太陽能、面板全發動，AI轉機比獲利數據還重要？美股再加油跟上、台股會更強？ft.題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/806c884a-70ff-43e5-9377-62e92a34fdc9",
+      "date": "20260930",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-10-01T00:00:02.859307",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/806c884a-70ff-43e5-9377-62e92a34fdc9/rssFileVip.mp3?timestamp=1790760683615"
     }
   }
 }
