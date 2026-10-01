@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01T06:32:48.437701",
+  "last_updated": "2026-10-02T00:00:05.795712",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3630,6 +3630,17 @@
       "created_at": "2026-10-01T05:00:10.728259",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_f7a394b6": {
+      "id": "pc_f7a394b6",
+      "title": "EP1194｜10月首日創收盤新高！村田大漲，被動元件進入漲價循環了嗎？載板幾個利空都解決？設備、矽晶圓還是便宜股？ft.型男股神 陳威良",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/dfc29c49-1cbb-4889-8050-8da76b7df44b",
+      "date": "20261001",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-10-02T00:00:03.275617",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/dfc29c49-1cbb-4889-8050-8da76b7df44b/rssFileVip.mp3?timestamp=1790854307161"
     }
   }
 }
