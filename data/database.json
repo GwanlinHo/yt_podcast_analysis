@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06T06:36:42.114377",
+  "last_updated": "2026-10-07T00:00:05.335582",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3707,6 +3707,17 @@
       "created_at": "2026-10-06T00:00:05.595753",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/5726508f-d13e-4bfd-80a9-b5d4b72e75fb/rssFileVip.mp3?timestamp=1791183842369"
+    },
+    "pc_929b74a5": {
+      "id": "pc_929b74a5",
+      "title": "EP1197｜輝達、AMD創高，AI成長率壓制公債殖利率？半導體、PCB是大局！基本面沒變但氣氛變了，再度回落的可能性？ft.紀緯明 小明同學",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/cdb370f3-3fbc-484f-aad7-05367393f2a9",
+      "date": "20261006",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-10-07T00:00:02.824363",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/cdb370f3-3fbc-484f-aad7-05367393f2a9/rssFileVip.mp3?timestamp=1791278062992"
     }
   }
 }
