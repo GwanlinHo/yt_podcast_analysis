@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08T05:00:19.398587",
+  "last_updated": "2026-10-08T05:05:27.924760",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3725,7 +3725,7 @@
       "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/7bb081ec-42db-44bb-9a92-7acf96a2e568",
       "date": "20261007",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-10-08T00:00:03.513298",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/7bb081ec-42db-44bb-9a92-7acf96a2e568/rssFileVip.mp3?timestamp=1791361576059"
