@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T06:32:27.695678",
+  "last_updated": "2026-10-08T00:00:06.066733",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3718,6 +3718,17 @@
       "created_at": "2026-10-07T00:00:02.824363",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/cdb370f3-3fbc-484f-aad7-05367393f2a9/rssFileVip.mp3?timestamp=1791278062992"
+    },
+    "pc_01af6f18": {
+      "id": "pc_01af6f18",
+      "title": "EP1198｜指數不動，但類股輪流復活！9月營收要關注幾面向，ETF誰比大盤領先創高？CPO、被動增溫中，記憶體鈍化怎看？ft.型男股神 陳威良",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/7bb081ec-42db-44bb-9a92-7acf96a2e568",
+      "date": "20261007",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-10-08T00:00:03.513298",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/7bb081ec-42db-44bb-9a92-7acf96a2e568/rssFileVip.mp3?timestamp=1791361576059"
     }
   }
 }
