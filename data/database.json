@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09T06:38:20.841298",
+  "last_updated": "2026-10-10T00:00:05.526984",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3751,6 +3751,28 @@
       "created_at": "2026-10-09T00:00:02.497733",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/c6c4e66a-79d9-4cb2-8031-05ccc39a0d0f/rssFileVip.mp3?timestamp=1791451059821"
+    },
+    "pc_930b3199": {
+      "id": "pc_930b3199",
+      "title": "569.【財經時事放大鏡】V3 x VCSEL 二三代半導體元件新需求",
+      "url": "https://open.firstory.fm/story/cmuzo1n0400dx01wx7n6ram7l",
+      "date": "20261008",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-10-10T00:00:03.942666",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmuzo1n0400dx01wx7n6ram7l/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmuzo1n0400dy01wxb85gc772.mp3?v=1791471857300"
+    },
+    "pc_7dea6971": {
+      "id": "pc_7dea6971",
+      "title": "EP343. SPCX 借錢擴張、前沿模型可取代性、美國期中選舉現狀 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/c2f57401-d681-4276-bba3-efa0d3d3656b",
+      "date": "20261008",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-10-10T00:00:05.526513",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/c2f57401-d681-4276-bba3-efa0d3d3656b/rssFileVip.mp3?timestamp=1791518967835"
     }
   }
 }
