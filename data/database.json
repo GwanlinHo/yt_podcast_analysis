@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T06:30:24.092818",
+  "last_updated": "2026-10-13T00:00:06.603795",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3784,6 +3784,28 @@
       "created_at": "2026-10-11T05:00:05.131641",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_e0460f1c": {
+      "id": "pc_e0460f1c",
+      "title": "EP1200｜台股世界強，大立光幫誰開法會？337調查影響？設備股9月入帳怎麼看？南亞.南亞科史上最強季報！ft.題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/7a9fa5fb-88ba-44a1-8bcf-d5d3388291f0",
+      "date": "20261012",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-10-13T00:00:03.935474",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/7a9fa5fb-88ba-44a1-8bcf-d5d3388291f0/rssFileVip.mp3?timestamp=1791795378592"
+    },
+    "pc_0df97381": {
+      "id": "pc_0df97381",
+      "title": "EP344. OpenAI 營收假警報、Anthropic 宗教化、曼報 Pro 完全解析 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/a92ebf6e-121c-42dc-997b-515d48dcd303",
+      "date": "20261012",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-10-13T00:00:06.603302",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/a92ebf6e-121c-42dc-997b-515d48dcd303/rssFileVip.mp3?timestamp=1791796760184"
     }
   }
 }
