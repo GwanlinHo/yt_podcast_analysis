@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-13T06:32:30.072151",
+  "last_updated": "2026-10-14T00:00:07.119698",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3806,6 +3806,17 @@
       "created_at": "2026-10-13T00:00:06.603302",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/a92ebf6e-121c-42dc-997b-515d48dcd303/rssFileVip.mp3?timestamp=1791796760184"
+    },
+    "pc_96c86e70": {
+      "id": "pc_96c86e70",
+      "title": "EP1201｜矽谷OCP峰會變AI緊張會？博通憂缺錢、英特爾說記憶體鬆動？韓股崩回7月低點，台股9月營收年增47%是底氣！ft.AI達人 蔡明翰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/dad52cdf-9dd1-42ab-9bbb-e8a40c41ec92",
+      "date": "20261013",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-10-14T00:00:04.413810",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/dad52cdf-9dd1-42ab-9bbb-e8a40c41ec92/rssFileVip.mp3?timestamp=1791881100516"
     }
   }
 }
