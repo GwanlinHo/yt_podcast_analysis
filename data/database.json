@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-15T05:00:19.651289",
+  "last_updated": "2026-10-15T05:05:32.695579",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3813,7 +3813,7 @@
       "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/dad52cdf-9dd1-42ab-9bbb-e8a40c41ec92",
       "date": "20261013",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-10-14T00:00:04.413810",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/dad52cdf-9dd1-42ab-9bbb-e8a40c41ec92/rssFileVip.mp3?timestamp=1791881100516"
@@ -3824,7 +3824,7 @@
       "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/2cea7ca6-efaf-4dda-9904-3a9f05fe3ba2",
       "date": "20261014",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-10-15T00:00:03.689494",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/2cea7ca6-efaf-4dda-9904-3a9f05fe3ba2/rssFileVip.mp3?timestamp=1791969532621"
