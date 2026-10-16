@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16T06:34:34.266938",
+  "last_updated": "2026-10-17T00:00:05.392130",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3850,6 +3850,39 @@
       "created_at": "2026-10-16T00:00:03.055798",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/fc126990-b1d9-41b5-8f0e-34002f76f8ee/rssFileVip.mp3?timestamp=1792053144443"
+    },
+    "pc_90517f51": {
+      "id": "pc_90517f51",
+      "title": "EP1204｜輝達、華許幫忙滅火，市場回穩，台積電這次先跌好了？PCB展將至，新技術重新點火！擴產、升級會遇到的挑戰？ft.操盤手 黃豐凱",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/87af8121-1bc8-4d29-8300-33820168dc10",
+      "date": "20261016",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-10-17T00:00:02.823066",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/87af8121-1bc8-4d29-8300-33820168dc10/rssFileVip.mp3?timestamp=1792142332825"
+    },
+    "pc_c788ca0a": {
+      "id": "pc_c788ca0a",
+      "title": "570.【財經時事放大鏡】4F² x OCP x 能源鬼轉AIDC",
+      "url": "https://open.firstory.fm/story/cmv9ow2i10hrf01wxc5685sr9",
+      "date": "20261015",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-10-17T00:00:03.865050",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmv9ow2i10hrf01wxc5685sr9/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmv9ow2i10hrg01wxecpkbfhi.mp3?v=1792077916025"
+    },
+    "pc_db03b908": {
+      "id": "pc_db03b908",
+      "title": "EP345. AI 基建股大跌中、Meta 衝到最前沿、SPCX 電信商之夢 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/2228a20d-2c3e-48d8-9538-8bb8e3a21641",
+      "date": "20261015",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-10-17T00:00:05.391567",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/2228a20d-2c3e-48d8-9538-8bb8e3a21641/rssFileVip.mp3?timestamp=1792128936234"
     }
   }
 }
