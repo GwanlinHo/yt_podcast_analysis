@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T06:45:25.046837",
+  "last_updated": "2026-10-21T00:00:06.369641",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3916,6 +3916,17 @@
       "created_at": "2026-10-20T00:00:06.247025",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/c7c515a4-9537-4e14-a43e-f83def808471/rssFileVip.mp3?timestamp=1792397662205"
+    },
+    "pc_3303df3f": {
+      "id": "pc_3303df3f",
+      "title": "EP1206｜高盛挺CoreWeave先止血？台幣貶破32.5要留意，PCB材料不夠撐盤，等半導體回神！投信Q4的企圖心？ft.型男股神 陳威良",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/ad25bf4e-8620-43cf-9c23-5258541019a1",
+      "date": "20261020",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-10-21T00:00:04.117758",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/ad25bf4e-8620-43cf-9c23-5258541019a1/rssFileVip.mp3?timestamp=1792483673010"
     }
   }
 }
