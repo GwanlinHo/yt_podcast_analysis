@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T06:40:06.830363",
+  "last_updated": "2026-10-22T00:00:04.816253",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3927,6 +3927,17 @@
       "created_at": "2026-10-21T00:00:04.117758",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/ad25bf4e-8620-43cf-9c23-5258541019a1/rssFileVip.mp3?timestamp=1792483673010"
+    },
+    "pc_3b16145e": {
+      "id": "pc_3b16145e",
+      "title": "EP1207｜外資為何賣這麼多？Q4關注內資金流，AI股不能越跌越撿？型態最強+營收最強是首選，已知道的利空都不會造成崩盤！ft.外資捕手 不魯",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/0f3a44b6-0345-402a-886f-f0ee78cd2f82",
+      "date": "20261021",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-10-22T00:00:02.452531",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/0f3a44b6-0345-402a-886f-f0ee78cd2f82/rssFileVip.mp3?timestamp=1792574401567"
     }
   }
 }
