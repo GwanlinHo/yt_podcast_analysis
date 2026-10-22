@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T06:39:29.907805",
+  "last_updated": "2026-10-23T00:00:05.036832",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3949,6 +3949,28 @@
       "created_at": "2026-10-22T05:00:05.146631",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_c7ad5dff": {
+      "id": "pc_c7ad5dff",
+      "title": "EP1208｜META好財報也失靈，台股殺破季線，擔心撒錢無法回收，又怕出貨建廠遞延？連假將至的定心時間，風雨會過去？ft.選股教練 陳唯泰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/4cb90a66-83c8-4ed3-8cb1-6b6e1eb70986",
+      "date": "20261022",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-10-23T00:00:02.706729",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/4cb90a66-83c8-4ed3-8cb1-6b6e1eb70986/rssFileVip.mp3?timestamp=1792658449817"
+    },
+    "pc_dc4205b3": {
+      "id": "pc_dc4205b3",
+      "title": "EP347. SpaceX AI 大噴發、為何該併購特斯拉、Grok Bot 旋風與新對手 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/26c2ed87-7cfd-4d0a-8583-7cc066006ffa",
+      "date": "20261022",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-10-23T00:00:05.036240",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/26c2ed87-7cfd-4d0a-8583-7cc066006ffa/rssFileVip.mp3?timestamp=1792684321145"
     }
   }
 }
