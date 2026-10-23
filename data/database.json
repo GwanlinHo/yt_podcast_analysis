@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T06:45:24.756024",
+  "last_updated": "2026-10-24T00:00:05.018743",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3971,6 +3971,17 @@
       "created_at": "2026-10-23T00:00:05.036240",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/26c2ed87-7cfd-4d0a-8583-7cc066006ffa/rssFileVip.mp3?timestamp=1792684321145"
+    },
+    "pc_ec955bb7": {
+      "id": "pc_ec955bb7",
+      "title": "571.【財經時事放大鏡】TPCA x SpaceX",
+      "url": "https://open.firstory.fm/story/cmvjoqc5800xr01ut9l5i0n91",
+      "date": "20261022",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-10-24T00:00:03.758783",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmvjoqc5800xr01ut9l5i0n91/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmvjoqc5800xs01ut0bf9cp83.mp3?v=1792682303533"
     }
   }
 }
