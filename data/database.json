@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T00:00:05.607432",
+  "last_updated": "2026-10-27T05:01:59.822544",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4000,7 +4000,7 @@
       "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/71aa369b-7ba9-4bd3-81dd-ec041789fc6e",
       "date": "20261026",
       "channel": "M觀點",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-10-27T00:00:05.606995",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/71aa369b-7ba9-4bd3-81dd-ec041789fc6e/rssFileVip.mp3?timestamp=1792994539471"
