@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26T06:30:19.302383",
+  "last_updated": "2026-10-27T00:00:05.607432",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -3993,6 +3993,17 @@
       "created_at": "2026-10-25T05:00:05.759619",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_e48ef855": {
+      "id": "pc_e48ef855",
+      "title": "EP348. 烏克蘭的星鏈羅生門、反蒸餾與中國模型、特斯拉自製地圖 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/71aa369b-7ba9-4bd3-81dd-ec041789fc6e",
+      "date": "20261026",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-10-27T00:00:05.606995",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/71aa369b-7ba9-4bd3-81dd-ec041789fc6e/rssFileVip.mp3?timestamp=1792994539471"
     }
   }
 }
