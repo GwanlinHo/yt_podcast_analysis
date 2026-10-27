@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T06:30:17.909192",
+  "last_updated": "2026-10-28T00:00:05.337804",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4004,6 +4004,17 @@
       "created_at": "2026-10-27T00:00:05.606995",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/71aa369b-7ba9-4bd3-81dd-ec041789fc6e/rssFileVip.mp3?timestamp=1792994539471"
+    },
+    "pc_c9035721": {
+      "id": "pc_c9035721",
+      "title": "EP1209｜開高走低震800點，CCL怎麼了？多空拉鋸戰，美期中選舉後分曉？俄烏戰這次真有解？AI新創舉債問題掀倒閉潮？ft.型男股神 陳威良",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/22ccf278-c1ba-4d8b-abeb-9c37fe7b8929",
+      "date": "20261027",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-10-28T00:00:03.106710",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/22ccf278-c1ba-4d8b-abeb-9c37fe7b8929/rssFileVip.mp3?timestamp=1793089473282"
     }
   }
 }
