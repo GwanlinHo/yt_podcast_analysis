@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T05:00:19.922814",
+  "last_updated": "2026-10-29T05:10:05.425098",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4022,7 +4022,7 @@
       "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/a9e970ea-7cfe-4fb5-a9b2-3f9b6a455b4f",
       "date": "20261028",
       "channel": "兆華與股惑仔",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-10-29T00:00:04.075881",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/a9e970ea-7cfe-4fb5-a9b2-3f9b6a455b4f/rssFileVip.mp3?timestamp=1793182569571"
@@ -4033,7 +4033,7 @@
       "url": "https://open.firstory.fm/story/cmvqve4fi06hc01wb14smhi68",
       "date": "20261028",
       "channel": "財報狗",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-10-29T00:00:05.107296",
       "source": "podcast",
       "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmvqve4fi06hc01wb14smhi68/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmvqve4fi06hd01wb2uiq85vp.mp3?v=1793151190302"
@@ -4044,7 +4044,7 @@
       "url": "https://www.youtube.com/watch?v=rOxoB0xqfiw",
       "date": "20261028",
       "channel": "股癌",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-10-29T05:00:05.515375",
       "source": "youtube",
       "audio_url": ""
