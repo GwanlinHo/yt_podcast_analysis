@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T06:45:24.689960",
+  "last_updated": "2026-10-29T00:00:06.415191",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4015,6 +4015,28 @@
       "created_at": "2026-10-28T00:00:03.106710",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/22ccf278-c1ba-4d8b-abeb-9c37fe7b8929/rssFileVip.mp3?timestamp=1793089473282"
+    },
+    "pc_87351e4a": {
+      "id": "pc_87351e4a",
+      "title": "EP1210｜今年破季線第3次，能有信心再反攻？需求遞延但沒消失，AI大廠互相融資，我們負責收錢？做短、做長的思維？ft.操盤手 楊雲翔",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/a9e970ea-7cfe-4fb5-a9b2-3f9b6a455b4f",
+      "date": "20261028",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-10-29T00:00:04.075881",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/a9e970ea-7cfe-4fb5-a9b2-3f9b6a455b4f/rssFileVip.mp3?timestamp=1793182569571"
+    },
+    "pc_c3c780a6": {
+      "id": "pc_c3c780a6",
+      "title": "572.【達人聊產業】半導體先進製程跟 BBU 都指定的關鍵材料商 ft. 耐特陳勳森董事長 & 陳宇涵總經理",
+      "url": "https://open.firstory.fm/story/cmvqve4fi06hc01wb14smhi68",
+      "date": "20261028",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-10-29T00:00:05.107296",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmvqve4fi06hc01wb14smhi68/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmvqve4fi06hd01wb2uiq85vp.mp3?v=1793151190302"
     }
   }
 }
