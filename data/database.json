@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T06:39:44.656973",
+  "last_updated": "2026-10-31T00:00:05.479038",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4059,6 +4059,39 @@
       "created_at": "2026-10-30T00:00:03.444854",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/4126e07f-6f32-42bb-8963-887681d2c149/rssFileVip.mp3?timestamp=1793261665091"
+    },
+    "pc_51f0f115": {
+      "id": "pc_51f0f115",
+      "title": "EP1212｜亞馬遜、英特爾都爆雷，台股殺破半年線，明知自由現金流會更糟，為何市場突然怕？再一次機會還是真正的危機？ft.操盤手 黃豐凱",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/59350531-696e-4a6c-b8b4-556a3c9ccd68",
+      "date": "20261030",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-10-31T00:00:03.033289",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/59350531-696e-4a6c-b8b4-556a3c9ccd68/rssFileVip.mp3?timestamp=1793346652205"
+    },
+    "pc_4b7c7913": {
+      "id": "pc_4b7c7913",
+      "title": "573.【財經時事放大鏡】Anthropic & CSP 牽動 AIDC 供需",
+      "url": "https://open.firstory.fm/story/cmvtlfew903nz01074rwjf1jy",
+      "date": "20261029",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-10-31T00:00:04.242601",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmvtlfew903nz01074rwjf1jy/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmvtlfew903o001071bzvbrax.mp3?v=1793281432293"
+    },
+    "pc_94240696": {
+      "id": "pc_94240696",
+      "title": "EP349. Anthropic S1 重點、谷歌新模型與財報、微軟又要員工優退 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/ea789dd2-82f0-4825-a495-aa8488ed3964",
+      "date": "20261029",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-10-31T00:00:05.478545",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/ea789dd2-82f0-4825-a495-aa8488ed3964/rssFileVip.mp3?timestamp=1793338819978"
     }
   }
 }
