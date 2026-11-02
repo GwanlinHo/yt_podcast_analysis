@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T06:30:19.179716",
+  "last_updated": "2026-11-03T00:00:06.496523",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4103,6 +4103,39 @@
       "created_at": "2026-11-01T05:00:05.233423",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_5c8fe9ab": {
+      "id": "pc_5c8fe9ab",
+      "title": "EP1213｜半年線掙扎，美期中選舉是短期因素，自由現金流、訂單遞延和債信問題，要跌多少才夠？接近7月低點的股票檢驗！ft.題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/3bd53720-74a9-4220-9cf0-16bc94cf8550",
+      "date": "20261102",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-03T00:00:04.194439",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/3bd53720-74a9-4220-9cf0-16bc94cf8550/rssFileVip.mp3?timestamp=1793620418825"
+    },
+    "pc_adc91fcf": {
+      "id": "pc_adc91fcf",
+      "title": "574.【達人聊投資】外資分析師的產業研究方法論 ft. 曼報 Pro 共同創辦人 Vincent",
+      "url": "https://open.firstory.fm/story/cmvy0tsbg016c01vh3y2l27cp",
+      "date": "20261101",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-11-03T00:00:05.216142",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmvy0tsbg016c01vh3y2l27cp/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmvy0tsbg016d01vh3x8zacgd.mp3?v=1793581519820"
+    },
+    "pc_48df570d": {
+      "id": "pc_48df570d",
+      "title": "EP350. 美國期中選舉預測、英特爾財報大跌、近期台美股市場看法 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/f5bcee33-af5f-4a24-80db-ec4d2e72ce12",
+      "date": "20261102",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-11-03T00:00:06.496079",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/f5bcee33-af5f-4a24-80db-ec4d2e72ce12/rssFileVip.mp3?timestamp=1793610031375"
     }
   }
 }
