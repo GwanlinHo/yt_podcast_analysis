@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T06:30:18.807705",
+  "last_updated": "2026-11-04T00:00:06.554003",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4136,6 +4136,17 @@
       "created_at": "2026-11-03T00:00:06.496079",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/f5bcee33-af5f-4a24-80db-ec4d2e72ce12/rssFileVip.mp3?timestamp=1793610031375"
+    },
+    "pc_06c548a7": {
+      "id": "pc_06c548a7",
+      "title": "EP1214｜甲骨文舉債、美伊不停火，舊利空為何跌不完？AI大廠明知市場不愛，卻堅持前行，不能被淘汰的競賽，等市場情緒轉變？ft.AI達人 蔡明翰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/f60b0e46-3291-4913-aaf9-6d5cc8477a17",
+      "date": "20261103",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-04T00:00:04.156852",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/f60b0e46-3291-4913-aaf9-6d5cc8477a17/rssFileVip.mp3?timestamp=1793695012840"
     }
   }
 }
