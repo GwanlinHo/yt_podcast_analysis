@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T00:00:05.528558",
+  "last_updated": "2026-11-05T05:00:21.611305",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4169,6 +4169,17 @@
       "created_at": "2026-11-05T00:00:04.206931",
       "source": "podcast",
       "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmw0vdrlz04jq01vhaovcfah4/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmw0vdrlz04jr01vh9mq1cvb8.mp3?v=1793721395712"
+    },
+    "D6bBOFrKf9U": {
+      "id": "D6bBOFrKf9U",
+      "title": "EP711 | 🕊🐦🦚🦜🦉🦅🐦🐧",
+      "url": "https://www.youtube.com/watch?v=D6bBOFrKf9U",
+      "date": "20261104",
+      "channel": "股癌",
+      "status": "pending",
+      "created_at": "2026-11-05T05:00:05.646860",
+      "source": "youtube",
+      "audio_url": ""
     }
   }
 }
