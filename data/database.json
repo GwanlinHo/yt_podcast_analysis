@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T06:30:18.703742",
+  "last_updated": "2026-11-07T00:00:05.219036",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4191,6 +4191,39 @@
       "created_at": "2026-11-06T00:00:02.614745",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/bef4279a-f11b-4a8b-a7e6-6e29dc4de7c5/rssFileVip.mp3?timestamp=1793867517846"
+    },
+    "pc_0dfff1b8": {
+      "id": "pc_0dfff1b8",
+      "title": "EP1217｜擋AI發展爆恐慌，3737史上最大跌點！台指期和台積電跌停、直接到年線，金管會、國安說話了，企業自救會開始？ft.操盤手 黃豐凱",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/e328c01d-04a0-4c58-ae26-f37c7f90b29a",
+      "date": "20261106",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-07T00:00:02.833185",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/e328c01d-04a0-4c58-ae26-f37c7f90b29a/rssFileVip.mp3?timestamp=1793953217385"
+    },
+    "pc_f81ad7ca": {
+      "id": "pc_f81ad7ca",
+      "title": "576.【財經時事放大鏡】期中選舉 x AIDC & Marvell 併購 Lumentum",
+      "url": "https://open.firstory.fm/story/cmw3stv1m089s01y1gwvm7dpx",
+      "date": "20261105",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-11-07T00:00:03.912549",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmw3stv1m089s01y1gwvm7dpx/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmw3stv1m089t01y19v3heun5.mp3?v=1793898524473"
+    },
+    "pc_0aa6118f": {
+      "id": "pc_0aa6118f",
+      "title": "EP351. Anthropic S1 更新、前沿 AI 公司能不能投、AI 泡沫要怎麼預警 ft. 商業解碼 Vincent | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/0d609731-8e1b-47d7-82d8-5a7957b56144",
+      "date": "20261105",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-11-07T00:00:05.218542",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/0d609731-8e1b-47d7-82d8-5a7957b56144/rssFileVip.mp3?timestamp=1793900567477"
     }
   }
 }
