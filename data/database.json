@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T06:30:20.125192",
+  "last_updated": "2026-11-12T00:00:07.178002",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4268,6 +4268,17 @@
       "created_at": "2026-11-11T00:00:05.119994",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/1e4fbf16-2950-42a7-827a-d87fbc0e2255/rssFileVip.mp3?timestamp=1794301993611"
+    },
+    "pc_73d0a147": {
+      "id": "pc_73d0a147",
+      "title": "EP1220｜市場情緒這裡已經變了？台積電投資Anthropic、OpenAI、加發股利，滿單的底氣！回彈6千點重新起跑？ft.型男股神 陳威良",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/915c1123-da17-44a4-b602-1280772f5371",
+      "date": "20261111",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-12T00:00:04.503509",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/915c1123-da17-44a4-b602-1280772f5371/rssFileVip.mp3?timestamp=1794385543522"
     }
   }
 }
