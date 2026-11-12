@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T06:30:18.849220",
+  "last_updated": "2026-11-13T00:00:05.847066",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4290,6 +4290,17 @@
       "created_at": "2026-11-12T05:00:04.668788",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_82ef4f50": {
+      "id": "pc_82ef4f50",
+      "title": "EP1221｜怕輝達董事會「殺仁誅勳」，台廠供應鏈恐生變？短線仍在遞延、庫存、毛利率、負債的考驗，回檔擠水分是好事？ft.題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/c7f020f5-b0d0-4759-aefb-b7ad85fde9b6",
+      "date": "20261112",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-13T00:00:03.255522",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/c7f020f5-b0d0-4759-aefb-b7ad85fde9b6/rssFileVip.mp3?timestamp=1794472346517"
     }
   }
 }
