@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T06:30:18.532322",
+  "last_updated": "2026-11-14T00:00:05.589295",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4301,6 +4301,39 @@
       "created_at": "2026-11-13T00:00:03.255522",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/c7f020f5-b0d0-4759-aefb-b7ad85fde9b6/rssFileVip.mp3?timestamp=1794472346517"
+    },
+    "pc_0a4e101a": {
+      "id": "pc_0a4e101a",
+      "title": "EP1222｜黃仁勳請辭、財務長暫代，ASIC自研晶片先歡慶，輝達供應鏈擔心利潤，卻也可能迎轉單？台廠受傷、受惠全解析！ft.操盤手 黃豐凱",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/696f866b-297e-46a3-84ab-8aec551c300e",
+      "date": "20261113",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-14T00:00:03.018375",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/696f866b-297e-46a3-84ab-8aec551c300e/rssFileVip.mp3?timestamp=1794558087361"
+    },
+    "pc_01dfadff": {
+      "id": "pc_01dfadff",
+      "title": "577.【財經時事放大鏡】AI命犯桃花 x 成材趨勢觀察",
+      "url": "https://open.firstory.fm/story/cmwdn5qya009x01s2230n6qej",
+      "date": "20261112",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-11-14T00:00:04.140089",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmwdn5qya009x01s2230n6qej/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmwdn5qya009y01s2etr7bsrh.mp3?v=1794493640319"
+    },
+    "pc_b4c98368": {
+      "id": "pc_b4c98368",
+      "title": "EP353. 黃仁勳被逼到辭職、ANT IPO 最新消息、Grok Bot 成本分析 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/79b3c4ee-2a2b-455b-92f4-5e49f79f69cd",
+      "date": "20261112",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-11-14T00:00:05.588757",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/79b3c4ee-2a2b-455b-92f4-5e49f79f69cd/rssFileVip.mp3?timestamp=1794506931738"
     }
   }
 }
