@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-16T06:30:19.190879",
+  "last_updated": "2026-11-17T00:00:15.133433",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4345,6 +4345,39 @@
       "created_at": "2026-11-15T05:00:04.669058",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_7aec5b68": {
+      "id": "pc_7aec5b68",
+      "title": "EP1223｜美財政部長貝森特喊重組董事會，黃仁勳回歸受阻，Vera Rubin恐再延後？訂單遞延問題升溫，資金戰線拉長！ft.題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/7da1440e-8d1b-4454-905c-1f80b07afbb5",
+      "date": "20261116",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-17T00:00:04.448644",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/7da1440e-8d1b-4454-905c-1f80b07afbb5/rssFileVip.mp3?timestamp=1794817350085"
+    },
+    "pc_a6ca693c": {
+      "id": "pc_a6ca693c",
+      "title": "578.【達人聊產業】房市馮迪索再臨，AI 讓商用不動產賺翻 ft. 高力國際黃舒衛董事",
+      "url": "https://open.firstory.fm/story/cmwhtcvou03d701rsbkt19ku4",
+      "date": "20261115",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-11-17T00:00:05.667875",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmwhtcvou03d701rsbkt19ku4/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmwhtcvou03d801rsa2b01gli.mp3?v=1794745963218"
+    },
+    "pc_7519e3fd": {
+      "id": "pc_7519e3fd",
+      "title": "EP354. 是誰想打倒黃仁勳、輝達 AI 央行的未來、SPCX 併 TSLA 快來了！ | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/2dbfc3b6-cce7-40f4-a605-ee2a7486f32d",
+      "date": "20261116",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-11-17T00:00:15.132886",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/2dbfc3b6-cce7-40f4-a605-ee2a7486f32d/rssFileVip.mp3?timestamp=1794818510261"
     }
   }
 }
