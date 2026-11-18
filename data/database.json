@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-18T06:30:17.932534",
+  "last_updated": "2026-11-19T00:01:16.187156",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4389,6 +4389,17 @@
       "created_at": "2026-11-18T00:00:02.694783",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/70b86735-ed96-4662-a090-14628dfad9a1/rssFileVip.mp3?timestamp=1794905398862"
+    },
+    "pc_15d31ce2": {
+      "id": "pc_15d31ce2",
+      "title": "579.【台股美股提款機】HDD 產業：2027 年供給放量帶動成長加速，東芝擴產供給負面影響有限",
+      "url": "https://open.firstory.fm/story/cmwiu1r3r00lo01vkafqtbzbf",
+      "date": "20261117",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-11-19T00:01:05.528338",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmwiu1r3r00lo01vkafqtbzbf/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmwiu1r3r00lp01vkfrxhduq8.mp3?v=1794807545466"
     }
   }
 }
