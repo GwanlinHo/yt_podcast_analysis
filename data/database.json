@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19T06:30:19.029660",
+  "last_updated": "2026-11-20T00:00:05.771629",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4411,6 +4411,28 @@
       "created_at": "2026-11-19T05:00:06.193796",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_b3b2642d": {
+      "id": "pc_b3b2642d",
+      "title": "EP1226｜日韓都止跌，台股為何獨憔悴？限空令再出、個股人踩人，使出定期定額大法！換到信任資產等反轉，要多久？ft.存股教父 股魚",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/e00b9fd5-5847-42a4-913a-837ccbfffd09",
+      "date": "20261119",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-20T00:00:03.274178",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/e00b9fd5-5847-42a4-913a-837ccbfffd09/rssFileVip.mp3?timestamp=1795076757034"
+    },
+    "pc_4ffe2a87": {
+      "id": "pc_4ffe2a87",
+      "title": "EP1225｜輝達好財報，但董事會否決黃仁勳回任，洗融資和洗心態的時間！最壞打算下看本益成長比，已來到近年最便宜？ft.型男股神 陳威良",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/ab94cc13-e94b-42be-8e4d-ee142fd29f2b",
+      "date": "20261118",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-20T00:00:03.274281",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/ab94cc13-e94b-42be-8e4d-ee142fd29f2b/rssFileVip.mp3?timestamp=1795072331932"
     }
   }
 }
