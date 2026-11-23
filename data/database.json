@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T06:30:19.246552",
+  "last_updated": "2026-11-24T00:00:08.592257",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4477,6 +4477,28 @@
       "created_at": "2026-11-22T05:00:05.217748",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_4b2c7754": {
+      "id": "pc_4b2c7754",
+      "title": "EP1228｜川普喊仁勳回歸、政府護盤，幸運日！反彈該跑還是買，資金和耐受度不同考量，怎樣都會痛，但痛要有意義？ft.題材獵人 林漢偉",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/f8d7ea70-a6aa-4397-bf29-2a37ecc0f6aa",
+      "date": "20261123",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-24T00:00:02.824872",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/f8d7ea70-a6aa-4397-bf29-2a37ecc0f6aa/rssFileVip.mp3?timestamp=1795425441574"
+    },
+    "pc_2ed8097a": {
+      "id": "pc_2ed8097a",
+      "title": "581.【台股美股提款機】美對中新一輪管制壓抑半導體需求，對 GPU 與 AI ASIC 影響分歧",
+      "url": "https://open.firstory.fm/story/cmwrzzv9v044b01ti7w81exze",
+      "date": "20261122",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-11-24T00:00:03.965254",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmwrzzv9v044b01ti7w81exze/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmwrzzv9v044c01ti6t571eir.mp3?v=1795361817923"
     }
   }
 }
