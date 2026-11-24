@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T06:30:18.865966",
+  "last_updated": "2026-11-25T00:00:05.813729",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4499,6 +4499,28 @@
       "created_at": "2026-11-24T00:00:03.965254",
       "source": "podcast",
       "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmwrzzv9v044b01ti7w81exze/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmwrzzv9v044c01ti6t571eir.mp3?v=1795361817923"
+    },
+    "pc_11983dba": {
+      "id": "pc_11983dba",
+      "title": "EP1229｜AI都不敢這樣寫，黃爸爸回家了！史上最大漲點3386點，融資、業績疑慮能完全消除嗎？買股還是買ETF？ft.AI達人 蔡明翰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/b17c088a-9c2e-4d42-b42b-1beced083d39",
+      "date": "20261124",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-25T00:00:03.491054",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/b17c088a-9c2e-4d42-b42b-1beced083d39/rssFileVip.mp3?timestamp=1795508951560"
+    },
+    "pc_53063706": {
+      "id": "pc_53063706",
+      "title": "EP356. 黃仁勳意外閃電回歸、AI 基建股再遭重擊、FSD V15 正式推出、這波修正跌夠了嗎？ | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/2d0ce706-da57-4f3c-a757-3266c116ffb9",
+      "date": "20261123",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-11-25T00:00:05.813274",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/2d0ce706-da57-4f3c-a757-3266c116ffb9/rssFileVip.mp3?timestamp=1795507378077"
     }
   }
 }
