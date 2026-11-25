@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T06:30:19.139069",
+  "last_updated": "2026-11-26T00:00:05.649586",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4521,6 +4521,17 @@
       "created_at": "2026-11-25T00:00:05.813274",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/2d0ce706-da57-4f3c-a757-3266c116ffb9/rssFileVip.mp3?timestamp=1795507378077"
+    },
+    "pc_b679b258": {
+      "id": "pc_b679b258",
+      "title": "EP1230｜台美股長紅後，為何川普提關稅、晶片稅潑冷水，終究是想要漲的？心態穩下來，現在估值已合理、但情緒很脆弱！ft.型男股神 陳威良",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/cd10d5bb-a47b-4fea-bb18-3d16ce68e0ca",
+      "date": "20261125",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-26T00:00:03.198733",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/cd10d5bb-a47b-4fea-bb18-3d16ce68e0ca/rssFileVip.mp3?timestamp=1795594756268"
     }
   }
 }
