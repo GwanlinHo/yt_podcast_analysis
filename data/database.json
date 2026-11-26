@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T06:30:19.097333",
+  "last_updated": "2026-11-27T00:00:05.430804",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4543,6 +4543,17 @@
       "created_at": "2026-11-26T05:00:05.817739",
       "source": "youtube",
       "audio_url": ""
+    },
+    "pc_c8016468": {
+      "id": "pc_c8016468",
+      "title": "EP1231｜PCE物價指數再測試，美股尾盤急拉，底部洗出來了沒？AI指標股低點反彈2成，市場情緒轉暖好現象！ft.選股教練 陳唯泰",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/5bd715f9-551b-49c9-a571-a4444b764ec0",
+      "date": "20261126",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-27T00:00:02.994013",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/5bd715f9-551b-49c9-a571-a4444b764ec0/rssFileVip.mp3?timestamp=1795681461489"
     }
   }
 }
