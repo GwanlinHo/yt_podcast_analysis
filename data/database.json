@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-28T05:14:33.607818",
+  "last_updated": "2026-11-28T05:35:24.044896",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4539,7 +4539,7 @@
       "url": "https://www.youtube.com/watch?v=6mQCdt-T4qY",
       "date": "20261125",
       "channel": "股癌",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-11-26T05:00:05.817739",
       "source": "youtube",
       "audio_url": ""
@@ -4583,7 +4583,7 @@
       "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/e3c25dfd-7e4d-4782-9141-7addf733c5de",
       "date": "20261126",
       "channel": "M觀點",
-      "status": "pending",
+      "status": "analyzed",
       "created_at": "2026-11-28T00:00:05.255519",
       "source": "podcast",
       "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/e3c25dfd-7e4d-4782-9141-7addf733c5de/rssFileVip.mp3?timestamp=1795767004680"
