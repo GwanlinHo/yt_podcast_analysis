@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T06:30:22.352001",
+  "last_updated": "2026-11-28T00:00:05.256115",
   "videos": {
     "cnsLcRD2TMs": {
       "id": "cnsLcRD2TMs",
@@ -4554,6 +4554,39 @@
       "created_at": "2026-11-27T00:00:02.994013",
       "source": "podcast",
       "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/5bd715f9-551b-49c9-a571-a4444b764ec0/rssFileVip.mp3?timestamp=1795681461489"
+    },
+    "pc_4ce20aab": {
+      "id": "pc_4ce20aab",
+      "title": "EP1232｜風雨一週漸平靜，AI股默默回暖，可以期待低點已過？AI債信違約風險堪比2007年？謹慎中可以樂觀！ft.操盤手 黃豐凱",
+      "url": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/b387d5fb-9f93-4a52-bf9b-310eda9ae7bd",
+      "date": "20261127",
+      "channel": "兆華與股惑仔",
+      "status": "pending",
+      "created_at": "2026-11-28T00:00:02.603074",
+      "source": "podcast",
+      "audio_url": "https://rss.soundon.fm/rssf/91be014b-9f55-4bf3-a910-b232eda82d11/feedurl/b387d5fb-9f93-4a52-bf9b-310eda9ae7bd/rssFileVip.mp3?timestamp=1795767575544"
+    },
+    "pc_70e5659d": {
+      "id": "pc_70e5659d",
+      "title": "582.【財經時事放大鏡】太空Data Center要不要課關稅？",
+      "url": "https://open.firstory.fm/story/cmwxnfkd600ny01uthvi80akr",
+      "date": "20261126",
+      "channel": "財報狗",
+      "status": "pending",
+      "created_at": "2026-11-28T00:00:03.762115",
+      "source": "podcast",
+      "audio_url": "https://sw.soundon.fm/p/HHZK1T/m.cdn.firstory.me/track/clcftm46z000201z45w1c47fi/cmwxnfkd600ny01uthvi80akr/https%3A%2F%2Ffile.cdn.firstory.me%2FRecord%2Fclcftm46z000201z45w1c47fi%2Fcmwxnfkd700nz01ut9d91epcz.mp3?v=1795703423866"
+    },
+    "pc_466576f7": {
+      "id": "pc_466576f7",
+      "title": "EP357. 老黃回鍋後的輝達、ANT 跌破發行價、逆風下的投資變陣 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/e3c25dfd-7e4d-4782-9141-7addf733c5de",
+      "date": "20261126",
+      "channel": "M觀點",
+      "status": "pending",
+      "created_at": "2026-11-28T00:00:05.255519",
+      "source": "podcast",
+      "audio_url": "https://track.fstry.me/p/hr2cabaf/rss.soundon.fm/rssf/b8f5a471-f4f7-4763-9678-65887beda63a/feedurl/e3c25dfd-7e4d-4782-9141-7addf733c5de/rssFileVip.mp3?timestamp=1795767004680"
     }
   }
 }
